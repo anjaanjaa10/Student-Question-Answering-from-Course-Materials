@@ -1,0 +1,37 @@
+razjasnim i unapredim. Svi ti seminarski radovi dostupni su na stranici kursa
+(https://www.verifikacijasoftvera.matf.bg.ac.rs/) i predstavljaju vredan
+dopunski materĳal za studente koji žele da dalje istražuju teme iz knjige.
+
+Zahvalnost dugujem i doktorandima koji su svoja doktorska istraživanja usmerili ka
+temama iz oblasti verifikacĳe softvera, a čĳi su rad i diskusĳe u velikoj meri uticali
+na oblikovanje pojedinih delova ove knjige: Mirku Spasiću, Milanu Čuguroviću
+i Strahinji Stanojeviću. Zahvaljujem se i studentima koji su svoje master radove
+posvetili oblastima obuhvaćenim ovom knjigom. Njihov rad i rezultati značajno su
+doprineli razvoju i produbljivanju pojedinih tema: Veronika Marinković, Aleksandar
+Stefanović, Milica Kleut, Jovana Bošković, Nikola Perić, Vladimir Vuksanović, Ana
+Petrović, Milica Galjak, Mirko Brkušanin, Ognjen Plavišić, Irena Blagojević, Nikola
+Dimić, Lazar Mladenović, Strahinja Stanojević, Ivan Ristović, Ðorđe Todorović,
+Marina Nikolić, Nikola Vidič, Ana Mitrović, Ana Ðorđević, Aleksandra Karadžić,
+Nikola Prica i Branislava Živković.
+
+Tokom pripreme rukopisa mnogi studenti i kolege su pomogle u izradi i unapređiva-
+nju ilustracĳa i dĳagrama koji prate tekst, čime su doprineli jasnĳem i preglednĳem
+predstavljanju pojedinih koncepata. Zahvaljujem se Petru Ðekanoviću, Vukanu
+Antiću, Aleksandru Šarbajiću, Milici Gnjatović, Pavlu Cvejoviću, Bojanu Bardžiću,
+Neveni Mĳailović, Andrĳani Bosiljčić, Milici Kleut, Dunji Čitlučanin i Tamari Ðukić.
+Takođe sam zahvalna studentima koji su ukazali na greške, nejasnoće i propuste u
+tekstu. Njihove pažljive primedbe bile su od velike pomoći u unapređenju konačne
+verzĳe rukopisa. Zahvaljujem se studentima Lazaru Saviću, Staši Ðorđević, Marku
+Lazareviću, Anđeli Jovanović i Aleksandru Ivanoviću.
+
+Zahvalnost dugujem recenzentima, Mirku Spasiću i Maji Vukasović, na pažljivom
+čitanju rukopisa, korisnim savetima i konstruktivnim sugestĳama koje su znatno
+doprinele poboljšanju njenog sadržaja i strukture.
+
+Na kraju, posebno se zahvaljujem svom suprugu, Predragu Janičiću, koji je pažljivo
+čitao rukopis, davao dragocene komentare i sugestĳe i time značajno doprineo
+kvalitetu ove knjige.
+
+Beograd, 2026.
+
+Milena Vujošević Janičić

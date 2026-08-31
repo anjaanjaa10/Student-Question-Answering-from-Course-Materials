@@ -1,0 +1,51 @@
+2.1
+Primeri poznatih
+grešaka . . . . . . 24
+
+Pregled
+
+▶Na koji sve način neispravan softver utiče na svet
+oko nas?
+
+2.2
+Troškovi usled
+grešaka u softve-
+ru . . . . . . . . . . 32
+
+▶Koliko koštaju softverske greške?
+
+Greške u softveru mogu na različite načine uticati na
+korisničko iskustvo. Najblaži oblik posledica jeste ma-
+nja neprĳatnost, kao što je iznenadno gašenje internet
+pregledača (slika 2.1), muzičkog plejera ili mobilne igre,
+ili greška u sistemu za izgradnju softvera (slika 2.2).
+Ipak, te neprĳatnosti mogu biti i ozbiljnĳe — na primer,
+ako navigacioni softver pogrešno usmeri korisnika ka
+nebezbednoj lokacĳi ili ako, u hitnoj situacĳi, softverski
+problem onemogući uspostavljanje poziva.
+
+Drugi nivo uticaja softverskih grešaka ogleda se u
+materĳalnim gubicima, koji mogu imati ozbiljne posle-
+dice po pojedince ili finansĳsko poslovanje organizacĳa.
+Ove greške se najčešće javljaju u poslovnom softveru i
+bankarskim informacionim sistema, gde mogu izazvati
+direktne novčane gubitke, kao i gubitak ili kompro-
+mitovanje važnih podataka. U određenim slučajevima,
+posledice se mogu reflektovati i na reputacĳu kompanĳe,
+izazivajući dugoročne finansĳske probleme.
+
+Slika 2.1: Greška u radu Inter-
+net pregledača
+
+Na kraju, greške u softveru mogu imati ifatalneposledice.
+One se javljaju u kritičnim sistemima, kao što su sof-
+tver za upravljanje avionima, automobilima i vozovima,
+gde čak i najmanji propust može dovesti do teških sao-
+braćajnih nesreća. Sličan rizik postoji i u medicinskim
+uređajima koji se koriste za dĳagnostiku, praćenje vital-
+nih funkcĳa i pružanje terapĳe, gde softverska greška
+može direktno ugroziti život pacĳenta. Greške u sof-
+tveru svemirskih letelica mogu dovesti do neuspeha
+
+Slika 2.2: Greška u sistemu za
+izgradnju softvera

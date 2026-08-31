@@ -1,0 +1,53 @@
+Testiranje prihvatljivosti
+
+Testovi prihvatljivosti (eng. acceptance testing) treba da
+omoguće klĳentima i korisnicima da se sami uvere da
+je napravljeni softver u skladu sa njihovim potrebama i
+očekivanjima. Ovu vrstu testiranja izvode i procenjuju
+korisnici, a razvojni tim im pruža pomoć oko tehničkih
+pitanja, ukoliko za tim ima potrebe. Testiranje prihvatlji-
+vosti obično spada u tehnike validacĳe softvera.
+
+Klĳent može da proceni sistem na tri načina: referent-
+nim testiranjem, pilot testiranjem i paralelnim testira-
+njem.
+
+sistemsko
+testiranje
+
+Referentno testiranje izvode korisnici kako bi proce-
+nili da li je softver implementiran u skladu sa
+očekivanjima. Kod referentnog testiranja, klĳent
+generiše test slučajeve koji predstavljaju uobičajne
+uslove u kojima sistem treba da radi.
+
+Testiranje
+prihvatljivosti
+
+Pilot testiranje podrazumeva instalacĳu sistema na pri-
+vremenoj lokacĳi i njegovu upotrebu. U ovom slu-
+čaju, testiranje se vrši simulacĳom svakodnevnog
+rada na sistemu.
+
+referentno
+
+pilot
+
+paralelno
+
+Paralelno testiranje se koristi tokom razvoja, kada jed-
+na verzĳa softvera zamenjuje drugu ili kada novi
+sistem treba da zameni stari. Ideja je paralelno
+funkcionisanje oba sistema (starog i novog) čime
+se korisnici postepeno privikavaju i prelaze na
+korišćenje novog sistema.
+
+Primer 4.2.12 Testiranje prihvatljivosti modernih apli-
+kacĳa često se vrši na uzorku odabranih korisnika
+(npr. zaposlenih u kompanĳi koja proizvodi aplikacĳu
+ili zaposlenih u kompanĳi čĳi će korisnici da koriste tu
+aplikacĳu). Na primer, za bankarski softver, to mogu
+da budu zaposleni u banci ili manja grupa klĳenata
+banke.
+
+Tokom ove faze testiranja prati se korišćenje osnovnih

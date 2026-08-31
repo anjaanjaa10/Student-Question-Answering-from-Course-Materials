@@ -1,0 +1,54 @@
+Pregled
+
+4.1
+Testiranje i
+razvoj softvera .
+47
+
+▶Koja je uloga testiranja u procesu razvoja softvera?
+▶Koje vrste testiranja postoje — šta se proverava?
+▶Koje tehnike testiranja postoje — kako napraviti
+dobre test primere?
+
+4.2
+Vrste i nivoi
+testiranja . . . .
+62
+
+4.3
+Tehnike testira-
+nja . . . . . . . .
+86
+
+▶Koji načini sprovođenja testiranja postoje — kada
+koristiti manuelno, a kada automatsko testiranje?
+
+4.4
+Načini sprovođe-
+nja testiranja . . 120
+
+Dinamička verifikacĳa softvera predstavlja skup meto-
+da i tehnika kojima se proverava ispravnost softverskog
+sistema tokom njegovog izvršavanja. Među tim tehnika-
+ma, najčešće primenjivana, i svakako najrasprostranjeni-
+ja forma verifikacĳe uopšte, jeste testiranje. Testiranje se
+ogleda u kontrolisanom pokretanju softvera uz korišće-
+nje unapred definisanih skupova ulaznih podataka, pri
+čemu se pažljivo prati njegovo ponašanje i upoređuje sa
+očekivanim ishodima.
+
+Kada se testiranje sprovodi na pravilan i sistematičan
+način, ono može u velikoj meri doprineti unapređe-
+nju kvaliteta softverskog proizvoda. Razumevanje toga
+kako, kada i zašto testirati omogućava ne samo efikasni-
+je otkrivanje grešaka, već i oblikovanje procesa razvoja
+softvera tako da se od samog početka teži visokom kva-
+litetu konačnog rešenja. Iz tih razloga, od suštinske je
+važnosti da svi koji učestvuju u razvoju softvera pose-
+duju znanje o metodologĳi testiranja, kao i o njegovim
+procesima i osnovnim principima.
+
+### 4.1 Testiranje i razvoj softvera
+
+Softver nastaje kao odgovor na jasno definisane zahteve
+korisnika, koji precizno određuju šta softver treba da

@@ -1,0 +1,67 @@
+— If Broken it is, Fix it You Should —
+(Yoda, Star Wars)
+
+5.1
+Veza izvršivog
+koda i debagera 130
+
+5.2
+Vrste debagova-
+nja . . . . . . . . 136
+
+Pregled
+
+5.3
+Primeri debage-
+ra . . . . . . . . . 147
+
+▶Kada se u okviru testiranja otkrĳe da postoji de-
+fekt u radu softvera, kako pronaći grešku koja je
+uzrokovala taj defekt?
+
+5.4
+Otvoreni proble-
+mi
+. . . . . . . . 152
+
+5.5
+Štampanje
+umesto debagera153
+
+▶Koja je uloga debagovanja u procesu razvoja sof-
+tvera?
+
+▶Zašto je debager sistemski alat?
+▶Koje vrste debagovanja postoje?
+▶Koje alternative debagovanju postoje?
+
+Debagovanje je proces u razvoju softvera koji ima za
+cilj pronalaženje greške odnosno uzroka defekta u pro-
+gramu. Debager (eng. debugger) je alat koji se koristi za
+praćenje izvršavanja programa radi boljeg razumeva-
+nja ponašanja programa i lakšeg pronalaženja greške u
+programu.
+
+Kako bi informacĳe koje debager pruža programeru bile
+precizne i razumljive, neophodna je podrška kompajlera
+i linkera, koji obezbeđuju povezivanje izvršivog koda
+sa izvornim kodom, kao i razne druge korisne podatke.
+Funkcionalnost debagera takođe zavisi od podrške ope-
+rativnog sistema, a u određenim slučajevima i samog
+hardvera.
+
+Poznati debager GDB, koji
+se razvĳa u okviru projekta
+GNU, se može koristiti kroz
+veliki broj razvojnih okru-
+ženja, uključujući QtCreator,
+Visual Studio Code, Eclipse,
+NetBeans, CLion i IntelliJ.
+
+Debageri se često integrišu u razvojna okruženja koja
+im obezbeđuju grafički korisnički interfejs. Iako grafički
+interfejs može znatno olakšati upotrebu i unaprediti ko-
+risničko iskustvo, važno je imati na umu da je ono samo
+sredstvo interakcĳe sa debagerom, a ne njegov suštinski
+deo. Sama funkcionalnost debagera ostaje nezavisna od
+načina na koji se korisniku prikazuje.

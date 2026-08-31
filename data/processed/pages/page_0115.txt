@@ -1,0 +1,50 @@
+Dĳagrami stanja
+
+Sistemi koji reaguju na spoljašnje događaje i čĳe ponaša-
+nje zavisi od prethodno izvršenih akcĳa mogu se efika-
+sno modelovati pomoću konačnih automata (eng. finite
+state machines). U svakom trenutku, takav sistem se
+nalazi u jednom od konačno mnogo mogućih stanja i
+pasivno čeka na neki ulazni događaj. Kada se dogodi
+odgovarajući događaj, sistem, u zavisnosti od trenutnog
+stanja, prelazi u novo stanje. Tokom ovog prelaza često
+se izvršava i određena akcĳa, kao što je generisanje
+izlaza, slanje poruke ili promena internog podatka.
+
+Jedan od najvažnĳih načina prikaza konačnog automa-
+ta u inženjerskoj praksi je dĳagram stanja (eng. state-
+transition diagram). Ovaj dĳagram kompaktno i pregled-
+no opisuje složene zahteve sistema i njegov način in-
+terakcĳe sa spoljašnjim svetom. Posebno se koristi za
+modelovanje sistema čĳe ponašanje zavisi od sekvence
+prethodnih događaja.
+
+tehnike testiranja
+
+Osnovni elementi dĳagrama stanja prikazani su na
+slici 4.10 i uključuju:
+
+testiranje
+crne kutĳe
+
+Stanje — Predstavlja određeno ponašanje ili konfigura-
+cĳu sistema; čuva informacĳu o prošlim događaji-
+ma i određuje reakcĳu na buduće.
+
+dĳagrami stanja
+
+Prelaz — Predstavlja promenu iz jednog stanja u drugo,
+iniciranu događajem.
+
+Događaj — Spoljašnji ili unutrašnji signal koji izaziva
+prelaz između stanja.
+
+Akcĳa — Operacĳa koju sistem izvršava kao odgovor
+na prelaz, kao što su promene izlaza, logovanje ili
+pozivi metoda.
+
+Dĳagram stanja omogućava vizuelizacĳu svih mogućih
+stanja sistema, događaja koji uzrokuju promene stanja,
+kao i pratećih akcĳa. Ova tehnika je široko rasprostra-
+njena u razvoju softverskih komponenti koje zahtevaju
+precizno definisano ponašanje u skladu sa spoljašnjim

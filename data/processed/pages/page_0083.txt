@@ -1,0 +1,82 @@
+Testiranje
+bezbed-
+nosti
+
+Testiranje
+sigur-
+nosti
+
+Funkcionalno
+testiranje
+
+Testiranje
+upotre-
+bljivosti
+
+Testiranje
+preno-
+sivosti
+
+Nefunkcionalno
+testiranje
+
+Istraživačko
+testiranje
+
+Testiranje
+pouzda-
+nosti
+
+Testiranje
+kompati-
+bilnosti
+
+Sistemsko
+testiranje
+
+Testiranje
+perfor-
+mansi
+
+Testiranje
+kon-
+figu-
+racĳa
+
+Testiranje
+kapa-
+citeta
+
+Instalaciono
+testiranje
+
+Stres
+testi-
+ranje
+
+Testiranje
+prihva-
+tljivosti
+
+Paralelno
+testiranje
+
+Referentno
+testiranje
+
+Pilot
+testiranje
+
+Slika 4.5: Vrste sistemskog testiranja
+
+pokušaj prenosa novca kada na korisničkom računu
+nema dovoljno sredstava.
+
+Preduslovi:
+
+▶Korisnik je prĳavljen u aplikacĳu
+▶Na računu korisnika nalazi se manje sredstava
+od iznosa koji želi da prenese (npr. stanje: 500
+RSD)
+
+▶Primalac ima validan račun u sistemu

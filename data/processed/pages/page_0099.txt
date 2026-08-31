@@ -1,0 +1,44 @@
+ili novododatih funkcionalnosti. Beleže se uočeni pro-
+blemi, vreme izvršavanja operacĳa i reakcĳe korisnika
+na interfejs i način rada sistema.
+
+Na osnovu prikupljenih podataka identifikuju se even-
+tualne greške, nejasnoće u korišćenju i problemi u
+performansama, nakon čega se sistem unapređuje pre
+šireg uvođenja u produkciono okruženje.
+
+Instalaciono testiranje
+
+Instalaciono testiranje predstavlja specifičnu vrstu testi-
+ranja u kojoj se softver instalira u klĳentskom okruženju,
+kako bi se proverila njegova sposobnost da se pravilno
+instalira i funkcioniše u realnim uslovima. Tokom ovog
+procesa, sistem se podešava u skladu sa tehničkim ka-
+rakteristikama ciljne mašine, kao i sa specifičnostima
+okruženja (npr. operativni sistem, mrežne postavke, po-
+vezani uređaji). Ukoliko softver zahteva komunikacĳu sa
+spoljnim uređajima ili servisima, testira se i sposobnost
+uspostavljanja te komunikacĳe.
+
+sistemsko
+testiranje
+
+Primer 4.2.13 Kompanĳe koje obezbeđuju uslugu
+testiranja drugim softverskim kompanĳa često raspo-
+lažu laboratorĳama za testiranje tj. kolekcĳama uređaja
+i računara sa različitim softverskim konfiguracĳama.
+Na primer, mogu posedovati desetine modela telefona
+sa različitim verzĳama operativnih sistema Android i
+iOS. Takav pristup omogućava proveru da li se aplika-
+cĳa ispravno instalira i pokreće na svim relevantnim
+uređajima i verzĳama operativnog sistema. Istovre-
+meno, identifikuju se potencĳalni problemi koji se
+javljaju samo u specifičnim kombinacĳama hardvera
+i softvera, kao što je pad aplikacĳe na određenom
+modelu telefona ili verzĳi operativnog sistema. Ova-
+kve laboratorĳe takođe štede vreme i resurse svojih
+klĳenata, koji oni ne moraju da poseduju sve moguće
+uređaje i konfiguracĳe za testiranje, dok istovremeno
+
+instalaciono
+testiranje

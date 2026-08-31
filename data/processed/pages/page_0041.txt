@@ -1,0 +1,45 @@
+su procenili da je Facebook, sa prosečnim dnevnim pri-
+hodima od oko 189 miliona dolara, pretrpeo značajan
+gubitak prihoda tokom ovog perioda. Neki izvori na-
+vode da je prekid trajao 14 sati, dok drugi navode da je
+prekid trajao oko 24 sata. U skladu sa time se i razlikuju
+procene finansĳskog gubitka. Takođe, ovaj incident je
+uticao i na pad akcĳa kompanĳe Facebook za oko 2%.
+
+Google Cloud Outage, 14. decembar 2020. godine
+
+Kompanĳa Google je imala neželjeni prekid usluga 14.
+decembra 2020. godine u trajanju od 47 minuta. Tokom
+ovog perioda, korisnici širom sveta nisu mogli da pri-
+stupe uslugama koje zahtevaju Google nalog, uključujući
+Gmail, YouTube, Google Drive, Google Docs i druge. Ovaj
+događaj je imao globalni uticaj na korisnike i kompanĳe
+koje se oslanjaju na Google-ovu infrastrukturu.
+
+Prema zvaničnom izveštaju kompanĳe Google (slika 2.5),
+uzrok prekida bio je problem u sistemu za upravljanje
+kvotama skladišnog prostora, koji je nenamerno smanjio
+kapacitet centralnog sistema za upravljanje identitetima
+korisnika. Ova greška je dovela do toga da se zahtevi
+za autentifikacĳu nisu mogli obraditi, što je rezultiralo
+greškama prilikom pokušaja pristupa uslugama koje
+zahtevaju prĳavu.
+
+Iako je prekid trajao manje od sat vremena, njegov
+uticaj je bio značajan zbog široke upotrebe Google-ovih
+servisa u svakodnevnom poslovanju i komunikacĳi.
+Google se izvinio korisnicima i naveo da su preduzete
+mere kako bi se sprečilo ponavljanje sličnih incidenata
+u budućnosti.
+
+Teško je precizno kvantifikovati direktan finansĳski
+gubitak izazvan ovim konkretnim prekidom. Poznato
+je da je Google Cloud u 2020. godini zabeležio operativni
+gubitak od 5,61 milĳardu dolara. Ovaj gubitak pripisuje
+se raznim poslovnim odlukama i nĳe vezan samo za
+pomenuti incident.
+
+Slika 2.5: Deo zvaničnog izve-
+štaja kompanĳe Google https:
+//status.cloud.google.
+com/incident/zall/20013

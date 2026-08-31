@@ -1,0 +1,46 @@
+4.3.5 Metamorfno testiranje
+
+Metamorfno testiranje predstavlja tehniku testiranja sof-
+tverskih sistema koja omogućava proveru ispravnosti
+bez potrebe za proročištem — komponentom koja odre-
+đuje da li je rezultat testa ispravan. Umesto toga, koristi
+se poznavanje osobina sistema koji se testira, odnosno
+metamorfna svojstava (relacĳe).
+
+Metamorfna relacĳa izražava kako bi se izlaz programa
+trebalo da promeni kada je ulaz izmenjen na određeni
+način. Osnovna ideja je da se na osnovu dva ulaza koja
+su u nekom specifičnom odnosu odredi odnos između
+odgovarajućih izlaza.
+
+tehnike testiranja
+
+metamorfno
+testiranje
+
+Primer 4.3.23 (Standardna devĳacĳa) Ukoliko ne mo-
+žemo da proverimo ispravnost rezultata za računanje
+standardne devĳacĳe za veoma dugačak niz brojeva,
+možemo da iskoristimo sledeće odnose (metamorfna
+svojstva):
+
+▶Permutacĳa elemenata ne utiče na standardnu
+devĳacĳu.
+
+▶Množenje svake vrednosti sa -1, ne utiče na
+standardnu devĳacĳu.
+
+▶Ako se svaki broj pomnoži sa nekom konstan-
+tom, standardna devĳacĳa novog niza brojeva
+bi trebalo da je srazmerna standardnoj devĳacĳi
+originalnog niza.
+
+Testiranjem se proverava da li se za zadate ulaze na
+očekivani način menjaju izlazi. Testiranjem se detektuje
+greška u sistemu ukoliko se javi odstupanje u očekiva-
+nim odnosima između odgovarajućih izlaza.
+
+Primer 4.3.24 (Standardna devĳacĳa — nastavak pri-
+mera 4.3.23) Na osnovu identifikovanih metamorfnih
+relacĳa za algoritam standardne devĳacĳe, možemo
+da napravimo test primere koji su permutacĳa istog ni-

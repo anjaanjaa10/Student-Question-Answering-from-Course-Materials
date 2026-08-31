@@ -1,0 +1,55 @@
+Na osnovu ovog zahteva, identifikuju se različiti sce-
+narĳi testiranja, kao što su:
+
+▶Prenos novca između računa u istoj banci
+▶Prenos ka računima u drugim bankama
+▶Testiranje granica – npr. minimalni i maksimalni
+iznos za prenos
+
+Pored toga, identifikuju se i granični slučajevi (eng. ed-
+ge cases), kao što su:
+
+▶Pokušaj prenosa novca kada korisnik nema do-
+voljno sredstava na računu
+
+▶Pokušaj ponovljenog prenosa usled pada mreže
+▶Neispravno unet broj računa primaoca
+
+Svi ovi identifikovani scenarĳi biće u narednim faza-
+ma formalizovani u test slučajeve, čime se obezbeđuje
+da funkcionalnost prenosa novca bude testirana u ce-
+losti — sa aspekta tačnosti, pouzdanosti i bezbednosti.
+Na ovaj način, analiza testova ne samo da razbĳa kom-
+pleksne zahteve na razumljive i proverljive jedinice,
+već i postavlja temelj za kvalitetan dizajn i izvršavanje
+testova, koji direktno doprinosi uspešnosti krajnjeg
+softverskog proizvoda.
+
+Analiza, dizajn i implementa-
+cĳa testova:
+Faza analize testova daje
+odgovor na pitanje „šta testi-
+rati?”.
+Faza dizajna testova daje
+odgovor na pitanje „kako
+testirati?”.
+Faza implementacĳe daje sve
+što je potrebno da testiranje
+može da počne.
+
+Faza dizajna testova sledi nakon analize i predstavlja
+temelj za dalji tok testiranja. U ovoj fazi definišu se
+ciljevi testiranja, identifikuju funkcionalnosti koje tre-
+ba proveriti i preciziraju uslovi pod kojima će testovi
+biti sprovedeni. Identifikovani scenarĳi se razrađuju u
+test slučajeve i prateću dokumentacĳu (eng. testware),
+čime se obezbeđuje jasan i sistematičan pristup. Ključne
+aktivnosti u okviru dizajna testova obuhvataju:
+
+▶kreiranje i prioritizacĳu test slučajeva,
+▶identifikacĳu potrebnih test podataka,
+▶preciziranje testnog okruženja, uključujući potreb-
+nu infrastrukturu i alate.
+
+Cilj ove faze je da se obezbedi dosledna i kvalitetna
+osnova za kasnĳu implementacĳu i izvršavanje testo-

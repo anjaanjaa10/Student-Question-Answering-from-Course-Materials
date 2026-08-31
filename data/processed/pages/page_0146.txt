@@ -1,0 +1,41 @@
+koda se mogu potpuno izostaviti, promeniti redosled
+ili transformisati do neprepoznatljivosti, što značajno
+otežava proces razumevanja izvršavanja koda i traženja
+greške u kodu. Zbog toga se ova verzĳa prevođenja goto-
+vo nikada ne koristi za analizu i dĳagnostiku grešaka.
+
+Primer 5.1.1 (Prevođenje za upotrebu) Prilikom pre-
+vođenja programa pomoću kompajlera gcc, ne postoji
+jedinstvena opcĳa za režim prevođenja za upotre-
+bu, već se to postiže kombinovanjem odgovarajućih
+kompajlerskih opcĳa. Ove opcĳe uključuju korišće-
+nje visokog nivoa optimizacĳe, na primer -O2 ili -O3,
+dok se za režim za upotrebu sa minimalnom veliči-
+nom koristi opcĳa optimizacĳe -Os. Dodatno, druga
+bitna opcĳa je -DNDEBUG. Ova opcĳa definiše makro
+
+NDEBUG, koji onemogućava izvršavanje poziva funk-
+cĳe assert(), čĳa je upotreba karakteristična u fazi
+otklanjanja grešaka.
+
+S druge strane, u mnogim sistemima za izgradnju
+koda, izbor režima može da se uključi jedinstvenom
+opcĳom. Na primer, u sistemu CMake, koristi se opcĳa
+
+-DCMAKE_BUILD_TYPE koja se za režim prevođenja za
+upotrebu postavlja na vrednost Release, a za režim
+prevođenja za upotrebu sa minimalnom veličinom
+postavlja na vrednost MinSizeRel.
+
+5.1.2 Režim prevođenja za pronalaženje grešaka
+
+Primarni cilj prevođenja u režimu za pronalaženje gre-
+šaka je pravljenje izvršive verzĳe koda koja za svaku
+instrukcĳu u fazi izvršavanja omogućava preciznu pove-
+zanost sa odgovarajućim linĳama izvornog koda. Kom-
+pajler u ovom režimu generiše dodatne informacĳe koje
+omogućavaju debageru da poveže izvršavane instrukcĳe
+sa odgovarajućim linĳama izvornog koda.
+
+Za razliku od režima riliz, gde su uključene optimizacĳe
+radi postizanja što efikasnĳeg izvršavanja, u režimu

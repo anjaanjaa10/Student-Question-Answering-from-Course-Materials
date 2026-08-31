@@ -1,0 +1,43 @@
+va.
+
+Primer 4.1.2 (Aplikacĳa za elektronsko bankarstvo
+— nastavak primera 4.1.1) Razmotrimo identifikovan
+scenario testiranja:
+
+Pokušaj prenosa novca kada korisnik ne-
+ma dovoljno sredstava na računu.
+
+U fazi dizajna testova, za ovaj scenario, može se iden-
+tifikovati naredni skup test slučajeva:
+
+1. Apsolutno nedovoljno sredstava
+Korisnik ima 0 RSD na računu, a pokušava da
+prenese npr. 1000 RSD.
+Očekivanje: Transakcĳa odbĳena; jasna poruka o
+nedostatku sredstava.
+
+2. Delimično pokrivanje iznosa
+Korisnik ima 500 RSD na računu, a pokušava
+da prenese 1000 RSD.
+Očekivanje: Transakcĳa odbĳena; jasna poruka o
+nedostatku sredstava, ali potrebno je testirati i
+prikaz informacĳa o preostalom saldu i sugestĳu
+da se izvrši prenos manjeg iznosa.
+
+3. Nedovoljno sredstava zbog provizĳe
+Korisnik ima dovoljno novca na računu, ali se
+naplaćuje provizĳa za prenos.
+Očekivanje: Transakcĳa odbĳena uz poruku o
+dodatnoj provizĳi.
+
+4. Nedovoljno sredstava zbog rezervacĳe sred-
+stava
+Na računu piše da ima dovoljno sredstava,
+npr. 1000 RSD, ali je deo sredstava rezervisan,
+npr. 800 RSD.
+Očekivanje: Efektivno dostupno stanje je 200
+RSD; prenos većeg iznosa treba da bude odbi-
+jen.
+
+5. Nedovoljno sredstava u drugoj valuti
+Račun je u dinarima, a korisnik pokušava prenos

@@ -1,0 +1,38 @@
+naredbu po naredbu, ispitivanje vrednosti promenljivih
+i stanja memorĳe, kao i praćenje kontrole toka izvr-
+šavanja. Iako se sintaksa i interfejs mogu razlikovati,
+osnovni principi debagovanja ostaju isti i čine sastavni
+deo efikasnog procesa razvoja softvera.
+
+Primer 5.3.1 (Debager gdb) Debager gdb je jedan od
+najpoznatĳih i najmoćnĳih alata za debagovanje. On
+omogućava interaktivno debagovanje, udaljeno de-
+bagovanje i debagovanje nakon prekida rada progra-
+ma. Dodatno, multiarch gdb omogućava pokretanje i
+analizu izvršivih datoteka namenjenih procesorskim
+arhitekturama koje su različite od one na kojoj se
+debagovanje izvršava.
+
+Gdb je napisan u programskom jeziku C i kontinu-
+irano se razvĳa kao deo GNU projekta. Podržava
+debagovanje programa napisanih u više programskih
+jezika, uključujući Ada, C, C++, Objective-C, Pascal,
+Fortran, Go, Rust i Java. GDB se može integrisati u
+veliki broj različitih razvojnih okruženja, kao što su
+Eclipse, Visual Studio, Qt Creator i CLion. Takođe, gdb
+je dostupan na velikom broju operativnih sistema,
+uključujući razne Unix i GNU/Linux distribucĳe, kao i
+Microsoft Windows platforme.
+
+Primer 5.3.2 (Debager LLDB) Debager LLDB je savre-
+meni debager koji se razvĳa kao deo projekta LLVM,
+sa ciljem da ponudi efikasnu, modularnu i proširivu
+alternativu tradicionalnim alatima za debagovanje.
+LLDB omogućava interaktivno debagovanje. U dizaj-
+niranju ovog debagera, fokus je bio na ostvarivanje
+brzine, lake nadogradivosti i mogućnosti integracĳe
+sa modernim alatima.
+
+LLDB je implementiran u programskom jeziku C++ i
+kontinuirano se razvĳa u okviru razvoja kompajler-
+ske infrastrukture LLVM, odakle i koristi veliki broj

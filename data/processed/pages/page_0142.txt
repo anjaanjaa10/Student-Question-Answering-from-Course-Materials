@@ -1,0 +1,23 @@
+25. Tehnike testiranja. Testiranje metodama bele kutĳe.
+Putanja i broj putanja u programu. Pojam i vrste
+pokrivenosti. Njihovi odnosi. Primeri.
+
+26. Tehnike testiranja. Testiranje metodama bele ku-
+tĳe. Pojam i vrste pokrivenosti. Preporučen nivo
+pokrivenosti. Alati za merenje pokrivenosti. Pri-
+meri.
+
+27. Tehnike testiranja. Testiranje metodama bele kuti-
+je. Izbor relevantnih testova i putanja. Testiranje
+osnovnih putanja. Testiranje na osnovu grafa toka
+podataka. Primeri.
+
+28. Tehnike testiranja. Problem proročišta. Metamorf-
+no testiranje. Primeri.
+
+29. Načini testiranja. Manuelno testiranje.
+30. Načini testiranja. Automatsko izvršavanje i evalu-
+acĳa testova. Kontinuirana integracĳa.
+
+31. Načini testiranja. Automatsko generisanje test pri-
+mera.

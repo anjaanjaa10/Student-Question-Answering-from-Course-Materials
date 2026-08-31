@@ -1,0 +1,53 @@
+Ispitna pitanja
+
+10. Testiranje u razvoju softvera. Cena greške u kon-
+tekstu vremena otkrivanja.
+
+11. Testiranje u razvoju softvera. Uloga testera u ra-
+zvoju softvera.
+
+12. Testiranje u razvoju softvera. Faze testiranja sof-
+tvera: planiranje, analiza, dizajn i implementacĳa
+testova.
+
+13. Testiranje u razvoju softvera. Faze testiranja sof-
+tvera: izvršavanje i evaluacĳa testova. Zatvaranje
+testiranja.
+
+14. Vrste testiranja. Testiranje jedinica koda. Primeri.
+15. Vrste testiranja. Komponentno i integraciono te-
+stiranje. Primeri.
+
+16. Vrste testiranja. Sistemsko testiranje. Funkcional-
+no sistemsko testiranje. Regresiono testiranje. Pri-
+meri.
+
+17. Vrste testiranja. Sistemsko testiranje. Istraživač-
+ko testiranje. Testovi prihvatljivosti. Instalaciono
+testiranje. Primeri.
+
+18. Vrste testiranja. Nefunkcionalno testiranje. Testo-
+vi performansi. Testovi kompatibilnosti. Testovi
+pouzdanosti. Primeri.
+
+19. Vrste testiranja. Nefunkcionalno testiranje. Testovi
+upotrebljivosti. Testovi bezbednosti. Testovi sigur-
+nosti. Testovi prenosivosti. Primeri.
+
+20. Tehnike testiranja. Karakteristike dobrog skupa
+testova. Pokrivenost testiranjem. Podela na tehnike
+testiranja.
+
+21. Tehnike testiranja. Testiranje metodama crne kuti-
+je. Isprobavanja svih mogućih ulaza. Metod klasa
+ekvivalencĳe. Primeri.
+
+22. Tehnike testiranja. Testiranje metodama crne ku-
+tĳe. Metod klasa ekvivalencĳe. Metod graničnih
+vrednosti. Primeri.
+
+23. Tehnike testiranja. Karakteristike dobrog skupa
+testova. Tabele odlučivanja. Primeri.
+
+24. Tehnike testiranja. Karakteristike dobrog skupa
+testova. Dĳagrami stanja. Tabele stanja. Primeri.

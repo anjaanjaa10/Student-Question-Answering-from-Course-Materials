@@ -1,0 +1,41 @@
+uvid na koji način dalje proširiti skup testova sa ciljem
+da se dobĳe veća pokrivenost koda. Pored toga, profil
+se može koristiti i za detektovanje curenja memorĳe i
+raznih grešaka u kodu.
+
+Optimizacĳu na osnovu profila može da izvrši pro-
+gramer, a može je automatski sprovesti i programski
+prevodilac. Samo programer može da suštinski izmeni
+algoritam koji se koristi u implementacĳi ali i automat-
+ska optimizacĳa može da napravi važna poboljšanja u
+efikasnosti koda.
+
+Primer 6.2.1 Razmotrimo aplikacĳu koja obrađuje
+tekst i broji koliko puta se svaka reč pojavljuje u
+datoteci.
+
+Profajliranjem je utvrđeno da se najviše vremena
+troši na ponovljeno pretraživanje liste reči kako bi
+se proverilo da li se neka reč već pojavila. Kako lista
+raste, ova operacĳa postaje sve sporĳa.
+
+Na osnovu toga, programer može optimizovati kod
+zamenom liste odgovarajućom heš mapom, gde se
+provera postojanja i ažuriranje broja pojavljivanja oba-
+vlja u konstantnom vremenu. Ova izmena značajno
+poboljšava performanse, posebno za velike ulazne
+tekstove.
+
+Automatska optimizacĳa može da se sprovodi u fazi
+kompilacĳe pre izvršavanja programa ili u fazi kom-
+pilacĳe tokom izvršavanja programa. U oba slučaja,
+optimizacĳe koje se sprovode na osnovu profila progra-
+ma nazivaju se optimizacĳe vođene profilom (eng. profile
+guided optimizations). Ove optimizacĳe značajno pobolj-
+šavaju performanse i prevazilaze domete standardnih
+kompajlerskih optimizacĳa.
+
+Optimizacĳa u fazi kompilacĳe pre izvršavanja pro-
+grama, da bi mogla da se sprovede, zahteva da je
+profil programa dostupan, što znači da toj kom-
+pilacĳi prethodi jedna kompilacĳa i izvršavanje

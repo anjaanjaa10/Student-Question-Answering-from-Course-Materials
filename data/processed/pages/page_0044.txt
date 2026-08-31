@@ -1,0 +1,71 @@
+više od 100 vojnika. Nakon detaljne istrage, utvrđeno je
+da je uzrok neuspeha protivraketnog sistema Patriot bila
+greška u softveru koji je upravljao internim sistemskim
+vremenom. Naime, zbog akumulacĳe zaokruživanja
+decimalnih vrednosti u brojevima s pokretnim zarezom,
+došlo je do odstupanja od približno jedne trećine se-
+kunde nakon 100 sati neprekidnog rada sistema. Iako
+se ovo odstupanje može činiti beznačajnim, u kontek-
+stu ogromnih brzina kojima se balističke rakete kreću,
+ono je rezultovalo prostornim promašajem od oko 600
+metara. Radar je usled toga tražio raketu na pogrešnoj
+lokacĳi, nĳe uspeo da je prati, i samim tim nĳe aktivirao
+mehanizam za presretanje.
+
+Dahran raketa
+Greška: Neprecizno zaokru-
+živanje vrednosti brojeva
+Defekt: Pogrešno računanje
+vremena
+Pad: Neaktiviran mehani-
+zam za presretanje rakete
+Incident: Smrt 28 vojnika i
+povrede više od 100 vojnika
+
+Ovaj događaj predstavlja jedan od najupečatljivĳih pri-
+mera fatalnih posledica softverske greške u savremenoj
+vojnoj istorĳi. Osim ljudskih žrtava, incident je izazvao
+ozbiljnu zabrinutost u vezi sa pouzdanošću softverski
+vođenih odbrambenih sistema. Pentagon i američka voj-
+ska bili su izloženi javnoj i političkoj kritici, a celokupan
+događaj podstakao je temeljnu revizĳu načina na koji se
+razvĳa, testira i primenjuje softver u vojnim i drugim
+bezbednosno osetljivim sistemima.
+
+Slika 2.6: Maketa rakete Aria-
+ne 5, Muzej vazduhoplovstva
+u Parizu, Francuska
+
+Ariane 5, 4. jun 1996. godine
+
+Raketa Ariane 5 Evropske svemirske agencĳe (ESA)
+uništila se svega 37 sekundi nakon poletanja, 4. juna 1996.
+godine. Pri tome su izgubljena četiri satelita namenjena
+proučavanju Zemljine magnetosfere. Procenjena šteta
+iznosila je preko 370 miliona dolara, čime je ovaj incident
+postao jedan od najskupljih softverskih grešaka u istorĳi
+svemirskih misĳa.
+
+Ariane 5
+Greška:
+(1) Konverzĳa iz 64-bitne u
+16-bitnu vrednost
+(2) Nepostojanje adekvatne
+obrade izuzetka Defekt: Si-
+stem neadekvatno reaguje
+na greške u ulaznim podaci-
+ma
+Pad: Skretanje sa putanje i
+aktivacĳa sistema za samou-
+ništenje
+Incident: Veliki finansĳski
+gubitak i propuštena prilika
+za novim naučnim saznanji-
+ma
+
+Uzrok nesreće bio je softverski propust. Sistem je poku-
+šao da konvertuje 64-bitnu vrednost brzine u 16-bitnu
+vrednost, što je izazvalo numeričko prekoračenje i iz-
+uzetak koji nĳe bio adekvatno obrađen. To je dovelo
+do pogrešnih komandi, skretanja sa putanje i aktivacĳe
+sistema za samouništenje.

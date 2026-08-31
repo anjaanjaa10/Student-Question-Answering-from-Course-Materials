@@ -1,0 +1,36 @@
+čajnĳi i najrasprostranjenĳi alat za debagovanje Go
+programa je Delve koji omogućava standardne funk-
+cionalnosti interaktivnih debagera. Delve se može
+integrisati sa mnogim popularnim razvojnim okru-
+ženjima i editorima, uključujući Visual Studio Code
+(preko ekstenzĳe za Go) i GoLand, koji razvĳa kompa-
+nĳa JetBrains.
+
+Primer 5.3.7 (Debageri za programski jezik JavaScript)
+Debagovanje JavaScript koda podržano je kroz širok
+spektar alata, kako integrisanih u same veb pregleda-
+če, tako i kroz zasebna razvojna okruženja i pomoćne
+biblioteke. Najrasprostranjenĳi i najčešće korišćeni
+debagerski alati za JavaScript su ugrađeni direktno
+u moderne veb pregledače kao što su Google Chrome,
+FireFox, Safari i Microsoft Edge.
+
+Primer 5.3.8 (Debageri za programski jezik Haskell)
+Debagovanje Haskell programa razlikuje se od deba-
+govanja u imperativnim jezicima zbog njegove funk-
+cionalne prirode i podrške lenjom izračunavanju. U
+ovom jeziku prioritet ima razumevanje evaluacĳe
+izraza i praćenje toka podataka kroz čiste funkcĳe,
+pa su alati za debagovanje posebno prilagođeni tim
+konceptima.
+
+Najpoznatĳi i najčešće korišćeni alat za debagovanje
+Haskell programa jeste GHCi Debugger, koji dolazi kao
+deo standardnog kompajlera GHCi i koji omogućava
+standardno interaktivno debagovanje: postavljanje
+tačaka prekida u funkcĳama i praćenje evaluacĳe
+izraza korak po korak.
+
+Pored GHCi debagera, programeri se često oslanjaju i
+na alate Haskell Tracer Hat i Hoed koji se najviše koriste
+za post-mortem analizu izvršavanja Haskell programa.

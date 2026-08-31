@@ -1,0 +1,40 @@
+alarmantnih 650% između 2020. i 2021. godine.
+
+▶koji su rezultat uticaja tehničkog duga. Ovaj trošak
+je porastao na približno 1520 milĳardi dolara godi-
+šnje, što ukazuje na ozbiljnost problema i potrebu
+za njegovim rešavanjem.
+
+Svi ovi izveštaji su vrlo konzervativni jer uzimaju u
+obzir samo dostupne i javno prĳavljene podatke. U ve-
+ćini slučajeva, oni se oslanjaju na analize izveštaja o
+incidentima, javno objavljenim gubicima, regulatornim
+dokumentima i istraživanjima sprovedenim među or-
+ganizacĳama. Međutim, stvarna slika je često znatno
+ozbiljnĳa.
+
+Kompanĳe, iz različitih razloga, često smanjuju i ublaža-
+vaju izveštaje o problemima koji su nastali usled grešaka
+u softveru. To rade kako bi zaštitile svoj ugled, izbegle
+pad poverenja korisnika i investitora, ili kako bi izbegle
+regulatorne i pravne posledice. Greške u softveru koje
+dovedu do curenja podataka, pada sistema, zastoja u
+radu ili finansĳskih gubitaka neretko se interno rešavaju
+i nikada ne dospeju u javnost.
+
+Pored toga, mnoge organizacĳe nemaju razvĳen sistem
+za praćenje i precizno merenje posledica softverskih
+grešaka, pa čak i kada žele da prĳave problem – nemaju
+celovite podatke. Zbog toga je procena ukupnih troško-
+va lošeg kvaliteta softvera u izveštajima poput onih koje
+objavljuje CISQ gotovo sigurno donji prag stvarne štete.
+Pritom, stvarna cena lošeg softvera uključuje i skrivene
+gubitke kao što su izgubljene prilike, pad produktiv-
+nosti i frustracĳe korisnika. Sve to ostaje van zvanične
+statistike, ali ima dugoročne posledice po poslovanje i
+razvoj digitalnog tržišta.
+
+Rezime
+
+▶Uticaj neispravnog softvera: neprĳatnosti, materi-
+jalni gubici i materĳalno nemerljive posledice.

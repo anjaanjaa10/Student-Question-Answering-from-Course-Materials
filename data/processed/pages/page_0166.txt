@@ -1,0 +1,76 @@
+### 5.4 Otvoreni problemi
+
+Protivnici debagera
+Iako velika većina programe-
+ra koristi debagere, postoji
+izvesan broj značajnih pro-
+gramera koji ne vole deba-
+gere i glasno se izjašnjavaju
+protiv njihove upotrebe:
+
+Iako je debagovanje ključna tehnika za analizu izvrša-
+vanja programa, primenljivost debagera je ograničena.
+Jedan od najizraženĳih problema upotrebe debagera
+javlja se kod debagovanja višenitnih aplikacĳa. Zbog
+konkurentnog izvršavanja više niti, greške mogu zavi-
+siti od redosleda izvršavanja koji se teško reprodukuje.
+Debageri često ne uspevaju da precizno upravljaju svim
+nitima istovremeno, a samo pokretanje aplikacĳe u de-
+bageru može promeniti ponašanje programa i redosled
+izvršavanja niti, prikrivajući probleme poput trke za
+resursima i međusobnog blokiranja. Iako savremeni
+debageri podržavaju praćenje pojedinačnih niti, njihova
+primena u kompleksnim višenitnim sistemima ostaje
+nepraktična, neprecizna i često nedovoljna. Zbog toga se
+pronalaženje grešaka u ovakvim aplikacĳama uglavnom
+oslanja na kombinovanje više tehnika. Tehnike uključuju
+dinamičke pristupe: logovanje, profajliranje, upotrebu
+specĳalizovanih sanitajzera za otkrivanje konkurent-
+nih grešaka ali i statičku analizu (na primer, tehniku
+proveravanje modela).
+
+Rob Pike, jedan od autora
+programskog jezika
+Go, kaže sledeće
+If you dive into the bug,
+you tend to fix the local
+issue in the code, but if
+you think about the bug
+first, how the bug came
+to be, you often find and
+correct a higher-level
+problem in the code that
+will improve the design
+and prevent further
+bugs.
+
+Linus Torvalds, kreator
+operativnog sistema
+Linux, ne koristi
+debager.
+
+Robert C. Martin, jedan od
+autora agilnog
+programiranja, kaže
+sledeće
+Debuggers are a wasteful
+timesink.
+
+Distribuirane aplikacĳe predstavljaju dodatni izazov, jer
+njihovo izvršavanje uključuje više nezavisnih kompo-
+nenti koje rade na različitim fizičkim mašinama. Tradi-
+cionalni debageri nisu dizajnirani za takav kontekst i ne
+omogućavaju jedinstveno praćenje toka izvršavanja u
+svim delovima sistema.
+
+Debagovanje je takođe problematično u sistemima sa
+ugrađenim računarom i aplikacĳama koje rade u re-
+alnom vremenu, gde ograničenja resursa i strogi vre-
+menski zahtevi ne dozvoljavaju pauziranje programa
+ili umetanje dodatnog koda za analizu. U takvim okru-
+ženjima debager može biti nepristupačan, a njegovo
+korišćenje može dovesti do narušavanja funkcionalnosti
+sistema.
+
+Važno ograničenje odnosi se i na debagovanje aplikacĳa
+koje su prevedene u režimu za upotrebu. Optimizacĳe

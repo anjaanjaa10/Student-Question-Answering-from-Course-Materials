@@ -1,0 +1,53 @@
+(npr. multiarch podrška za debager gdb). Dodatno,
+mrežna povezanost između dva sistema treba da bu-
+de stabilna i odgovarajuće konfigurisana (na primer,
+često se koristi protokol TCP/IP).
+
+5.2.3 Debagovanje nakon prekida izvršavanja
+programa
+
+Doprinos unapređenju de-
+bagovanja nakon prekida iz-
+vršavanja programa alatom
+gdb dao je Ðorđe Todorović,
+diplomirani master student
+Matematičkog fakultata. Nje-
+gov master rad:
+Podrška za naprednu analizu
+promenljivih lokalnih za niti
+pomoću alata GNU GDB
+
+Debagovanje nakon prekida izvršavanja programa ili
+post-mortem debagovanje je tehnika analize ponašanja
+programa nakon što je njegovo izvršavanje već prekinu-
+to, najčešće usled greške kao što su pristup nevažećoj
+memorĳi ili neobrađen izuzetak. Za razliku od interak-
+tivnog debagovanja, koje se sprovodi tokom izvršavanja
+programa, post-mortem debagovanje se oslanja na in-
+formacĳe koje su zabeležene u trenutku prekida, bez
+mogućnosti ponovnog pokretanja aplikacĳe u istom
+stanju. Post-mortem debagovanje je posebno važno u
+produkcionim okruženjima, gde se greške moraju anali-
+zirati bez direktnog ponovnog izvršavanja programa u
+identičnim uslovima.
+
+Za post-mortem debagovanje ključnu ulogu imaju tzv. co-
+re dump datoteke, koje sadrže snimak memorĳe procesa
+u trenutku njegovog pada, uključujući relevantne in-
+formacĳe kao što su sadržaj steka, registra, segmenta
+podataka i koda. Da bi se generisala core dump datoteka
+prilikom prekida rada programa usled kritične greške,
+potrebna su dodatna podešavanja u okviru operativnog
+sistema pošto je najčešće opcĳa generisanja ove datoteke
+podrazumevano isključena.
+
+Tehnike post-mortem analize uključuju:
+
+▶pregled sadržaja memorĳe i registara,
+▶rekonstrukcĳu steka poziva funkcĳa (eng. backtra-
+ce),
+
+▶utvrđivanje poslednjih instrukcĳa koje su se izvr-
+šile,
+
+▶uvid u vrednosti promenljivih u trenutku prekida,

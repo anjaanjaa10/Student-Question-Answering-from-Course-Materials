@@ -1,0 +1,52 @@
+modularnost
+
+testabilnost
+
+iskoristivost
+
+izmenljivost
+
+Slika 1.3: Veze između atri-
+buta koji utiču na održavanje
+softvera: strelice sa punim li-
+nĳama predstavljaju jak uticaj
+jednog atributa na drugi, dok
+isprekidane strelice odgovara-
+ju indirektnom uticaju.
+
+analizabilnost
+
+1.3.9 Prenosivost
+
+prenosivost
+
+Prenosivost (eng. portability) odgovara stepenu u ko-
+me se softver može koristiti u različitim okruženjima.
+Prenosivost obuhvata naredne podatribute:
+
+prilagodljivost — mogućnost korišćenja sa različitim
+hardverom, softverom ili okruženjem,
+
+instalabilnost — mogućnost instaliranja/deinstaliranja
+softvera u različitim okruženjima i
+
+prilagodljivost
+
+zamenljivost — mogućnost zamene drugim softver-
+skim proizvodom za iste svrhe.
+
+instalabilnost
+
+zamenljivost
+
+Primer 1.3.9 (Kupovina karata — nastavak primera
+1.3.2) Aplikacĳa za kupovinu avio karata treba da
+bude prilagodljiva različitim uređajima (mobilnim
+uređajima, tabletima, desktop računarima) i tržištima.
+Na primer, aplikacĳa treba da može da se prilago-
+di različitim veličinama ekrana, od malih ekrana na
+mobilnim telefonima do velikih ekrana na desktop
+računarima, pri čemu je potrebno da se automatski
+prilagođava vizuelni prikaz u skladu sa veličinom
+ekrana. Takođe, aplikacĳa treba da ponudi lokalizo-
+vane opcĳe za različite jezike i valute.

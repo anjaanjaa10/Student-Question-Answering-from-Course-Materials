@@ -1,0 +1,68 @@
+Najčešći oblik automatizovanog testiranja je izvršavanje
+testova jedinica koda. Ovakvi testovi se često automat-
+ski pokreću prilikom svake izmene u kodu, a njihova
+integracĳa sa alatima za merenje pokrivenosti koda
+omogućava praćenje kvaliteta testiranja. Postoji veliki
+broj okruženja za automatsko izvršavanje testova, po-
+znatih po obrascu xxxUnit, gde xxx označava konkretni
+programski jezik. Na primer, za C++ postoji CppUnit,
+za Javu JUnit, a za Python PyUnit.
+
+Testiranje veb aplikacĳa
+Selenium je softver otvorenog
+koda koji se dominantno
+koristi za automatizovano
+testiranje veb aplikacĳa. Se-
+lenium podržava testiranje
+veb aplikacĳa u gotovo svim
+dostupnim pretraživačima.
+Test skriptovi mogu biti pi-
+sani u različitim program-
+skim jezicima, kao što su C#,
+Java, Ruby, Python i Perl i
+pokretani na operativnim
+sistemima Windows, macOS
+ili Linux.
+
+Pored alata za izvršavanje testova, postoje i alati koji
+automatizuju čitav proces testiranja — uključujući upra-
+vljanje test slučajevima, integracĳu sa repozitorĳumima
+koda, praćenje defekata i generisanje izveštaja. Ovi alati
+su često deo većih razvojnih okruženja ili sistema za
+kontinuiranu integracĳu.
+
+Kontinuirana integracĳa softvera
+
+Automatizacĳa omogućava brzo, ponovljivo i pouzdano
+izvršavanje test primera, što je posebno važno u okru-
+ženjima kontinuirane integracĳe i isporuke softvera.
+Kontinuirana integracĳa (eng. continuous integration, CI)
+predstavlja ključni proces u razvoju softvera, posebno
+u timovima gde više članova svakodnevno unosi izme-
+ne u zajednički kodni repozitorĳum. Cilj kontinuirane
+integracĳe je da se svaka izmena odmah objedini sa
+trenutnim stanjem projekta, automatski izgradi i testira,
+kako bi se potencĳalne greške otkrile što ranĳe.
+
+Popularni alati za kontinui-
+ranu integracĳu su:
+
+Prilikom svakog objedinjavanja koda, sistem prolazi
+kroz sledeće faze:
+
+▶Jenkins
+▶Buildbot
+▶Travis CI
+▶GitLab CI
+▶CircleCI
+▶TeamCity (JetBrains)
+▶Bamboo (Atlassian)
+
+Integracĳa — sve trenutne izmene se spajaju u jedin-
+stvenu verzĳu projekta,
+
+Izgradnja — kôd se kompajlira i pakuje u izvršni fajl ili
+instalacioni paket,
+
+Testiranje — automatski test primeri se izvršavaju kako
+bi se proverila ispravnost sistema,

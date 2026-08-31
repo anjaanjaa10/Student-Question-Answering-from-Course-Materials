@@ -1,0 +1,62 @@
+(eng. test procedure) definiše tačan redosled i način pri-
+mene test slučajeva u kontrolisanom okruženju. Testni
+okvir, testno okruženje ili infrastruktura za testiranje
+(eng. test harness) je skup skripti, alata i konfiguracĳa koji
+omogućavaju automatsko pokretanje testova, simulacĳu
+realnog upotrebnog okruženja i prikupljanje rezultata.
+Poređenje ovih pojmova je dato u tabeli 4.1.
+
+Tabela 4.1: Poređenje: test slučaj, procedura testiranja i testni okvir
+
+Pojam
+Opis
+
+Test slučaj (test)
+Konkretna situacĳa koja se testira, sa definisanim ulazima i
+očekivanim izlazima.
+Procedura testiranja
+Skup jasno definisanih koraka koji opisuju kako se jedan ili
+više test slučajeva izvršavaju u praktičnom okruženju.
+Testni okvir
+Skup alata i infrastrukture koji omogućavaju automatsko iz-
+vršavanje testova, simulacĳu delova sistema i prikupljanje
+rezultata testiranja.
+
+faze testiranja
+
+U fazi analize testova, vrši se detaljno ispitivanje mo-
+gućnosti testiranja pojedinih delova softverskog sistema
+i identifikacĳu zahteva koje sistem mora da ispuni. Ovaj
+proces podrazumeva detaljno razlaganje korisničkih pri-
+ča (eng. user story), upotrebnih scenarĳa (eng. use cases)
+i tehničke dokumentacĳe, kako bi se identifikovali svi
+elementi koji mogu i treba da budu predmet testiranja.
+Kroz identifikacĳu zavisnosti, ograničenja i potencĳal-
+nih rizika, analiza testova gradi detaljnu mapu puta koji
+vodi ka dizajnu testova i njihovom kasnĳem izvršava-
+nju. Time se obezbeđuje sveobuhvatna pokrivenost svih
+relevantnih aspekata softverskog sistema.
+
+planiranje
+testiranja
+
+analiza, dizajn
+i implemen-
+tacĳa testova
+
+izvršavanje
+testova
+
+evaluacĳa testova
+
+zatvaranje
+testiranja
+
+Primer 4.1.1 (Aplikacĳa za elektronsko bankarstvo)
+Razmotrimo projekat razvoja aplikacĳe za elektron-
+sko bankarstvo. Tokom faze analize testova, testeri
+analiziraju funkcionalne zahteve sistema. Jedan od
+njih je i
+
+Korisnici treba da mogu da prenose novac
+između računa.

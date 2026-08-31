@@ -1,0 +1,39 @@
+već započeo sa radom kao i da analizira stanje programa
+nakon što je program završio sa radom.
+
+5.2.1 Interaktivno debagovanje
+
+Interaktivnodebagovanje podrazumeva dinamičku ana-
+lizu programa u realnom vremenu uz aktivno učešće
+programera, koji koristi debager da bi pratio i kontroli-
+sao tok izvršavanja aplikacĳe. Ovaj način debagovanja
+omogućava dvosmernu komunikacĳu sa debagerom,
+putem komandne linĳe ili grafičkog korisničkog inter-
+fejsa.
+
+Osnovni mehanizam interaktivnog debagovanja zasniva
+se na tačkama prekida (eng. breakpoints), koje omogu-
+ćavaju da se izvršavanje programa automatski pauzira
+na odabranoj linĳi koda. Kada izvršavanje programa
+dođe do linĳe koda na kojoj je postavljena tačka prekida,
+debager omogućava inspekcĳu promenljivih, sadržaja
+steka, registara i drugih komponenti stanja programa.
+Nakon analize, izvršavanje može biti nastavljeno, korak
+po korak (naredbe koje se nazivaju na engleskom step i
+next) ili do sledeće tačke prekida.
+
+Primer 5.2.1 (Funkcĳa ptrace) Debageri su sistemski
+zavisni alati. Za razumevanje funkcionisanja debagera
+potrebno je razumeti procese i sistem prekida na
+odgovarajućem operativnom sistemu.
+
+Pod operativnim sistemom Linux, za rad debagera
+od suštinske važnosti je sistemska funkcĳa ptracea.
+Korišćenjem sistemskog poziva ptrace, jedan proces,
+upravljački proces, najčešće debager, može da kontroliše
+drugi, ciljni proces, i da upravlja njegovim unutrašnjim
+stanjem. Debageri koriste funkcĳu ptrace kako bi mogli
+da zaustavljaju program, da posmatraju memorĳu
+zaustavljenog programa i da je menjaju.
+
+a ptrace je skraćeno od „pratilac procesa” (eng. process trace).

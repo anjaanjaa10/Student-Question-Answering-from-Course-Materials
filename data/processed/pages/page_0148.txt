@@ -1,0 +1,53 @@
+Iako je format DWARF nezavisan od formata izvrši-
+ve datoteke, najčešće se koristi uz format za izvršive
+i povezane datoteke ELF (eng. Executable and Linkable
+Format) u okviru UNIX-olikih operativnih sistema, kao
+što su Linux i macOS. Format DWARF se može koristiti
+prilikom prevođenja programa koji su napisani u razli-
+čitim programskim jezicima — npr. C, C++ i Fortran,
+a karakteristike formata omogućavaju i proširenja za
+dodatne jezike i njihove specifične konstrukte, ukoliko
+je to potrebno. Za format DWARF je karakteristično
+da se metapodaci koje on definiše umeću direktno u
+izvršivi kôd, što čini debag verzĳu programa dodatno
+većom u odnosu na riliz verzĳu koja te podatke ne sadrži.
+
+DWARF je dizajniran kao
+nezavisan format, ali u slič-
+no vreme sa formatom za
+izvršive i povezane datoteke
+ELF. ELF na engleskom zna-
+či vilenjak, dok DWARF zna-
+či patuljak. Nazivi DWARF i
+ELF su uklopljeni kao sklad-
+ni delovi epske fantastike.
+Ipak, kasnĳe je predložen
+odgovarajući akronim i za
+format DWARF — Debug-
+ging With Arbitrary Record
+Formats (debagovanje sa pro-
+izvoljnim formatima zapisa).
+
+Primer 5.1.3 (Format DWARF) Kompajleri kao što su
+GCC i Clang generišu informacĳe u formatu DWARF i
+njih mogu da koriste debageri GDB i LLDB.
+
+Operativni sistem Windows koristi sopstveni format za
+pomoćne informacĳe Microsoft CodeView, koji je integri-
+san u Majkrosoftove razvojne alate. Ovaj format koristi
+se prilikom prevođenja programa koji su napisani u pro-
+gramskim jezicima C, C++ i jezicima .NET platforme.
+Metapodaci u formatu CodeView se distribuiraju odvoje-
+no od izvršivog koda (u okviru datoteka sa ekstenzĳom
+pdb). Oni se koriste po potrebi, ne opterećuju izvršivi
+kôd, ali se učitavaju u debager prilikom debagovanja.
+
+Primer 5.1.4 (Format Microsoft CodeView) Kompajler
+MSVC (kompajler Microsoft Visual Studio C++) generi-
+še podatke u formatu Microsoft CodeView i njih mogu
+da koriste debageri WinDbg i Visual Studio Debugger.
+
+5.1.3 Kombinovani režimi prevođenja
+
+Moguće je da ponašanje programa dobĳenih u režimima
+debag i riliz bude različito, što može značajno otežati

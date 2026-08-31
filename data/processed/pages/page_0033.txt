@@ -1,0 +1,40 @@
+isti način verifikacĳe na svakom uređaju.
+
+Analizabilnost aplikacĳe omogućava brzo praćenje i
+analiziranje problema (na primer, ukoliko korisnici
+prĳave da se neke poruke nisu stigle ili da su stigle dva
+puta). Da bi se to ostvarilo, aplikacĳa treba da omogući
+praćenje aktivnosti korisnika i sistema (logovi grešaka,
+statistika korišćenja, praćenje mrežnih veza).
+
+Usled potrebe za čestim promenama u skladu sa že-
+ljama korisnika, aplikacĳa treba da je lako izmenljiva
+i testabilna. Posebno važna vrsta izmene je nadograd-
+nja. Aplikacĳa treba da bude dizajnirana tako da
+omogući da se lako i brzo mogu dodati nove funkci-
+onalnosti, bez uticaja na postojeće. Na primer, doda-
+vanje video poziva mora biti odvojeno od sistema za
+razmenu poruka, ali se mora integrisati u postojeći
+korisnički interfejs. Testabilnost u kontekstu čestih
+promena i nadogradnja ključna je za osiguravanje
+da promene i novouvedene funkcionalnosti ne na-
+rušavaju postojeće funkcionalnosti. Za testabilnost je
+posebno značajna automatizacĳa procesa testiranja, na
+primer kroz pisanje jediničnih testova i upotrebu alata
+za pokretanje i automatsku proveru rezultata rada
+testova. Testiranjem je potrebno pokriti različite scena-
+rĳe (na primer, sve vrste poruka: tekstualne, glasovne
+i multimedĳalne) uključujući i scenarĳe koji obuhva-
+taju pogrešno korišćenje aplikacĳe ili nestandardne
+slučajeve upotrebe (na primer, korišćenje aplikacĳe u
+slučaju problema sa mrežom).
+
+Atributi kvaliteta softvera nisu nezavisni, već su me-
+đusobno povezani i isprepleteni. Na primer (slika 1.3),
+modularnost, koja se obično postavlja kao jedan od
+glavnih ciljeva faze projektovanja softvera, direktno uti-
+če na sva ostala četiri atributa održivosti, jer je dobra
+modularnost preduslov za iskoristivost, analizabilnost,
+izmenljivost i testabilnost. Slično tome, analizabilnost
+utiče na iskoristivost i modifikacĳu, dok testabilnost
+indirektno utiče na iskoristivost i izmenljivost.

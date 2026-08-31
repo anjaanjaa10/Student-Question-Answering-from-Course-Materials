@@ -1,0 +1,38 @@
+Primer 6.2.2 (Propuštena prilika) Razmotrimo funkci-
+ju koja vrši obradu elemenata niza algoritmom kubne
+složenosti i pretpostavimo da se ta funkcĳa u praksi
+koristi nad velikim nizovima. Ukoliko se program pro-
+fajlira sa ulazom koji funkcĳi prosleđuje niz sa malim
+brojem elemenata, onda se profajliranjem ne može
+uočiti problem koji će nastati u praksi, jer kubna slože-
+nost za mali niz može i dalje da daje zadovoljavajuće
+performanse.
+
+Primer 6.2.3 (Pogrešne odluke) Razmotrimo funkcĳu
+𝑓koja ima naredbu grananja u okviru koje se u then
+grani poziva funkcĳa 𝑓𝑡ℎ𝑒𝑛, a u else grani funkcĳa
+𝑓𝑒𝑙𝑠𝑒. Pretpostavimo da se u praksi then grana izvr-
+šava 20 puta češće nego else grana ali da su ulazni
+podaci za profajliranje izabrani tako da nas vode u
+
+else granu. Na osnovu takvog profajliranja, može
+da se donese pogrešan zaključak, tj. da je potrebno
+optimizovati funkcĳu 𝑓𝑒𝑙𝑠𝑒. Optimizacĳa te funkcĳe u
+praksi neće davati vidljive rezultate, s obzirom na to
+da se ona retko izvršava.
+
+Prilikom optimizacĳe na osnovu dobĳenih profila va-
+žno je pronaći ravnotežu između vremena utrošenog
+na prikupljanje podataka i koristi od dobĳenih informa-
+cĳa. U početnim fazama optimizacĳe mogu se koristiti
+jednostavnĳe i manje precizne metode kako bi se identi-
+fikovali najveći problemi. Kako optimizacĳa napreduje,
+preostale prilike za unapređenje postaju suptilnĳe, što
+zahteva preciznĳe tehnike profajliranja.
+
+6.2.3 Profajliranje uzimanjem uzoraka
+
+Profajler zasnovan na uzorkovanju (eng. sample based pro-
+filer) periodično prekida izvršavanje programa, najčešće
+u fiksnim vremenskim intervalima, koristeći prekide
+operativnog sistema. Prilikom svakog prekida, profajler

@@ -1,0 +1,55 @@
+▶ne pokriva sve višestruke uslove — nedostaju još
+tri kombinacĳe vrednosti podrizraza, tj. testovi
+za koje su vrednosti podrizraza tačno-netačno,
+netačno-tačno i netačno-netačno,
+
+▶ne pokriva sve putanje — nedostaje putanje koja
+prolazi samo kroz linĳu 1.
+
+Testovi
+{a=1, b=2} i
+{a=-1, b=2}
+pokrivaju sve naredbe, sve odluke i sve putanje, ali
+
+▶ne pokrivaju sve uslove — nedostaje da je vred-
+nost podizraza 𝑏> 0 netačna,
+
+▶ne pokrivaju sve višestruke uslove — nedosta-
+ju još dve kombinacĳe vrednosti podrizraza,
+tj. testovi za koje su vrednosti podrizraza tačno-
+netačno i netačno-netačno.
+
+Testovi
+{a=1, b=2},
+{a=-1, b=2} i
+{a=-1, b=-2}
+pokrivaju sve naredbe, sve odluke, sve putanje i sve
+uslove, ali ne pokrivaju sve višestruke uslove, nedo-
+staje kombinacĳa vrednosti podizraza koja odgovara
+vrednostima tačno-netačno. Testovi
+{a=1, b=2},
+{a=-1, b=2},
+{a=-1, b=-2} i
+{a=1, b=-2}
+pokrivaju sve naredbe, sve odluke, sve putanje, sve
+uslove i sve višestruke uslove.
+
+Pokrivenost putanja
+
+Pokrivenost odluka
+
+Odnosi između različitih metrika
+
+Pokrivenost naredbi
+
+Potpuna pokrivenost naredbi podrazumeva potpunu
+pokrivenost funkcĳa. Potpuna pokrivenost odluka pod-
+razumeva potpunu pokrivenost naredbi, dok potpuna
+pokrivenost putanja podrazumeva potpunu pokrivenost
+odluka (slika 4.12).
+
+Pokrivenost funkcĳa
+
+Slika 4.12: Odnosi različitih
+pokrivenosti počevši od pokri-
+venosti putanja

@@ -1,0 +1,69 @@
+pozivaoca. Veličina osnovnog bloka je ograničena na
+maksimalno šezdeset mašinskih instrukcĳa. Valgrind
+dopunjava mašinski kôd programa kodom koji vrši
+instrumentacĳu. Dopunjavanje se vrši pojedinačno po
+osnovnim blokovima, neposredno pre prvog izvršava-
+nja samog bloka.
+
+Proces transformisanja koda se sastoji iz podizanja ori-
+ginalnog mašinskog koda u odgovarajuću međurepre-
+zentacĳu (eng. intermediate representation) koja se zatim
+instrumentuje i ponovo prevodi u novi mašinski kôd.
+
+disasembliranje
+
+Izgradnja optimizovane međureprezentacĳe sastoji se
+od disasembliranja (Valgrind vrši podizanje ma-
+šinskog koda programa u internu međureprezen-
+tacĳu) i standardnih optimizacĳa programskih
+prevodilaca (kao što su uklanjanje redundantnog
+koda i eliminacĳa zajedničkih podizraza). Disa-
+sembliranje je arhitekturalno zavisno.
+
+optimizacĳa 1
+
+instrumentacĳa
+
+Instrumentacĳa se vrši nad generisanom međurepre-
+zentacĳom. Blok koda u međureprezentacĳi se
+prosleđuje alatu, koji može proizvoljno da ga trans-
+formiše. Alat u zadati blok dodaje novi međukod,
+kojim proverava ispravnost ili prati i skuplja infor-
+macĳe o radu programa.
+
+optimizacĳa 2
+
+izgradnja grafa
+
+Prevođenje u izvršivi kôd obuhvata optimizacĳe, iz-
+gradnju grafa, odabir instrukcĳa, alokacĳu regi-
+stara i asembliranje. Druga faza optimizacĳe je
+jednostavnĳa od prve i uključuje samo izračuna-
+vanje vrednosti izraza koji se mogu izračunati pre
+faze izvršavanja i uklanjanje mrtvog koda. Zatim
+se od međureprezentacĳe kreira stablo radi lakšeg
+odabira instrukcĳa. Prilikom odabira instrukcĳa,
+koriste se virtuelni registri koji se određuju u fazi
+alokacĳe registara. Na kraju, u fazi asembliranja,
+kôd se prevodi u mašinski i smešta se u odgovara-
+jući blok memorĳe. Odabir instrukcĳa, alokacĳa
+registara i asembliranje su arhitekturalno zavisni.
+
+odabir instrukcĳa
+
+alokacĳa
+registara
+
+asembliranje
+
+Razvoju platforme Valgrind
+doprinela je Aleksandra Ka-
+radžić, diplomirani master
+student Matematičkog fakul-
+tata. Njena master teza:
+Alat Valgrind — Implementacĳa
+konvencĳe FPXX za arhitekturu
+MIPS
+
+Sve faze procesa transformacĳe koda obavlja Valgrind,
+osim instrumentacĳe koju obavlja odgovarajući alat. Re-

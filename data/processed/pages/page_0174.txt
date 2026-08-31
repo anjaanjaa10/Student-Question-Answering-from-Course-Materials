@@ -1,0 +1,69 @@
+da se koriste i u ranĳim fazama razvoja, odnosno nĳe
+neophodno čekati na potpunu implementacĳu funkcio-
+nalnosti sistema. Naziv sanitajzer vezuje se za porodicu
+alata koji rade u fazi kompilacĳe. Pored sanitajzera, po-
+stoji i veliki broj drugih alata koji imaju za cilj otkrivanje
+sličnih vrsta grešaka. Većina tih alata je komercĳalne
+prirode.
+
+U tabeli 6.1 data je uporedna analiza profajlera i alata
+za dinamičku detekcĳu grešaka. Razumevanje rada i
+primene profajlera i alata za dinamičku detekcĳu greša-
+ka predstavlja osnovu za efikasno testiranje, analizu i
+unapređenje softverskih sistema.
+
+Tabela 6.1: Poređenje profajlera i detektora grešaka
+
+Karakteristika
+Profajleri
+Dinamička detekcĳa grešaka
+
+Cilj upotrebe
+Za odabir delova koda
+koji treba optimizovati
+
+Za otkrivanje grešaka u kodu
+
+Šta meri ili prati
+Vreme izvršavanja, broj
+poziva funkcĳa, memorĳ-
+ska potrošnja, promašaji
+u keš memorĳi...
+
+Neispravni pristupi memorĳi,
+curenja memorĳe, nesinhroni-
+zovan pristup podacima u vi-
+šenitnim aplikacĳama, neinici-
+jalizovane promenljive...
+
+Vrsta analize
+Kvantitativna: koliko se
+šta koristi?
+
+Kvalitativna: da li postoje gre-
+ške, koje i gde?
+
+Faza razvoja
+U kasnim fazama, kada
+je funkcionalnost imple-
+mentirana
+
+U ranim fazama
+
+Primeri alata
+gprof, perf, VTune, Call-
+grind, Cachegrind, Java
+Flight Recorder, Visual Stu-
+dio Profiler, Instruments,
+dotTrace, cProfile, JProfiler,
+YourKit
+
+Sanitajzeri: ASan, MSan, TSan,
+UBSan. Alati: Memcheck, Massif,
+Helgrind, DRD, BoundsChecker,
+Purifier, Insure++, Intel Inspec-
+tor, Go race detector
+
+### 6.1 Instrumentacĳa
+
+Instrumentacĳa (eng. instrumentation) je proces dodava-

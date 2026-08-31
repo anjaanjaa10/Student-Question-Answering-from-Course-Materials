@@ -1,0 +1,84 @@
+Primer 5.2.4 (Interaktivno debagovanje: gdb iz ko-
+mandne linĳe) Analizirajmo program maksimum_ni-
+za.c interaktivnim debagerom gdb.
+
+1 #include <stdio.h>
+
+2
+
+3 int maksimum_niza(int* niz, size_t velicina_niza
+
+) {
+
+4
+int max = niz[0];
+
+5
+for (size_t i = 1; i < velicina_niza; i++) {
+
+6
+int tekuci = niz[i];
+
+7
+if (tekuci > max) {
+
+8
+max = tekuci;
+
+9
+}
+
+10
+}
+
+11
+return max;
+
+12 }
+
+13
+
+14 int main() {
+
+15
+int niz[] = {8,1,16,0,256,5};
+
+16
+int max = maksimum_niza(niz, sizeof(niz)/
+
+sizeof(int));
+
+17
+
+18
+printf("maksimum = %i\n", max);
+
+19
+return 0;
+
+20 }
+
+Najpre je potrebno prevesti program (nivo optimiza-
+cĳe -O0 je podrazumevan pa se može i izostaviti) i
+pokrenuti debager.
+
+1 gcc -g -O0
+maksimum_niza.c
+-o maksimum_niza
+
+2 gdb maksimum_niza
+
+Nakon toga, pokreće se debager gdb koji štampa svoju
+pozdravnu poruku. Nakon toga je dostupan prompt
+za komunikacĳu.
+
+1 ...
+
+2 Reading symbols from maksimum_niza...
+
+3 (gdb)
+
+Osnovna komanda je komanda run koja će pokrenuti
+i izvršiti program
+
+1 (gdb) run

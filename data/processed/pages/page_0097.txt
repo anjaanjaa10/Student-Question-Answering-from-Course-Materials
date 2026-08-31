@@ -1,0 +1,43 @@
+naročito one koje se ne nalaze u primarnim ili očekiva-
+nim tokovima rada. Stoga se ova vrsta testiranja često
+koristi kao dopuna formalnim tehnikama, sa ciljem da
+se dodatno osigura kvalitet konačnog proizvoda. U
+okviru istraživačkog testiranja mogu se proveravati i
+funkcionalna i nefunkcionalna svojstva sistema.
+
+Primer 4.2.11 (Aplikacĳa za deljenje fotografija) Tester
+istražuje neočekivane tokove korišćenja u aplikacĳi
+koja omogućava korisnicima da postavljaju, komen-
+tarišu i dele fotografije. Testiranje se sprovodi bez
+prethodno definisanih test slučajeva, oslanjajući se
+na intuicĳu, iskustvo i zapažanja testera. Na primer,
+tester istražuje naredne scenarĳe upotrebe
+
+▶Pokušaj postavljanja slike u formatu koji aplika-
+cĳa formalno ne podržava (npr. format .tiff)
+–– proverava se reakcĳa sistema.
+
+▶Brzo višestruko postavljanje iste fotografije —
+provera se da li dolazi do duplikata, grešaka ili
+zamrzavanja aplikacĳe.
+
+▶Istovremeno korišćenje više funkcionalnosti
+(npr. slanje komentara dok je slika u procesu
+postavljanja) — provera se stabilnost aplikacĳe
+i ispravnost rada.
+
+▶Pokušaj učitavanja sadržaja bez dostupnog in-
+terneta, ili sa slabo propusnim internetom —
+provera se prisustvo adekvatne poruke o grešci.
+
+▶Promena jezičkih podešavanja tokom aktivne
+sesĳe — provera se uticaj na postojeći sadržaj
+korisničkog interfejsa.
+
+U svakom od prethodnih situacĳa aplikacĳa bi tre-
+balo da se ponaša stabilno, obezbedi korisniku jasne
+poruke o greškama i izbegne pad sistema ili gubitak
+podataka. Cilj ovih provera je otkrivanje potencĳalnih
+grešaka i nepredviđenih ponašanja sistema u realnim,
+kompleksnim i neobičnim scenarĳima koje standardni
+test slučajevi možda ne pokrivaju.

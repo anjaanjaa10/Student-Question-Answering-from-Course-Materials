@@ -1,0 +1,43 @@
+Izbor relevantnih testova i putanja kroz program
+
+Jedan od ključnih izazova u testiranju metodama bele
+kutĳe jeste izbor odgovarajućih test primera. Dobar izbor
+testova treba da obezbedi visok nivo pokrivenosti uz
+minimalan broj test primera, čime se postiže efikasnost
+i izbegava redundantnost.
+
+U praksi, preporučuje se korišćenje više jednostavnih i
+kratkih putanja koje se međusobno razlikuju u malim
+detaljima, umesto jedne veoma složene putanje. Takav
+pristup olakšava dĳagnostikovanje grešaka i održavanje
+testova.
+
+Primer 4.3.21 (Petlje) Petlje u kodu mogu potencĳal-
+no generisati beskonačan broj putanja, pa je važno
+odabrati reprezentativne slučajeve, kao što su:
+
+▶Petlja se preskače (nula iteracĳa).
+▶Petlja se izvršava jednom.
+▶Petlja se izvršava dva puta.
+▶Ako postoji poznat gornji limit 𝑛, izvršavanje
+𝑛−1 i 𝑛puta.
+
+Testiranje osnovnih putanja
+(eng. basis path testing)
+predstavlja tehniku kojom se osigurava da su sve logičke
+grane u programu ispitane bar jednom. Ova tehnika se
+zasniva na analizi grafa toka kontrole (eng. control flow
+graph) i uključuje sledeće korake:
+
+1. Izgradnja grafa kontrole toka programa iz posma-
+tranog softverskog modula;
+
+2. Izračunavanje ciklomatične kompleksnosti grafa†,
+označene sa 𝐶;
+
+† Ciklomatična kompleksnost je broj linearno nezavisnih putanja
+kroz graf. Dve putanje su linearno nezavisne ako postoji bar jedna
+grana koja se pojavljuje u jednoj putanji, a ne pojavljuje se u
+drugoj. Ciklomatična kompleksnost se računa kao vrednost izraza
+𝐸−𝑁+ 2𝑃gde je 𝐸broj grana u grafu, 𝑁broj čvorova grafa, a 𝑃
+broj komponenti povezanosti grafa.

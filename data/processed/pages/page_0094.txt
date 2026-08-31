@@ -1,0 +1,57 @@
+grubom silom (eng. brute force attack) na formu
+za logovanje.
+
+Scenario: Napadač pokušava da pristupi kori-
+sničkom nalogu automatskim slanjem velikog
+broja kombinacĳa korisničkog imena i lozinke
+putem skripte.
+
+Uslovi testa:
+
+▶Test se izvodi u testnom okruženju uz nad-
+zor administratora bez pristupa stvarnim
+korisničkim podacima.
+
+▶Koristi se alat za automatizovani napad
+(npr. alat Hydra).
+
+▶Postoji korisnički nalog sa poznatim kori-
+sničkim imenom i slabom lozinkom radi
+simulacĳe.
+
+Parametri koji se prate:
+
+▶Maksimalan broj dozvoljenih pokušaja uno-
+sa lozinke pre zaključavanja naloga.
+
+▶Vreme blokade naloga i mehanizam oba-
+veštavanja korisnika.
+
+▶Evidentiranje pokušaja napada u log fajlo-
+vima i reakcĳa sistema.
+
+▶Prisustvo mehanizama CAPTCHA nakon
+prvog neuspešnog pokušaja.
+
+Kriterĳum prolaznosti:
+Aplikacĳa mora da blokira pristup korisničkom
+nalogu nakon najviše 3 neuspešna pokušaja i
+mora da onemogući dalju automatizovanu ve-
+rifikacĳu lozinki. Napad mora biti zabeležen u
+sistemskim logovima sa pripadajućim podaci-
+ma (IP adresa, vreme napada, broj pokušaja).
+
+sistemsko
+testiranje
+
+Testovima prenosivosti proverava se sposobnost sof-
+tverskog sistema da funkcioniše u različitim okru-
+ženjima. Glavni cilj ovih testova je da se potvrdi
+da softver može lako da se instalira, koristi i radi
+ispravno na više platformi, operativnih sistema,
+hardverskih konfiguracĳa ili pregledača (u slučaju
+
+nefunkcionalno
+testiranje
+
+prenosivost

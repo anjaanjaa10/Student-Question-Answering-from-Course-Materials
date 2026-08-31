@@ -1,0 +1,65 @@
+nosti {1, -3, 2} i izlazne vrednosti {1, 2}. Test slučaj koji
+odgovara neispravnom ulazu može da sadrži ulazne
+vrednosti {"I", -3, 2} i izlaznu vrednost {"Neispravan
+unos prvog koeficĳenta"}
+
+Pronalaženje reprezentativnog skupa testova metoda-
+ma crne kutĳe se ostvaruje postavljanjem odgovarajućih
+pretpostavki o softveru koji treba da se testira. Najpo-
+znatĳi tehnike obuhvataju tehniku klasa ekvivalencĳe,
+tehniku graničnih vrednosti, tabele odlučivanja i dĳa-
+grame stanja.
+
+tehnike testiranja
+
+testiranje
+crne kutĳe
+
+klase ekvi-
+valencĳe
+
+Klase ekvivalencĳe
+
+granične
+vrednosti
+
+Testiranje pomoću klasa ekvivalencĳe (eng. equivalence
+class testing) je tehnika koja se koristi da smanji broj test
+slučajeva na prihvatljiv nivo, a da se pri tome zadrži
+zadovoljavajuća pokrivenost ulaznog prostora podata-
+ka. Klase ekvivalencĳe predstavljaju skupove ulaznih
+podataka koji se obrađuju na isti način od strane sistema.
+One se mogu podeliti na validne (ispravne) i nevalidne
+(neispravne) klase, u zavisnosti od toga da li bi sistem
+trebalo da prihvati te vrednosti za dalju obradu ili ih
+odbaci.
+
+tabele odlu-
+čivanja
+
+dĳagrami stanja
+
+tabele stanja
+
+Primer 4.3.7 (Validne i nevalidne klase) Ukoliko se
+očekuje da korisnik unese broj godina između 18 i 65,
+validne klase bi pokrivale sve vrednosti unutar tog
+opsega, dok bi nevalidne klase uključivale vrednosti
+ispod 18 i iznad 65.
+
+tehnike testiranja
+
+Ova tehnika se zasniva na pretpostavci da se sve vred-
+nosti unutar jedne klase ponašaju identično u kontekstu
+testiranja, te je dovoljno izabrati po jednog predstav-
+nika iz svake klase. Preciznĳe, pretpostavke za klase
+ekvivalencĳe su:
+
+testiranje
+crne kutĳe
+
+klase ekvi-
+valencĳe
+
+▶Ukoliko jedan test slučaj iz određene klase ekvi-
+valencĳe otkrĳe grešku, velika je verovatnoća da

@@ -1,0 +1,140 @@
+6.3.2
+Alati platforme Valgrind
+. . . . . . . . . . . . . . . . . . . .
+188
+
+Statička verifikacija softvera
+193
+
+7
+Semantika programskih jezika
+195
+
+7.1
+Neformalna semantika
+. . . . . . . . . . . . . . . . . . . . . . . . .
+197
+
+7.2
+Osnovne vrste formalnih semantika . . . . . . . . . . . . . . . . . .
+201
+
+7.2.1
+Rezonovanje o osobinama programa
+. . . . . . . . . . . . .
+203
+
+7.2.2
+Osnovni elementi semantike . . . . . . . . . . . . . . . . . .
+205
+
+7.3
+Operaciona semantika . . . . . . . . . . . . . . . . . . . . . . . . . .
+212
+
+7.3.1
+Prirodna semantika . . . . . . . . . . . . . . . . . . . . . . .
+212
+
+7.3.2
+Strukturna operaciona semantika . . . . . . . . . . . . . . .
+217
+
+7.4
+Denotaciona semantika . . . . . . . . . . . . . . . . . . . . . . . . .
+220
+
+7.5
+Aksiomatska semantika . . . . . . . . . . . . . . . . . . . . . . . . .
+226
+
+8
+Pregledi koda
+235
+
+8.1
+Ciljevi pregleda koda . . . . . . . . . . . . . . . . . . . . . . . . . .
+236
+
+8.2
+Efekti i značaj pregleda koda . . . . . . . . . . . . . . . . . . . . . .
+240
+
+8.3
+Preporuke za efikasan pregled koda . . . . . . . . . . . . . . . . . .
+241
+
+8.4
+Formalni pregledi . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+245
+
+8.5
+Neformalni pregledi . . . . . . . . . . . . . . . . . . . . . . . . . . .
+247
+
+9
+Simboličko izvršavanje
+259
+
+9.1
+Simboličko stablo izvršavanja . . . . . . . . . . . . . . . . . . . . . .
+260
+
+9.2
+Principi dizajna
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+266
+
+9.3
+Konkoličko izvršavanje . . . . . . . . . . . . . . . . . . . . . . . . .
+268
+
+9.3.1
+Dinamičko simboličko izvršavanje . . . . . . . . . . . . . . .
+268
+
+9.3.2
+Selektivno simboličko izvršavanje . . . . . . . . . . . . . . .
+271
+
+9.4
+Strategĳe obilaska putanja
+. . . . . . . . . . . . . . . . . . . . . . .
+273
+
+9.4.1
+Jednostavne strategĳe . . . . . . . . . . . . . . . . . . . . . .
+274
+
+9.4.2
+Pseudoslučajne strategĳe . . . . . . . . . . . . . . . . . . . .
+275
+
+9.4.3
+Strategĳe vođene pokrivenošću koda . . . . . . . . . . . . .
+276
+
+9.4.4
+Strategĳe usmerene ka dostizanju ciljne tačke
+. . . . . . . .
+279
+
+9.4.5
+Kombinovana strategĳa . . . . . . . . . . . . . . . . . . . . .
+281
+
+9.5
+Izazovi simboličkog izvršavanja . . . . . . . . . . . . . . . . . . . .
+281
+
+9.5.1
+Eksplozĳa broja stanja i putanja . . . . . . . . . . . . . . . .
+283
+
+9.5.2
+Modelovanje memorĳe . . . . . . . . . . . . . . . . . . . . .
+290
+
+9.5.3
+Rešavanje ograničenja . . . . . . . . . . . . . . . . . . . . . .
+299

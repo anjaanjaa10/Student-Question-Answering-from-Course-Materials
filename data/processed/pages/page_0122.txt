@@ -1,0 +1,65 @@
+Pokrivenost uslova (eng. condition coverage)‗ Mera koja
+pokazuje koliki je procenat pojedinačnih logičkih
+uslova unutar složenĳih izraza (npr. A && B) do-
+bio i tačnu i netačnu vrednost tokom testiranja. Za
+potpunu pokrivenost, svaki uslov u svakoj odluci
+u kodu mora biti evaluiran bar jednom kao tačan
+i bar jednom kao netačan.
+
+Pokrivenost uslova
+=
+
+Ispitanih uslova
+
+Ukupno uslova × 100%
+
+Pokrivenost višestrukih uslova (eng. multiple conditi-
+on coverage) Mera koja pokazuje koliki je proce-
+nat mogućih kombinacĳa vrednosti pojedinačnih
+uslova u okviru svake odluke izvršen tokom te-
+stiranja. Za potpunu pokrivenost, svaka moguća
+kombinacĳa vrednosti pojedinačnih uslova za sva-
+ku odluku mora biti izvršena bar jednom.
+
+Pokrivenost višestrukih uslova =
+
+Izvršenih kombinacĳa viš. uslova
+
+Ukupno kombinacĳa viš. uslova
+
+×100%
+
+Pokrivenost funkcĳa (eng. function coverage) Mera ko-
+ja pokazuje koliki je procenat funkcĳa izvršen
+tokom testiranja. Za potpunu pokrivenost, potreb-
+no je obezbediti da je svaka funkcĳa bar jednom
+pozvana.
+
+Pokrivenost funkcĳa
+=
+
+Izvršenih funkcĳa
+
+Ukupno funkcĳa × 100%
+
+Pokrivenost funkcĳa je korisna za osnovnu proveru
+testne infrastrukture. Ukoliko neka funkcĳa nĳe nikada
+pozvana tokom testiranja, to znači da taj deo softvera
+nĳe uopšte pokriven testovima, što može ukazivati na
+potencĳalne rizike ili nepotrebni (mrtvi) kod.
+
+Najčešće korišćena metrika u praksi je pokrivenost na-
+redbi. Ova metrika je jednostavna za implementacĳu i
+brzo se izračunava prilikom pokretanja testova pa je nje-
+no izračunavanje podržano u okviru većine modernih
+razvojnih okruženja. Međutim, pokrivenost naredbi ne
+odražava složenost logike programa i ne garantuje da
+su sve bitne situacĳe obuhvaćene testovima.
+
+Za detaljnĳu analizu ponašanja softvera, neophodno je
+koristiti naprednĳe metrike, kao što je metrika pokrive-
+nosti grana/odluka. Pokrivenost grana pruža uvid u to
+da li su testovi prošli kroz sve moguće logičke tokove.
+
+‗ Za lakše razumevanje razlika između pokrivenosti odluka, uslova
+i višestrukih uslova, pogledati primer 4.3.18.

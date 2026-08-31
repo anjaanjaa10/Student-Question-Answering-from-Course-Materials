@@ -1,0 +1,58 @@
+rava ispravnost komponente. Komponenta je skup funk-
+cionalno povezanih jedinica koda koje zajedno obavljaju
+jednu logičku celinu i imaju jasno definisan interfejs.
+Komponentno testiranje se obično sprovodi izolovano
+od ostatka sistema i odmah nakon razvoja komponen-
+te.
+
+Iako se po načinu izvođenja komponentno testiranje če-
+sto nadovezuje na jedinično testiranje, osnovna razlika je
+u nivou koji obuhvataju — dok jedinično testiranje prove-
+rava pojedinačne jedinice koda, komponentno testiranje
+se fokusira na veće celine koje sadrže više jedinica koda
+i njihovu međusobnu saradnju. Sama jedinica koda je
+u prethodnoj fazi testiranja izolovana u potpunosti od
+spoljašnjeg sistema, dok se sada isti princip izolacĳe pri-
+menjuje ali na nivou komponente. To znači da jedinice
+koda u okviru komponente komuniciraju međusobno,
+ali da je sama komponenta izolovana u komunikacĳi sa
+drugim komponentama i sa spoljašnjim sistemima.
+
+Komponentno
+
+testiranje
+
+S obzirom da se u komponentnom testiranju integrišu
+osnovne jedinice koda, ovo je vrsta integracionog testi-
+ranja, tako da se često i ne izdvaja kao posebna vrsta
+testiranja. Pošto se odnosi na direktno spajanje jedinica
+koda, može se shvatiti i kao integraciono testiranje na
+najnižem nivou. U praksi, komponentno testiranje mogu
+obavljati i programeri i testeri, u zavisnosti od organiza-
+cĳe projekta i kompleksnosti testiranih komponenti.
+
+Integraciono testiranje (eng. integration testing) pred-
+stavlja fazu u procesu testiranja u kojoj se proverava
+saradnja između više softverskih komponenti koje za-
+jedno čine funkcionalne celine sistema. Integraciono
+testiranje ispituje ispravnost interfejsa i komunikacĳe
+među komponentama. Cilj ovog testiranja je da se utvrdi
+da li su veze između komponenti pravilno definisane i
+implementirane, odnosno da li različiti delovi sistema
+međusobno komuniciraju na način koji je predviđen
+specifikacĳom projekta. Na taj način proverava se funk-
+cionalna ispravnost u kontekstu saradnje, a ne samo u
+izolacĳi.
+
+Slika 4.4: Brava
+
+Pretpostavimo da imamo
+bravu kao na slici 4.4. Uko-
+liko takva brava treba da se
+integriše sa kliznim vratima
+(vratima koja se pomeraju
+levo-desno, a ne napred-
+nazad), bez obzira što su i
+brava i vrata ispravni, nji-
+hova integracĳa neće davati
+željene rezultate.

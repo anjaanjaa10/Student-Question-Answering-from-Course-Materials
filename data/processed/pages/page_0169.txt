@@ -1,0 +1,29 @@
+Uprkos tim nedostacima, štampanje ostaje važna do-
+punska tehnika jer mogu postojati i opravdani razlozi
+za upotrebu štampanja umesto debagera. To su, na
+primer:
+
+▶nepostojanje debagera za određenu platformu ili
+arhitekturu, i
+
+▶slučajevi kada i sam debager svojim prisustvom
+menja ponašanje programa i time otežava detek-
+cĳu greške.
+
+U takvim situacĳama, štampanje može predstavljati
+poslednje dostupno sredstvo za ispitivanje izvršavanja
+programa.
+
+Primer 5.5.2 (Štampanje u programskom jeziku Ha-
+skell) Iako postoje specĳalizovani alati za debagova-
+nje Haskell programa, programeri često pribegavaju
+i osnovnim tehnikama poput umetanja funkcĳa za
+ispis (trace) iz paketa Debug.Trace kako bi pratili
+tok evaluacĳe izraza prilikom izvršavanja programa.
+
+Uporedna analiza korišćenja debagera i štampanja data
+je u tabeli 5.1. Iako korisna, tehnika štampanja ne može
+zameniti funkcionalnosti modernih debagera i trebalo
+bi je koristiti kao dopunu, tj. kao pragmatičnu i ponekad
+neizbežnu pomoćnu tehniku, ali nikako kao osnovnu
+metodu za analizu ponašanja programa.

@@ -1,0 +1,58 @@
+Perf pruža statistički pregled vremena izvršavanja i
+resursa koje program koristi. Zahvaljujući malim tro-
+škovima upotrebe i visokoj preciznosti, perf je postao
+standardni alat za profajliranje na Linux platformama.
+Njegova fleksibilnost omogućava primenu kako na
+nivou pojedinačnih procesa, tako i na nivou celog
+sistema, a rezultati mogu biti prikazani tekstualno ili
+vizuelno.
+
+Primer 6.2.5 (Plameni graf u Javi) Plameni graf (eng. fla-
+me graph) je vizuelizacĳa koji se koristi za analizu per-
+formansi softvera, posebno za identifikovanje uskih
+grla i razumevanje upotrebe resursa. Plameni graf se
+generiše na osnovu rezultata rada profajlera.
+
+Primer dela plamenog grafa za program Game of Life
+u Javi čĳi je deo koda prikazan u listingu 6.1 dat je na
+slici 6.2. Primer pokazuje da se u programu najviše
+vremena troši redom u metodama koje pozivaju me-
+tod main, koja zatim poziva metod run u okviru koje
+se najviše vremena troši u metodama nextGeneration i
+printGrid. Histogram u dnu slike pokazuje sortirano
+koliko najviše vremena se troši u pojedinačnim meto-
+dama isključujući vreme koje troše funkcĳe koje su iz
+njih pozvane. Dakle, najviše vremena se troši u funkci-
+ji koja preuzima karaktere getChars, a zatim i u funkcĳi
+koja računa narednu generacĳu nextGeneration.
+
+Listing 6.1: Deo koda aplikaci-
+je Game of Life
+1 import java.io.FileWriter;
+
+2
+
+3 // A simple Java program to implement Game of
+
+Life
+
+4 // Modified from https://www.geeksforgeeks.org/
+
+program-for-conways-game-of-life/
+
+5 public class GameOfLife {
+
+6
+...
+
+7
+public static void main(String[] args) {
+
+8
+new GameOfLife().run();
+
+9
+}
+
+10
+private void run() {

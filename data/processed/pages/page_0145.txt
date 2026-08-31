@@ -1,0 +1,40 @@
+kako bi se sprečilo analiziranje logike programa i kra-
+đa koda, ili pak u zlonamernom softveru, kako bi se
+onemogućilo prepoznavanje i analiziranje malicioznog
+ponašanja.
+
+Debager se može koristiti za svaku izvršivu verzĳu
+programa. Mogućnosti i informacĳe koje se dobĳaju
+za debag verzĳu su povezane sa izvornim kodom i
+olakšavaju programeru da poveže stanje izvršavanja
+sa izvornim kodom. S druge strane, informacĳe koje
+debager može da pruži za riliz verzĳu su često samo
+uvid u asemblerski kôd, na isti način kao što ih vidi i pro-
+cesor. U slučaju primene anti-debagovanja, mogućnosti
+debagera su dodatno ograničene.
+
+5.1.1 Režim prevođenja za upotrebu
+
+Primarni cilj prevođenja u režimu za upotrebu jeste
+postizanje visoke efikasnosti izvršavanja kroz različi-
+te strategĳe optimizacĳa koje sprovodi kompajler. Ove
+optimizacĳe mogu uključivati uklanjanje nepotrebnog
+koda, preuređivanje instrukcĳa radi boljeg iskorišće-
+nja procesora, zamenu složenĳih konstrukcĳa bržim
+ekvivalentima, kao i umetanje funkcĳa. Kao rezultat,
+generisani izvršivi kôd je kompaktnĳi i brži u odnosu
+na verzĳu prevedenu u režimu za uklanjanje grešaka.
+
+Režim prevođenja za upotrebu podrazumeva optimi-
+zacĳe koje kao primarni cilj imaju optimizacĳu brzine
+izvršavanja programa. Međutim, za neke aplikacĳe, na
+primer za one koje se izvršavaju na uređajima sa malom
+količinom memorĳe, neophodne su optimizacĳe koje se
+odnose na smanjivanje veličine izvršive datoteke kao i
+upotrebe memorĳe u fazi izvršavanja. Režim prevođenja
+za upotrebu u ovom slučaju se naziva režim prevođenja
+za upotrebu sa minimalnom veličinom (eng. minimum
+size release mode).
+
+Sprovedene optimizacĳe smanjuju mogućnost poveziva-
+nja izvršivog koda sa izvornim datotekama. Neki delovi

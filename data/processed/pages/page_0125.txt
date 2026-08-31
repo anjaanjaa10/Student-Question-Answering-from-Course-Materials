@@ -1,0 +1,79 @@
+Primer 4.3.19 (Apsolutne vrednosti) Potpuna pokri-
+venost odluka ne podrazumeva potpunu pokrivenost
+putanja. Na primer, razmotrimo naredni kôd.
+
+1
+if (a < 0) {
+
+2
+a = -a;
+
+3
+}
+
+4
+if (b < 0) {
+
+5
+b = -b;
+
+6
+}
+
+Test {a=-6, b=-3} pokriva sve naredbe, ali ne pokriva
+sve odluke niti sve putanje.
+
+Testovi {a=-6, b=-3} i {a=6, b=3} pokrivaju sve naredbe
+i sve odluke. Međutim, ne pokrivaju sve putanje.
+
+Testovi {a=-6, b=-3}, {a=6, b=3}, {a=-6, b=3} i {a=6,
+b=-3} pokrivaju sve naredbe, sve odluke i sve putanje.
+
+Takođe, potpuna pokrivenost višestrukih uslova podra-
+zumeva potpunu pokrivenost uslova i potpunu pokrive-
+nost odluka (slika 4.13). Međutim, potpuna pokrivenost
+uslova i višestrukih uslova nisu u nužnoj vezi sa potpu-
+nom pokrivenošću putanja.
+
+Pokrivenost višestrukih uslova
+
+Primer 4.3.20 (Inkrementiranje pozitivnih brojeva —
+nastavak primera 4.3.18) Razmotrimo naredni kôd i
+njegovu pokrivenost testovima.
+
+Pokrivenost uslova
+
+1
+if(a > 0 && b > 0) {
+
+2
+a++;
+
+Pokrivenost odluka
+
+3
+b++;
+
+4
+}
+
+Slika 4.13: Odnosi različitih
+pokrivenosti vezanih za uslove
+u grananjima
+
+5
+if(c > 0 && d > 0) {
+
+6
+c++;
+
+7
+d++;
+
+8
+}
+
+Testovi
+{a=1, b=2, c=3, d=4} i
+{a=-1, b=2, c=-3, d=4}
+pokrivaju sve naredbe i sve odluke (ali ne i sve uslove,

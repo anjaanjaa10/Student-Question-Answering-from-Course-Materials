@@ -1,0 +1,44 @@
+Primer 4.3.2 (C kompajler) U razvoju kompajlera za
+programski jezik C potrebno je da proverimo da li
+kompajler ispravno prevodi programe. Test bi trebalo
+da proveri da li je kompajler:
+
+▶ispravno generisao mašinski kôd koji odgovara
+očekivanom izvršavanju programa (zadržao je
+semantiku izvornog programa),
+
+▶ispravno optimizovao kôd (npr. eliminisao su-
+višne promenljive).
+
+Međutim
+
+▶Najčešće ne postoji formalna specifikacĳa očeki-
+vanog izlaza za proizvoljan ulazni program.
+
+▶Ručna provera mašinskog koda ili ponašanja
+može biti izuzetno teška i podložna greškama.
+
+▶Automatizovana provera semantičke ekvivalen-
+cĳe dva programa (izvorni i prevedeni) je u
+opštem slučaju nerešiv problem.
+
+Problem proročišta se rešava na različite načine.
+
+▶Korišćenje alternativnih implementacĳa kao upo-
+rednog standarda ili upotreba ranĳih verzĳa sof-
+tvera kao referentnog ponašanja (onda kada su
+ranĳe verzĳe softvera dostupne). Ukoliko su re-
+zultati različiti, onda bar jedna od implementacĳa
+ima grešku.
+
+▶Metamorfno testiranje — ne proverava se konkre-
+tan izlaz, već odnos između više izlaza koji se
+računa na osnovu odnosa između ulaza i osobina
+algoritma koji se testira.
+
+Primer 4.3.3 (C kompajler — nastavak primera 4.3.2)
+Jedan praktičan pristup prevazilaženju problema pro-
+ročišta kod kompajlera je tzv. diferencĳalno testiranje:
+
+▶Kôd se prevede pomoću više različitih kompaj-
+lera (ili različitih verzĳa istog kompajlera),

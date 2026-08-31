@@ -1,0 +1,44 @@
+### 5.1 Veza izvršivog koda i debagera
+
+Tokom kompilacĳe softverskog projekta dostupne su
+brojne opcĳe i podešavanja koja omogućavaju precizno
+upravljanje načinom prevođenja izvornog koda u iz-
+vršivi program. Ova podešavanja se često koriste za
+optimizacĳu performansi, lakše pronalaženje grešaka,
+ili prilagođavanje ciljnim platformama.
+
+Režim kompilacĳe je skup opcĳa kompilacĳe koje se
+često zajedno koriste sa određenim ciljem. Postoje:
+
+režim prevođenja za upotrebu (eng. release mode), skra-
+ćeno režim riliz — to je svaki režim koji ima za cilj
+dobĳanje optimizovane izvršive verzĳe namenje-
+ne krajnjem korisniku,
+
+režim prevođenja za pronalaženje grešaka (eng. debug
+mode), skraćeno režim debag — to je režim prevo-
+đenja koji ima za cilj dobĳanje izvršive verzĳe
+programa namenjene programeru radi lakšeg ot-
+krivanja grešaka u kodu i
+
+kombinovani režim koji odgovara kombinacĳi odabra-
+nih opcĳa režima za prevođenje za upotrebu i
+režima za pronalaženje grešaka — ovaj režim se
+koristi u situacĳama kada je potrebno naći grešku
+u programu, a režim prevođenja za pronalaženje
+grešaka ne daje željene rezultate.
+
+Na program koji se dobĳa prevođenjem za upotrebu če-
+sto se referiše sa riliz verzĳa programa, dok se na program
+koji se dobĳa prevođenjem za pronalaženje grešaka
+referiše sa debag verzĳa programa.
+
+Nakon generisanja izvršive verzĳe programa, moguće
+je primeniti specĳalizovane alate koji modifikuju izvr-
+šivi kôd sa ciljem otežavanja i ometanja debagovanja‗.
+Ovakve tehnike se nazivaju anti-debagovanje (eng. anti-
+debugging) i koriste se radi zaštite intelektualne svojine,
+
+‗ Iako anti-debagovanje može da se koristi na svakoj izvršivoj verzĳi
+programa, ima ga smisla koristiti samo nad programima koji su
+prevedeni u riliz režimu.

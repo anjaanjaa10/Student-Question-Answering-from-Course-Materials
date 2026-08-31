@@ -1,0 +1,137 @@
+okvir za procenu kvaliteta softvera. Najvažnĳi standard
+u ovoj serĳi je ISO/IEC 25010. Ovaj standard definiše
+devet karakteristika kvaliteta softvera, koje se obično
+nazivaju atributima kvaliteta softvera. Standard ISO/I-
+EC 25023 opisuje kako se ove karakteristike kvaliteta
+koriste za merenje ukupnog kvaliteta proizvoda.
+
+Postoje i važni IEEE standardi. Na primer, standard IEEE
+730 daje smernice za pokretanje, planiranje, kontrolu i
+izvršavanje procesa obezbeđenja kvaliteta softvera, dok
+standard IEEE 1012-2016 definiše procese verifikacĳe i
+validacĳe za razvoj softvera i hardvera.
+
+### 1.3 Atributi kvaliteta softvera
+
+Standard ISO 25010 definiše hĳerarhĳu devet atributa
+kvaliteta (slika 1.2): funkcionalna podobnost, perfor-
+mantnost, kompatibilnost, pouzdanost, upotrebljivost,
+bezbednost, sigurnost, održivost i prenosivost. Svaki
+atribut uključuje svoje podatribute. U zavisnosti od svr-
+he i ciljeva softvera, svaki atribut kvaliteta softvera može
+imati različit nivo važnosti.
+
+funkcionalna
+podobnost
+
+ATRIBUTI
+KVALITETA
+SOFTVERA
+
+prenosivost
+
+performantnost
+(efikasnost)
+
+održivost
+
+kompatibilnost
+
+sigurnost
+
+pouzdanost
+
+upotrebljivost
+
+bezbednost
+
+funkcionalna
+ispravnost
+
+naučljivost
+
+modularnost
+
+operativna
+ograničenost
+
+prilagodljivost
+
+vremensko
+ponašanje
+
+poverljivost
+
+funkcionalna
+potpunost
+
+operabilnost
+
+iskoristivost
+
+zrelost
+
+instalabilnost
+
+identifikacĳa
+rizika
+
+integritet
+
+korišćenje
+resursa
+
+koegzistencĳabil-
+nost
+
+zaštita od
+korisničkih
+grešaka
+
+analizabilnost
+
+funkcionalna
+prikladnost
+
+dostupnost
+
+zamenljivost
+
+odgovornost
+
+izmenljivost
+
+otporanost
+na greške
+
+bezbednost kvara
+
+kapacitet
+
+interoperabilnost
+
+autentifikabilnost
+
+estetika ko-
+risničkog
+interfejsa
+
+testabilnost
+
+upozorenje
+na opasnost
+
+sposobnost
+oporavka
+
+neporecivost
+
+bezbednost
+integracĳe
+
+pristupačnost
+
+prepoznatljivost
+svrhe aplikacĳe
+
+Slika 1.2: Atributi softvera u skladu sa kategorizacĳom standarda ISO/IEC 25010.

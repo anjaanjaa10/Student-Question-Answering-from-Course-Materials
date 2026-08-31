@@ -1,0 +1,57 @@
+biti korišćeni tokom testiranja. Planiranje takođe uklju-
+čuje precizno definisanje uloga i odgovornosti članova
+tima.
+
+Praćenje projekata i defekata
+Jira https://www.
+
+Važan deo planiranja je i procena rizika, koja uključu-
+je identifikacĳu potencĳalnih problema i njihov uticaj
+na kvalitet proizvoda. Vremenski okvir testiranja se
+takođe detaljno planira, uz jasno definisane ulazne i
+izlazne kriterĳume koji određuju kada testiranje može
+da počne i pod kojim uslovima se smatra završenim.
+Konačno, planiranje uključuje pripremu test okruženja,
+odnosno obezbeđivanje potrebnog hardverskog i sof-
+tverskog okruženja neophodnog za efikasno i pouzdano
+izvođenje testova.
+
+atlassian.com/software/
+
+jira je komercĳalna platfor-
+ma za upravljanje projekti-
+ma, koja se često koristi u
+okviru agilnog razvoja sof-
+tvera.
+Bugzilla https://www.
+
+bugzilla.org/ je besplatan
+alat otvorenog koda, specĳa-
+lizovan za praćenje grešaka i
+upravljanje defektima.
+
+Neizostavan deo plana je i metodologĳa za praćenje
+defekata, koja precizno definiše kako se greške prĳa-
+vljuju, dokumentuju, prate tokom životnog ciklusa i na
+kraju zatvaraju, čime se obezbeđuje kontrola kvaliteta i
+transparentnost celokupnog procesa testiranja.
+
+Analiza, dizajn i implementacĳa testova
+
+Analiza, dizajn i implementacĳa testova (eng. test ana-
+lysis, design and implementation) predstavljaju ključne
+faze u okviru procesa testiranja softverskih sistema.
+Ove aktivnosti podrazumevaju sistematski pristup u
+osmišljavanju načina na koji će se sprovesti testiranje, u
+skladu sa prethodno definisanim test planom.
+
+Jedan od najbitnĳih rezultata ovih faza je koherentan i
+sveobuhvatan skup test slučajeva i procedura koji služe
+kao temelj za uspešno sprovođenje testiranja i verifika-
+cĳu ispravnosti softverskog rešenja. Test slučaj (eng. test
+case) predstavlja formalni dokument koji opisuje odre-
+đenu situacĳu testiranja kroz definisani skup ulaznih
+podataka i očekivane izlaze sistema. Svaki test slučaj
+ima za cilj da proveri konkretnu funkcionalnost softvera,
+njegovo ponašanje u graničnim uslovima ili otpornost
+na nevalidne ili neočekivane ulaze. Procedura testiranja

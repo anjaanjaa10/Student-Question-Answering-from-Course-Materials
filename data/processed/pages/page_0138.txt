@@ -1,0 +1,71 @@
+Arhiviranje — rezultujući artefakti se verzionišu i ču-
+vaju za buduću upotrebu,
+
+Primena — sistem se učitava u okruženje za testiranje
+ili integracĳu, gde može biti pokrenut i dostupan
+za evaluacĳu.
+
+Testiranje u okviru kontinu-
+irane integracĳe softvera je
+često vremenski i memorĳ-
+ski veoma zahtevno. Jedna
+opcĳa smanjenja troškova
+testiranja je selektivno te-
+stiranje. Primer selektivnog
+testiranja može se videti u
+master tezi Jovane Bošković:
+Optimizacĳa procesa kontinui-
+rane integracĳe i isporuke kroz
+selektivno testiranje zasnovano
+na analizi pokrivenosti koda
+
+Ovakav pristup značajno doprinosi:
+
+▶ranom otkrivanju grešaka,
+▶smanjenju troškova projekta,
+▶kraćem vremenu razvoja,
+▶i nižem riziku prilikom isporuke novih verzĳa
+softvera.
+
+4.4.3 Automatsko generisanje test primera
+
+Generisanje test primera moguće je automatizovati samo
+za određene vrste testiranja, u kojima se mogu formalno
+definisati kriterĳumi pokrivenosti i ponašanja sistema.
+Tipični primeri uključuju testiranje robusnosti i testove
+usmerene na otkrivanje grešaka u kodu kao što su delje-
+nje nulom, korišćenje neinicĳalizovanih promenljivih ili
+pristupi nedozvoljenim memorĳskim lokacĳama (vidi
+poglavlje 9).
+
+Primer automatskog gene-
+risanja test primera može
+se videti u master tezi Ane
+Ðorđević:
+Automatsko generisanje test
+primera uz pomoć statičke
+analize i rešavača Z3
+
+U ovim scenarĳima, automatizacĳa ima značajnu pred-
+nost jer omogućava sistematsko generisanje velikog
+broja ulaznih podataka uz minimalni ljudski napor. Po-
+sebno je korisna za otkrivanje ekstremnih i graničnih
+slučajeva koji bi lako mogli ostati neotkriveni manuel-
+nim testiranjem. Na primer, alati za rasplinuto testiranje
+(eng. fuzzing) mogu nasumično, ali ciljno, generisati
+razne kombinacĳe ulaza, uključujući i one koji izlaze
+iz uobičajenih opsega, kako bi izazvali neželjeno ili
+nepredviđeno ponašanje softverskog sistema.
+
+Primer implementacĳe ra-
+splinutog testiranja može
+se videti u master tezi Ane
+Mitrović:
+Primena jezika Skala u paraleli-
+zacĳi rasplinutog testiranja
+
+Slično tome, statička analiza softvera omogućava identi-
+fikacĳu potencĳalno problematičnih mesta u kodu, kao
+što su upotreba promenljivih pre dodeljivanja vredno-
+sti ili dereferenciranje null pokazivača. Na osnovu tih
+nalaza, mogu se automatski generisati test primeri koji

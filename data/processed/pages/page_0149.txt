@@ -1,0 +1,83 @@
+proces otklanjanja grešaka. Na primer, može se desiti
+da se određene greške ispoljavaju isključivo u riliz ver-
+zĳi, dok se u debag verzĳi program izvršava ispravno.
+Ovakva situacĳa može imati više uzroka.
+
+Poboljšavanju korisničkog
+iskustva prilikom korišćenja
+debagera nad optimizova-
+nom verzĳom programa
+aktivno doprinose Ðorđe
+Todorović & Nikola Prica,
+diplomirani master studenti
+Matematičkog fakulteta:
+
+Jedan od mogućih razloga je to što debag verzĳa sadrži
+dodatne informacĳe, kao i inicĳalizacĳu memorĳe koju
+riliz verzĳa ne poseduje. Time se greška može privre-
+meno „zamaskirati“, iako je prisutna u izvornom kodu.
+S druge strane, uzrok može biti i greška u kompajleru,
+koja se manifestuje tokom optimizacĳe prilikom generi-
+sanja riliz verzĳe. Iako su ovakve greške izuzetno retke,
+one i dalje predstavljaju ozbiljan problem jer zahteva-
+ju pronalaženje zaobilaznog rešenja kako bi se dobila
+ispravna optimizovana verzĳa programa.
+
+▶Debug info in optimized
+code - how far can we go?
+Improving LLVM debug
+info with function entry
+values
+
+https://www.
+
+youtube.com/watch?
+
+v=1cWAmLMF1eI
+
+▶Improving Debug
+Information in LLVM to
+Recover Optimized-out
+Function Parameters
+
+U oba opisana slučaja, debagovanje debag verzĳe progra-
+ma ne može otkriti uzrok problema, dok je debagovanje
+riliz verzĳe otežano zbog nepostojanja veze između
+izvornog i izvršivog koda. Zbog toga se u savremenom
+razvoju softvera sve više ulaže u unapređenje moguć-
+nosti za debagovanje optimizovanog koda, a problemu
+se pristupa upotrebom hibridnog režima kompilacĳe,
+u kojem se optimizacĳe kombinuju sa zadržavanjem
+debag informacĳa (onoliko koliko to optimizacĳe do-
+zvoljavaju).
+
+https://www.
+
+youtube.com/watch?
+
+v=ih5v65K10M8
+
+Doprinos unapređenju ko-
+risničkog iskustva pri deba-
+govanju dao je i Vladimir
+Vuksanović, diplomirani
+master student Matematič-
+kog fakulteta. Njegov master
+rad:
+Unapređenje infrastrukture
+LLVM čuvanjem originalne loka-
+cĳe pri debagovanju izdvojenog
+koda
+
+Primer 5.1.5 (Kombinovani režim prevođenja) Kom-
+binovani režim prevođenja, za kompajler gcc, podra-
+zumeva viši stepen optimizacĳe, na primer -O2 kao
+i opcĳu koja uključuje informacĳe za debagovanje
+
+-g. Dodatno, uključuje se i opcĳa -DNDEBUG kako bi
+izvršavanje bilo više nalik izvršavanju koje se dobĳa
+sa režimom prevođenja za upotrebu.
+
+Ovakav režim prevođenja u sistemu CMake može se
+postići postavljanjem opcĳe -DCMAKE_BUILD_TYPE na
+vrednost RelWithDebInfo.

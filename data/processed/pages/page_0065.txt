@@ -1,0 +1,47 @@
+Njegov osnovni zadatak jeste sistematsko ispitivanje sof-
+tvera kako bi se identifikovali defekti u funkcionisanju,
+performansama ili upotrebljivosti.
+
+Raspodela obaveza između programera i testera u timo-
+vima može biti organizovana na različite načine:
+
+▶programeri su istovremeno i testeri i sami prove-
+ravaju svoj kôd,
+
+▶programeri i testeri rade zajedno u istom timu,
+blisko sarađujući,
+
+▶programeri i testeri čine potpuno odvojene timove
+sa jasnim razgraničenjem odgovornosti.
+
+Iako je kvalitetan softver krajnji cilj i programera i testera,
+često postoji veliki broj problema na relacĳi programer
+— tester onda kada su programeri i testeri u razdvojenim
+timovima. Problemi su u lošoj komunikacĳi, međusob-
+nom nerazumevanju i opštoj netrpeljivosti. Ovi problemi
+su najčešće posledica psihološke reakcĳe na pronalaže-
+nje greške u softveru. Pronalaženje greške u softveru
+testeru označava da je uspešno obavio svoj zadatak, dok
+programeru to znači da nĳe uspešno obavio svoj posao
+i da je potrebno ponovo da radi na nekom delu koda za
+koji je verovao da je završen (slika 4.2).
+
+Slika 4.2: Osnovni razlog ne-
+slaganja testera i programera.
+
+Da bi se osoba bavila testiranjem potrebno je da po-
+seduje osnovno razumevanje programiranja i procesa
+razvoja softvera. Posebno, mora da detaljno poznaje
+procedure i proces testiranja kao i alate koji se koriste u
+testiranju. Za efikasnu implementacĳu i automatizaci-
+ju testiranja neophodno je i poznavanje skript jezika i
+skript programiranja.
+
+Dobri testeri su kreativni i imaju potrebu za stalnim
+usavršavanjem, a vremenom upoznaju i česte greške
+i propuste kao i nesvakidašnje slučajeve upotrebe, što
+značajno olakšava i ubrzava proces testiranja. Za poslove
+testiranja još uvek je dominantna neformalna edukaci-
+ja kroz kurseve, konferencĳe i sastanke profesionalnih
+udruženja. Za napredne poslove automatizacĳe u testi-
+ranju neophodne su napredne programerske veštine.

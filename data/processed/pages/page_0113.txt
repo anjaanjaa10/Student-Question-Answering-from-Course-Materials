@@ -1,0 +1,49 @@
+▶Granica 54: {53, 54, 55}
+▶Granica 55: {54, 55, 56}
+▶Granica 99: {98, 99, 100}
+
+Unĳa svih ovih skupova daje sledeće test vrednosti:
+
+{0, 1, 14, 15, 16, 17, 18, 19, 53, 54, 55, 56, 98, 99, 100}
+
+Zajedno sa vrednostima identifikovanim za same
+klase ekvivalencĳe, to čini skup
+
+{0, 1, 10, 14, 15, 16, 17, 18, 19, 30, 53, 54, 55, 56, 70, 98,
+99, 100}
+
+Međutim, sada imamo preklapanja unutar istih klasa
+ekvivalencĳe, i neke vrednosti mogu biti redundantne.
+Na primer, vrednosti 0, 1, 10, 14 i 15 pripadaju istoj
+klasi 0–15, dok su 18, 19, 30, 53 i 54 sve iz klase 18–
+54. Testove koji pripadaju istoj klasi ekvivalencĳe, a
+nisu granične vrednosti moguće je po potrebi ukloniti
+u cilju smanjivanja troškova testiranja, bez gubitka
+pokrivenosti.
+
+Tabele odlučivanja
+
+Tabela odlučivanja (eng. decision table) pruža pregled
+složenih poslovnih pravila u strukturisanom i lako či-
+tljivom obliku. One predstavljaju snažno sredstvo za
+analizu i dizajn test scenarĳa u složenim informacio-
+nim sistemima. Često se koriste u testiranju softvera za
+sistematsko generisanje test slučajeva, naročito u situaci-
+jama kada postoji veći broj kombinacĳa ulaznih uslova i
+očekivanih akcĳa.
+
+tehnike testiranja
+
+Tabela odlučivanja je organizovana u redove i kolone.
+Redovi se dele u dve grupe: prvu grupu čine uslovi
+nad ulazima, dok drugu grupu čine moguće akcĳe
+koje sistem treba da izvrši. Kolone predstavljaju pravi-
+la — svaka kolona odgovara jedinstvenoj kombinacĳi
+vrednosti uslova i opisuje koje se akcĳe u tom slučaju
+preduzimaju.
+
+testiranje
+crne kutĳe
+
+tabele odlu-
+čivanja

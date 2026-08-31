@@ -1,0 +1,40 @@
+podaci o ponašanju programa u realnim uslovima. Re-
+zultat ovog procesa je skup podataka poznat kao profil
+programa. Profil može da obuhvata različite informaci-
+je, uključujući frekvencĳe poziva funkcĳa i izvršavanja
+osnovnih blokova koda, procenat ukupnog vremena
+utrošenog u pojedinačnim delovima koda, informacĳe
+o korišćenju memorĳe — uključujući alokacĳe i dealo-
+kacĳe — zatim učestalost promašaja u kešu procesora,
+kao i redosled zaključavanja i otključavanja katanaca
+prilikom višenitnog izvršavanja.
+
+Profajliranje može biti implementirano softverski, oslo-
+njeno na podršku hardvera ili kao kombinacĳa oba
+pristupa. Kada se koristi hardverska podrška, profajli-
+ranje postaje efikasnĳe i omogućava prikupljanje šireg
+spektra podataka. Za određene vrste merenja, poput
+broja promašaja u keš memorĳi ili vremena utrošenog
+zbog čekanja u protočnoj obradi instrukcĳa (eng. pipeline
+stall), hardverska podrška je neophodna.
+
+Profajliranje se može zasnivati na instrumentacĳi, tj. uba-
+civanju dodatnih instrukcĳa u kôd radi preciznog pra-
+ćenja ponašanja programa tokom izvršavanja, ili na
+uzorkovanju (eng. sampling), gde se povremeno beleže
+karakteristični podaci o stanju sistema. Obe tehnike
+imaju svoje prednosti i ograničenja, a izbor tehnike,
+tj. odgovarajućeg alata, treba načiniti u skladu sa za-
+htevima za preciznošću i dozvoljenim opterećenjem
+sistema.
+
+6.2.1 Upotreba profila
+
+Profil programa se može upotrebljavati na različite na-
+čine, u zavisnosti od informacĳa koje on sadrži. Najče-
+šća upotreba je identifikacĳa tzv. vrućih delova koda
+(eng. hot spots). To su delovi koda koji se najčešće iz-
+vršavaju ili koji najviše doprinose ukupnom vremenu
+izvršavanja, što je od suštinskog značaja za optimizacĳu
+performansi. Takođe, profil može da posluži za procenu
+pokrivenosti koda datim skupom testova, čime se dobĳa

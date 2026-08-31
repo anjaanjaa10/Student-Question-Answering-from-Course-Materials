@@ -1,0 +1,45 @@
+proizvoda, regulatorne kazne, kao i gubitke podataka
+ili života.
+
+Američki nacionalni institut za standarde i tehnologĳu
+(eng. US National Institute of Standards and Technology,
+skraćeno NIST) je 2002. godine napravio opsežnu studĳu
+sa ciljem procene uticaja softverskih grešaka na ame-
+ričku ekonomĳu. Po ovoj studĳi, neispravan softver je
+koštao američku ekonomĳu 59.5 milĳardi dolara godi-
+šnje. Dodatno, u studĳi je naglašeno da bi rano otkrivanje
+grešaka moglo da uštedi 22 milĳarde dolara godišnje,
+dakle nešto više od trećine ukupnih troškova.
+
+Ova studĳa značajno je uticala na ulaganje u unapre-
+đivanje procesa razvoja softvera sa ciljem poboljšanja
+kvaliteta softvera i smanjenja količine grešaka u softveru.
+Dodatno, posebna ulaganja su bila usmerena ka razvoju
+alata koji daju podršku i omogućavaju automatizacĳu
+procesa verifikacĳe softvera.
+
+Dvadeset godina kasnĳe‗, Konzorcĳum za kvalitet in-
+formacĳa i softvera (eng. Consortium for Information and
+Software Quality), skraćeno CISQ) u izveštaju o ceni lo-
+šeg kvaliteta softvera (eng. Cost of Poor Software Quality)
+u Sjedinjenim Američkim Državama za 2022. godinu
+navodi da su troškovi usled lošeg kvaliteta softvera
+porasli na 2410 milĳardi američkih dolara. U izveštaju
+za 2020. godinu, navedena je procena troškova 2080
+milĳardi američkih dolara. Dakle, za kratko vreme uo-
+čen je veliki porast troškova uzrokovanih softverskim
+greškama.
+
+CISQ u izveštaju za 2020. godinu navodi da su najbitnĳi
+troškovi† proistekli iz softverskih grešaka:
+
+Operativni softverski kvarovi: Procena je da su ope-
+rativni softverski kvarovi (eng. operational software
+
+‗ Iako najavljen, izveštaj za 2024. godinu još uvek nĳe dostupan.
+Poslednji javno dostupan izveštaj je iz 2022. godine.
+
+† Ovi troškovi nisu međusobno nezavisni, tj. ima preklapanja, pa
+zbog toga njihov zbir nĳe 2080 već veći. Na primer, problemi
+sa zastarelim sistemima i operativni softverski kvarovi su usko
+povezani sa tehničkim dugom.

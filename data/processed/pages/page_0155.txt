@@ -1,0 +1,71 @@
+2 Starting program: /home/matf/Desktop/
+
+maksimum_niza
+
+3 maksimum = 256
+
+4 [Inferior 1 (process 42904) exited normally]
+
+5 (gdb)
+
+Komandom
+
+1 break
+
+možemo postaviti tačku prekida na željeni broj linĳe
+koda ili na željenu funkcĳu. Na primer,
+
+1 break maksimum_niza
+
+će postaviti tačku prekida na početak izvršavanja
+funkcĳe maksimum_niza. Naredba
+
+1 run
+
+će pokrenuti izvršavanje programa i zaustaviti se na
+linĳi 3 (jer je tu postavljena tačka prekida, tj. tu je
+početak funkcĳe maksimum_niza). Komandom
+
+1 next
+
+prelazimo na narednu naredbu programa, linĳu 4.
+Komandom
+
+1 info locals
+
+možemo videti vrednost svih lokalnih promenljivih.
+Komandom
+
+1 info args
+
+možemo videti vrednost argumenata funkcĳe.
+
+1 (gdb) break maksimum_niza
+
+2 Breakpoint 1 at 0x1169: file maksimum_niza.c,
+
+line 3.
+
+3 (gdb) run
+
+4 Starting program: /home/matf/Desktop/
+
+maksimum_niza
+
+5
+
+6 Breakpoint 1, maksimum_niza (niz=0xf0,
+
+velicina_niza=93824992231488) at
+
+maksimum_niza.c:3
+
+7 3
+int maksimum_niza(int* niz, size_t
+
+velicina_niza) {
+
+8 (gdb) next
+
+9 4
+int max = niz[0];

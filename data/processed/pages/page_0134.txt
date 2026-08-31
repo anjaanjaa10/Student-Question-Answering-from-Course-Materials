@@ -1,0 +1,44 @@
+i domena primene.
+
+Primer 4.3.27 (Predviđanje cene nekretnine) Sistem
+predviđa cenu nekretnine na osnovu kvadrature, lo-
+kacĳe i broja soba. U slučaju povećanja kvadrature, za
+isti ili veći broja soba i za nekretninu na istoj lokacĳi,
+očekuje se povećanje predviđene cene.
+
+Na primer, ako imamo kao ulaz nekretninu koja ima
+60m² i tri sobe, za koju sistem predviđa cenu 90.000
+evra, onda možemo da kreiramo novi ulaz tako što
+samo povećamo kvadraturu na 80m². Za ovaj novi
+ulaz očekujemo da cena treba da bude veća od 90.000
+evra. Izlaz se menja, ali postoji logički odnos između
+prvog i drugog izlaza (monotonost u predikcĳi), što
+se koristi za proveru ponašanja modela.
+
+### 4.4 Načini sprovođenja testiranja
+
+U procesu testiranja mogu se izdvojiti dve osnovne
+aktivnosti:
+
+(i) definisanje test primera
+
+(ii) sprovođenje postupka izvršavanja i evaluacĳe tih
+test primera.
+
+Obe ove aktivnosti, prema načinu na koji se sprovo-
+de, mogu biti obavljane manuelno ili automatski. Iako
+postoje četiri moguće kombinacĳe:
+
+(1) manuelno generisanje testova i manuelno sprovo-
+đenje testiranja,
+
+(2) manuelno generisanje testova i automatsko spro-
+vođenje testiranja,
+
+(3) automatsko generisanje testova i manuelno spro-
+vođenje testiranja i
+
+(4) automatsko generisanje testova i automatsko spro-
+vođenje testiranja,
+
+u praksi se (3) obično ne koristi.

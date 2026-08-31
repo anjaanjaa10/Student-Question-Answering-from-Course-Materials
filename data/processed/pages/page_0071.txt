@@ -1,0 +1,58 @@
+u evrima. Nakon konverzĳe, stanje nĳe dovolj-
+no.
+Očekivanje: Sistem treba da prikaže da konverto-
+vani iznos nĳe dovoljan.
+
+6. Ponovljeni pokušaji prenosa bez sredstava
+Višestruki pokušaji prenosa istog iznosa bez
+pokrića.
+Očekivanje: Sistem blokira pokušaje, potencĳal-
+no uvodi vremensko ograničenje ili detekcĳu
+zloupotrebe.
+
+Dodatno, potrebno je precizirati sve identifikovane
+test slučajeve. Na primer, test slučaj za prenos novca u
+slučaju delimičnog pokrivanja iznosa je dat u okviru
+primera 4.2.3.
+
+Ove test slučajeve može da izvršava tester, po zadatim
+koracima, a može se i napisati skript koji automatizuje
+njihovo izvršavanje i simulira sve korisničke korake.
+Ukoliko je predviđeno da se testovi izvršavaju auto-
+matizovano, u fazi implementacĳe obezbeđuje se kôd
+koji je potreban za njihovo izvršavanje.
+
+U višegodišnjim projekti-
+ma koje razvĳa veliki broj
+nezavisnih timova često se
+javljaju redudantni testovi.
+Oni otežavaju održavanje
+testne infrastrukture i pro-
+dužavaju vreme potrebno za
+sprovođenje testiranja. Pri-
+mer detekcĳe i uklanjanja
+redundantnih testova može
+se videti u master tezi Irene
+Blagojević:
+Automatsko uklanjanje redun-
+dantnih testova
+
+Faza implementacĳe testova predstavlja završni korak
+u pripremi za izvršavanje testiranja. U ovoj fazi dolazi
+do konkretizacĳe prethodno dizajniranih test slučajeva
+kroz njihovo organizovanje u procedure testiranja, kao i
+pripreme potrebne testne dokumentacĳe, alata i okru-
+ženja. Cilj implementacĳe je da obezbedi doslednost,
+ponovljivost i tehničku spremnost za efikasno izvršava-
+nje testova.
+
+Ključne aktivnosti koje se sprovode tokom implementa-
+cĳe testova uključuju:
+
+▶Razvoj procedura testiranja i razvoj test okvira
+— omogućava strukturisano i, gde je primenljivo,
+automatizovano izvršavanje test slučajeva.
+
+▶Formiranje test kompleta (eng. test suites) gru-
+pisanjem povezanih procedura i skripti — radi
+lakše organizacĳe i povećanja efikasnosti tokom

@@ -1,0 +1,59 @@
+programa bez potrebe za korišćenjem spoljašnjih alata
+za debagovanje.
+
+Primer 5.5.1 (Print za debagovanje) Funkcĳa suma_-
+
+niza dopunjena je sa pozivom funkcĳe printf unutar
+petlje koji služi za praćenje trenutnog indeksa, vred-
+nosti elementa niza i trenutne sume. Ovo pomaže da
+se uoče greške, npr. ako petlja ide van granica ili ako
+se neka vrednost ne sabira kako treba.
+
+1 int suma_niza(int niz[], int duzina) {
+
+2
+int suma = 0;
+
+3
+for (int i = 0; i < duzina; i++) {
+
+4
+printf("niz[%d]=%d, suma=%d\n", i, niz[i],
+
+suma);
+
+5
+suma += niz[i];
+
+6
+}
+
+7
+return suma;
+
+8 }
+
+Uprkos dostupnosti savremenih i veoma moćnih alata
+za debagovanje, upotreba štampanja za praćenje toka
+izvršavanja programa i dalje je široko rasprostranjena.
+Jedan od osnovnih razloga za to jeste jednostavnost ume-
+tanja funkcĳe print nasuprot nepoznavanja upotrebe
+alata za debagovanje.
+
+Oslanjanje na štampanje kao zamenu za debager danas
+se smatra prevaziđenim pristupom iz više razloga:
+
+▶Svaka izmena u vidu umetanja poziva funkcĳe za
+štampanje zahteva ponovno prevođenje progra-
+ma, što je kod većih projekata vremenski zahtevno.
+
+▶Umetanje poziva funkcĳe za štampanje može pro-
+meniti raspored memorĳe programa i time prikriti
+ili izmeniti ponašanje greške.
+
+▶Štampanjem se ne mogu lako ispratiti svi relevant-
+ni aspekti stanja programa, kao što su sadržaji
+registara, vrednosti pokazivača ili stanja steka.
+
+▶Štampanje ne omogućava zaustavljanje programa,
+niti interaktivno ispitivanje stanja promenljivih.

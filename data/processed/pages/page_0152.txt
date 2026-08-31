@@ -1,0 +1,43 @@
+Pored običnih tačaka prekida, moguće je postavljati i
+uslovne tačke prekida koje se aktiviraju samo kada je
+ispunjen određeni logički uslov. Na taj način se izvrša-
+vanje ne zaustavlja pri svakom prolazu, već samo kada
+je stanje sistema relevantno za otkrivanje greške.
+
+Primer 5.2.2 (Implementacĳa tačaka prekida) Kada
+se postavi prekidna tačka u programu sa željom da se
+na tom mestu zaustavi program, debager zameni od-
+govarajuću instrukcĳu instrukcĳom prekida, pri čemu
+sačuva i originalnu instrukcĳu. Kada se prilikom izvr-
+šavanja programa naiđe na instrukcĳu prekida, desi
+se hardverski izuzetak, operativni sistem zaustavlja
+rad procesa i obaveštava o tome debager.
+
+Debager najpre proverava da li je prekid u listi oče-
+kivanih prekida koje je postavio debager (tj. da li je
+u pitanju namerno zaustavljanje ili greška u original-
+nom kodu). Ukoliko je greška u originalnom kodu,
+onda se dopusti da se ta greška i izvrši.
+
+Ukoliko je u pitanju tačka prekida koju je postavio
+debager, onda debager na tom mestu omogući uvid u
+sve vrednosti fizičkih registara procesa kao i u stanje
+memorĳe. Debager prikazuje pročitane informacĳe
+o procesu povezane sa informacĳama o izvornom
+kodu koje su generisali kompajler i/ili linker prilikom
+prevođenja programa.
+
+Kada korisnik želi da nastavi sa izvršavanjem,
+
+1. debager zameni instrukcĳu prekida original-
+nom instrukcĳom,
+
+2. izvrši je,
+3. zameni ponovo originalnu instrukcĳu instruk-
+cĳom prekida,
+
+4. prepusti dalje kontrolu programu.
+
+Ukoliko je u pitanju uslovna prekidna tačka, debager
+proverava uslov i u slučaju da uslov nĳe ispunjen,
+preskače se zaustavljanje i prikaz stanja memorĳe

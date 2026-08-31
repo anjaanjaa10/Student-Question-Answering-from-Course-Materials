@@ -1,0 +1,44 @@
+za brojeva i da proverimo da li svaki put dobĳemo isti
+rezultat. Takođe, možemo da napravimo test primere
+sa skaliranim vrednostima niza i da proverimo da li
+za dobĳenu devĳacĳu važi da je skalirana u odnosu
+na devĳacĳu originalnog niza. Na primer, možemo
+da napravimo naredne testove:
+
+▶Test 1: Proveriti za četiri permutacĳe istog niza
+da li daju isti rezultat.
+
+▶Test 2: Proveriti da li se dobĳa isti rezultat za
+početni niz i za niz u kojem su sve vrednosti
+pomnožene sa -1.
+
+▶Test 3: Proveriti da li su srazmerne devĳacĳe
+za početni niz, niz u kojem su svi elementi
+pomnoženi sa 2, i niz u kojem su svi elementi
+pomnoženi sa -5.
+
+Metamorfno testiranje značajno doprinosi povećanju
+stepena automatizacĳe u testiranju i omogućava detek-
+cĳu grešaka u situacĳama kada tradicionalne metode
+nisu primenljive. Za uspešnu primenu metamorfnog
+testiranja neophodno je:
+
+▶dobro razumevanje domena problema,
+▶identifikacĳa relevantnih i pouzdanih metamorf-
+nih svojstava,
+
+▶automatizacĳa generisanja izvedenih testova i nji-
+hove verifikacĳe.
+
+Ključni korak u primeni metamorfnog testiranja jeste
+identifikacĳa odgovarajućih metamorfnih relacĳa. Kva-
+litet i snaga ovih relacĳa direktno utiču na efikasnost
+testiranja.
+
+Jedan od najkorisnĳih tipova metamorfnih relacĳa je re-
+lacĳa ekvivalencĳe. Ova relacĳa podrazumeva da trans-
+formisani ulaz mora proizvesti potpuno isti izlaz kao i
+original, što omogućava jednostavnu i preciznu detekci-
+ju nepravilnosti u ponašanju sistema. Zbog svoje stroge
+prirode, relacĳa ekvivalentnosti omogućava detektova-
+nje širokog spektra grešaka.

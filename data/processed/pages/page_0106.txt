@@ -1,0 +1,59 @@
+Dĳagrami
+stanja
+
+Osnovne
+putanje
+
+Siva kutĳa
+
+Tabele
+odluči-
+vanja
+
+Tok
+podataka
+
+Crna kutĳa
+
+Bela kutĳa
+
+Tehnika
+graničnih
+vrednosti
+
+Prolasci
+kroz petlje
+
+Tehnika
+klasa ekvi-
+valencĳe
+
+Tehnike testiranja
+
+Slika 4.9: Tehnike testiranja softvera
+
+▶Izvrše se sve dobĳene verzĳe izvršivog koda u
+kontrolisanom okruženju,
+
+▶Ako svi rezultati izvršavanja daju isti izlaz, pret-
+postavlja se da su tačni.
+
+Jasno je da se čak i tada ne može sa sigurnošću tvrditi
+da je rezultat ispravan, iz više razloga. Najpre, provera
+je urađena samo na nekim konkretnim ulazima i za te
+ulaze je utvrđeno da se različiti kompajleri isto pona-
+šaju. Za neke druge ulaze možda bismo dobili razliku
+u ponašanju. Dodatno, moguće je i da svi kompajleri
+koji učestvuju u poređenju daju istu grešku.
+
+Korišćenje različitih implementacĳa se ne može uvek
+primeniti pošto često ne postoji više implementacĳa
+istog algoritma (jer su te implementacĳe previše skupe
+i zahtevaju puno vremena). Takođe, ako se različite
+implementacĳe kreiraju od strane istih ljudi, moguće je
+da oni prave iste greške.
+
+4.3.3 Testiranje crne kutĳe
+
+Testiranje crne kutĳe teorĳski se može uraditi isprobava-
+njem svih mogućih ulaza (eng. exhaustive input testing).

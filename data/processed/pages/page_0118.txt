@@ -1,0 +1,53 @@
+stanja. Moguća rešenja su da sistem upozori korisnika
+i spreči zatvaranje programa ili da automatski zatvori
+kasu.
+
+4.3.4 Testiranje bele kutĳe
+
+tehnike testiranja
+
+Testiranje bele kutĳe podrazumeva detaljno poznavanje
+unutrašnje strukture softverskog sistema. Test slučajevi
+se kreiraju na osnovu analize izvornog koda, pri čemu se
+posebno proučava tok izvršavanja programa. Najčešće
+ih izrađuju sami programeri tokom razvoja, ali ih mogu
+pisati i iskusni test inženjeri koji imaju pristup kodu i
+razumevanje implementacĳe.
+
+testiranje
+bele kutĳe
+
+Zbog potrebe za dubinskim uvidom u rad sistema,
+testiranje bele kutĳe je zahtevnĳe i skuplje u poređenju
+sa tehnikama crne kutĳe. Zato se najčešće primenjuje u
+sistemima za koje je potrebna visoka pouzdanost i gde
+su softverske greške posebno skupe.
+
+Cilj ovog testiranja je ispitivanje različitih putanja kroz
+kôd programa. Putanja (eng. execution path) predstavlja
+konkretan niz naredbi koje se izvršavaju tokom jednog
+prolaska kroz program, u zavisnosti od ulaznih podata-
+ka i kontrole toka programa. Ključni elementi koji utiču
+na formiranje putanja su:
+
+▶uslovna grananja (na primer, naredbe if i switch),
+▶petlje (na primer, naredbe while, for i do-while),
+▶skokovi (na primer, break, continue, return i
+
+goto),
+
+▶pozivi funkcĳa,
+▶izuzeci i obrada izuzetaka (na primer, naredbe
+
+try, catch i finally).
+
+Primer 4.3.13 (Funkcĳa pozitivni) Posmatrajmo kôd
+funkcĳe koja proverava da li je broj pozitivan.
+
+1 int pozitivni(int a) {
+
+2
+if (a > 0)
+
+3
+return 1;

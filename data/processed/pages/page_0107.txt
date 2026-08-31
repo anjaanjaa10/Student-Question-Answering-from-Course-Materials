@@ -1,0 +1,42 @@
+Međutim, već za trivĳalne programe nĳe moguće kori-
+stiti ovu tehniku.
+
+Primer 4.3.4 (Kvadratna jednačina) Data kvadratna
+jednačina
+𝑎· 𝑥2 + 𝑏· 𝑥+ 𝑐= 0
+
+ima rešenje
+
+𝑥1,2 = −𝑏±
+√
+
+𝑏2 −4 · 𝑎· 𝑐
+2 · 𝑎
+
+Ako su koeficĳenti jednačine celobrojni i tipa int32
+onda je broj različitih test primera za potpuno testira-
+nje
+232 · 232 · 232 = 296
+
+Dodatno, pored isprobavanja svih mogućih ispravnih
+vrednosti ulaza, potrebno je razmotriti i moguće nei-
+spravne ulaze kojih takođe može biti mnogo.
+
+Primer 4.3.5 Neispravan ulaz za očekivanu starost
+osobe može da bude negativan broj ili unos neke
+proizvoljne reči umesto broja. Očekivano ponašanje
+softvera u takvim situacĳama može da bude signali-
+ziranje greške korisniku sa mogućnošću unosa nove
+vrednosti ili prekid rada softvera uz odgovarajuću
+poruku.
+
+Cilj tehnika testiranja crne kutĳe je da pronađu prihva-
+tljiv broj test slučajeva (tj. kombinacĳa ulaza) koji od-
+govara reprezentativnom skupu testova. Test slučajevi
+mogu se podeliti u dve osnovne kategorĳe: test slučajevi
+koji odgovaraju validnim ulazima i test slučajevi koji
+odgovaraju nevalidnim ulazima.
+
+Primer 4.3.6 (Kvadratna jednačina — nastavak prime-
+ra 4.3.4.) Test slučaj koji odgovara ispravnom ulazu
+za kvadratnu jednačinu može da sadrži ulazne vred-

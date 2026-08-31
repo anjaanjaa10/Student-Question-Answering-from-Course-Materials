@@ -1,0 +1,116 @@
+Sadržaj
+
+Ispravnost i neispravnost softvera
+1
+
+1
+Kvalitet softvera
+3
+
+1.1
+Upravljanje kvalitetom softvera . . . . . . . . . . . . . . . . . . . . .
+4
+
+1.2
+Standardi . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+
+1.3
+Atributi kvaliteta softvera . . . . . . . . . . . . . . . . . . . . . . . .
+5
+
+1.3.1
+Funkcionalna podobnost . . . . . . . . . . . . . . . . . . . .
+6
+
+1.3.2
+Performantnost
+. . . . . . . . . . . . . . . . . . . . . . . . .
+6
+
+1.3.3
+Kompatibilnost
+. . . . . . . . . . . . . . . . . . . . . . . . .
+8
+
+1.3.4
+Pouzdanost . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+
+1.3.5
+Upotrebljivost . . . . . . . . . . . . . . . . . . . . . . . . . .
+10
+
+1.3.6
+Bezbednost . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+12
+
+1.3.7
+Sigurnost . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+13
+
+1.3.8
+Održivost . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+15
+
+1.3.9
+Prenosivost . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+20
+
+2
+Greške u softveru
+23
+
+2.1
+Primeri poznatih grešaka . . . . . . . . . . . . . . . . . . . . . . . .
+24
+
+2.1.1
+Neprĳatnosti i materĳalni gubici . . . . . . . . . . . . . . . .
+24
+
+2.1.2
+Fatalne posledice
+. . . . . . . . . . . . . . . . . . . . . . . .
+28
+
+2.2
+Troškovi usled grešaka u softveru . . . . . . . . . . . . . . . . . . .
+32
+
+3
+Verifikacĳa i validacĳa softvera
+37
+
+3.1
+Odnos verifikacĳe i validacĳe softvera . . . . . . . . . . . . . . . . .
+38
+
+3.2
+Tehnike verifikacĳe softvera
+. . . . . . . . . . . . . . . . . . . . . .
+40
+
+Dinamička verifikacija softvera
+45
+
+4
+Testiranje
+47
+
+4.1
+Testiranje i razvoj softvera . . . . . . . . . . . . . . . . . . . . . . . .
+47
+
+4.1.1
+Cena greške u kontekstu vremena otkrivanja . . . . . . . . .
+48
+
+4.1.2
+Uloga testera u razvoju softvera . . . . . . . . . . . . . . . .
+50
+
+4.1.3
+Faze testiranja softvera
+. . . . . . . . . . . . . . . . . . . . .
+52

@@ -1,0 +1,39 @@
+procena troškova nĳe javno objavljena. Međutim, u slu-
+čaju koji je uključivao opoziv sličnog broja vozila (opoziv
+zbog problema sa Takata vazdušnim jastucima) troškovi
+su bili procenjeni na 550 miliona dolara. S obzirom na
+to, može se pretpostaviti da su troškovi ovog opoziva
+bili značajni, ali verovatno niži od pomenute sume, jer
+je rešenje problema uključivalo ažuriranje softvera, što
+je manje skupo od fizičke zamene delova.
+
+Sličan problem je imala i kompanĳa Fiat Chrysler koja je
+u maju 2017. odlučila da opozove više od 1,25 miliona
+kamioneta širom sveta, s ciljem otklanjanja softverske
+greške koja je potencĳalno povezana sa saobraćajnim
+nesrećama sa jednim smrtnim ishodom i dve povrede.
+Iako nisu postojali konačni dokazi da je softverski pro-
+pust direktno uzrokovao ove nesreće, proizvođač vozila
+je odlučio da opoziv sprovodi preventivno, kao meru
+predostrožnosti.
+
+Kako je navedeno u zvaničnom saopštenju, softver-
+ska anomalĳa je privremeno onemogućavala aktivacĳu
+bočnih vazdušnih jastuka, kao i mehanizama koji auto-
+matski zatežu pojas. Do takvog neispravnog ponašanja
+sistema je moglo da dođe u slučaju prevrtanja vozila
+izazvanog snažnim udarcem u donji deo automobila,
+na primer pri udaru u prepreke na putu ili prilikom
+vožnje van uređenih saobraćajnica. Verovatnoća nastan-
+ka takvog incidenta ocenjena je kao izuzetno mala, jer
+je za njegovu pojavu potrebna vrlo specifična i retka
+sekvenca događaja. U cilju otklanjanja uočene greške,
+bilo je neophodno izvršiti reprogramiranje računarskih
+modula u svim vozilima koja su obuhvaćena opozivom.
+Tačni troškovi ovog opoziva nisu objavljeni.
+
+### 2.2 Troškovi usled grešaka u softveru
+
+Najveći troškovi usled grešaka u softveru nastaju kada
+se greške otkrĳu nakon puštanja sistema u rad. To uklju-
+čuje gubitke u prihodu, narušavanje reputacĳe, opozive

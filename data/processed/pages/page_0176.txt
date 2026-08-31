@@ -1,0 +1,44 @@
+strumentacĳom mogu poremetiti (prekršiti) i time
+onemogućiti relevantnu smislenu analizu rada ure-
+đaja. Dodatno, problem mogu da budu i memorĳska
+ograničenja uređaja jer dodatni kôd za instrumentaci-
+ju i njeno rukovanje može uvećati program tako da
+on ne može da stane na uređaj.
+
+Instrumentacĳa se može klasifikovati prema načinu na
+koji se nove instrukcĳe dodaju u program: može je vršiti
+programer ili se može vršiti automatski. Programer mo-
+že izvršiti instrumentacĳu dodavanjem i inkrementira-
+njem brojača na željenim mestima u kodu. Automatsku
+instrumentacĳu može da sprovodi:
+
+▶kompajler i/ili linker tokom prevođenja i linkova-
+nja programa,
+
+▶specĳalizovani alat na već prevedenom (izvrši-
+vom) programu i
+
+▶specĳalizovani alat tokom samog izvršavanja pro-
+grama.
+
+Instrumentacĳa se može vršiti prilikom proizvoljne vrste
+prevođenja kao i nad proizvoljnom izvršivom verzĳom
+programa. Za dinamičku analizu koja ima za cilj ot-
+krivanje grešaka, obično je poželjno debag prevođenje
+(ili verzĳa) programa, dok je za praćenje performansi
+najčešće neophodno koristiti riliz prevođenje (verzĳu)
+programa, odnosno onu verzĳu programa koja će biti
+isporučena korisniku (jer je za tu verzĳu ključno izmeriti
+performanse).
+
+Primer 6.1.2 (Manuelna instrumentacĳa) Dodava-
+njem globalne promenljive brojac_saberi i njenim
+inkrementiranjem unutar funkcĳe saberi moguće je
+izbrojati pozive ove funkcĳe tokom izvršavanja progra-
+ma. Na kraju rada programa potrebno je odštampati
+vrednost ove promenljive kako bi se prikazao rezultat
+brojanja, ili sačuvati tu vrednost u nekoj datoteci.
+
+1 int brojac_saberi = 0;
+
+2 int saberi(int a, int b) {

@@ -1,0 +1,40 @@
+▶dizajna,
+▶koda,
+▶podataka i
+▶testova.
+
+Umesto razvoja novih funkcionalnosti uvek treba razmo-
+triti iskoristivost postojećih komponenti. Glavne pred-
+nosti ponovne upotrebe uključuju:
+
+▶povećanje produktivnosti,
+▶smanjenje troškova,
+▶poboljšanje kvaliteta,
+▶ubrzanje razvoja i
+▶smanjenje rizika u procesu razvoja.
+
+Analizabilnost označava lakoću analize i razumevanja
+softvera, te direktno utiče na prva dva koraka unoše-
+nja izmena: (1) razumevanje softvera i (2) pronalaženje
+delova softvera koje je potrebno izmeniti. Direktno je
+povezana sa modularnošću (dobra modularnost sma-
+njuje kompleksnost i time poboljšava analizabilnost) i
+iskoristivošću (korišćenje postojećih komponenti olak-
+šava analizu koda). Analizabilnost se poboljšava i kroz
+postojanje dobre dokumentacĳe i kroz dosledno pošto-
+vanje kodnih standarda. Za razumevanje neispravnog
+ponašanja softvera, postojanje mehanizma za praćenje
+rada sistema i aktivnosti korisnika može značajno da
+poboljša analizabilnost.
+
+Izmenljivost predstavlja lakoću implementacĳe izmena
+bez uvođenja grešaka. Ključni pokazatelj izmenljivosti
+je spregnutost, jer visoka spregnutost povlači potrebu
+za izmenama u različitim delovima koda što dodatno
+povećava i verovatnoću uvođenja grešaka. Dobra modu-
+larnost utiče pozitivno na izmenljivost jer podrazumeva
+smanjenje kompleksnosti i ograničava uticaj izmena na
+lokalne delove koda.
+
+Testabilnost označava lakoću provere da li su izmene
+narušile postojeće funkcionalnosti. Prednosti visoke

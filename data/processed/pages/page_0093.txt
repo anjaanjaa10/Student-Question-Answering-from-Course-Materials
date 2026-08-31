@@ -1,0 +1,54 @@
+simulacĳe pešaka.
+
+▶Sistem ima pristup svim funkcionalnim
+senzorima.
+
+Parametri koji se prate:
+
+▶Vreme reakcĳe sistema nakon detekcĳe
+prepreke.
+
+▶Efikasnost kočenja (da li je došlo do zau-
+stavljanja pre prepreke).
+
+▶Aktivacĳa dodatnih sistema (upozorenja,
+sigurnosni pojasevi, naglo kočenje).
+
+▶Usklađenost sa bezbednosnim standardi-
+ma.
+
+Kriterĳum prolaznosti:
+Vozilo mora zaustaviti pre nego što dođe do
+kontakta sa preprekom u 99.9% slučajeva pri
+definisanoj brzini i udaljenosti, uz tolerancĳu
+za nepredviđene faktore kao što su vremenski
+uslovi ili osvetljenje.
+
+Testovima sigurnosti proverava se da li su određene
+funkcionalnosti dostupne isključivo onim kori-
+snicima kojima su namenjene. Proveravaju se do-
+stupnost, integritet i poverljivost svih skupova
+podataka.
+
+sistemsko
+testiranje
+
+nefunkcionalno
+testiranje
+
+Primer 4.2.9 (Aplikacĳa za elektronsko bankar-
+stvo — nastavak primera 4.2.7) Sigurnost ban-
+karskih aplikacĳa i zaštita od neautorizovanih
+pristupa je izuzetno važna i zato postoji posebna
+kategorĳa testiranja koja se naziva penetraciono
+testiranje (eng. penetration testing) koja pomaže
+u identifikacĳi ranjivosti aplikacĳe na pokušaje
+neautorizovanog pristupa.
+
+sigurnost
+
+Naziv test slučaja: TC-SC004 — Neautorizovani
+pristupi grubom silom.
+
+Opis: Proveriti da li je aplikacĳa otporna na po-
+kušaj neautorizovanog pristupa putem napada

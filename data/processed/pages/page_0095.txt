@@ -1,0 +1,47 @@
+veb-aplikacĳa), kao i da može da se u potpuno-
+sti ukloni sa sistema bez ostavljanja tragova ili
+neželjenih podataka.
+
+Primer 4.2.10 (Aplikacĳa za elektronsko bankar-
+stvo — nastavak primera 4.2.9) Test prenosivo-
+sti je posebno značajan za bankarske aplikacĳe
+jer se koristi na velikom broju različitih uređaja,
+a doslednost i pouzdanost korisničkog iskustva
+direktno utiču na poverenje korisnika.
+
+Naziv test slučaja: TC-P003 — Prilagodljivost
+različitim uređajima i operativnim sistemima.
+
+Opis: Proveriti da li mobilna bankarska aplika-
+cĳa funkcioniše dosledno na različitim operativ-
+nim sistemima i verzĳama uređaja, bez potrebe
+za izmenom izvornog koda.
+
+Scenario: Mobilna aplikacĳa razvĳena je za plat-
+forme Android i iOS. Testira se njeno ponašanje
+na više verzĳa operativnih sistema i različitim
+uređajima:
+
+▶Android 10, 11 i 13 (Samsung Galaxy, Xiaomi,
+Pixel)
+
+▶iOS 15 i 17 (iPhone 11, iPhone 14)
+
+Uslovi testa:
+
+▶Instalacĳa najnovĳe verzĳe aplikacĳe sa
+zvanične prodavnice (Google Play / App
+Store).
+
+▶Test uređaji resetovani na fabrička podeša-
+vanja (čisto okruženje).
+
+▶Stabilna internet konekcĳa (Wi-Fi).
+
+Aktivnosti testa:
+
+▶Instalacĳa i pokretanje aplikacĳe na sva-
+kom test uređaju.
+
+▶Prĳavljivanje korisnika sa validnim kre-
+dencĳalima.

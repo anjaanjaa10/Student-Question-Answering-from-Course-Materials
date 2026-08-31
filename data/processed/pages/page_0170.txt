@@ -1,0 +1,65 @@
+Tabela 5.1: Poređenje pristupa: print i debager
+
+Print
+Debager
+
+Zahteva izmene u izvornom kodu i
+ponovno prevođenje
+
+Omogućava analizu bez izmena izvor-
+nog koda
+
+Statičan — unapred definisano šta se
+prikazuje
+
+Dinamičan — moguće je menjati prika-
+zane informacĳe u realnom vremenu
+
+Može prikriti greške ili uticati na iz-
+vršavanje programa
+
+Može prikriti greške ili uticati na izvr-
+šavanje programa, ali ređe i manje
+
+Uvek moguće koristiti
+Nekada debager nĳe dostupan
+
+Pruža delimičan uvid u stanje progra-
+ma
+
+Pruža kompletan uvid u stanje progra-
+ma
+
+Jednostavno za upotrebu
+Kompleksno za upotrebu za početnike
+
+Pogodno za jednostavne analize izvr-
+šavanja programa
+
+Pogodno za kompleksne analize izvr-
+šavanja programa
+
+Rezime
+
+▶Debager je sistemski alat koji se koristi za pra-
+ćenje izvršavanja programa u kojem je potrebno
+identifikovati greške.
+
+▶Rad debagera se oslanja na operativni sistem,
+hardver i kompajler.
+
+▶Tri osnovna režima prevođenja su režim prevođe-
+nja za upotrebu, režim prevođenja za pronalaženje
+grešaka i kombinovani režim.
+
+▶Tehnike anti-debagovanja se koriste radi ometanja
+ili otežavanja procesa debagovanja.
+
+▶Interaktivno debagovanje je osnovni pristup deba-
+govanju koji obuhvata postavljanje tačaka prekida
+i tačaka posmatranja, i izvršavanje programa ko-
+rak po korak.
+
+▶Udaljeno debagovanje podrazumeva interaktivno
+debagovanje pri čemu se aplikacĳa koja se deba-
+guje izvršava na jednom, a debager na drugom

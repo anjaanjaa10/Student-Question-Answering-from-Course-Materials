@@ -1,0 +1,61 @@
+4.2.3 Sistemsko testiranje
+
+Sistemsko testiranje (eng. system testing) obuhvata prove-
+ravanje sistema kao celine. Ispituje se da li je ponašanje
+sistema u skladu sa specifikacĳom zadatom od strane kli-
+jenta. Ovde se zahteva i potpun pristup svim delovima
+sistema, uključujući bazu podataka, ukoliko se koristi,
+pristup mreži i svim hardverskim delovima sistema.
+
+Sistemsko
+
+testiranje
+
+Sistemsko testiranje uključuje i funkcionalne i nefunkcio-
+nalne aspekte sistema. U sistemsko testiranje se ubrajaju
+i istraživačko testiranje, testiranje prihvatljivosti i insta-
+laciono testiranje.
+
+sistemsko
+testiranje
+
+funkcionalno
+testiranje
+
+Funkcionalno sistemsko testiranje
+
+nefunkcionalno
+testiranje
+
+Funkcionalno sistemsko testiranje predstavlja proveru
+funkcionalnosti sistema u uslovima koji odgovaraju
+stvarnom korišćenju. Cilj funkcionalnog sistemskog te-
+stiranja je da se potvrdi da su sve očekivane funkcional-
+nosti sistema implementirane (funkcionalna potpunost),
+da svaka funkcionalnost pojedinačno radi u skladu sa
+zahtevima korisnika (funkcionalna ispravnost) kao i
+da su sve funkcionalnosti sistema prikladne (funkci-
+onalna prikladnost). Ovo testiranje obuhvata provere
+ulaza, obrada i izlaza za različite funkcionalne scenarĳe,
+uključujući tipične, granične i nesvakidašnje slučajeve
+upotrebe. Dodatno, potrebno je evaluirati i ponašanje
+sistema u slučaju pogrešnih ili neočekivanih ulaza.
+
+istraživačko
+testiranje
+
+testiranje
+prihvaljtljivosti
+
+instalaciono
+testiranje
+
+Primer 4.2.3 (Aplikacĳa za elektronsko bankarstvo —
+nastavak primera 4.1.4) Primer test slučaja za funkci-
+onalno testiranje.
+
+Naziv test slučaja: TC-002 — Prenos novca sa nedo-
+voljno sredstava na računu — Delimično pokrivanje
+iznosa
+
+Opis: Proverava da li aplikacĳa pravilno obrađuje

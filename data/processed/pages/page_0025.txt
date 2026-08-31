@@ -1,0 +1,61 @@
+mer bankarske aplikacĳe. Ova aplikacĳa mora biti
+intuitivna, jednostavna za korišćenje, sigurna i pri-
+stupačna svim korisnicima, uključujući i osobe sa
+posebnim potrebama. Na primer:
+
+upotrebljivost
+
+Naučljivost. Prilikom prvog korišćenja, korisnik bi tre-
+balo da može samostalno da pronađe i izvrši osnovne
+radnje (poput slanja novca i provere stanja) za manje
+od 5 minuta, bez potrebe za tutorĳalom.
+
+naučljivost
+
+operabilnost
+
+Operabilnost. Ključne funkcionalnosti (poput provere
+stanja ili prenosa sredstava između računa) treba da
+budu dostupne u manje od četiri klika, omogućavajući
+brz i lak rad sa aplikacĳom.
+
+zaštita od
+korisničkih
+grešaka
+
+estetika ko-
+risničkog
+interfejsa
+
+Zaštita od korisničkih grešaka. Ako korisnik unese
+neispravan broj računa prilikom slanja novca, apli-
+kacĳa mora automatski izvršiti validacĳu i upozoriti
+korisnika na grešku pre potvrde transakcĳe.
+
+pristupačnost
+
+prepoznatljivost
+svrhe aplikacĳe
+
+Estetika korisničkog interfejsa. Aplikacĳa treba da
+ima profesionalan i vizuelno prĳatan dizajn. Dizajn bi
+trebalo da bude minimalistički, moderan i intuitivan,
+sa jasnim kontrastom između elemenata. Treba koristi-
+ti harmonične boje i lako čitljive fontove, dok dugmad
+i ikonice moraju biti vizuelno jasne i prepoznatljive.
+
+Pristupačnost. Aplikacĳa mora biti pristupačna oso-
+bama sa različitim potrebama, uključujući korisnike
+sa oštećenjem vida. To znači da treba da bude kompa-
+tibilna sa alatima za čitanje ekrana, da fontovi mogu
+biti uvećani po potrebi i da kontrast boja omogućava
+čitanje osobama sa daltonizmom.
+
+Prepoznatljivost svrhe aplikacĳe. Korisnik odmah tre-
+ba da razume da je aplikacĳa namenjena bankarskim
+uslugama. Početni ekran treba da sadrži jasno pre-
+poznatljive elemente, poput salda računa i dugmeta
+za transfer novca. Ikonice i nazivi funkcionalnosti
+treba da budu intuitivni i nedvosmisleni (npr. „Plaća-
+nje“, „Kartice“, „Računi“), a brend-boje i logo banke
+istaknuti.

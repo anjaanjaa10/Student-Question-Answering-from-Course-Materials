@@ -1,0 +1,45 @@
+ciljano testiraju te kritične tačke i tako povećavaju vero-
+vatnoću otkrivanja grešaka u ranim fazama razvoja.
+
+Međutim, kada se radi o testiranju složenih funkcio-
+nalnosti koje zavise od višeslojnih uslova, konteksta
+upotrebe ili korisničkih odluka, automatizovano generi-
+sanje test primera postaje izuzetno izazovno, a često i
+neizvodljivo. U takvim situacĳama, uspešno testiranje
+zahteva duboko razumevanje poslovne logike, očeki-
+vanog ponašanja sistema u realnim scenarĳima, kao
+i interakcĳa među različitim komponentama softve-
+ra. Ove aspekte je teško formalizovati na način koji bi
+omogućio automatsko pouzdano i smisleno generisanje
+kvalitetnih test primera. Zbog toga se u praksi auto-
+matizovano generisanje testova najefikasnĳe koristi kao
+dopuna manuelnom procesu.
+
+Rezime
+
+▶Testiranje softvera ima za cilj da otkrĳe defekte u
+softveru.
+
+▶Poželjno je ispravljanje grešaka u početnim fazama
+razvoja softvera.
+
+▶Testiranje mogu da obavljaju i programeri i testeri.
+▶Proces testiranja obuhvata planiranje, analizu, di-
+zajn, implementacĳu, evaluacĳu, izvršavanje i za-
+tvaranje procesa testiranja
+
+▶Osnovna podela testiranja je na testiranje funkcio-
+nalnih i nefunkcionalnih karakteristika softvera.
+
+▶Prema nivou testiranja, razlikujemo testove jedini-
+ce koda, komponentne, integracione i sistemske
+testove.
+
+▶Nefunkcionalno sistemsko testiranje uključuje te-
+stiranje performansi, kompatibilnosti, pouzdano-
+sti, upotrebljivosti, bezbednosti, sigurnosti i pre-
+nosivosti.
+
+▶U sistemsko testiranje se ubrajaju i istraživačko
+testiranje, testiranje prihvatljivosti i instalaciono
+testiranje.

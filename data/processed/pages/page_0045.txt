@@ -1,0 +1,55 @@
+Ova katastrofa je istakla kritičnu važnost verifikacĳe
+softverskih komponenti u kompleksnim i bezbednosno
+osetljivim sistemima, te je podstakla reforme u ESA-inim
+procedurama testiranja i verifikacĳe softvera.
+
+The Mars Climate Orbiter 23. septembar 1999. godine
+
+Letelica Mars Climate Orbiter (NASA) nestala je prilikom
+ulaska u orbitu Marsa 23. septembra 1999. godine, nakon
+što je ušla u orbitu značajno niže od planirane putanje i
+najverovatnĳe izgorela u atmosferi. Istragom je utvrđeno
+da je uzrok nesreće bio propust u konverzĳi jedinica: deo
+softvera je koristio imperĳalne jedinice dok je drugi deo
+softvera očekivao metričke jedinice. Ova neusaglašenost
+dovela je do pogrešnog proračuna putanje.
+
+Sama letelica je koštala 125 miliona dolara, dok je ukup-
+ni trošak misĳe procenjen na oko 327 miliona dolara.
+Incident je izazvao ozbiljnu kritiku NASA-inih progra-
+merskih i upravljačkih procedura. Kao rezultat, uvedene
+su strože kontrole, standardizacĳa jedinica i unapređeni
+protokoli testiranja softverskih komponenti.
+
+Slika 2.7: Fotografija leteli-
+ce Mars Climate Orbiter prili-
+kom sklapanja, NASA, januar
+1998. godine
+
+Mars Climate Orbiter
+Greška: Deo softvera je kori-
+stio imperĳalne jedinice, dok
+je drugi deo softvera očeki-
+vao metričke jedinice
+Defekt: Pogrešno računanje
+putanje
+Pad: Ulazak u orbitu Marsa
+na pogrešnom rastojanju
+Incident: Letelica je izgorela
+u atmosferi Marsa
+
+Greške u automobilskoj industrĳi
+
+Softverske greške u automobilskoj industrĳi su ozbiljan
+problem koji može imati direktne posledice po bezbed-
+nost putnika. Na primer, kompanĳa General Motors je
+softversku grešku otkrila tek nakon saobraćajnih ne-
+sreća u kojima je bio jedan smrtni ishod i tri povrede.
+Ova greška je sprečavala aktivacĳu prednjih vazdušnih
+jastuka i zatezača sigurnosnih pojaseva tokom sudara,
+povećavajući rizik od povreda putnika. Kompanĳa je
+u septembru 2016. godine, najavila opoziv 4,3 miliona
+vozila.
+
+General Motors je naveo da ovaj opoziv neće imati znača-
+jan uticaj na finansĳske rezultate kompanĳe i precizna

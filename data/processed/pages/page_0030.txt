@@ -1,0 +1,56 @@
+▶𝐸broj grana (eng. edges) u grafu kontrole
+toka programa,
+
+▶𝑁broj čvorova (eng. nodes),
+▶𝑃broj povezanih komponenti.
+
+Mala veličina, niska spregnutost, visoka kohezĳa i ni-
+ska ciklomatska složenost su karakteristike održivog
+softvera. Kako se dizajn softvera i njegov ukupni kvali-
+tet vremenom pogoršavaju, neophodno je primenjivati
+različite tehnike za očuvanje održivosti. Refaktorisanje
+softvera predstavlja proces poboljšanja dizajna posto-
+jećeg koda i ključni je deo održavanja tokom evolucĳe
+softvera. Održivost uključuje naredne podatribute: mo-
+dularnost, iskoristivost, analizabilnost, izmenljivost i
+testabilnost.
+
+održivost
+
+Modularnost se odnosi na stepen u kome je softver lo-
+gički podeljen na nezavisne i međusobno zamenljive
+module. Razbĳanje softvera na module (jedinice, kompo-
+nente) omogućava skrivanje njegove ukupne složenosti
+kroz apstrakcĳu i definisanje interfejsa. Modularnost
+se obično postavlja kao jedan od ključnih ciljeva u fazi
+dizajna softvera.
+
+modularnost
+
+iskoristivost
+
+Idealan modul treba da bude:
+
+analizabilnost
+
+▶relativno male dimenzĳe,
+▶niske ciklomatske složenosti,
+▶visoke kohezĳe,
+▶minimalno spregnut sa ostalim modulima.
+
+izmenljivost
+
+testabilnost
+
+Ovakvi moduli se onda mogu nezavisno odvajati i fleksi-
+bilno kombinovati na različite načine. Modularnost pod-
+razumeva i standardizovane interfejse između modula,
+što je posebno naglašeno u savremenim softverskim
+arhitekturama poput mikroservisa.
+
+Iskoristivost (ponovna upotrebljivost) predstavlja stepen
+u kome se komponente jednog sistema mogu koristiti u
+drugim sistemima. Postoje različiti nivoi iskoristivosti,
+uključujući ponovnu upotrebu:
+
+▶specifikacĳa,

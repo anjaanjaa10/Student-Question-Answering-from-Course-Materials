@@ -1,0 +1,71 @@
+Primer 4.3.15 (Funkcĳa pozitivni — nastavak pri-
+mera 4.3.14) Posmatrajmo kôd funkcĳe koja za niz od
+100 brojeva računa koliko njih je pozitivno.
+
+1 int pozitivni(int a[], int n) {
+
+2
+int i = 0, brojPozitivnih = 0;
+
+3
+while (i < n) {
+
+4
+if (a[i] > 0)
+
+5
+brojPozitivnih++;
+
+6
+}
+
+7
+return brojPozitivnih;
+
+8 }
+
+Broj putanja kroz ovaj program je 2100, jer za svaku
+naredbu grananja imamo opcĳu izvršavanja ukoliko
+je uslov ispunjen i ukoliko nĳe. Bez pretpostavke
+da niz ima tačno 100 elemenata, broj putanja kroz
+ovu funkcĳu zavisi od veličine niza 𝑛i iznosi 2𝑛za
+fiksiranu vrednost 𝑛.
+
+Primer 4.3.16 (Funkcĳa pozitivni — nastavak prime-
+ra 4.3.15) Posmatrajmo kôd funkcĳe koja za vrednosti
+koje se unose sa standardnog ulaza (sve do unosa
+broja nula) računa koliko njih je pozitivno.
+
+1 int pozitivni() {
+
+2
+int broj, brojPozitivnih = 0;
+
+3
+do {
+
+4
+scanf("%d", &broj);
+
+5
+if (broj > 0)
+
+6
+brojPozitivnih++;
+
+7
+} while (broj!=0);
+
+8
+return brojPozitivnih;
+
+9 }
+
+Broj putanja kroz ovaj program zavisi od broja unetih
+elemenata sa standardnog ulaza i nĳe ograničen.
+
+Zbog velikog broja mogućih putanja i kroz jednostavne
+programe, umesto testiranja svih mogućih putanja, ko-
+riste se metrike pokrivenosti koda kako bi se obezbedio
+balans između kvaliteta i troškova testiranja. Pre počet-
+ka testiranja, treba odrediti odgovarajući nivo i vrstu

@@ -1,0 +1,45 @@
+uslovi ili granični slučajevi, odnosno logički propusti i
+dalje mogu ostati neprimećeni. Sa druge strane, nizak
+nivo pokrivenosti jasno ukazuje na povišen rizik da
+greške mogu ostati neotkrivene i sugeriše da značajni
+delovi koda nisu uopšte testirani.
+
+Pokrivenost koda testovima se menja tokom razvoja
+softvera i dodavanja novih funkcionalnosti. Zbog toga je
+potrebno redovno merenje i praćenje pokrivenosti koda
+testovima.
+
+Alati za merenje pokrivenosti koda
+
+Alati za merenje pokrivenosti koda koriste se za ana-
+lizu koji delovi izvornog koda su bili izvršeni tokom
+testiranja. Oni predstavljaju ključnu podršku u proce-
+su testiranja softvera, jer omogućavaju jasan uvid u to
+koliko je testiranje temeljno.
+
+Razlike u pokrivenosti koda
+su značajne za razumevanje
+kako dodavanje testova utiče
+na pokrivenost. Master rad
+Nikole Perića:
+Alat za generisanje i prikaz
+razlika u pokrivenosti koda
+testovima
+
+Većina alata funkcioniše na osnovu instrumentacĳe —
+procesa u kojem se u kôd automatski umeću dodatne in-
+strukcĳe koje beleže rezultate izvršavanja. Instrumenta-
+cĳa može da se vrši pre ili za vreme procesa kompilacĳe,
+kao i nakon kompilacĳe, na nivou bajtkoda (npr. za Java
+programe) ili izvršivog formata (npr. za kompajlirane
+C/C++ binarne fajlove).
+
+Izvršavanjem instrumentovanog koda nad ulazima ko-
+je određuju testovi, prikupljaju se podaci o tome koje
+su linĳe, grane, uslovi ili funkcĳe izvršeni. Na osnovu
+tih informacĳa generiše se izveštaj o pokrivenosti, koji
+pomaže programerima da identifikuju nedovoljno testi-
+rane delove sistema. Ovi izveštaji se često vizualizuju
+kroz procente pokrivenosti i označene delove koda (npr.
+bojama), kako bi se lakše uočili segmenti koji zahtevaju
+dodatne testove.

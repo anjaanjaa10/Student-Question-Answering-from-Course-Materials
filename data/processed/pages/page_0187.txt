@@ -1,0 +1,115 @@
+11
+// Initializing the grid.
+
+12
+int[][] grid = newGrid();
+
+13
+printGrid(grid);
+
+14
+for (int i = 0; i < GENERATIONS; i++) {
+
+15
+grid = nextGeneration(grid);
+
+16
+printGrid(grid);
+
+17
+}
+
+18
+}
+
+19
+...
+
+20
+static int[][] nextGeneration(int[][] grid) {
+
+21
+int[][] future = new int[M][N];
+
+22
+// Loop through every cell
+
+23
+for (int l = 0; l < M; l++) {
+
+24
+for (int m = 0; m < N; m++) {
+
+25
+...
+
+26
+}
+
+27
+}
+
+28
+return future;
+
+29
+}
+
+30
+
+31
+private static void printGrid(int[][] grid) {
+
+32
+try (FileWriter myWriter = new FileWriter("f
+
+")) {
+
+33
+for (int i = 0; i < M; i++) {
+
+34
+for (int j = 0; j < N; j++) {
+
+35
+if (grid[i][j] == 0)
+
+36
+myWriter.write(".");
+
+37
+else
+
+38
+myWriter.write("*");
+
+39
+}
+
+40
+myWriter.write(System.lineSeparator
+
+());
+
+41
+}
+
+42
+} catch (Exception e) {
+
+43
+throw new IllegalStateException();
+
+44
+}
+
+45
+}
+
+46
+...
+
+Plameni graf je obično interaktivan prikaz poziva
+metoda tokom izvršavanja programa. Svaka traka
+(pravougaonik) odgovara pozivu jedne metode, a
+svaki „plamen“ odgovara jednom nizu poziva metoda.

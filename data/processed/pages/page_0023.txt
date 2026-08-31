@@ -1,0 +1,52 @@
+komunicira sa drugim servisima (interoperabilnost).
+
+Na primer, korisnik na svom telefonu koristi aplikaci-
+ju za razmenu poruka dok istovremeno sluša muziku
+putem aplikacĳe Spotify ili gleda video preko aplika-
+cĳe YouTube. Koegzistencĳabilnost podrazumeva da
+aplikacĳa ne sme ometati druge aplikacĳe. Na primer,
+ako korisnik primi poziv, muzika treba da se automat-
+ski pauzira, ali i da nastavi nakon završetka poziva.
+Notifikacĳe koje aplikacĳa pruža ne smeju blokirati
+druge aplikacĳe ili ometati korisničko iskustvo sa
+drugim aplikacĳama.
+
+Interoperabilnost podrazumeva da aplikacĳa treba
+da, na primer, omogući korisnicima da šalju slike iz
+galerĳe telefona ili sa Google Drive-a. To znači da ima
+pristup lokalnoj memorĳi ili eksternim servisima.
+
+1.3.4 Pouzdanost
+
+pouzdanost
+
+Pouzdanost (eng. reliablity) označava stepen u kojem je
+softver pouzdan. Pouzdanost obuhvata naredne poda-
+tribute:
+
+zrelost — stabilnost tokom svakodnevne upotrebe,
+dostupnost — mogućnost neprekidnog rada,
+tolerancĳu na greške — sposobnost funkcionisanja čak
+i u prisustvu određenih hardverskih i softverskih
+kvarova i
+
+zrelost
+
+dostupnost
+
+otporanost
+na greške
+
+sposobnost oporavka (povratljivost) — sposobnost vra-
+ćanja podataka i procesa u slučaju kvara sistema.
+
+sposobnost
+oporavka
+
+Primer 1.3.4 (Hitne službe) Razmotrimo primer siste-
+ma za hitne službe (kao što su pozivi policĳi ili prvoj
+pomoći). Za ovakve sisteme kritično je da zadovolje
+sve kriterĳume pouzdanosti. Pre svega, sistem mora
+biti dobro proveren i stabilan, a svaka nova funkcio-
+nalnost mora biti temeljno testirana i verifikovana pre
+uvođenja — zrelost.

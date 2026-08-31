@@ -1,0 +1,44 @@
+kasnĳe tvrditi da nĳe izvršio transakcĳu. To se
+može ostvariti digitalnim potpisivanjem kripto-
+grafskim ključevima. Pri tome, logovi moraju
+biti nepromenljivi, tako da niko, pa ni admini-
+stratori, ne mogu izbrisati ili izmeniti istorĳu
+transakcĳa.
+
+1.3.8 Održivost
+
+Održivost (eng. maintainability) odgovara lakoći integri-
+sanja promena. Promene uključuju dodavanje novih
+funkcionalnosti, ispravljanje grešaka, poboljšanje per-
+formansi, kao i prilagođavanje promenjenim zahtevima
+korisnika ili izmenjenom okruženju. Izmene zahteva-
+ju:
+
+1. razumevanje softvera;
+
+2. pronalaženje delova softvera koje treba izmeniti;
+3. izvođenje željenih izmena;
+4. proveru da izmenama nisu poremećene postojeće
+funkcionalnosti.
+
+Održivost se odnosi na lakoću svih ovih koraka. Smatra
+se jednim od ključnih atributa kvaliteta.
+
+Održivost je statička karakteristika softvera koja ne utiče
+direktno na performanse i karakteristike softvera koje
+su vidljive krajnjem korisniku. Iako ne utiče direktno
+na ponašanje sistema u radu, ima značajan uticaj na
+dugoročni kvalitet i održavanje softvera. Primeri metrika
+softvera koje su važne u kontekstu održivosti su:
+
+veličina (eng. size) — broj linĳa koda,
+spregnutost (eng. coupling) — kvantitativna mera me-
+đuzavisnosti između različitih modula,
+
+kohezĳa (eng. cohesion) — kvantitativna mera poveza-
+nosti funkcĳa ili objekata unutar istog modula,
+
+ciklomatska složenost (eng. cyclomatic complexity) —
+kvantitativna mera broja linearno nezavisnih pu-
+tanja kontrole toka programa. Izračunava se po
+formuli: 𝐶= 𝐸−𝑁+ 2𝑃, gde je:

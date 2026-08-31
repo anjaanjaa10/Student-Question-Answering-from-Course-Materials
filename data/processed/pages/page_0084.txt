@@ -1,0 +1,69 @@
+Test podaci:
+
+▶Iznos za prenos: 1000 RSD
+▶Broj računa primaoca: 170-1234567890123-45
+
+Koraci:
+
+1. Prĳaviti se u aplikacĳu sa validnim korisničkim
+nalogom
+
+2. Otvoriti sekcĳu „Prenos sredstava“
+3. Uneti iznos prenosa: 1000 RSD
+4. Uneti broj računa primaoca
+5. Kliknuti na dugme „Potvrdi prenos“
+
+sistemsko
+testiranje
+
+Očekivani rezultat:
+
+▶Sistem prikazuje poruku o grešci: „Nedovoljno
+sredstava na računu“
+
+funkcionalno
+testiranje
+
+▶Sistem sugeriše prenos manje količine novca
+▶Prenos se ne izvršava
+▶Stanje na računu ostaje nepromenjeno
+
+Stvarni rezultat: (popunjava se nakon izvršavanja testa)
+
+Status: (PASS / FAIL – popunjava se nakon testiranja)
+
+sistemsko
+testiranje
+
+Uspešno funkcionalno testiranje potvrđuje da sistem
+zadovoljava svoje osnovne zahteve i da je spreman za
+naredne faze verifikacĳe, uključujući nefunkcionalna
+testiranja, istraživačko testiranje i konačno prihvatanje
+od strane krajnjih korisnika.
+
+nefunkcionalno
+testiranje
+
+performanse
+
+Nefunkcionalno sistemsko testiranje
+
+kompatibilnost
+
+pouzdanost
+
+Nefunkcionalno sistemsko testiranje obuhvata testira-
+nje dinamičkih nefunkcionalnih aspekata sistema: per-
+formanse, kompatibilnost, pouzdanost, upotrebljivost,
+bezbednost, sigurnost i prenosivost. Testovi se spro-
+vode za one aspekte kvaliteta softvera koji su za dati
+sistem prepoznati kao važni i koji su stoga precizirani
+specifikacĳom. Na primer,
+
+upotrebljivost
+
+bezbednost
+
+sigurnost
+
+prenosivost

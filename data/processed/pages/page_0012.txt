@@ -1,0 +1,151 @@
+4.2
+Vrste i nivoi testiranja . . . . . . . . . . . . . . . . . . . . . . . . . .
+62
+
+4.2.1
+Testiranje jedinica koda . . . . . . . . . . . . . . . . . . . . .
+63
+
+4.2.2
+Komponentno i integraciono testiranje
+. . . . . . . . . . . .
+65
+
+4.2.3
+Sistemsko testiranje . . . . . . . . . . . . . . . . . . . . . . .
+68
+
+4.3
+Tehnike testiranja
+. . . . . . . . . . . . . . . . . . . . . . . . . . . .
+86
+
+4.3.1
+Pokrivenost testiranjem . . . . . . . . . . . . . . . . . . . . .
+87
+
+4.3.2
+Podela tehnika testiranja
+. . . . . . . . . . . . . . . . . . . .
+88
+
+4.3.3
+Testiranje crne kutĳe
+. . . . . . . . . . . . . . . . . . . . . .
+92
+
+4.3.4
+Testiranje bele kutĳe . . . . . . . . . . . . . . . . . . . . . . .
+104
+
+4.3.5
+Metamorfno testiranje . . . . . . . . . . . . . . . . . . . . . .
+117
+
+4.4
+Načini sprovođenja testiranja . . . . . . . . . . . . . . . . . . . . . .
+120
+
+4.4.1
+Manuelno testiranje . . . . . . . . . . . . . . . . . . . . . . .
+121
+
+4.4.2
+Automatsko izvršavanje test primera . . . . . . . . . . . . .
+122
+
+4.4.3
+Automatsko generisanje test primera . . . . . . . . . . . . .
+124
+
+5
+Debagovanje
+129
+
+5.1
+Veza izvršivog koda i debagera . . . . . . . . . . . . . . . . . . . . .
+130
+
+5.1.1
+Režim prevođenja za upotrebu . . . . . . . . . . . . . . . . .
+131
+
+5.1.2
+Režim prevođenja za pronalaženje grešaka . . . . . . . . . .
+132
+
+5.1.3
+Kombinovani režimi prevođenja . . . . . . . . . . . . . . . .
+134
+
+5.1.4
+Anti-debagovanje . . . . . . . . . . . . . . . . . . . . . . . .
+136
+
+5.2
+Vrste debagovanja . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+136
+
+5.2.1
+Interaktivno debagovanje . . . . . . . . . . . . . . . . . . . .
+137
+
+5.2.2
+Udaljeno debagovanje . . . . . . . . . . . . . . . . . . . . . .
+144
+
+5.2.3
+Debagovanje nakon prekida izvršavanja programa
+. . . . .
+145
+
+5.3
+Primeri debagera . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+147
+
+5.4
+Otvoreni problemi . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+152
+
+5.5
+Štampanje umesto debagera
+. . . . . . . . . . . . . . . . . . . . . .
+153
+
+6
+Profajliranje i dinamičko detektovanje grešaka
+159
+
+6.1
+Instrumentacĳa . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+160
+
+6.2
+Profajleri
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+166
+
+6.2.1
+Upotreba profila . . . . . . . . . . . . . . . . . . . . . . . . .
+167
+
+6.2.2
+Kvalitet profila . . . . . . . . . . . . . . . . . . . . . . . . . .
+169
+
+6.2.3
+Profajliranje uzimanjem uzoraka . . . . . . . . . . . . . . . .
+170
+
+6.2.4
+Instrumentaciono profajliranje . . . . . . . . . . . . . . . . .
+174
+
+6.3
+Alati za dinamičku detekcĳu grešaka . . . . . . . . . . . . . . . . .
+183
+
+6.3.1
+Sanitajzeri
+. . . . . . . . . . . . . . . . . . . . . . . . . . . .
+183

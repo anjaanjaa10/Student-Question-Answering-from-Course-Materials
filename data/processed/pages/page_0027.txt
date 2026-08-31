@@ -1,0 +1,59 @@
+nepredvidivo ili prepreke na putu.
+
+Bezbednost kvara — U slučaju otkaza senzora ili ra-
+čunarskog sistema, automobil mora automatski da se
+zaustavi na bezbedan način ili da preuzme minimal-
+no funkcionalno stanje koje ne ugrožava putnike ili
+druge učesnike u saobraćaju.
+
+bezbednost
+
+operativna
+ograničenost
+
+Upozorenje na opasnost — Ako se pojavi situacĳa
+koju sistem ne može da reši sam, mora brzo upozoriti
+vozača ili centralni nadzorni sistem na opasnost.
+
+identifikacĳa
+rizika
+
+bezbednost kvara
+
+Bezbednost integracĳe — Kada se novi moduli (npr.
+dodatni senzori ili softverske nadogradnje) integrišu
+u postojeći sistem, ceo sistem mora i dalje održavati
+visok nivo bezbednosti i ne sme uvoditi nove rizike.
+
+upozorenje
+na opasnost
+
+bezbednost
+integracĳe
+
+1.3.7 Sigurnost
+
+Sigurnost (eng. security) odgovara stepenu u kojem sof-
+tver štiti informacĳe i podatke. Sigurnost obuhvata
+naredne podatribute:
+
+poverljivost — dostupnost podataka samo ovlašćenim
+korisnicima,
+
+integritet — sprečavanje neovlašćenog pristupa i modi-
+fikacĳe podataka,
+
+odgovornost — mogućnost praćenja radnji korisnika,
+autentifikabilnost — mogućnost dokazivanja identite-
+ta korisnika i
+
+neporecivost — nemogućnost osporavanja, tj. moguć-
+nost prikupljanja informacĳa o određenim aktiv-
+nostima i događajima.
+
+Primer 1.3.7 (Bankarska aplikacĳa — nastavak prime-
+ra 1.3.5) Bankarske aplikacĳe moraju biti maksimalno
+sigurne, jer rukovode osetljivim finansĳskim podaci-
+ma korisnika i omogućavaju transakcĳe koje ne smeju
+biti zloupotrebljene. Bankarska aplikacĳa je odličan
+primer aplikacĳe kod koje je kritična sigurnost jer je

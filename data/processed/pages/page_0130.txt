@@ -1,0 +1,44 @@
+Glavni izazov ove tehnike leži u pretpostavci da su
+sve osnovne putanje dostižne i izvodljive. U složenim
+programima, određene putanje mogu biti logički ili
+praktično nedostižne zbog međuzavisnosti uslova. Zbog
+toga je neophodna pažljiva analiza grafa kontrole toka i
+dodatna provera da izabrane putanje zaista odgovaraju
+realnim scenarĳima izvršavanja.
+
+Testiranje na osnovu grafa toka podataka
+(eng. data
+flow testing) ispituje ispravnost životnog ciklusa pro-
+menljivih i upotrebe promenljivih u različitim delovima
+programa. Tipične anomalĳe u upotrebi podataka uklju-
+čuju:
+
+▶Upotreba neinicĳalizovane promenljive – pro-
+menljiva se koristi pre nego što joj je dodeljena
+vrednost.
+
+▶Neiskorišćena definicĳa – promenljiva je defini-
+sana i inicĳalizovana, ali se nikada ne koristi.
+
+▶Ponovno definisanje – promenljivoj se dodeljuje
+nova vrednost pre nego što je prethodna upotre-
+bljena.
+
+▶Upotreba nakon oslobađanja resursa – promen-
+ljiva (ili referenca) se koristi nakon dealokacĳe
+memorĳe.
+
+▶Neusaglašenost dodeljivanja i korišćenja u ra-
+zličitim granama izvršavanja.
+
+Cilj testiranja je osigurati da se sve promenljive koriste
+na ispravan način — da su inicĳalizovane pre upotrebe,
+iskorišćene nakon dodeljivanja i oslobođene samo kada
+više nisu potrebne. Za to je potrebno u kodu identifiko-
+vati mesta gde se promenljive definišu i gde se koriste,
+i kreirati test primere koji pokrivaju tok izvršavanja
+programa koji prolazi kroz date definicĳe i korišćenja.
+Ova vrsta testiranja je naročito korisna za otkrivanje
+suptilnih grešaka koje nisu nužno vidljive kroz stan-
+dardne tehnike testiranja kontrole toka i često se koristi
+u bezbednosno kritičnim i složenim sistemima.
