@@ -114,13 +114,13 @@ Testiranje
 103. Objasniti automatsko izvršavanje i evaluaciju testiranje kao način testiranja.
 104. Objasniti kontinuiranu integraciju kao način testiranja.
 105. Objasniti automatsko enerisanje test primera kao način testiranja.
+
+Debagovanje
 106. Definisati pojam debagovanja.
 107. Kakva je veza izvršivog koda i debagera?
 108. Koji režimi prevođenja postoje u debagovanju?
 109. Koji su formati za predstavljanje pomoćnih informacija?
 110. Opisati kombinovane režime prevođenja za pronalaženje grešaka.
-
-Debagovanje
 111. Šta označava pojam anti-debagovanje?
 112. Definisati vrste debagovanja.
 113. Definisati interaktivno debagovanje.

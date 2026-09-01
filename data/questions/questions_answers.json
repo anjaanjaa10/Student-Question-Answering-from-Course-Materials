@@ -373,5 +373,190 @@
             "page": [55, 56],
             "section": ["3.2 Tehnike verifikacije softvera"]
         }
+    },
+
+    
+    
+
+
+
+
+
+
+
+
+    
+    
+    
+    {
+        "id": 106,
+        "question": "Definisati pojam debagovanja.",
+        "answer": "Debagovanje je proces pronalaženja i analize uzroka grešaka u programu, uz korišćenje izvršavanja programa i informacija o njegovom stanju kako bi se greška locirala i ispravila.",
+        "topic": "Dinamička verifikacija softvera",
+        "subtopic": "Debagovanje",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [143],
+            "section": ["5 Debagovanje"]
+        }
+    },
+    {
+        "id": 107,
+        "question": "Kakva je veza izvršivog koda i debagera?",
+        "answer": "Debager mora da poveže stanje izvršivog programa sa odgovarajućim delovima izvornog koda i pomoćnim informacijama, kako bi programer mogao da prati izvršavanje, promenljive i mesta problema.",
+        "topic": "Dinamička verifikacija softvera",
+        "subtopic": "Debagovanje",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [143, 144],
+            "section": [
+                "5 Debagovanje",
+                "5.1 Veza izvršivog koda i debagera"
+            ]
+        }
+    },
+    {
+        "id": 108,
+        "question": "Koji režimi prevođenja postoje u debagovanju?",
+        "answer": "Postoji režim prevođenja za upotrebu, režim prevođenja za pronalaženje grešaka i kombinovani režimi prevođenja.",
+        "topic": "Dinamička verifikacija softvera",
+        "subtopic": "Debagovanje",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [144],
+            "section": ["5.1 Veza izvršivog koda i debagera"]
+        }
+    },
+    {
+        "id": 109,
+        "question": "Koji su formati za predstavljanje pomoćnih informacija?",
+        "answer": "Pomoćne informacije omogućavaju povezivanje izvršivog koda sa izvornim kodom, simbolima, linijama i drugim informacijama potrebnim debageru; razmatramo ih u kontekstu formata debag informacija. Najpoznatiji su DWARTF i Microsoft CodeView.",
+        "topic": "Dinamička verifikacija softvera",
+        "subtopic": "Debagovanje",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [147, 148],
+            "section": ["5.1.2 Režim prevođenja za pronalaženje grešaka"]
+        }
+    },
+    {
+        "id": 110,
+        "question": "Opisati kombinovane režime prevođenja za pronalaženje grešaka.",
+        "answer": "Kombinovani režimi pokušavaju da zadrže deo optimizacija karakterističnih za proizvodno prevođenje, ali da istovremeno obezbede dovoljno informacija i predvidivo ponašanje za debagovanje.",
+        "topic": "Dinamička verifikacija softvera",
+        "subtopic": "Debagovanje",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [148, 149],
+            "section": ["5.1.3 Kombinovani režimi prevođenja"]
+        }
+    },
+    {
+        "id": 111,
+        "question": "Šta označava pojam anti-debagovanje?",
+        "answer": "Anti-debagovanje obuhvata tehnike kojima program prepoznaje ili otežava debagovanje i analizu svog izvršavanja, radi zaštite intelektualne svojine ili sprečavanja obrnutog inženjeringa.",
+        "topic": "Dinamička verifikacija softvera",
+        "subtopic": "Debagovanje",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [150],
+            "section": ["5.1.4 Anti-debagovanje"]
+        }
+    },
+    {
+        "id": 112,
+        "question": "Definisati vrste debagovanja.",
+        "answer": "Razlikujemo interaktivno debagovanje, udaljeno debagovanje i debagovanje nakon prekida izvršavanja programa.",
+        "topic": "Dinamička verifikacija softvera",
+        "subtopic": "Debagovanje",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [150],
+            "section": ["5.2 Vrste debagovanja"]
+        }
+    },
+    {
+        "id": 113,
+        "question": "Definisati interaktivno debagovanje.",
+        "answer": "Interaktivno debagovanje omogućava da se program izvršava pod kontrolom debagera, uz zaustavljanje na tačkama prekida, nastavak izvršavanja i pregled stanja programa.",
+        "topic": "Dinamička verifikacija softvera",
+        "subtopic": "Debagovanje",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [151],
+            "section": ["5.2.1 Interaktivno debagovanje"]
+        }
+    },
+    {
+        "id": 114,
+        "question": "Objasniti implementaciju interaktivnog debagovanja, tačaka prekida i tačaka posmatranja.",
+        "answer": "Debager omogućava postavljanje tačaka prekida na kojima se izvršavanje zaustavlja i tačaka posmatranja kojima se prati promena određene promenljive ili izraza. Nakon zaustavljanja mogu se pregledati promenljive i stanje izvršavanja. Postoje i uslovne tačke prekida i posmatranja, koje se aktiviraju samo kada je zadovoljen određeni uslov.",
+        "topic": "Dinamička verifikacija softvera",
+        "subtopic": "Debagovanje",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [151, 152, 153],
+            "section": ["5.2.1 Interaktivno debagovanje"]
+        }
+    },
+    {
+        "id": 115,
+        "question": "Definisati udaljeno debagovanje.",
+        "answer": "Udaljeno debagovanje znači da se aplikacija izvršava na jednom, ciljnom sistemu, dok se proces debagovanja kontroliše sa drugog, udaljenog sistema preko odgovarajuće mrežne veze.",
+        "topic": "Dinamička verifikacija softvera",
+        "subtopic": "Debagovanje",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [158],
+            "section": ["5.2.2 Udaljeno debagovanje"]
+        }
+    },
+    {
+        "id": 116,
+        "question": "Objasniti debagovanje nakon prekida izvršavanja programa.",
+        "answer": "Nakon prekida programa debager može da analizira stanje procesa u trenutku prekida, uključujući mesto prekida, stek poziva, registre i vrednosti promenljivih, kako bi se utvrdio uzrok problema.",
+        "topic": "Dinamička verifikacija softvera",
+        "subtopic": "Debagovanje",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [159],
+            "section": ["5.2.3 Debagovanje nakon prekida izvršavanja programa"]
+        }
+    },
+    {
+        "id": 117,
+        "question": "Dati primer debagera.",
+        "answer": "Primer debagera je GDB, koji omogućava postavljanje tačaka prekida, praćenje izvršavanja i pregled promenljivih i stanja programa. Drugi primeri su LLDB, WinDbg, Visual Studio Debugger i debageri za različite programske jezike (Java, Python, Go, Haskell, JavaScript).",
+        "topic": "Dinamička verifikacija softvera",
+        "subtopic": "Debagovanje",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [162, 153, 164, 165],
+            "section": ["5.3 Primeri debagera"]
+        }
+    },
+    {
+        "id": 118,
+        "question": "Koji su otvoreni problemi debagera?",
+        "answer": "Problemi uključuju poteškoće u povezivanju optimizovanog izvršivog koda sa izvornim kodom, promene stanja zbog samog debagovanja i složenost savremenih konkurentnih i distribuiranih sistema.",
+        "topic": "Dinamička verifikacija softvera",
+        "subtopic": "Debagovanje",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [166, 167],
+            "section": ["5.4 Otvoreni problemi"]
+        }
+    },
+    {
+        "id": 119,
+        "question": "Kakvu razliku pravi štampanje umesto debagera?",
+        "answer": "Štampanje omogućava jednostavno beleženje odabranih vrednosti i događaja, ali daje manje mogućnosti za kontrolu izvršavanja i sistematsku analizu stanja nego debager zbog potrebe ponovnog prevođenja koda, nemogućnosti ispitivanja registra, nemogućnosti kontrole zaustavljanja i ograničenja u analizi kompleksnih problema.",
+        "topic": "Dinamička verifikacija softvera",
+        "subtopic": "Debagovanje",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [167, 168],
+            "section": ["5.5 Štampanje umesto debagera"]
+        }
     }
 ]
