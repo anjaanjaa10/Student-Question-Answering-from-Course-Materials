@@ -558,5 +558,293 @@
             "page": [167, 168],
             "section": ["5.5 Štampanje umesto debagera"]
         }
+    },
+    {
+        "id": 120,
+        "question": "Objasniti pojam instrumentacije u verifikaciji softvera.",
+        "answer": "Instrumentacija je dodavanje dodatnih instrukcija ili mehanizama programu radi prikupljanja informacija tokom izvršavanja, na primer brojača, podataka o granama, putanjama ili drugim svojstvima programa.",
+        "topic": "Dinamička verifikacija softvera",
+        "subtopic": "Profajliranje i dinamičko detektovanje grešaka",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [174, 175],
+            "section": ["6.1 Instrumentacija"]
+        }
+    },
+    {
+        "id": 121,
+        "question": "Objasniti pojam profajliranja u verifikaciji softvera.",
+        "answer": "Profajliranje je prikupljanje i analiza podataka o izvršavanju programa radi razumevanja njegovog ponašanja i pronalaženja delova koji troše najviše vremena ili se često izvršavaju.",
+        "topic": "Dinamička verifikacija softvera",
+        "subtopic": "Profajliranje i dinamičko detektovanje grešaka",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [180, 181],
+            "section": ["6.2 Profajleri"]
+        }
+    },
+    {
+        "id": 122,
+        "question": "Kako se koriste profili pri profiliranju u verifikaciji softvera?",
+        "answer": "Profil služi kao osnova za analizu izvršavanja i donošenje odluka o optimizaciji. Na primer, može pokazati koje se funkcije ili delovi koda najčešće izvršavaju ili gde se najviše vremena troši. Optimizacije na osnovu ovih profila se nazivaju optimizacijama vođenim profilom, pre ili tokom izvršavanja.",
+        "topic": "Dinamička verifikacija softvera",
+        "subtopic": "Profajliranje i dinamičko detektovanje grešaka",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [181, 182, 183],
+            "section": ["6.2.1 Upotreba profila"]
+        }
+    },
+    {
+        "id": 123,
+        "question": "Kakav je kvalitet profila pri profiliranju u verifikaciji softvera?",
+        "answer": "Kvalitet profila zavisi od toga koliko prikupljeni podaci predstavljaju realnu upotrebu programa. Relevantni i raznovrsni ulazi daju korisnije profile, dok nereprezentativni podaci mogu dovesti do pogrešnih odluka o optimizaciji.",
+        "topic": "Dinamička verifikacija softvera",
+        "subtopic": "Profajliranje i dinamičko detektovanje grešaka",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [183, 184],
+            "section": ["6.2.2 Kvalitet profila"]
+        }
+    },
+    {
+        "id": 124,
+        "question": "Kako se vrši profajliranje uzimanjem uzoraka u verifikaciji softvera?",
+        "answer": "Profajler periodično prekida izvršavanje, najčešće u fiksnim intervalima, i beleži aktivni stek poziva. Prikupljeni uzorci se agregiraju i koriste za statističku procenu izvršavanja. Primeri su perf i plameni graf.",
+        "topic": "Dinamička verifikacija softvera",
+        "subtopic": "Profajliranje i dinamičko detektovanje grešaka",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [184, 185, 186, 187],
+            "section": ["6.2.3 Profajliranje uzimanjem uzoraka"]
+        }
+    },
+    {
+        "id": 125,
+        "question": "Šta je instrumentaciono profajliranje?",
+        "answer": "Instrumentaciono profajliranje koristi dodatno ubačen kod za prikupljanje tačnih podataka o izvršavanju, na primer broja poziva funkcija ili izvršenih grana i blokova.",
+        "topic": "Dinamička verifikacija softvera",
+        "subtopic": "Profajliranje i dinamičko detektovanje grešaka",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [188, 189],
+            "section": ["6.2.4 Instrumentaciono profajliranje"]
+        }
+    },
+    {
+        "id": 126,
+        "question": "Objasniti detaljnije profajliranje putanja u verifikaciji softvera.",
+        "answer": "Profajliranje putanja prati koje konkretne putanje kroz kontrolni tok programa su izvršene i koliko često. Koristi se za razumevanje ponašanja programa i optimizaciju često korišćenih putanja.",
+        "topic": "Dinamička verifikacija softvera",
+        "subtopic": "Profajliranje i dinamičko detektovanje grešaka",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [189],
+            "section": ["6.2.4 Instrumentaciono profajliranje"]
+        }
+    },
+    {
+        "id": 127,
+        "question": "Objasniti detaljnije profajliranje grana u verifikaciji softvera.",
+        "answer": "Profajliranje grana beleži koje grane uslovnog toka su izvršene i koliko puta, pa pokazuje koje alternative programa se zaista koriste tokom izvršavanja.",
+        "topic": "Dinamička verifikacija softvera",
+        "subtopic": "Profajliranje i dinamičko detektovanje grešaka",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [189, 190],
+            "section": ["6.2.4 Instrumentaciono profajliranje"]
+        }
+    },
+    {
+        "id": 128,
+        "question": "Objasniti detaljnije profajliranje blokova u verifikaciji softvera.",
+        "answer": "Profajliranje blokova prati izvršavanje osnovnih blokova koda i učestalost njihovog izvršavanja, čime se dobija informacija o delovima programa koji su najviše korišćeni.",
+        "topic": "Dinamička verifikacija softvera",
+        "subtopic": "Profajliranje i dinamičko detektovanje grešaka",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [189],
+            "section": ["6.2.4 Instrumentaciono profajliranje"]
+        }
+    },
+    {
+        "id": 129,
+        "question": "Kako bi se mogli smanjiti troškovi instrumentacije?",
+        "answer": "Troškovi se mogu smanjiti naizmeničnim izvršavanjem instrumentovanog i originalnog koda, izborom odgovarajuće vrste merenja i korišćenjem uzorkovanja kada precizno praćenje nije neophodno.",
+        "topic": "Dinamička verifikacija softvera",
+        "subtopic": "Profajliranje i dinamičko detektovanje grešaka",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [193, 194],
+            "section": ["6.2.4 Instrumentaciono profajliranje"]
+        }
+    },
+    {
+        "id": 130,
+        "question": "Opisati instrumentaciju u fazi izvršavanja.",
+        "answer": "Instrumentacija se može dodavati i tokom izvršavanja pomoću specijalizovanih alata, bez nužnog ponovnog prevođenja izvornog koda. Alat ubacuje ili aktivira merenja nad izvršivim programom.",
+        "topic": "Dinamička verifikacija softvera",
+        "subtopic": "Profajliranje i dinamičko detektovanje grešaka",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [189],
+            "section": ["6.2.4 Instrumentaciono profajliranje"]
+        }
+    },
+    {
+        "id": 131,
+        "question": "Kako Valgrind profajlira faze transformacije koda?",
+        "answer": "Valgrind pri izvršavanju koristi dinamičku binarnu instrumentaciju i transformiše kod koji treba izvršiti tako da se u njega mogu uključiti potrebna merenja i provere.",
+        "topic": "Dinamička verifikacija softvera",
+        "subtopic": "Profajliranje i dinamičko detektovanje grešaka",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [202],
+            "section": ["6.3.2 Alati platforme Valgrind"]
+        }
+    },
+    {
+        "id": 132,
+        "question": "Šta je Cachegrind, za šta služi i kako se koristi?",
+        "answer": "Cachegrind je Valgrind alat za profilisanje keš memorije. Koristi se pokretanjem programa kroz Cachegrind, nakon čega se analiziraju prikupljene informacije o pristupima kešu i izvršavanju.",
+        "topic": "Dinamička verifikacija softvera",
+        "subtopic": "Profajliranje i dinamičko detektovanje grešaka",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [194, 195, 196, 202],
+            "section": ["6.2.4 Instrumentaciono profajliranje", "6.3.2 Alati platforme Valgrind"]
+        }
+    },
+    {
+        "id": 133,
+        "question": "Šta je Callgrind, za šta služi i kako se koristi?",
+        "answer": "Callgrind je Valgrind alat za profilisanje funkcija i odnosa između njihovih poziva. Program se pokreće kroz Callgrind, a zatim se analiziraju prikupljeni podaci o pozivima i troškovima izvršavanja.",
+        "topic": "Dinamička verifikacija softvera",
+        "subtopic": "Profajliranje i dinamičko detektovanje grešaka",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [196, 197, 202],
+            "section": ["6.2.4 Instrumentaciono profajliranje", "6.3.2 Alati platforme Valgrind"]
+        }
+    },
+    {
+        "id": 134,
+        "question": "Kako se definiše dinamička detekcija grešaka?",
+        "answer": "Dinamička detekcija grešaka pronalazi probleme tokom izvršavanja programa, posmatranjem njegovog ponašanja i dodatnim proverama koje se obavljaju u toku rada.",
+        "topic": "Dinamička verifikacija softvera",
+        "subtopic": "Profajliranje i dinamičko detektovanje grešaka",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [197],
+            "section": ["6.3 Alati za dinamičku detekciju grešaka"]
+        }
+    },
+    {
+        "id": 135,
+        "question": "Objasniti adresni i memorijski sanitajzer.",
+        "answer": "Adresni sanitajzer (ASan) služi za otkrivanje problema kao što su pristup van granica memorije i određene greške povezane sa memorijom. Memorijski sanitajzer (MSan) služi za otkrivanje upotrebe neinicijalizovanih vrednosti.",
+        "topic": "Dinamička verifikacija softvera",
+        "subtopic": "Profajliranje i dinamičko detektovanje grešaka",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [197, 198, 199, 200],
+            "section": ["6.3.1 Sanitajzeri"]
+        }
+    },
+    {
+        "id": 136,
+        "question": "Kako se definišu sanitajzeri u dinamičkoj detekciji grešaka?",
+        "answer": "Sanitajzeri su alati koji instrumentuju program radi otkrivanja određenih klasa grešaka tokom izvršavanja, uz prijavljivanje mesta i vrste problema.",
+        "topic": "Dinamička verifikacija softvera",
+        "subtopic": "Profajliranje i dinamičko detektovanje grešaka",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [197],
+            "section": ["6.3.1 Sanitajzeri"]
+        }
+    },
+    {
+        "id": 137,
+        "question": "Objasniti sanitajzer niti i nedefinisanog ponašanja.",
+        "answer": "TSan služi za otkrivanje grešaka vezanih za konkurentno izvršavanje i trke između niti, dok UBSan otkriva različite oblike nedefinisanog ponašanja tokom izvršavanja.",
+        "topic": "Dinamička verifikacija softvera",
+        "subtopic": "Profajliranje i dinamičko detektovanje grešaka",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [200, 201, 202],
+            "section": ["6.3.1 Sanitajzeri"]
+        }
+    },
+    {
+        "id": 138,
+        "question": "Šta je alat Valgrind i za šta služi?",
+        "answer": "Valgrind je platforma za dinamičku analizu programa koja koristi instrumentaciju i različite specijalizovane alate za profilisanje i otkrivanje grešaka tokom izvršavanja.",
+        "topic": "Dinamička verifikacija softvera",
+        "subtopic": "Profajliranje i dinamičko detektovanje grešaka",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [202],
+            "section": ["6.3.2 Alati platforme Valgrind"]
+        }
+    },
+    {
+        "id": 139,
+        "question": "Koji su najpoznatiji Valgrind alati?",
+        "answer": "Najpoznatiji su Memcheck, Massif, Cachegrind, Callgrind, Helgrind i DRD.",
+        "topic": "Dinamička verifikacija softvera",
+        "subtopic": "Profajliranje i dinamičko detektovanje grešaka",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [202],
+            "section": ["6.3.2 Alati platforme Valgrind"]
+        }
+    },
+    {
+        "id": 140,
+        "question": "Šta je Memcheck, za šta služi i kako se koristi?",
+        "answer": "Memcheck je Valgrind alat za detekciju memorijskih grešaka. Pokreće program kroz Memcheck i analizira prijavljene probleme vezane za rad sa memorijom.",
+        "topic": "Dinamička verifikacija softvera",
+        "subtopic": "Profajliranje i dinamičko detektovanje grešaka",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [202, 203],
+            "section": ["6.3.2 Alati platforme Valgrind"]
+        }
+    },
+    {
+        "id": 141,
+        "question": "Šta je Massif, za šta služi i kako se koristi?",
+        "answer": "Massif je Valgrind alat za praćenje korišćenja dinamičke memorije. Pokreće se nad programom i omogućava analizu promena u potrošnji memorije tokom izvršavanja.",
+        "topic": "Dinamička verifikacija softvera",
+        "subtopic": "Profajliranje i dinamičko detektovanje grešaka",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [203],
+            "section": ["6.3.2 Alati platforme Valgrind"]
+        }
+    },
+    {
+        "id": 142,
+        "question": "Šta je Hellgrind, za šta služi i kako se koristi?",
+        "answer": "Helgrind je Valgrind alat za detekciju problema u višenitnom izvršavanju, posebno grešaka u sinhronizaciji i trka između niti. Program se pokreće kroz Helgrind i analiziraju se prijavljeni problemi. Detektuje mrtvo blokiranje.",
+        "topic": "Dinamička verifikacija softvera",
+        "subtopic": "Profajliranje i dinamičko detektovanje grešaka",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [203, 204],
+            "section": ["6.3.2 Alati platforme Valgrind"]
+        }
+    },
+    {
+        "id": 143,
+        "question": "Šta je DRD, za šta služi i kako se koristi?",
+        "answer": "DRD je Valgrind alat namenjen detekciji problema u višenitnim programima. Pokreće se nad programom i analizira pristupe deljenim podacima i sinhronizaciju između niti. Detektuje mrtvo blokiranje i zadržavanje katanaca.",
+        "topic": "Dinamička verifikacija softvera",
+        "subtopic": "Profajliranje i dinamičko detektovanje grešaka",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [203, 204],
+            "section": ["6.3.2 Alati platforme Valgrind"]
+        }
     }
 ]
