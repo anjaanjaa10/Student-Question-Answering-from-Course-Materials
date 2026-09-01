@@ -374,20 +374,894 @@
             "section": ["3.2 Tehnike verifikacije softvera"]
         }
     },
-
-    
-    
-
-
-
-
-
-
-
-
-    
-    
-    
+    { 
+        "id": 32,
+        "question": "Definisati testiranje u razvoju softvera.",
+        "answer": "Testiranje je sistematska aktivnost u životnom ciklusu razvoja koja ima cilj da otkrije defekte pre nego što softver dospe do krajnjih korisnika i da doprinese proceni pouzdanosti, performansi i stabilnosti.",
+        "topic": "Dinamička verifikacija softvera",
+        "subtopic": "Testiranje",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [61, 62],
+            "section": ["4 Testiranje", "4.1 Testiranje i razvoj softvera"]
+        }
+    },
+    {
+        "id": 33,
+        "question": "Kako se definiše cena greške u kontekstu vremena otkrivanja?",
+        "answer": "Greške koje se otkriju rano su jeftinije i lakše otkloniti. Cena raste kako se greška otkriva kasnije, a greške pronađene u produkciji imaju najveću cenu zbog tehničkih troškova, koordinacije, gubitka poverenja i reputacione štete.",
+        "topic": "Dinamička verifikacija softvera",
+        "subtopic": "Testiranje",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [62, 63],
+            "section": ["4.1.1 Cena greške u kontekstu vremena otkrivanja"]
+        }
+    },
+    {
+        "id": 34,
+        "question": "Koja je uloga testera u razvoju softvera?",
+        "answer": "Tester planira, izvodi i dokumentuje aktivnosti testiranja sa ciljem obezbeđivanja očekivanog kvaliteta. Sistematski ispituje softver radi pronalaženja defekata u funkcionalnosti, performansama i upotrebljivosti.",
+        "topic": "Dinamička verifikacija softvera",
+        "subtopic": "Testiranje",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [64, 65],
+            "section": ["4.1.2 Uloga testera u razvoju softvera"]
+        }
+    },
+    {
+        "id": 35,
+        "question": "Koje faze testiranja softvera postoje?",
+        "answer": "Planiranje testiranja; analiza, dizajn i implementacija testova; izvršavanje testova; evaluacija testova; zatvaranje testiranja.",
+        "topic": "Dinamička verifikacija softvera",
+        "subtopic": "Testiranje",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [66],
+            "section": ["4.1.3 Faze testiranja softvera" ]
+        }
+    },
+    {
+        "id": 36,
+        "question": "Na šta se odnosi planiranje kao faza testiranja softvera?",
+        "answer": "Planiranje određuje vrste i tehnike testiranja, načine sprovođenja, opseg, kriterijume ulaska i izlaska, resurse, rizike, metodologiju praćenja defekata i uloge članova tima.",
+        "topic": "Dinamička verifikacija softvera",
+        "subtopic": "Testiranje",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [66, 67],
+            "section": ["4.1.3 Faze testiranja softvera"]
+        }
+    },
+    {
+        "id": 37,
+        "question": "Na šta se odnosi analiza, dizajn i implementacija testova kao faza testiranja softvera?",
+        "answer": "Analiza utvrđuje šta treba testirati, dizajn određuje kako će se testirati, a implementacija konkretizuje test slučajeve, procedure, podatke, alat i okruženje potrebno za izvršavanje testova.",
+        "topic": "Dinamička verifikacija softvera",
+        "subtopic": "Testiranje",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [67, 68, 69, 71],
+            "section": ["4.1.3 Faze testiranja softvera"]
+        }
+    },
+    {
+        "id": 38,
+        "question": "Na šta se odnosi izvršavanje i evaluacija testova kao faza testiranja softvera?",
+        "answer": "Izvršavanje praktično primenjuje test slučajeve i procedure, ručno ili automatski, dok evaluacija procenjuje rezultate u odnosu na izlazne kriterijume, metrike i stanje defekata.",
+        "topic": "Dinamička verifikacija softvera",
+        "subtopic": "Testiranje",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [73, 74],
+            "section": ["4.1.3 Faze testiranja softvera"]
+        }
+    },
+    {
+        "id": 39,
+        "question": "Na šta se odnosi zatvaranje testiranja kao faza testiranja softvera?",
+        "answer": "Zatvaranje nastupa nakon završetka planiranih aktivnosti ili kada više nema smisla nastaviti testiranje. Obuhvata arhiviranje testne dokumentacije i analizu procesa radi učenja i poboljšanja budućih testiranja.",
+        "topic": "Dinamička verifikacija softvera",
+        "subtopic": "Testiranje",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [75, 76],
+            "section": ["4.1.3 Faze testiranja softvera"]
+        }
+    },
+    {
+        "id": 40,
+        "question": "Koje vrste testiranja postoje pri testiranju softvera?",
+        "answer": "Prema prirodi osobina razlikuju se funkcionalno i nefunkcionalno testiranje, a prema nivou testiranja razlikuju se testiranje jedinica koda, komponentno, integraciono i sistemsko testiranje. Regresiono testiranje može se javiti na svim nivoima.",
+        "topic": "Dinamička verifikacija softvera",
+        "subtopic": "Testiranje",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [76, 77],
+            "section": ["4.2 Vrste i nivoi testiranja"]
+        }
+    },
+    {
+        "id": 41,
+        "question": "Opisati testiranje jedinica koda pri testiranju softvera.",
+        "answer": "To je provera najmanjih delova sistema koji se mogu nezavisno testirati, kao što su klase, funkcije, procedure ili moduli. Cilj je da izolovana jedinica radi prema očekivanju.",
+        "topic": "Dinamička verifikacija softvera",
+        "subtopic": "Testiranje",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [77, 78],
+            "section": ["4.2.1 Testiranje jedinica koda"]
+        }
+    },
+    {
+        "id": 42,
+        "question": "Navesti primer testiranja jedinica koda pri testiranju softvera.",
+        "answer": "U Pythonu se funkcija saberi(a,b) može testirati pomoću biblioteke unittest i metode assertEqual tako što se proveri da saberi(2,3) vraća 5 i saberi(-1,-1) vraća -2.",
+        "topic": "Dinamička verifikacija softvera",
+        "subtopic": "Testiranje",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [78, 79],
+            "section": ["4.2.1 Testiranje jedinica koda"]
+        }
+    },
+    {
+        "id": 43,
+        "question": "Opisati komponentno i integraciono testiranje pri testiranju softvera.",
+        "answer": "Komponentno testiranje proverava veću funkcionalnu celinu sastavljenu od više jedinica koda, ali izolovanu od ostatka sistema. Integraciono testiranje proverava saradnju više komponenti, naročito njihove interfejse i komunikaciju.",
+        "topic": "Dinamička verifikacija softvera",
+        "subtopic": "Testiranje",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [79, 80, 81],
+            "section": ["4.2.2 Komponentno i integraciono testiranje"]
+        }
+    },
+    {
+        "id": 44,
+        "question": "Navesti primer komponentnog i integracionog testiranja koda pri testiranju softvera.",
+        "answer": "Primer komponentnog testiranja je testiranje funkcije Aproksimacija koja koristi float i Otimizacija koja koristi double podatke, zasebno, ali neophodno integraciono testiranje otkriva neusaglašenost. Primer integracionog problema je integracija brave sa kliznim vratima: i brava i vrata mogu pojedinačno raditi ispravno, ali njihova međusobna integracija može biti neispravna.",
+        "topic": "Dinamička verifikacija softvera",
+        "subtopic": "Testiranje",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [80, 81],
+            "section": ["4.2.2 Komponentno i integraciono testiranje"]
+        }
+    },
+    {
+        "id": 45,
+        "question": "Opisati sistemsko testiranje pri testiranju softvera.",
+        "answer": "Sistemsko testiranje proverava ceo softverski sistem kao celinu i može obuhvatiti funkcionalne i nefunkcionalne karakteristike.",
+        "topic": "Dinamička verifikacija softvera",
+        "subtopic": "Testiranje",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [82],
+            "section": ["4.2.3 Sistemsko testiranje"]
+        }
+    },
+    {
+        "id": 46,
+        "question": "Navesti primer sistemskog testiranja pri testiranju softvera.",
+        "answer": "Kod elektronskog bankarstva može se testirati ceo tok prenosa novca, uključujući različite ulaze, granične slučajeve i proveru tačnosti, pouzdanosti i bezbednosti sistema.",
+        "topic": "Dinamička verifikacija softvera",
+        "subtopic": "Testiranje",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [82, 83, 84],
+            "section": ["4.2.3 Sistemsko testiranje"]
+        }
+    },
+    {
+        "id": 47,
+        "question": "Definisati funkcionalno sistemsko testiranje pri testiranju softvera.",
+        "answer": "Funkcionalno sistemsko testiranje proverava da li sistem izvršava funkcije definisane specifikacijom i da li za očekivane ulaze daje očekivane izlaze.",
+        "topic": "Dinamička verifikacija softvera",
+        "subtopic": "Testiranje",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [82, 84],
+            "section": ["4.2.3 Sistemsko testiranje"]
+        }
+    },
+    {
+        "id": 48,
+        "question": "Navesti primer funkcionalnog sistemskog testiranja pri testiranju softvera.",
+        "answer": "U bankarskoj aplikaciji može se proveriti da korisnik sa dovoljnim stanjem uspešno prenese novac između računa i da sistem evidentira odgovarajuću transakciju.",
+        "topic": "Dinamička verifikacija softvera",
+        "subtopic": "Testiranje",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [82, 83, 84],
+            "section": ["4.2.3 Sistemsko testiranje"]
+        }
+    },
+    {
+        "id": 49,
+        "question": "Opisati regresiono testiranje pri testiranju softvera.",
+        "answer": "Regresiono testiranje je ponovno izvršavanje ranije uspešnih testova kako bi se proverilo da nove izmene nisu narušile postojeću funkcionalnost ili performanse. Sprovodi se nakon ispravki, novih funkcionalnosti i refaktorisanja.",
+        "topic": "Dinamička verifikacija softvera",
+        "subtopic": "Testiranje",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [77],
+            "section": ["4.2 Vrste i nivoi testiranja"]
+        }
+    },
+    {
+        "id": 50,
+        "question": "Koja podela sistemskog testiranja bi mogla da se napravi?.",
+        "answer": "Možeo razlikovati funkcionalno i nefunkcionalno sistemsko testiranje, kao i istraživačko, prihvatljivo i instalaciono testiranje.",
+        "topic": "Dinamička verifikacija softvera",
+        "subtopic": "Testiranje",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [82],
+            "section": ["4.2.3 Sistemsko testiranje"]
+        }
+    },
+    {
+        "id": 51,
+        "question": "Opisati istraživačko testiranje pri testiranju softvera.",
+        "answer": "Istraživačko testiranje se oslanja na znanje, intuiciju i kreativnost testera; test slučajevi se osmišljavaju i izvršavaju u hodu radi otkrivanja neočekivanih ponašanja i scenarija.",
+        "topic": "Dinamička verifikacija softvera",
+        "subtopic": "Testiranje",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [86, 97],
+            "section": ["4.2.3 Sistemsko testiranje"]
+        }
+    },
+    {
+        "id": 52,
+        "question": "Navesti primer istraživačkog testiranja pri testiranju softvera.",
+        "answer": "U aplikaciji za deljenje fotografija tester može pokušati da postavi nepodržan format slike, više puta brzo postavi istu sliku ili koristi aplikaciju bez internet veze i posmatra ponašanje sistema.",
+        "topic": "Dinamička verifikacija softvera",
+        "subtopic": "Testiranje",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [97],
+            "section": ["4.2.3 Sistemsko testiranje"]
+        }
+    },
+    {
+        "id": 53,
+        "question": "Opisati testove prihvatljivosti pri testiranju softvera.",
+        "answer": "Testovi prihvatljivosti omogućavaju klijentu i korisnicima da procene da li je softver u skladu sa njihovim potrebama i očekivanjima. Obično ih izvode i procenjuju korisnici, na sledeće načine: referentno testiranje, pilot testiranje i paralelno testiranje.",
+        "topic": "Dinamička verifikacija softvera",
+        "subtopic": "Testiranje",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [98],
+            "section": ["4.2.3 Sistemsko testiranje"]
+        }
+    },
+    {
+        "id": 54,
+        "question": "Navesti primer testova prihvatljivosti pri testiranju softvera.",
+        "answer": "U bankarskom softveru manja grupa korisnika može koristiti novu verziju i pratiti osnovne funkcionalnosti, vreme izvršavanja i reakcije na interfejs pre šireg uvođenja.",
+        "topic": "Dinamička verifikacija softvera",
+        "subtopic": "Testiranje",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [98, 99],
+            "section": ["4.2.3 Sistemsko testiranje"]
+        }
+    },
+    {
+        "id": 55,
+        "question": "Opisati instalaciono testiranje pri testiranju softvera.",
+        "answer": "Instalaciono testiranje proverava da li se softver pravilno instalira i funkcioniše u realnom klijentskom okruženju, uz različite operativne sisteme, mrežne postavke, uređaje i spoljne servise.",
+        "topic": "Dinamička verifikacija softvera",
+        "subtopic": "Testiranje",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [99, 100],
+            "section": ["4.2.3 Sistemsko testiranje"]
+        }
+    },
+    {
+        "id": 56,
+        "question": "Navesti primer instalacionog testiranja pri testiranju softvera.",
+        "answer": "Aplikacija se instalira i pokreće na više modela telefona i više verzija Androida i iOS-a, kako bi se proverilo da instalacija i rad uspevaju u svim relevantnim konfiguracijama.",
+        "topic": "Dinamička verifikacija softvera",
+        "subtopic": "Testiranje",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [99, 100],
+            "section": ["4.2.3 Sistemsko testiranje"]
+        }
+    },
+    {
+        "id": 57,
+        "question": "Definisati nefunkcionalno testiranje pri testiranju softvera.",
+        "answer": "Nefunkcionalno testiranje proverava tehničke i kvalitativne osobine sistema, kao što su performanse, sigurnost, upotrebljivost, kompatibilnost i pouzdanost.",
+        "topic": "Dinamička verifikacija softvera",
+        "subtopic": "Testiranje",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [84],
+            "section": ["4.2.3 Sistemsko testiranje"]
+        }
+    },
+    {
+        "id": 58,
+        "question": "Navesti primer nefunkcionalnog testiranja pri testiranju softvera.",
+        "answer": "Primer je proveravanje vremena odziva aplikacije, potrošnje memorije, ponašanja pri velikom opterećenju ili njenog rada na više platformi.",
+        "topic": "Dinamička verifikacija softvera",
+        "subtopic": "Testiranje",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [85, 86],
+            "section": ["4.2.3 Sistemsko testiranje"]
+        }
+    },
+    {
+        "id": 59,
+        "question": "Opisati testove performansi pri testiranju softvera.",
+        "answer": "Testovi performansi proveravaju vremensko ponašanje, korišćenje resursa i sposobnost sistema da radi pod definisanim opterećenjem. Posmatraju se, između ostalog, vreme odziva, protok i resursi. Ključni su testovi kapaciteta, stres i testovi konfiguracije.",
+        "topic": "Dinamička verifikacija softvera",
+        "subtopic": "Testiranje",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [85],
+            "section": ["4.2.3 Sistemsko testiranje"]
+        }
+    },
+    {
+        "id": 60,
+        "question": "Navesti primer testova performansi pri testiranju softvera.",
+        "answer": "Kod bankarske aplikacije može se proveriti da pretraga karata ili obrada zahteva ostaje ispod zadatog vremena i da sistem podržava definisan broj istovremenih korisnika.",
+        "topic": "Dinamička verifikacija softvera",
+        "subtopic": "Testiranje",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [85, 86],
+            "section": ["4.2.3 Sistemsko testiranje"]
+        }
+    },
+    {
+        "id": 61,
+        "question": "Opisati testove kompatibilnosti pri testiranju softvera.",
+        "answer": "Testovi kompatibilnosti proveravaju da softver može pravilno da radi u različitim okruženjima i zajedno sa drugim programima, uređajima ili servisima.",
+        "topic": "Dinamička verifikacija softvera",
+        "subtopic": "Testiranje",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [87],
+            "section": ["4.2.3 Sistemsko testiranje"]
+        }
+    },
+    {
+        "id": 62,
+        "question": "Navesti primer testova kompatibilnosti pri testiranju softvera.",
+        "answer": "Aplikacija se može pokrenuti zajedno sa drugim programima i proveriti da li nema konflikata, prekida funkcionalnosti ili gubitka performansi i podataka.",
+        "topic": "Dinamička verifikacija softvera",
+        "subtopic": "Testiranje",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [87, 88],
+            "section": ["4.2.3 Sistemsko testiranje"]
+        }
+    },
+    {
+        "id": 63,
+        "question": "Opisati testove pouzdanosti pri testiranju softvera.",
+        "answer": "Testovi pouzdanosti proveravaju stabilnost i sposobnost sistema da radi bez grešaka tokom određenog perioda, uključujući oporavak nakon greške, dugotrajni rad i otpornost na promene okruženja.",
+        "topic": "Dinamička verifikacija softvera",
+        "subtopic": "Testiranje",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [88, 89],
+            "section": ["4.2.3 Sistemsko testiranje"]
+        }
+    },
+    {
+        "id": 64,
+        "question": "Navesti primer testova pouzdanosti pri testiranju softvera.",
+        "answer": "Aplikacija za elektronsko bankarstvo može se izvršavati 72 sata uz stalne zahteve i periodične simulacije grešaka, pri čemu se prate padovi, oporavak, memorija, performanse i konzistentnost podataka.",
+        "topic": "Dinamička verifikacija softvera",
+        "subtopic": "Testiranje",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [89, 90],
+            "section": ["4.2.3 Sistemsko testiranje"]
+        }
+    },
+    {
+        "id": 65,
+        "question": "Opisati testove upotrebljivosti pri testiranju softvera.",
+        "answer": "Testovi upotrebljivosti proveravaju koliko je sistem lak za korišćenje, koliko brzo ga novi korisnik uči, koliko efikasno izvršava zadatke, koliko lako uočava i ispravlja greške i koliko je interfejs jasan i pristupačan.",
+        "topic": "Dinamička verifikacija softvera",
+        "subtopic": "Testiranje",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [90, 91],
+            "section": ["4.2.3 Sistemsko testiranje"]
+        }
+    },
+    {
+        "id": 66,
+        "question": "Navesti primer testova upotrebljivosti pri testiranju softvera.",
+        "answer": "Novi korisnik bankarske aplikacije može dobiti zadatak da prenese 1000 RSD i meri se vreme, broj grešaka, broj pitanja i subjektivna ocena složenosti.",
+        "topic": "Dinamička verifikacija softvera",
+        "subtopic": "Testiranje",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [91, 92],
+            "section": ["4.2.3 Sistemsko testiranje"]
+        }
+    },
+    {
+        "id": 67,
+        "question": "Opisati testove bezbednosti pri testiranju softvera.",
+        "answer": "Testovi bezbednosti proveravaju zaštitu ljudi, opreme i okruženja od neželjenih efekata korišćenja softvera, posebno u kritičnim sistemima.",
+        "topic": "Dinamička verifikacija softvera",
+        "subtopic": "Testiranje",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [92],
+            "section": ["4.2.3 Sistemsko testiranje"]
+        }
+    },
+    {
+        "id": 68,
+        "question": "Navesti primer testova bezbednosti pri testiranju softvera.",
+        "answer": "Kod autonomne vožnje može se simulirati iznenadna prepreka na putu i proveriti da li sistem detektuje prepreku, koči i aktivira odgovarajuće bezbednosne mehanizme.",
+        "topic": "Dinamička verifikacija softvera",
+        "subtopic": "Testiranje",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [92, 93],
+            "section": ["4.2.3 Sistemsko testiranje"]
+        }
+    },
+    {
+        "id": 69,
+        "question": "Opisati testove sigurnosti pri testiranju softvera.",
+        "answer": "Testovi sigurnosti proveravaju zaštitu funkcionalnosti i podataka od neovlašćenih korisnika, uključujući dostupnost, integritet i poverljivost podataka.",
+        "topic": "Dinamička verifikacija softvera",
+        "subtopic": "Testiranje",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [93],
+            "section": ["4.2.3 Sistemsko testiranje"]
+        }
+    },
+    {
+        "id": 70,
+        "question": "Navesti primer testova sigurnosti pri testiranju softvera.",
+        "answer": "Penetracionim testiranjem bankarske aplikacije može se simulirati brute-force napad i proveriti zaključavanje naloga, blokiranje daljih pokušaja i evidentiranje napada u logovima.",
+        "topic": "Dinamička verifikacija softvera",
+        "subtopic": "Testiranje",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [93, 94],
+            "section": ["4.2.3 Sistemsko testiranje"]
+        }
+    },
+    {
+        "id": 71,
+        "question": "Opisati testove prenosivosti pri testiranju softvera.",
+        "answer": "Testovi prenosivosti proveravaju da softver može da se instalira, koristi i radi ispravno na različitim platformama, operativnim sistemima, hardverskim konfiguracijama i pregledačima.",
+        "topic": "Dinamička verifikacija softvera",
+        "subtopic": "Testiranje",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [94, 95],
+            "section": ["4.2.3 Sistemsko testiranje"]
+        }
+    },
+    {
+        "id": 72,
+        "question": "Navesti primer testova prenosivosti pri testiranju softvera.",
+        "answer": "Mobilna bankarska aplikacija može se testirati na različitim verzijama Androida i iOS-a i na različitim uređajima, uz proveru instalacije, rada i vizuelne konzistentnosti.",
+        "topic": "Dinamička verifikacija softvera",
+        "subtopic": "Testiranje",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [95, 96],
+            "section": ["4.2.3 Sistemsko testiranje"]
+        }
+    },
+    {
+        "id": 73,
+        "question": "Koje tehnike testiranja postoje pri testiranju softvera?",
+        "answer": "Tehnike obuhvataju testiranje crne kutije, bele kutije i sive kutije, kao i specifične tehnike poput klasa ekvivalencije, graničnih vrednosti, tabela odlučivanja, dijagrama i tabela stanja i osnovnih putanja.",
+        "topic": "Dinamička verifikacija softvera",
+        "subtopic": "Testiranje",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [100, 102, 103, 104],
+            "section": ["4.3 Tehnike testiranja", "4.3.2 Podela tehnika testiranja"]
+        }
+    },
+    {
+        "id": 74,
+        "question": "Koje su karakteristike dobrog skupa testova pri testiranju softvera?",
+        "answer": "Treba da ima visok potencijal otkrivanja grešaka, relativno malu veličinu, relativno veliku brzinu izvršavanja i da pruža visok stepen poverenja u pouzdanost softvera.",
+        "topic": "Dinamička verifikacija softvera",
+        "subtopic": "Testiranje",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [100],
+            "section": ["4.3 Tehnike testiranja"]
+        }
+    },
+    {
+        "id": 75,
+        "question": "Kako definišemo pokrivenost testiranjem pri testiranju softvera?",
+        "answer": "Pokrivenost je metrika koja pokazuje koliko su testovi sveobuhvatni. Definiše se kao procenat testiranih elemenata u odnosu na ukupan broj elemenata odgovarajuće vrste. Razlikujemo pokrivenost zahteva, funkcionalnosti i koda.",
+        "topic": "Dinamička verifikacija softvera",
+        "subtopic": "Testiranje",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [101],
+            "section": ["4.3.1 Pokrivenost testiranjem"]
+        }
+    },
+    {
+        "id": 76,
+        "question": "Kako delimo tehnike testiranja pri testiranju softvera?",
+        "answer": "Tehnike se mogu zasnivati na specifikaciji programa, na kodu programa ili na kombinaciji specifikacije i koda, što odgovara crnoj, beloj i sivoj kutiji.",
+        "topic": "Dinamička verifikacija softvera",
+        "subtopic": "Testiranje",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [102, 103, 104],
+            "section": ["4.3.2 Podela tehnika testiranja"]
+        }
+    },
+    {
+        "id": 77,
+        "question": "Kako definišemo testiranje metodama crne kutije?",
+        "answer": "Testiranje crne kutije generiše test primere bez razmatranja interne strukture koda, isključivo na osnovu specifikacije i očekivanog ponašanja sistema.",
+        "topic": "Dinamička verifikacija softvera",
+        "subtopic": "Testiranje",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [102, 106, 107],
+            "section": ["4.3.2 Podela tehnika testiranja", "4.3.3 Testiranje crne kutije"]
+        }
+    },
+    {
+        "id": 78,
+        "question": "Šta je isprobavanje svih mogućih ulaza kod testiranja metodama crne kutije?",
+        "answer": "To je teorijski pristup u kojem se pokušavaju testirati sve moguće ulazne vrednosti. U praksi je već za jednostavne programe broj testova prevelik, pa se koristi reprezentativan skup.",
+        "topic": "Dinamička verifikacija softvera",
+        "subtopic": "Testiranje",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [106, 107, 108],
+            "section": ["4.3.3 Testiranje crne kutije"]
+        }
+    },
+    {
+        "id": 79,
+        "question": "Navesti primer isprobavanja svih mogućih ulaza kod testiranja metodama crne kutije.",
+        "answer": "Kod programa koji prima celobrojne koeficijente kvadratne jednačine, potpuno testiranje bi zahtevalo isprobavanje svih mogućih kombinacija ulaznih vrednosti, što brzo postaje nepraktično.",
+        "topic": "Dinamička verifikacija softvera",
+        "subtopic": "Testiranje",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [107, 108],
+            "section": ["4.3.3 Testiranje crne kutije"]
+        }
+    },
+    {
+        "id": 80,
+        "question": "Šta je metod klasa ekvivalencije kod testiranja metodama crne kutije?",
+        "answer": "Klase ekvivalencije grupišu ulazne podatke koji se obrađuju na isti način. Cilj je da se broj testova smanji tako što se bira predstavnik iz svake validne i nevalidne klase.",
+        "topic": "Dinamička verifikacija softvera",
+        "subtopic": "Testiranje",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [108, 109],
+            "section": ["4.3.3 Testiranje crne kutije"]
+        }
+    },
+    {
+        "id": 81,
+        "question": "Navesti primer metoda klasa ekvivalencije kod testiranja metodama crne kutije.",
+        "answer": "Ako želimo da zaposlimo na osnovu starosti, do 16. godine nećemo zaposliti, od 16 do 18 sa pola radnog vremena, do 55 sa punim, a preko 55 opet nećemo. Klase su 0-16 (predstavnik 10), 16-18 (predstavnik 17), 18-55 (predstavnik 30), i 55+ (predstavnik 60). Nevalidne su ispod 0 i preko npr 105.",
+        "topic": "Dinamička verifikacija softvera",
+        "subtopic": "Testiranje",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [109, 110],
+            "section": ["4.3.3 Testiranje crne kutije"]
+        }
+    },
+    {
+        "id": 82,
+        "question": "Šta je metod graničnih vrednosti kod testiranja metodama crne kutije?",
+        "answer": "Metod graničnih vrednosti bira testne tačke na samim granicama klasa, neposredno ispod i neposredno iznad njih, jer se na granicama često javljaju greške.",
+        "topic": "Dinamička verifikacija softvera",
+        "subtopic": "Testiranje",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [110, 111],
+            "section": ["4.3.3 Testiranje crne kutije"]
+        }
+    },
+    {
+        "id": 83,
+        "question": "Navesti primer metoda graničnih vrednosti kod testiranja metodama crne kutije.",
+        "answer": "Ako je klasa 18–54, za granicu 18 mogu se testirati 17, 18 i 19, a za granicu 54 vrednosti 53, 54 i 55.",
+        "topic": "Dinamička verifikacija softvera",
+        "subtopic": "Testiranje",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [112, 113],
+            "section": ["4.3.3 Testiranje crne kutije"]
+        }
+    },
+    {
+        "id": 84,
+        "question": "Šta su karakteristike dobrog skupa testova?",
+        "answer": "Dobar skup testova treba da efikasno otkriva greške, bude relativno mali i brz za izvršavanje i da pruža visok stepen poverenja u pouzdanost softvera.",
+        "topic": "Dinamička verifikacija softvera",
+        "subtopic": "Testiranje",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [100, 101],
+            "section": ["4.3 Tehnike testiranja"]
+        }
+    },
+    {
+        "id": 85,
+        "question": "Šta su tabele odlučivanja pri testiranju softvera?",
+        "answer": "Tabele odlučivanja predstavljaju složena poslovna pravila kroz uslove i akcije. Redovi predstavljaju uslove i akcije, a kolone pojedinačna pravila odnosno kombinacije uslova i odgovarajućih akcija.",
+        "topic": "Dinamička verifikacija softvera",
+        "subtopic": "Testiranje",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [113, 114],
+            "section": ["4.3.3 Testiranje crne kutije"]
+        }
+    },
+    {
+        "id": 86,
+        "question": "Šta su dijagrami stanja pri testiranju softvera?",
+        "answer": "Dijagrami stanja modeluju ponašanje sistema kroz konačan broj stanja i prelaze izazvane događajima. Mogu se koristiti i za sistematsko generisanje test slučajeva obilaskom stanja i prelaza. Osnovni elementi su stanje, prelaz, događaj i akcija.",
+        "topic": "Dinamička verifikacija softvera",
+        "subtopic": "Testiranje",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [115, 116],
+            "section": ["4.3.3 Testiranje crne kutije"]
+        }
+    },
+    {
+        "id": 87,
+        "question": "Šta su tabele stanja pri testiranju softvera?",
+        "answer": "Tabele stanja predstavljaju konačni automat kroz redove koji opisuju trenutno stanje, događaj, akciju i naredno stanje. Omogućavaju da se sistematski uoče nedefinisane kombinacije i izvode test slučajevi.",
+        "topic": "Dinamička verifikacija softvera",
+        "subtopic": "Testiranje",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [116, 117],
+            "section": ["4.3.3 Testiranje crne kutije"]
+        }
+    },
+    {
+        "id": 88,
+        "question": "Objasniti problem proročišta pri testiranju softvera.",
+        "answer": "Problem proročišta nastaje kada je teško ili nemoguće odrediti da li je izlaz sistema za dati ulaz ispravan. Tada nije lako porediti stvarni rezultat sa očekivanim. Rešava se korišćenjem alternativnih implementacija za upoređivanje ili metamorfnim testovima koji proveravaju odnose između ulaza i izlaza.",
+        "topic": "Dinamička verifikacija softvera",
+        "subtopic": "Testiranje",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [104, 105, 106],
+            "section": ["4.3.2 Podela tehnika testiranja"]
+        }
+    },
+    {
+        "id": 89,
+        "question": "Navesti primer problema proročišta pri testiranju softvera.",
+        "answer": "Kod kompajlera ne postoji uvek formalno definisan očekivani izlaz za proizvoljan program, a ručna provera generisanog mašinskog koda može biti veoma teška.",
+        "topic": "Dinamička verifikacija softvera",
+        "subtopic": "Testiranje",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [105, 106],
+            "section": ["4.3.2 Podela tehnika testiranja"]
+        }
+    },
+    {
+        "id": 90,
+        "question": "Definisati metamorfno testiranje pri testiranju softvera.",
+        "answer": "Metamorfno testiranje ne zahteva poznavanje konkretnog očekivanog izlaza. Umesto toga proverava odnose između izlaza dobijenih za povezane ulaze i koristi poznate osobine sistema. Značajno doprinosi povećanju stepena automatizacije testiranja i otkrivanju grešaka u sistemima sa problemom proročišta.",
+        "topic": "Dinamička verifikacija softvera",
+        "subtopic": "Testiranje",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [131, 132],
+            "section": ["4.3.5 Metamorfno testiranje"]
+        }
+    },
+    {
+        "id": 91,
+        "question": "Navesti primer metamorfnog testiranja pri testiranju softvera.",
+        "answer": "Kod klasifikatora slike, ako se slika malo rotira, očekuje se da klasifikacija ostane ista. Razlika između rezultata originalne i transformisane slike može ukazati na problem.",
+        "topic": "Dinamička verifikacija softvera",
+        "subtopic": "Testiranje",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [133],
+            "section": ["4.3.5 Metamorfno testiranje"]
+        }
+    },
+    {
+        "id": 92,
+        "question": "Kako definišemo testiranje metodama bele kutije?",
+        "answer": "Testiranje bele kutije generiše test primere na osnovu interne strukture i logike koda, pa zahteva poznavanje implementacije i toka izvršavanja programa. Oslanja se na logiku strukture. Cilj je ispitivanje različitih putanja kroz program i pokrivenosti koda.",
+        "topic": "Dinamička verifikacija softvera",
+        "subtopic": "Testiranje",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [103, 118],
+            "section": ["4.3.2 Podela tehnika testiranja", "4.3.4 Testiranje bele kutije"]
+        }
+    },
+    {
+        "id": 93,
+        "question": "Šta su putanje i broj putanja u programu kod bele kutije?",
+        "answer": "Putanja je konkretan niz naredbi koji se izvršava tokom jednog prolaska kroz program. Broj mogućih putanja brzo raste sa složenošću programa, pa potpuno testiranje svih putanja najčešće nije izvodljivo. Ključni elementi putanja su uslovna grananja, petlje, skokovi, pozivi funkcija i izuzeci.",
+        "topic": "Dinamička verifikacija softvera",
+        "subtopic": "Testiranje",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [118, 119],
+            "section": ["4.3.4 Testiranje bele kutije"]
+        }
+    },
+    {
+        "id": 94,
+        "question": "Kako definišemo pojam i vrste pokrivenosti kod bele kutije?",
+        "answer": "Pokrivenost kod bele kutije meri koji deo strukture programa je izvršen testovima. Mogu se posmatrati pokrivenost naredbi, grana, uslova, funkcija i druge vrste pokrivenosti koda.",
+        "topic": "Dinamička verifikacija softvera",
+        "subtopic": "Testiranje",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [121, 122],
+            "section": ["4.3.4 Testiranje bele kutije"]
+        }
+    },
+    {
+        "id": 95,
+        "question": "Kako definišemo odnose pokrivenosti kod bele kutije?",
+        "answer": "Različite vrste pokrivenosti imaju odnose u kojima jača pokrivenost podrazumeva određenu slabiju pokrivenost, ali obrnuto ne mora da važi. Odnos zavisi od kriterijuma koji se posmatraju.",
+        "topic": "Dinamička verifikacija softvera",
+        "subtopic": "Testiranje",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [124, 125],
+            "section": ["4.3.4 Testiranje bele kutije"]
+        }
+    },
+    {
+        "id": 96,
+        "question": "Koji je preporučen nivo pokrivenosti?",
+        "answer": "Ne postoji jedan univerzalan procenat za sve sisteme; potreban nivo zavisi od ciljeva, kritičnosti i drugih karakteristika sistema, obično između 80 i 90%.",
+        "topic": "Dinamička verifikacija softvera",
+        "subtopic": "Testiranje",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [126],
+            "section": ["4.3.4 Testiranje bele kutije"]
+        }
+    },
+    {
+        "id": 97,
+        "question": "Koji se alati koriste za merenje pokrivenosti?",
+        "answer": "Pokrivenost se meri specijalizovanim alatima koji prikupljaju podatke o izvršenim delovima programa; konkretni alati zavise od jezika i razvojne platforme.",
+        "topic": "Dinamička verifikacija softvera",
+        "subtopic": "Testiranje",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [127],
+            "section": ["4.3.4 Testiranje bele kutije"]
+        }
+    },
+    {
+        "id": 98,
+        "question": "Kako biramo relevantne testove i putanje kod bele kutije?",
+        "answer": "Bira se reprezentativan skup putanja i testova koji daje željenu pokrivenost, uzimajući u obzir složenost programa, kritičnost i cenu izvršavanja testova.",
+        "topic": "Dinamička verifikacija softvera",
+        "subtopic": "Testiranje",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [128],
+            "section": ["4.3.4 Testiranje bele kutije"]
+        }
+    },
+    {
+        "id": 99,
+        "question": "Kako testiramo osnovne putanje kod bele kutije?",
+        "answer": "Identifikuju se osnovne linearno nezavisne putanje kroz kontrolni tok i biraju se ulazi koji omogućavaju njihovo izvršavanje i proveru. Primena testiranja osnovnih putanja garantuje pokrivenost svih naredbi i svih grana u kod.",
+        "topic": "Dinamička verifikacija softvera",
+        "subtopic": "Testiranje",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [128, 129, 130],
+            "section": ["4.3.4 Testiranje bele kutije"]
+        }
+    },
+    {
+        "id": 100,
+        "question": "Kako testiramo na osnovu grafa toka podataka?",
+        "answer": "Analiziraju se definicije i upotrebe podataka kroz graf toka programa i biraju testovi koji pokrivaju relevantne tokove i odnose između definicija i upotreba. Tipovi anomalija su upotreba neinicijalizovanih podataka, redefinisanje podataka pre upotrebe i neupotreba definisanih podataka.",
+        "topic": "Dinamička verifikacija softvera",
+        "subtopic": "Testiranje",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [130],
+            "section": ["4.3.4 Testiranje bele kutije"]
+        }
+    },
+    {
+        "id": 101,
+        "question": "Koji načini sprovođenja testiranja postoje?",
+        "answer": "Načini na koje se dve aktivnosti - definisanje test primera; i izvršavanje i njihova evaluacija - mogu sprovesti su manuelno i automatski. Moguće su sve 4 kombinacije i one nam daju manuelno testiranje, poluautomatsko (manuelno generisanje), poluatomatsko (manuelno izvršavanje, ne koristi se u praksi) i automatsko testiranje.",
+        "topic": "Dinamička verifikacija softvera",
+        "subtopic": "Testiranje",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [134, 135],
+            "section": ["4.4 Načini sprovođenja testiranja"]
+        }
+    },
+    {
+        "id": 102,
+        "question": "Objasniti manuelno testiranje kao način testiranja.",
+        "answer": "Kod manuelnog testiranja tester ručno izvršava korake test slučaja i posmatra rezultate sistema, bez automatskog pokretanja testova. U kontekstu verifikacĳe softvera, primer upotrebe manuelnih tehnika testiranja je istraživačko testiranje, koje se oslanja na iskustvo i intuicĳu testera.",
+        "topic": "Dinamička verifikacija softvera",
+        "subtopic": "Testiranje",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [135, 136],
+            "section": ["4.4.1 Manuelno testiranje"]
+        }
+    },
+    {
+        "id": 103,
+        "question": "Objasniti automatsko izvršavanje i evaluaciju testiranja kao način testiranja.",
+        "answer": "Testovi se izvršavaju pomoću skripti i alata, a rezultati se automatski prikupljaju i porede sa očekivanim rezultatima. Time se ubrzava i ponavlja proveravanje. Okruženja za automatsko izvršavanje testova su po obrascu xxxUnit, gde xxx označava konkretni programski jezik",
+        "topic": "Dinamička verifikacija softvera",
+        "subtopic": "Testiranje",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [136, 137],
+            "section": ["4.4.2 Automatsko izvršavanje test primera"]
+        }
+    },
+    {
+        "id": 104,
+        "question": "Objasniti kontinuiranu integraciju kao način testiranja.",
+        "answer": "Kontinuirana integracija omogućava da se nakon promena u kodu automatski grade i testiraju delovi sistema, čime se greške otkrivaju rano i često. Ključna je za višečlane timove koji rade na istom kodu. Sistem prolazi kroz integraciju, izgradnju, testiranje, arhiviranje i primenu.",
+        "topic": "Dinamička verifikacija softvera",
+        "subtopic": "Testiranje",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [137, 138],
+            "section": ["4.4.2 Automatsko izvršavanje test primera"]
+        }
+    },
+    {
+        "id": 105,
+        "question": "Objasniti automatsko generisanje test primera kao način testiranja.",
+        "answer": "Alati automatski generišu test ulaze na osnovu zadatih pravila, modela ili strukture programa, sa ciljem da se pronađu zanimljivi i problematični slučajevi i poveća pokrivenost. Ovaj pristup pomaže u identifikaciji i ispravljanju ekstremnih i graničnih grešaka. Poznat primer je fuzzing, gde se nasumično generišu ulazi kako bi se testirala otpornost softvera na neočekivane ili nevalidne podatke.",
+        "topic": "Dinamička verifikacija softvera",
+        "subtopic": "Testiranje",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [138, 139],
+            "section": ["4.4.3 Automatsko generisanje test primera"]
+        }
+    },
     {
         "id": 106,
         "question": "Definisati pojam debagovanja.",
