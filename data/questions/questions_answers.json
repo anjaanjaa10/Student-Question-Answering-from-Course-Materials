@@ -265,5 +265,113 @@
             "page": [34, 35],
             "section": ["1.3.9 Prenosivost"]
         }
+    },
+    {
+        "id": 23,
+        "question": "Kakav može biti uticaj neispravnog softvera na projekat?",
+        "answer": "Neispravan softver može izazvati neprijatnosti korisnicima, materijalne i finansijske gubitke, reputacionu štetu, a kod kritičnih sistema i teške povrede ili gubitak ljudskih života.",
+        "topic": "Ispravnost i neispravnost softvera",
+        "subtopic": "Greške u softveru",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [37],
+            "section": ["2 Greške u softveru"]
+        }
+    },
+    {
+        "id": 24,
+        "question": "Navesti primere neprijatnosti i materijalnih gubitaka pri neispravnom softveru.",
+        "answer": "Primeri neprijatnosti su iznenadno gašenje internet pregledača, muzičkog plejera ili mobilne igre, kao i greška u sistemu za izgradnju softvera. Ozbiljnije neprijatnosti mogu nastati kada navigacioni softver pogrešno usmeri korisnika ili kada softverski problem onemogući uspostavljanje poziva u hitnoj situaciji. Primer materijalnog gubitka je softverska greška u kompaniji Knight Capital Group, zbog koje je nastao gubitak od 440 miliona dolara za 45 minuta.",
+        "topic": "Ispravnost i neispravnost softvera",
+        "subtopic": "Greške u softveru",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [38, 39, 40, 41],
+            "section": ["2.1.1 Neprijatnosti i materijalni gubici"]
+        }
+    },
+    {
+        "id": 25,
+        "question": "Navesti primere fatalnih posledica pri neispravnom softveru.",
+        "answer": "Fatalne posledice mogu nastati kod kritičnih sistema. Therac-25 je zbog softverske greške doveo do najmanje šest slučajeva predoziranja pacijenata zračenjem, pri čemu su tri pacijenta umrla. Kod sistema Patriot greška u računanju vremena dovela je do promašaja od oko 600 metara, pri čemu raketa nije presretnuta, poginulo je 28 vojnika, a više od 100 je ranjeno. Raketa Ariane 5 se zbog softverske greške uništila 37 sekundi nakon poletanja, uz štetu veću od 370 miliona dolara.",
+        "topic": "Ispravnost i neispravnost softvera",
+        "subtopic": "Greške u softveru",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [42, 43, 44, 45, 46],
+            "section": ["2.1.2 Fatalne posledice"]
+        }
+    },
+    {
+        "id": 26,
+        "question": "Koliki mogu biti troškovi usled grešaka u softveru?",
+        "answer": "Prema CISQ izveštaju o ceni lošeg kvaliteta softvera, troškovi u SAD procenjeni su na 2.410 milijardi američkih dolara za 2022. godinu, dok su za 2020. godinu iznosili oko 2.080 milijardi dolara, uglavnom zbog operativnih softverskih kvarova, neuspešnih razvojnih projekata, zastarelih sistema i zbog tehničkog duga. Ovi troškovi nisu međusobno nezavisni.",
+        "topic": "Ispravnost i neispravnost softvera",
+        "subtopic": "Greške u softveru",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [47, 48, 49],
+            "section": ["2.2 Troškovi usled grešaka u softveru"]
+        }
+    },
+    {
+        "id": 27,
+        "question": "Objasniti odnos verifikacije i validacije softvera.",
+        "answer": "Verifikacija proverava da li razvijeni softver zadovoljava zadatu specifikaciju, dok validacija proverava da li specifikacija i razvijeni sistem zadovoljavaju stvarne potrebe i očekivanja korisnika.",
+        "topic": "Ispravnost i neispravnost softvera",
+        "subtopic": "Verifikacija i validacija softvera",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [52, 53],
+            "section": ["3.1 Odnos verifikacije i validacije softvera"]
+        }
+    },
+    {
+        "id": 28,
+        "question": "Navesti primer odnosa verifikacije i validacije softvera.",
+        "answer": "Ako je zahtev da aplikacija prikazuje vreme, digitalni časovnik može biti verifikaciono ispravan ako tačno prikazuje vreme, ali će validacija pokazati da nije odgovarajuće rešenje ako je korisnik zapravo očekivao vremensku prognozu.",
+        "topic": "Ispravnost i neispravnost softvera",
+        "subtopic": "Verifikacija i validacija softvera",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [53, 54],
+            "section": ["3.1 Odnos verifikacije i validacije softvera"] 
+        }
+    },
+    {
+        "id": 29,
+        "question": "Kako se definišu tehnike verifikacije softvera?",
+        "answer": "Tehnike verifikacije su sistematske metode i aktivnosti kojima se proverava da li softverski proizvod ispravno implementira zadatu specifikaciju.",
+        "topic": "Ispravnost i neispravnost softvera",
+        "subtopic": "Verifikacija i validacija softvera",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [54],
+            "section": ["3.2 Tehnike verifikacije softvera"]
+        }
+    },
+    {
+        "id": 30,
+        "question": "Koja je osnovna podela tehnika verifikacije softvera?",
+        "answer": "Osnovna podela je na dinamičku i statičku verifikaciju softvera.",
+        "topic": "Ispravnost i neispravnost softvera",
+        "subtopic": "Verifikacija i validacija softvera",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [54, 55],
+            "section": ["3.2 Tehnike verifikacije softvera"]
+        }
+    },
+    {
+        "id": 31,
+        "question": "Objasniti mogućnosti dinamičkog i statičkog pristupa verifikaciji softvera.",
+        "answer": "Dinamička verifikacija proverava softver tokom izvršavanja, najčešće testiranjem. Statička verifikacija proverava softver bez izvršavanja, kroz preglede koda, formalne metode i automatsku statičku analizu.",
+        "topic": "Ispravnost i neispravnost softvera",
+        "subtopic": "Verifikacija i validacija softvera",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [55, 56],
+            "section": ["3.2 Tehnike verifikacije softvera"]
+        }
     }
 ]
