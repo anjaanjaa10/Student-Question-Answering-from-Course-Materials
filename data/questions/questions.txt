@@ -1,3 +1,6 @@
+TEMA 1: Ispravnost i neispravnost softvera
+
+Kvalitet softvera
 1. Kako se definiše značaj kvaliteta softvera?
 2. Koji su procesi kvaliteta softvera?
 3. Koji su standardi kvaliteta softvera?
@@ -20,15 +23,23 @@
 20. Navesti primer bezbednosti kao atribut kvaliteta softvera.
 21. Na šta se odnosi prenosivost kao atribut kvaliteta softvera?
 22. Navesti primer prenosivosti kao atribut kvaliteta softvera.
+
+Greške u softveru
 23. Kakav može biti uticaj neispravnog softera na projekat?
 24. Navesti primere neprijatnosti i materijalnih gubitaka pri neispravnom softeru.
 25. Navesti primere fatalnih posledica pri neispravnom softeru.
 26. Koliki mogu biti troškovi usled grešaka u softveru?
+
+Verifikacija i validacija softvera
 27. Objasniti odnos verifikacije i validacije softvera.
 28. Navesti primer odnosa verifikacije i validacije softvera.
 29. Kako se definišu tehnike verifikacije softvera?
 30. Koja je osnovna podela tehnika verifikacije softvera?
 31. Objasniti mogućnosti dinamičkog i statičkog pristupa verifikaciji softvera.
+
+TEMA 2: Dinamička verifikacija softvera
+
+Testiranje
 32. Definisati testiranje u razvoju softvera.
 33. Kako se definiše cena greške u kontekstu vremena otkrivanja?
 34. Koja je uloga testera u razvoju softvera?
@@ -108,6 +119,8 @@
 108. Koji režimi prevođenja postoje u debagovanju?
 109. Koji su formati za predstavljanje pomoćnih informacija?
 110. Opisati kombinovane režime prevođenja za pronalaženje grešaka.
+
+Debagovanje
 111. Šta označava pojam anti-debagovanje?
 112. Definisati vrste debagovanja.
 113. Definisati interaktivno debagovanje.
@@ -117,6 +130,8 @@
 117. Dati primer debagera.
 118. Koji su otvoreni problemi debagera?
 119. Kakvu razliku pravi štampanje umesto debagera?
+
+Profajliranje i dinamičko detektovanje grešaka
 120. Objasniti pojam instrumentacije u verifikaciji sofvera.
 121. Objasniti pojam profajliranja u verifikaciji sofvera.
 122. Kako se koriste profili pri profiliranju u verifikaciji sofvera?

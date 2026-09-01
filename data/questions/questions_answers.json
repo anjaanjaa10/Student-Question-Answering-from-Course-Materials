@@ -1,0 +1,269 @@
+[
+    {
+        "id": 1,
+        "question": "Zašto je bitan kvalitet softvera?",
+        "answer": "Softver se danas razvija za veoma raznovrsne uređaje i siteme, on je svuda, od malih aparata do raketa i satelita. Kvalitet softvera je bitan jer neispravan softver može izazvati neprijatnosti, gubitke, a i gubitak ljudskih života.",
+        "topic": "Ispravnost i neispravnost softvera",
+        "subtopic": "Kvalitet softvera",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [17, 18],
+            "section": [
+                "1 Kvalitet softvera",
+                "1.1 Upravljanje kvalitetom softvera"
+            ]
+        }
+    },
+    {
+        "id": 2,
+        "question": "Koji su procesi kvaliteta softvera?",
+        "answer": "Osnovni procesi su planiranje kvaliteta, obezbeđivanje kvaliteta, kontrola kvaliteta i poboljšanje kvaliteta softvera.",
+        "topic": "Ispravnost i neispravnost softvera",
+        "subtopic": "Kvalitet softvera",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [18],
+            "section": ["1.1 Upravljanje kvalitetom softvera"]
+        }
+    },
+    {
+        "id": 3,
+        "question": "Koji su standardi kvaliteta softvera?",
+        "answer": "Najvažniji standardi su ISO/IEC 25000, ISO/IEC 25010 i ISO/IEC 25023. ISO/IEC 25000 daje okvir za procenu kvaliteta softvera, 25010 definiše karakteristike kvaliteta, a 25023 opisuje njihovo merenje. Od značajnih IEEE standarda koriste se IEEE 730 i IEEE 1012-2016.",
+        "topic": "Ispravnost i neispravnost softvera",
+        "subtopic": "Kvalitet softvera",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [18, 19],
+            "section": ["1.2 Standardi"]
+        }
+    },
+    {
+        "id": 4,
+        "question": "Nabroj atribute kvaliteta softvera.",
+        "answer": "Atributi kvaliteta softvera su: funkcionalna podobnost, performantnost, kompatibilnost, pouzdanost, upotrebljivost, bezbednost, sigurnost, održivost i prenosivost.",
+        "topic": "Ispravnost i neispravnost softvera",
+        "subtopic": "Kvalitet softvera",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [19],
+            "section": ["1.3 Atributi kvaliteta softvera"]
+        }
+    },
+    {
+        "id": 5,
+        "question": "Na šta se odnosi funkcionalna podobnost kao atribut kvaliteta softvera?",
+        "answer": "Odnosi se na stepen u kojem softver ispunjava funkcionalne zahteve. Obuhvata funkcionalnu ispravnost, funkcionalnu potpunost i funkcionalnu prikladnost.",
+        "topic": "Ispravnost i neispravnost softvera",
+        "subtopic": "Kvalitet softvera",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [20],
+            "section": ["1.3.1 Funkcionalna podobnost"]
+        }
+    },
+    {
+        "id": 6,
+        "question": "Navesti primer funkcionalne podobnosti kao atributa kvaliteta softvera.",
+        "answer": "Primer je kalkulator: treba da daje tačne rezultate, da ima sve funkcionalnosti predviđene specifikacijom i da se ponaša na očekivani način.",
+        "topic": "Ispravnost i neispravnost softvera",
+        "subtopic": "Kvalitet softvera",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [20],
+            "section": ["1.3.1 Funkcionalna podobnost"]
+        }
+    },
+    {
+        "id": 7,
+        "question": "Na šta se odnosi performantnost kao atribut kvaliteta softvera?",
+        "answer": "Odnosi se na stepen u kojem softver zadovoljava vremenske i resursne zahteve. Obuhvata vremensko ponašanje, korišćenje resursa i kapacitet.",
+        "topic": "Ispravnost i neispravnost softvera",
+        "subtopic": "Kvalitet softvera",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [20],
+            "section": ["1.3.2 Performantnost"]
+        }
+    },
+    {
+        "id": 8,
+        "question": "Navesti primer performantnosti kao atributa kvaliteta softvera.",
+        "answer": "Kod sistema za kupovinu avionskih karata mogu se zadati zahtevi za vremenom odgovora, vremenom obrade, korišćenjem procesora i memorije i maksimalnim brojem istovremenih korisnika.",
+        "topic": "Ispravnost i neispravnost softvera",
+        "subtopic": "Kvalitet softvera",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [21, 22],
+            "section": ["1.3.2 Performantnost"]
+        }
+    },
+    {
+        "id": 9,
+        "question": "Na šta se odnosi kompatibilnost kao atribut kvaliteta softvera?",
+        "answer": "Odnosi se na mogućnost softvera da funkcioniše u različitim okruženjima ili da deli podatke i sarađuje sa drugim proizvodima, sistemima i komponentama. Obuhvata koegzistencijabilnost i interoperabilnost.",
+        "topic": "Ispravnost i neispravnost softvera",
+        "subtopic": "Kvalitet softvera",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [22],
+            "section": ["1.3.3 Kompatibilnost"]
+        }
+    },
+    {
+        "id": 10,
+        "question": "Navesti primer kompatibilnosti kao atributa kvaliteta softvera.",
+        "answer": "Aplikacija za razmenu poruka treba da može da radi zajedno sa drugim aplikacijama na uređaju i da razmenjuje podatke sa drugim servisima.",
+        "topic": "Ispravnost i neispravnost softvera",
+        "subtopic": "Kvalitet softvera",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [22, 23],
+            "section": ["1.3.3 Kompatibilnost"]
+        }
+    },
+    {
+        "id": 11,
+        "question": "Na šta se odnosi pouzdanost kao atribut kvaliteta softvera?",
+        "answer": "Pouzdanost se odnosi na sposobnost softvera da stabilno funkcioniše. Obuhvata zrelost, dostupnost, toleranciju na greške i sposobnost oporavka.",
+        "topic": "Ispravnost i neispravnost softvera",
+        "subtopic": "Kvalitet softvera",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [23],
+            "section": ["1.3.4 Pouzdanost"]
+        }
+    },
+    {
+        "id": 12,
+        "question": "Navesti primer pouzdanosti kao atributa kvaliteta softvera.",
+        "answer": "Kod sistema za hitne službe važno je da sistem bude stabilan i stalno dostupan, da može da nastavi rad u prisustvu kvarova i da se oporavi nakon pada.",
+        "topic": "Ispravnost i neispravnost softvera",
+        "subtopic": "Kvalitet softvera",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [23, 24],
+            "section": ["1.3.4 Pouzdanost"]
+        }
+    },
+    {
+        "id": 13,
+        "question": "Na šta se odnosi održivost kao atribut kvaliteta softvera?",
+        "answer": "Odnosi se na lakoću razumevanja softvera, pronalaženja delova koje treba promeniti, izvođenja izmena i provere da izmene nisu narušile postojeću funkcionalnost. Obuhvata modularnost, iskoristivost, analizabilnost, izmenljivost i testabilnost.",
+        "topic": "Ispravnost i neispravnost softvera",
+        "subtopic": "Kvalitet softvera",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [29, 30, 31],
+            "section": ["1.3.8 Održivost"]
+        }
+    },
+    {
+        "id": 14,
+        "question": "Navesti primer održivosti kao atributa kvaliteta softvera.",
+        "answer": "Aplikacija za razmenu poruka može biti održiva ako je podeljena na nezavisne module sa jasno definisanim interfejsima, tako da se nove funkcionalnosti mogu dodavati bez uticaja na ostatak sistema.",
+        "topic": "Ispravnost i neispravnost softvera",
+        "subtopic": "Kvalitet softvera",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [32, 33],
+            "section": ["1.3.8 Održivost"]  
+        }
+    },
+    {
+        "id": 15,
+        "question": "Na šta se odnosi upotrebljivost kao atribut kvaliteta softvera?",
+        "answer": "Odnosi se na stepen u kojem korisnici mogu da koriste softver. Obuhvata naučljivost, operabilnost, zaštitu od korisničkih grešaka, estetiku interfejsa, pristupačnost i prepoznatljivost svrhe aplikacije.",
+        "topic": "Ispravnost i neispravnost softvera",
+        "subtopic": "Kvalitet softvera",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [24],
+            "section": ["1.3.5 Upotrebljivost"]
+        }
+    },
+    {
+        "id": 16,
+        "question": "Navesti primer upotrebljivosti kao atributa kvaliteta softvera.",
+        "answer": "Kod bankarske aplikacije korisnik treba brzo da nauči osnovne funkcije, da ih izvršava u malo koraka, da dobija pomoć pri grešci i da interfejs bude pristupačan i jasan.",
+        "topic": "Ispravnost i neispravnost softvera",
+        "subtopic": "Kvalitet softvera",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [25],
+            "section": ["1.3.5 Upotrebljivost"]
+        }
+    },
+    {
+        "id": 17,
+        "question": "Na šta se odnosi sigurnost kao atribut kvaliteta softvera?",
+        "answer": "Sigurnost se odnosi na zaštitu informacija i podataka. Obuhvata poverljivost, integritet, odgovornost, autentifikabilnost i neporecivost.",
+        "topic": "Ispravnost i neispravnost softvera",
+        "subtopic": "Kvalitet softvera",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [27],
+            "section": ["1.3.7 Sigurnost"]
+        }
+    },
+    {
+        "id": 18,
+        "question": "Navesti primer sigurnosti kao atributa kvaliteta softvera.",
+        "answer": "Kod bankarske aplikacije podaci treba da budu zaštićeni od neovlašćenog pristupa, transakcije ne smeju biti neovlašćeno menjane, aktivnosti se beleže, identitet korisnika se proverava, a transakcije treba da budu neporecive.",
+        "topic": "Ispravnost i neispravnost softvera",
+        "subtopic": "Kvalitet softvera",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [27, 28],
+            "section": ["1.3.7 Sigurnost"]
+        }
+    },
+    {
+        "id": 19,
+        "question": "Na šta se odnosi bezbednost kao atribut kvaliteta softvera?",
+        "answer": "Bezbednost se odnosi na izbegavanje stanja u kojima su ugroženi ljudski život, zdravlje, imovina ili životna sredina. Obuhvata operativnu ograničenost, identifikaciju rizika, bezbednost kvara, upozorenje na opasnost i bezbednost integracije.",
+        "topic": "Ispravnost i neispravnost softvera",
+        "subtopic": "Kvalitet softvera",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [26],
+            "section": ["1.3.6 Bezbednost"]
+        }
+    },
+    {
+        "id": 20,
+        "question": "Navesti primer bezbednosti kao atributa kvaliteta softvera.",
+        "answer": "Kod autonomnog vozila sistem treba da prepozna opasnosti, ograniči ponašanje na bezbedne parametre, bezbedno reaguje na kvarove i upozori na opasnosti koje ne može sam da reši.",
+        "topic": "Ispravnost i neispravnost softvera",
+        "subtopic": "Kvalitet softvera",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [26, 27],
+            "section": ["1.3.6 Bezbednost"]
+        }
+    },
+    {
+        "id": 21,
+        "question": "Na šta se odnosi prenosivost kao atribut kvaliteta softvera?",
+        "answer": "Odnosi se na stepen u kojem se softver može koristiti u različitim okruženjima. Obuhvata prilagodljivost, instalabilnost i zamenljivost.",
+        "topic": "Ispravnost i neispravnost softvera",
+        "subtopic": "Kvalitet softvera",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [34],
+            "section": ["1.3.9 Prenosivost"]
+        }
+    },
+    {
+        "id": 22,
+        "question": "Navesti primer prenosivosti kao atributa kvaliteta softvera.",
+        "answer": "Aplikacija za kupovinu karata može biti prenosiva ako radi na različitim uređajima i operativnim sistemima, lako se instalira i omogućava prelazak na novu ili konkurentsku aplikaciju bez gubitka podataka.",
+        "topic": "Ispravnost i neispravnost softvera",
+        "subtopic": "Kvalitet softvera",
+        "source": {
+            "document": "Verifikacija softvera",
+            "page": [34, 35],
+            "section": ["1.3.9 Prenosivost"]
+        }
+    }
+]
