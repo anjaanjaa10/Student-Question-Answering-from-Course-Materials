@@ -1,0 +1,158 @@
+TEMA 1: Ispravnost i neispravnost softvera
+
+Kvalitet softvera
+1. Zašto je bitan kvalitet softvera?
+2. Koji su procesi kvaliteta softvera?
+3. Koji su standardi kvaliteta softvera?
+4. Nabroj atribute kvaliteta softvera.
+5. Na šta se odnosi funkcionalna podobnost kao atribut kvaliteta softvera?
+6. Navesti primer funkcionalne podobnosti kao atributa kvaliteta softvera.
+7. Na šta se odnosi performantnost kao atribut kvaliteta softvera?
+8. Navesti primer performantnosti kao atributa kvaliteta softvera.
+9. Na šta se odnosi kompatibilnost kao atribut kvaliteta softvera?
+10. Navesti primer kompatibilnosti kao atributa kvaliteta softvera.
+11. Na šta se odnosi pouzdanost kao atribut kvaliteta softvera?
+12. Navesti primer pouzdanosti kao atributa kvaliteta softvera.
+13. Na šta se odnosi održivost kao atribut kvaliteta softvera?
+14. Navesti primer održivosti kao atributa kvaliteta softvera.
+15. Na šta se odnosi upotrebljivost kao atribut kvaliteta softvera?
+16. Navesti primer upotrebljivosti kao atributa kvaliteta softvera.
+17. Na šta se odnosi sigurnost kao atribut kvaliteta softvera?
+18. Navesti primer sigurnosti kao atributa kvaliteta softvera.
+19. Na šta se odnosi bezbednost kao atribut kvaliteta softvera?
+20. Navesti primer bezbednosti kao atributa kvaliteta softvera.
+21. Na šta se odnosi prenosivost kao atribut kvaliteta softvera?
+22. Navesti primer prenosivosti kao atributa kvaliteta softvera.
+
+Greške u softveru
+23. Kakav može biti uticaj neispravnog softvera na projekat?
+24. Navesti primere neprijatnosti i materijalnih gubitaka pri neispravnom softveru.
+25. Navesti primere fatalnih posledica pri neispravnom softveru.
+26. Koliki mogu biti troškovi usled grešaka u softveru?
+
+Verifikacija i validacija softvera
+27. Objasniti odnos verifikacije i validacije softvera.
+28. Navesti primer odnosa verifikacije i validacije softvera.
+29. Kako se definišu tehnike verifikacije softvera?
+30. Koja je osnovna podela tehnika verifikacije softvera?
+31. Objasniti mogućnosti dinamičkog i statičkog pristupa verifikaciji softvera.
+
+TEMA 2: Dinamička verifikacija softvera
+
+Testiranje
+32. Definisati testiranje u razvoju softvera.
+33. Kako se definiše cena greške u kontekstu vremena otkrivanja?
+34. Koja je uloga testera u razvoju softvera?
+35. Koje faze testiranja softvera postoje?
+36. Na šta se odnosi planiranje kao faza testiranja softvera?
+37. Na šta se odnosi analiza, dizajn i implementacija testova kao faza testiranja softvera?
+38. Na šta se odnosi izvršavanje i evaluacija testova kao faza testiranja softvera?
+39. Na šta se odnosi zatvaranje testiranja kao faza testiranja softvera?
+40. Koje vrste testiranja postoje pri testiranju softvera?
+41. Opisati testiranje jedinica koda pri testiranju softvera.
+42. Navesti primer testiranja jedinica koda pri testiranju softvera.
+43. Opisati komponentno i integraciono testiranje pri testiranju softvera.
+44. Navesti primer komponentnog i integracionog testiranja koda pri testiranju softvera.
+45. Opisati sistemsko testiranje pri testiranju softvera.
+46. Navesti primer sistemskog testiranja pri testiranju softvera.
+47. Definisati funkcionalno sistemsko testiranje pri testiranju softvera.
+48. Navesti primer funkcionalnog sistemskog testiranja pri testiranju softvera.
+49. Opisati regresiono testiranje pri testiranju softvera.
+50. Koja podela sistemskog testiranja bi mogla da se napravi?.
+51. Opisati istraživačko testiranje pri testiranju softvera.
+52. Navesti primer istraživačkog testiranja pri testiranju softvera.
+53. Opisati testove prihvatljivosti pri testiranju softvera.
+54. Navesti primer testova prihvatljivosti pri testiranju softvera.
+55. Opisati instalaciono testiranje pri testiranju softvera.
+56. Navesti primer instalacionog testiranja pri testiranju softvera.
+57. Definisati nefunkcionalno testiranje pri testiranju softvera.
+58. Navesti primer nefunkcionalnog testiranja pri testiranju softvera.
+59. Opisati testove performansi pri testiranju softvera.
+60. Navesti primer testova performansi pri testiranju softvera.
+61. Opisati testove kompatibilnosti pri testiranju softvera.
+62. Navesti primer testova kompatibilnosti pri testiranju softvera.
+63. Opisati testove pouzdanosti pri testiranju softvera.
+64. Navesti primer testova pouzdanosti pri testiranju softvera.
+65. Opisati testove upotrebljivosti pri testiranju softvera.
+66. Navesti primer testova upotrebljivosti pri testiranju softvera.
+67. Opisati testove bezbednosti pri testiranju softvera.
+68. Navesti primer testova bezbednosti pri testiranju softvera.
+69. Opisati testove sigurnosti pri testiranju softvera.
+70. Navesti primer testova sigurnosti pri testiranju softvera.
+71. Opisati testove prenosivosti pri testiranju softvera.
+72. Navesti primer testova prenosivosti pri testiranju softvera.
+73. Koje tehnike testiranja postoje pri testiranju softvera?
+74. Koje su karakteristike dobrog skupa testova pri testiranju softvera?
+75. Kako definišemo pokrivenost testiranjem pri testiranju softvera?
+76. Kako delimo tehnike testiranja pri testiranju softvera?
+77. Kako definišemo testiranje metodama crne kutije?
+78. Šta je isprobavanje svih mogućih ulaza kod testiranja metodama crne kutije?
+79. Navesti primer isprobavanja svih mogućih ulaza kod testiranja metodama crne kutije.
+80. Šta je metod klasa ekvivalencije kod testiranja metodama crne kutije?
+81. Navesti primer metoda klasa ekvivalencije kod testiranja metodama crne kutije.
+82. Šta je metod graničnih vrednosti kod testiranja metodama crne kutije?
+83. Navesti primer metoda graničnih vrednosti kod testiranja metodama crne kutije.
+84. Šta su karakteristike dobrog skupa testova?
+85. Šta su tabele odlučivanja pri testiranju softvera?
+86. Šta su dijagrami stanja pri testiranju softvera?
+87. Šta su tabele stanja pri testiranju softvera?
+88. Objasniti problem proročišta pri testiranju softvera.
+89. Navesti primer problema proročišta pri testiranju softvera.
+90. Definisati metamorfno testiranje pri testiranju softvera.
+91. Navesti primer metamorfnog testiranja pri testiranju softvera.
+92. Kako definišemo testiranje metodama bele kutije?
+93. Šta su putanje i broj putanja u programu kod bele kutije?
+94. Kako definišemo pojam i vrste pokrivenosti kod bele kutije?
+95. Kako definišemo odnose pokrivenosti kod bele kutije?
+96. Koji je preporučen nivo pokrivenosti?
+97. Koji se alati koriste za merenje pokrivenosti?
+98. Kako biramo relevantne testove i putanje kod bele kutije?
+99. Kako testiramo osnovne putanje kod bele kutije?
+100. Kako testiramo na osnovu grafa toka podataka?
+101. Koji načini sprovođenja testiranja postoje?
+102. Objasniti manuelno testiranje kao način testiranja.
+103. Objasniti automatsko izvršavanje i evaluaciju testiranja kao način testiranja.
+104. Objasniti kontinuiranu integraciju kao način testiranja.
+105. Objasniti automatsko generisanje test primera kao način testiranja.
+
+Debagovanje
+106. Definisati pojam debagovanja.
+107. Kakva je veza izvršivog koda i debagera?
+108. Koji režimi prevođenja postoje u debagovanju?
+109. Koji su formati za predstavljanje pomoćnih informacija?
+110. Opisati kombinovane režime prevođenja za pronalaženje grešaka.
+111. Šta označava pojam anti-debagovanje?
+112. Definisati vrste debagovanja.
+113. Definisati interaktivno debagovanje.
+114. Objasniti implementaciju interaktivnog debagovanja, tačaka prekida i tačaka posmatranja.
+115. Definisati udaljeno debagovanje.
+116. Objasniti debagovanje nakon prekida izvršavanja programa.
+117. Dati primer debagera.
+118. Koji su otvoreni problemi debagera?
+119. Kakvu razliku pravi štampanje umesto debagera?
+
+Profajliranje i dinamičko detektovanje grešaka
+120. Objasniti pojam instrumentacije u verifikaciji softvera.
+121. Objasniti pojam profajliranja u verifikaciji softvera.
+122. Kako se koriste profili pri profiliranju u verifikaciji softvera?
+123. Kakav je kvalitet profila pri profiliranju u verifikaciji softvera?
+124. Kako se vrši profajliranje uzimanjem uzoraka u verifikaciji softvera?
+125. Šta je instrumentaciono profajliranje?
+126. Objasniti detaljnije profajliranje putanja u verifikaciji softvera.
+127. Objasniti detaljnije profajliranje grana u verifikaciji softvera.
+128. Objasniti detaljnije profajliranje blokova u verifikaciji softvera.
+129. Kako bi se mogli smanjiti troškovi instrumentacije?
+130. Opisati instrumentaciju u fazi izvršavanja.
+131. Kako Valgrind profajlira faze transformacije koda?
+132. Šta je Cachegrind, za šta služi i kako se koristi?
+133. Šta je Callgrind, za šta služi i kako se koristi?
+134. Kako se definiše dinamička detekcija grešaka?
+135. Objasniti adresni i memorijski sanitajzer.
+136. Kako se definišu sanitajzeri u dinamičkoj detekciji grešaka?
+137. Objasniti sanitajzer niti i nedefinisanog ponašanja.
+138. Šta je alat Valgrind i za šta služi?
+139. Koji su najpoznatiji Valgrind alati?
+140. Šta je Memcheck, za šta služi i kako se koristi?
+141. Šta je Massif, za šta služi i kako se koristi?
+142. Šta je Hellgrind, za šta služi i kako se koristi?
+143. Šta je DRD, za šta služi i kako se koristi?
