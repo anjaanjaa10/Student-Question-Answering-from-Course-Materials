@@ -1,0 +1,10 @@
+{
+  "model_name": "intfloat/multilingual-e5-base",
+  "passage_input": "processed_text",
+  "question_input": "processed_question",
+  "query_prefix": "query: ",
+  "passage_prefix": "passage: ",
+  "top_k": 10,
+  "n_chunks": 356,
+  "embedding_dimension": 768
+}
