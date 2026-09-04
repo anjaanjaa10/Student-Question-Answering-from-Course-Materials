@@ -1,79 +1,14 @@
 1.3.6 Bezbednost
-
-Bezbednost (eng. safety) odgovara stepenu u kojem pro-
-izvod, pod definisanim uslovima, izbegava stanje u
-kojem su ugroženi ljudski život, zdravlje, imovina ili
-životna sredina. Bezbednost obuhvata naredne podatri-
-bute:
-
-Bezbednost i sigurnost se u
-srpskom jeziku mogu kori-
-stiti kao sinonimi. Zbog toga
-je bitno napomenuti da se u
-kontekstu atributa kvaliteta
-softvera bezbednost odnosi
-na fizičku bezbednost/si-
-gurnost, dok se sigurnost
-koristi u kontekstu informa-
-cione bezbednosti/sigurno-
-sti.
-
-operativnu ograničenost — stepen do kojeg proizvod
-ili sistem ograničava svoje funkcionisanje unutar
-bezbednih parametara ili stanja prilikom susreta
-sa operativnim opasnostima,
-
-identifikacĳa rizika — stepen do kojeg proizvod mo-
-že da identifikuje tok događaja ili operacĳa koji
-mogu izložiti život, imovinu ili životnu sredinu
-neprihvatljivom riziku,
-
-bezbednost kvara — stepen do kojeg proizvod može
-automatski da se postavi u bezbedan režim rada
-ili da se vrati u bezbedno stanje u slučaju kvara,
-
-bezbednost (eng. safety)
-=
-fizička bezbednost
-
-upozorenje na opasnost — stepen do kojeg proizvod ili
-sistem pruža upozorenja o neprihvatljivim rizici-
-ma u operacĳama ili internim kontrolama, kako bi
-se omogućila pravovremena reakcĳa i održavanje
-bezbednog rada i
-
-sigurnost (eng. security)
-=
-informaciona bezbednost
-
-bezbednost integracĳe — stepen do kojeg proizvod
-može da održi bezbednost tokom i nakon integra-
-cĳe sa jednom ili više komponenti.
-
-Standardi kodiranja u auto-
-mobilskoj industrĳi se foku-
-siraju na kvalitet softvera.
-Primeri implementacĳe de-
-lova ovih standarda mogu
-se videti u master radovima
-Mirka Brkušanina:
-Implementacĳa pravila iz stan-
-darda AUTOSAR C++14 u
-okviru programskog prevodioca
-Clang
-i Ognjena Plavšića:
-Alat za statičku analizu i
-predlaganje izmena u C++ kodu
-
-Primer 1.3.6 (Autonomna vožnja) U sistemu za au-
-tonomnu vožnju svi atributi sigurnosti su izuzetno
-važni.
-
-Operativna ograničenost — Automobil mora ograni-
-čiti svoje manevre (npr. brzinu, skretanje) u skladu sa
-bezbednim parametrima, posebno pri lošim vremen-
-skim uslovima ili oštećenjima na putu.
-
-Identifikacĳa rizika — Sistem treba da ume da pre-
-pozna potencĳalne opasnosti kao što su pešaci koji
-iznenada prelaze ulicu, druga vozila koja se kreću
+Bezbednost (eng. safety) odgovara stepenu u kojem proizvod, pod definisanim uslovima, izbegava stanje u kojem su ugroženi ljudski život, zdravlje, imovina ili životna sredina. Bezbednost obuhvata naredne podatribute:
+Bezbednost i sigurnost se u srpskom jeziku mogu koristiti kao sinonimi. Zbog toga je bitno napomenuti da se u kontekstu atributa kvaliteta softvera bezbednost odnosi na fizičku bezbednost/sigurnost, dok se sigurnost koristi u kontekstu informacione bezbednosti/sigurnosti.
+operativnu ograničenost — stepen do kojeg proizvod ili sistem ograničava svoje funkcionisanje unutar bezbednih parametara ili stanja prilikom susreta sa operativnim opasnostima,
+identifikacĳa rizika — stepen do kojeg proizvod može da identifikuje tok događaja ili operacĳa koji mogu izložiti život, imovinu ili životnu sredinu neprihvatljivom riziku,
+bezbednost kvara — stepen do kojeg proizvod može automatski da se postavi u bezbedan režim rada ili da se vrati u bezbedno stanje u slučaju kvara,
+bezbednost (eng. safety) = fizička bezbednost
+upozorenje na opasnost — stepen do kojeg proizvod ili sistem pruža upozorenja o neprihvatljivim rizicima u operacĳama ili internim kontrolama, kako bi se omogućila pravovremena reakcĳa i održavanje bezbednog rada i
+sigurnost (eng. security) = informaciona bezbednost
+bezbednost integracĳe — stepen do kojeg proizvod može da održi bezbednost tokom i nakon integracĳe sa jednom ili više komponenti.
+Standardi kodiranja u automobilskoj industrĳi se fokusiraju na kvalitet softvera. Primeri implementacĳe delova ovih standarda mogu se videti u master radovima Mirka Brkušanina: Implementacĳa pravila iz standarda AUTOSAR C++14 u okviru programskog prevodioca Clang i Ognjena Plavšića: Alat za statičku analizu i predlaganje izmena u C++ kodu
+Primer 1.3.6 (Autonomna vožnja) U sistemu za autonomnu vožnju svi atributi sigurnosti su izuzetno važni.
+Operativna ograničenost — Automobil mora ograničiti svoje manevre (npr. brzinu, skretanje) u skladu sa bezbednim parametrima, posebno pri lošim vremenskim uslovima ili oštećenjima na putu.
+Identifikacĳa rizika — Sistem treba da ume da prepozna potencĳalne opasnosti kao što su pešaci koji iznenada prelaze ulicu, druga vozila koja se kreću

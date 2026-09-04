@@ -1,39 +1,4 @@
-testabilnosti uključuju bržu isporuku korisnicima i če-
-šću povratnu informacĳu o ispravnosti softvera pro-
-gramerima. Praktični izazovi uključuju balans između
-potpunosti testova i vremena njihovog izvršavanja. Za
-testabilnost je ključna automatizacĳa procesa testiranja,
-mogućnost automatskog generisanja testova kao i do-
-stupnost test slučajeva sa unapred poznatim rezultatom
-izvršavanja.
-
-Primer 1.3.8 (Razmena poruka - nastavak primera
-1.3.3) Aplikacĳa za razmenu poruka mora da bude
-laka za održavanje jer je karakteriše često dodava-
-nje novih funkcionalnosti u skladu sa potrebama i
-zahtevima korisnika.
-
-Aplikacĳa za razmenu poruka treba da ima različite
-funkcionalnosti, kao što su sistem za slanje poru-
-ka, sistem za obaveštenja, korisničke postavke, lič-
-no/grupno slanje poruka i sistem za autentifikacĳu.
-Implementacĳa koju karakteriše lako održavanje je
-modularna, odnosno podeljena u različite module
-koje odgovaraju prethodno navedenim funkcionalno-
-stima. Svaki od ovih modula mora da bude nezavisan,
-ali poveziv sa ostatkom sistema putem jasno defini-
-sanih interfejsa za komunikacĳu. Na primer, sistem
-za autentifikacĳu mora biti odvojen od sistema za po-
-ruke i pozive, kako bi se omogućilo lakše upravljanje
-bez uticaja na ostatak aplikacĳe.
-
-Poželjno je da se aplikacĳa može koristiti na različi-
-tim platformama, na primer, na mobilnim telefonima
-(Android, iOS) i desktop računarima (Linux, Windows).
-Da bi se to ostvarilo, ključna je iskoristivost odnosno
-da postoji mogućnost ponovne upotrebe koda. Sve
-komponente i funkcionalnosti, koje nisu specifične za
-platformu, potrebno je dizajnirati tako da ih je moguće
-koristiti na različitim platformama. Na primer, sistem
-za prĳavu treba da bude identičan na svim platforma-
-ma, omogućavajući korisnicima da se prĳave koristeći
+testabilnosti uključuju bržu isporuku korisnicima i češću povratnu informacĳu o ispravnosti softvera programerima. Praktični izazovi uključuju balans između potpunosti testova i vremena njihovog izvršavanja. Za testabilnost je ključna automatizacĳa procesa testiranja, mogućnost automatskog generisanja testova kao i dostupnost test slučajeva sa unapred poznatim rezultatom izvršavanja.
+Primer 1.3.8 (Razmena poruka - nastavak primera 1.3.3) Aplikacĳa za razmenu poruka mora da bude laka za održavanje jer je karakteriše često dodavanje novih funkcionalnosti u skladu sa potrebama i zahtevima korisnika.
+Aplikacĳa za razmenu poruka treba da ima različite funkcionalnosti, kao što su sistem za slanje poruka, sistem za obaveštenja, korisničke postavke, lično/grupno slanje poruka i sistem za autentifikacĳu. Implementacĳa koju karakteriše lako održavanje je modularna, odnosno podeljena u različite module koje odgovaraju prethodno navedenim funkcionalnostima. Svaki od ovih modula mora da bude nezavisan, ali poveziv sa ostatkom sistema putem jasno definisanih interfejsa za komunikacĳu. Na primer, sistem za autentifikacĳu mora biti odvojen od sistema za poruke i pozive, kako bi se omogućilo lakše upravljanje bez uticaja na ostatak aplikacĳe.
+Poželjno je da se aplikacĳa može koristiti na različitim platformama, na primer, na mobilnim telefonima (Android, iOS) i desktop računarima (Linux, Windows). Da bi se to ostvarilo, ključna je iskoristivost odnosno da postoji mogućnost ponovne upotrebe koda. Sve komponente i funkcionalnosti, koje nisu specifične za platformu, potrebno je dizajnirati tako da ih je moguće koristiti na različitim platformama. Na primer, sistem za prĳavu treba da bude identičan na svim platformama, omogućavajući korisnicima da se prĳave koristeći

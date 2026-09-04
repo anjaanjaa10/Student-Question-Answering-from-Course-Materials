@@ -1,48 +1,13 @@
-broja korisničkih zahteva i velikih količina po-
-dataka u periodima maksimalnog opterećenja,
-kako bi se utvrdili granični kapaciteti sistema.
-
-Scenario:
-Simulirati rad bankarskog sistema tokom vr-
-šnog opterećenja (npr. kraj meseca, isplata plata)
-kada veliki broj korisnika istovremeno koristi
-aplikacĳu za pregled stanja, prenose sredstava
-i uplate računa.
-
+broja korisničkih zahteva i velikih količina podataka u periodima maksimalnog opterećenja, kako bi se utvrdili granični kapaciteti sistema.
+Scenario: Simulirati rad bankarskog sistema tokom vršnog opterećenja (npr. kraj meseca, isplata plata) kada veliki broj korisnika istovremeno koristi aplikacĳu za pregled stanja, prenose sredstava i uplate računa.
 Uslovi testa:
-
-▶10.000 simultanih korisničkih sesĳa.
-▶Svaka sesĳa izvršava niz standardnih ope-
-racĳa: prĳava, pregled stanja, prenos novca,
-uvid u istorĳu transakcĳa.
-
-▶Korišćenje stvarnog produkcionog okru-
-ženja ili njegove precizne simulacĳe.
-
-▶Baza podataka inicĳalizovana sa velikim
-brojem (npr. 1.000.000) korisnika.
-
+-10.000 simultanih korisničkih sesĳa. -Svaka sesĳa izvršava niz standardnih operacĳa: prĳava, pregled stanja, prenos novca, uvid u istorĳu transakcĳa.
+-Korišćenje stvarnog produkcionog okruženja ili njegove precizne simulacĳe.
+-Baza podataka inicĳalizovana sa velikim brojem (npr. 1.000.000) korisnika.
 Metrike koje se prate:
-
-▶Prosečno i maksimalno vreme odziva za
-ključne operacĳe.
-
-▶Percentili vremena odziva (npr. P50, P90,
-P95, P99)a.
-
-▶Iskorišćenost resursa (CPU, memorĳa, ba-
-za podataka).
-
-▶Broj uspešno izvršenih zahteva u sekundi.
-▶Broj neuspešnih ili odbĳenih zahteva (gre-
-ške, prekoračenja vremena ili kapaciteta).
-
-Kriterĳum prolaznosti:
-Sistem mora podržati najmanje 8.000 istovreme-
-nih korisnika sa vremenom odziva manjim od
-2 sekunde za sve ključne operacĳe. Maksimalni
-gubitak zahteva ne sme preći 0.05%.
-
-a : Vrednost Pk predstavlja vreme ispod koga se završava
-𝑘% zahteva (npr. P95 znači da se 95% zahteva izvršava
-brže od te vrednosti, dok preostalih 5% traje duže).
+-Prosečno i maksimalno vreme odziva za ključne operacĳe.
+-Percentili vremena odziva (npr. P50, P90, P95, P99)a.
+-Iskorišćenost resursa (CPU, memorĳa, baza podataka).
+-Broj uspešno izvršenih zahteva u sekundi. -Broj neuspešnih ili odbĳenih zahteva (greške, prekoračenja vremena ili kapaciteta).
+Kriterĳum prolaznosti: Sistem mora podržati najmanje 8.000 istovremenih korisnika sa vremenom odziva manjim od 2 sekunde za sve ključne operacĳe. Maksimalni gubitak zahteva ne sme preći 0.05%.
+a : Vrednost Pk predstavlja vreme ispod koga se završava 𝑘% zahteva (npr. P95 znači da se 95% zahteva izvršava brže od te vrednosti, dok preostalih 5% traje duže).

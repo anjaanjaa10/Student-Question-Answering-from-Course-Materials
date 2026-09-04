@@ -1,78 +1,12 @@
 Verifikacĳa
-
-Potrebe i
-očekivanja korisnika
-Specifikacĳa
-Proces razvoja
-Proizvod
-
+Potrebe i očekivanja korisnika Specifikacĳa Proces razvoja Proizvod
 Validacĳa
-
 Slika 3.1: Verifikacĳa i validacĳa softvera
-
-se uglavnom procenjuje kroz validacĳu, iako se poje-
-dini aspekti, poput otpornosti na korisničke greške,
-mogu ispitivati i verifikacĳom. Održivost je statička
-karakteristika koja se ocenjuje kroz verifikacĳu, najčešće
-pregledima koda i pomoću alata za statičku analizu.
-
-Napomena: studentski i
-industrĳski projekti. Pro-
-ces verifikacĳe i validacĳe
-studentskih projekata naj-
-češće se sprovodi pri kraju
-procesa razvoja softvera, ko-
-risteći mali broj test primera.
-Ovaj proces obično čini veo-
-ma mali procenat ukupnog
-napora koji studenti ulože
-u razvoj softvera. S druge
-strane, proces verifikacĳe i
-validacĳe u industrĳi spro-
-vodi se tokom celokupnog
-razvoja softvera i najčešće
-čini više od 30% ukupnog
-napora, pri čemu taj proce-
-nat može značajno da varira
-u zavisnosti od vrste pro-
-jekta i nivoa kvaliteta koji je
-neophodno postići. Za be-
-zbednosno kritične sisteme
-ovaj procenat je značajno vi-
-ši.
-Osnovne razlike između
-studentskih i industrĳskih
-projekata su:
-
+se uglavnom procenjuje kroz validacĳu, iako se pojedini aspekti, poput otpornosti na korisničke greške, mogu ispitivati i verifikacĳom. Održivost je statička karakteristika koja se ocenjuje kroz verifikacĳu, najčešće pregledima koda i pomoću alata za statičku analizu.
+Napomena: studentski i industrĳski projekti. Proces verifikacĳe i validacĳe studentskih projekata najčešće se sprovodi pri kraju procesa razvoja softvera, koristeći mali broj test primera. Ovaj proces obično čini veoma mali procenat ukupnog napora koji studenti ulože u razvoj softvera. S druge strane, proces verifikacĳe i validacĳe u industrĳi sprovodi se tokom celokupnog razvoja softvera i najčešće čini više od 30% ukupnog napora, pri čemu taj procenat može značajno da varira u zavisnosti od vrste projekta i nivoa kvaliteta koji je neophodno postići. Za bezbednosno kritične sisteme ovaj procenat je značajno viši. Osnovne razlike između studentskih i industrĳskih projekata su:
 ### 3.1 Odnos verifikacĳe i validacĳe softvera
-
-U savremenom digitalnom okruženju, korisnici pokazu-
-ju sve manju tolerancĳu prema softverskim greškama,
-naročito kada je reč o mobilnim aplikacĳama. Ogromna
-konkurencĳa i visoka očekivanja doveli su do toga da
-i najmanji propust može biti presudan za uspeh pro-
-izvoda. Korisnici danas imaju širok izbor – za svaku
-potrebu postoji desetine alternativa, bilo da se radi o
-aplikacĳama za zdravlje, zabavu, hobĳe ili društvene
-mreže. Zbog toga, loše korisničko iskustvo se ne oprašta;
-prelazak na konkurentski proizvod je lak i brz. Greške u
-softveru nisu samo tehnički izazov — one predstavljaju
-direktan poslovni rizik.
-
-Upravo zato, procesi verifikacĳe i validacĳe softvera
-postaju ključni u razvoju aplikacĳa. Verifikacĳa se od-
-nosi na sve vrste provera ispravnosti rada aplikacĳe,
-uključujući i testiranje aplikacĳe u realnim uslovima i
-na različitim uređajima, kako bi se osiguralo da sistem
-funkcioniše bez grešaka. Ako aplikacĳa ima bagove, ruši
-se ili je spora, korisnici je percipiraju kao nepouzdanu i
-
-▶dužina upotrebe
-softvera,
-
-▶način upotrebe
-softvera,
-
-▶broj korisnika,
-▶očekivanja i
-▶cena pada.
+U savremenom digitalnom okruženju, korisnici pokazuju sve manju tolerancĳu prema softverskim greškama, naročito kada je reč o mobilnim aplikacĳama. Ogromna konkurencĳa i visoka očekivanja doveli su do toga da i najmanji propust može biti presudan za uspeh proizvoda. Korisnici danas imaju širok izbor – za svaku potrebu postoji desetine alternativa, bilo da se radi o aplikacĳama za zdravlje, zabavu, hobĳe ili društvene mreže. Zbog toga, loše korisničko iskustvo se ne oprašta; prelazak na konkurentski proizvod je lak i brz. Greške u softveru nisu samo tehnički izazov — one predstavljaju direktan poslovni rizik.
+Upravo zato, procesi verifikacĳe i validacĳe softvera postaju ključni u razvoju aplikacĳa. Verifikacĳa se odnosi na sve vrste provera ispravnosti rada aplikacĳe, uključujući i testiranje aplikacĳe u realnim uslovima i na različitim uređajima, kako bi se osiguralo da sistem funkcioniše bez grešaka. Ako aplikacĳa ima bagove, ruši se ili je spora, korisnici je percipiraju kao nepouzdanu i
+-dužina upotrebe softvera,
+-način upotrebe softvera,
+-broj korisnika, -očekivanja i -cena pada.

@@ -1,41 +1,7 @@
 5.1.4 Anti-debagovanje
-
-Mogućnost debagovanja izvršive verzĳe programa ni-
-je uvek poželjna osobina, naročito u kontekstu zaštite
-intelektualne svojine, bilo radi zaštite od neovlašćenog
-kopiranja (eng. software copy protection) ili radi spreča-
-vanja obrnutog inženjeringa (eng. reverse engineering).
-U takvim slučajevima, primenjuju se različite tehnike
-poznate pod nazivom anti-debagovanje. Tehnike anti-
-debagovanja se koriste i u malicioznim programima,
-gde služe kao sredstvo za izbegavanje analize i pre-
-poznavanje od strane antivirusnih alata i sistema za
-detekcĳu pretnji.
-
-Anti-debagovanje obuhvata implementacĳu jedne ili
-više metoda čĳi je cilj da ometaju ili potpuno onemogu-
-će pokušaje debagovanja ciljanog procesa. Ove tehnike
-mogu uključivati detekcĳu prisustva debagera, izmenu
-toka izvršavanja u slučaju da je debager prisutan, kori-
-šćenje specifičnih instrukcĳa koje se ponašaju drugačĳe
-u prisustvu nadgledanja, kao i tehnike obfuskacĳe‡.
-
-Iako tehnički sofisticirano, anti-debagovanje uvek pred-
-stavlja balans između zaštite i funkcionalnosti. Pre-
-komerna zaštita može negativno uticati na stabilnost,
-efikasnost i održivost softverskog proizvoda.
-
+Mogućnost debagovanja izvršive verzĳe programa nije uvek poželjna osobina, naročito u kontekstu zaštite intelektualne svojine, bilo radi zaštite od neovlašćenog kopiranja (eng. software copy protection) ili radi sprečavanja obrnutog inženjeringa (eng. reverse engineering). U takvim slučajevima, primenjuju se različite tehnike poznate pod nazivom anti-debagovanje. Tehnike antidebagovanja se koriste i u malicioznim programima, gde služe kao sredstvo za izbegavanje analize i prepoznavanje od strane antivirusnih alata i sistema za detekcĳu pretnji.
+Anti-debagovanje obuhvata implementacĳu jedne ili više metoda čĳi je cilj da ometaju ili potpuno onemoguće pokušaje debagovanja ciljanog procesa. Ove tehnike mogu uključivati detekcĳu prisustva debagera, izmenu toka izvršavanja u slučaju da je debager prisutan, korišćenje specifičnih instrukcĳa koje se ponašaju drugačĳe u prisustvu nadgledanja, kao i tehnike obfuskacĳe‡.
+Iako tehnički sofisticirano, anti-debagovanje uvek predstavlja balans između zaštite i funkcionalnosti. Prekomerna zaštita može negativno uticati na stabilnost, efikasnost i održivost softverskog proizvoda.
 ### 5.2 Vrste debagovanja
-
-Debagovanje možemo podeliti na interaktivno deba-
-govanje, udaljeno debagovanje i debagovanje nakon
-prekida izvršavanja programa (post-mortem debagova-
-nje). Debager može da započne proces i da prati njegovo
-izvršavanje, može da prati izvršavanje procesa koji je
-
-‡ Obfuskacĳa ne menja funkcionalnost programa, već samo način
-na koji je on predstavljen i uključuje preimenovanje simbola, doda-
-vanje beskorisnog (mrtvog) koda, dinamičko generisanje koda i
-šifrovanje delova koda ili podataka (kôd se generiše ili dešifruje
-tokom izvršavanja, umesto da bude prisutan u izvršivoj datoteci,
-kako bi se sprečila statička analiza koda).
+Debagovanje možemo podeliti na interaktivno debagovanje, udaljeno debagovanje i debagovanje nakon prekida izvršavanja programa (post-mortem debagovanje). Debager može da započne proces i da prati njegovo izvršavanje, može da prati izvršavanje procesa koji je
+‡ Obfuskacĳa ne menja funkcionalnost programa, već samo način na koji je on predstavljen i uključuje preimenovanje simbola, dodavanje beskorisnog (mrtvog) koda, dinamičko generisanje koda i šifrovanje delova koda ili podataka (kôd se generiše ili dešifruje tokom izvršavanja, umesto da bude prisutan u izvršivoj datoteci, kako bi se sprečila statička analiza koda).

@@ -1,0 +1,78 @@
+𝐵1
+a
+k
+𝐵2
+b c
+j
+𝐵3 𝐵4
+d e
+𝐵6 𝐵5
+f g h
+𝐵7
+i
+𝐵8
+(a) Graf kontrole toka
+𝐵1
+𝐵1
+𝐵1
+𝐵1
+a
+a
+a
+a
+k
+k
+k
+k
+𝐵2
+𝐵2
+𝐵2
+𝐵2
+b c
+b c
+b c
+b c
+j
+𝐵3 𝐵4
+j
+𝐵3 𝐵4
+j
+𝐵3 𝐵4
+j
+𝐵3 𝐵4
+d e
+d e
+d e
+d e
+𝐵6 𝐵5
+𝐵6 𝐵5
+𝐵6 𝐵5
+𝐵6 𝐵5
+g f
+h
+g f
+h
+g
+h f
+g
+h f
+𝐵7
+𝐵7
+𝐵7
+𝐵7
+i
+i
+i
+i
+𝐵8
+𝐵8
+𝐵8
+𝐵8
+(b) Brojači: f, g, j, k
+(c) Brojači: h, i, j, k
+(d) Brojači: f, h, j, k
+(e) Brojači: g, i, j, k
+Slika 6.4: Za četiri različita razapinjuća stabla (obeležena crnom isprekidanom linĳom) instrumentuju se različite grane (obeležene punom plavom linĳom)
+2. Za dati graf kontrole toka izračunati odgovarajuće razapinjuće stablo (eng. spanning tree).
+3. Granama koje ne pripadaju dobĳenom stablu treba dodati brojač.
+Knutovim algoritmom se umesto svake grane u programu instrumentuje 𝑒−𝑣+ 1 grana, gde je 𝑣broj čvorova grafa, a 𝑒broj grana grafa. Knutovo rešenje može instrumentovati isti broj grana ali na različite načine, jer standardni algoritam računanja razapinjućeg stabla može vratiti različita stabla u zavisnosti od redosleda obrade grana (slika 6.4).

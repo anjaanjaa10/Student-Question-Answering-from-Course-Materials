@@ -1,40 +1,7 @@
 2.1.2 Fatalne posledice
-
-Većina softverskih grešaka ne rezultira fatalnim posle-
-dicama. Ipak, kada se propusti jave u okviru kritičnih
-sistema, njihovi efekti mogu biti izuzetno ozbiljni —
-uključujući gubitke ljudskih života, teške povrede, zna-
-čajne finansĳske štete i razorne sistemske havarĳe. Iako
-su ovakvi incidenti retki u apsolutnim brojkama, njihov
-uticaj na bezbednost, ekonomĳu i poverenje u tehnolo-
-gĳu je nesrazmerno velik.
-
-Uprkos kontinuiranom unapređenju programerskih
-praksi, uključujući primenu formalnih metoda, auto-
-matizovanog testiranja i usklađivanje sa bezbednosnim
-standardima, učestalost najtežih grešaka nĳe opala u
-meri u kojoj bi se očekivalo. Promenila se, međutim,
-njihova priroda: umesto pojedinačnih grešaka u ko-
-du, sve češće se javljaju kompleksni, sistemski defekti
-koji proizilaze iz loše integracĳe, nejasnih zahteva ili
-neočekivane interakcĳe među podsistemima.
-
+Većina softverskih grešaka ne rezultira fatalnim posledicama. Ipak, kada se propusti jave u okviru kritičnih sistema, njihovi efekti mogu biti izuzetno ozbiljni — uključujući gubitke ljudskih života, teške povrede, značajne finansĳske štete i razorne sistemske havarĳe. Iako su ovakvi incidenti retki u apsolutnim brojkama, njihov uticaj na bezbednost, ekonomĳu i poverenje u tehnologĳu je nesrazmerno velik.
+Uprkos kontinuiranom unapređenju programerskih praksi, uključujući primenu formalnih metoda, automatizovanog testiranja i usklađivanje sa bezbednosnim standardima, učestalost najtežih grešaka nĳe opala u meri u kojoj bi se očekivalo. Promenila se, međutim, njihova priroda: umesto pojedinačnih grešaka u kodu, sve češće se javljaju kompleksni, sistemski defekti koji proizilaze iz loše integracĳe, nejasnih zahteva ili neočekivane interakcĳe među podsistemima.
 Therac 25, 1985–1987
-
-Aparat za radioterapĳu Therac-25 je bio proizvod kanad-
-ske kompanĳe AECL (Atomic Energy of Canada Limited).
-Ovaj aparat je bio napredni naslednik serĳe uređaja
-Therac-6 i Therac-20, koji su takođe koristili sličnu tehno-
-logĳu za primenu radioterapĳe. Therac-25 je kombinovao
-softversku kontrolu i hardverske komponente u cilju
-povećanja preciznosti zračenja.
-
-Između 1985. i 1987. godine, aparat je uzrokovao najma-
-nje šest slučajeva predoziranja pacĳenata radĳacĳom,
-od kojih su troje umrli. Ovi nesrećni slučajevi bili su
-rezultat softverske greške. Therac-25 je imao dva režima
-zračenja:
-
-▶Elektronski snop niskog intenziteta,
-▶Fotonski snop visoke energĳe, koji mora da se
-dodatno filtrira.
+Aparat za radioterapĳu Therac-25 je bio proizvod kanadske kompanĳe AECL (Atomic Energy of Canada Limited). Ovaj aparat je bio napredni naslednik serĳe uređaja Therac-6 i Therac-20, koji su takođe koristili sličnu tehnologĳu za primenu radioterapĳe. Therac-25 je kombinovao softversku kontrolu i hardverske komponente u cilju povećanja preciznosti zračenja.
+Između 1985. i 1987. godine, aparat je uzrokovao najmanje šest slučajeva predoziranja pacĳenata radĳacĳom, od kojih su troje umrli. Ovi nesrećni slučajevi bili su rezultat softverske greške. Therac-25 je imao dva režima zračenja:
+-Elektronski snop niskog intenziteta, -Fotonski snop visoke energĳe, koji mora da se dodatno filtrira.

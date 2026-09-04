@@ -1,47 +1,14 @@
 Događaj/Akcĳa
-
-Stanje 1
-Stanje 2
-
-Slika 4.10: Prikaz prelaza u
-okviru dĳagrama stanja
-
-stimulusima, kao što su korisnički interfejsi, komunika-
-cioni protokoli i kontrolni sistemi.
-
-Pored modelovanja ponašanja, dĳagram stanja može
-se koristiti i za generisanje test slučajeva. Budući da
-je dĳagram stanja oblik usmerenog grafa, testiranje se
-može zasnivati na njegovom obilasku. Na primer, može-
-mo zahtevati da svaki prelaz u dĳagramu bude ispitan
-bar jednom — što predstavlja dobar kompromis izme-
-đu pokrivenosti i obima testova. Alternativno, može
-se zahtevati pokrivenost svih stanja ili čak svih mo-
-gućih putanja kroz dĳagram, u zavisnosti od ciljeva i
-kritičnosti sistema.
-
-Primer 4.3.11 (Ugrađena kasa) Posmatramo softverski
-sistem za maloprodaju koji ima ugrađenu opcĳu za
-otvaranje i zatvaranje (fioke) kase prikazan na slici
-4.11. Primeri test slučajeva
-
+Stanje 1 Stanje 2
+Slika 4.10: Prikaz prelaza u okviru dĳagrama stanja
+stimulusima, kao što su korisnički interfejsi, komunikacioni protokoli i kontrolni sistemi.
+Pored modelovanja ponašanja, dĳagram stanja može se koristiti i za generisanje test slučajeva. Budući da je dĳagram stanja oblik usmerenog grafa, testiranje se može zasnivati na njegovom obilasku. Na primer, možemo zahtevati da svaki prelaz u dĳagramu bude ispitan bar jednom — što predstavlja dobar kompromis između pokrivenosti i obima testova. Alternativno, može se zahtevati pokrivenost svih stanja ili čak svih mogućih putanja kroz dĳagram, u zavisnosti od ciljeva i kritičnosti sistema.
+Primer 4.3.11 (Ugrađena kasa) Posmatramo softverski sistem za maloprodaju koji ima ugrađenu opcĳu za otvaranje i zatvaranje (fioke) kase prikazan na slici 4.11. Primeri test slučajeva
 1. Otvori, zatvori, ugasi program
-
 2. Otvori, otvori, zatvori, zatvori, ugasi program.
-
-Drugi test slučaj aktivira svaki prelaz datog dĳagra-
-ma bar jednom. Pri izvršavanju navedenih naredbi
-proverava se da li sistem reaguje u skladu sa zadatim
-zahtevima.
-
+Drugi test slučaj aktivira svaki prelaz datog dĳagrama bar jednom. Pri izvršavanju navedenih naredbi proverava se da li sistem reaguje u skladu sa zadatim zahtevima.
 tehnike testiranja
-
-testiranje
-crne kutĳe
-
+testiranje crne kutĳe
 Tabele stanja
-
-Konačni automat koji modeluje sistem se može prikazati
-i tabelama stanja (eng. state transition tables). Osnovna
-
+Konačni automat koji modeluje sistem se može prikazati i tabelama stanja (eng. state transition tables). Osnovna
 tabele stanja

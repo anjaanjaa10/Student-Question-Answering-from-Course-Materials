@@ -1,37 +1,6 @@
-omogućavaju da se testovi ponavljaju automatski ili u
-serĳama na više uređaja odjednom, čime se povećava
-ponovljivost i pouzdanost testiranja.
-
-Instalacioni testovi se nekada sprovode i u saradnji sa
-krajnjim korisnicima, kako bi se osiguralo da instalacĳa
-teče bez grešaka i da sistem nakon instalacĳe ispravno
-funkcioniše. Poseban akcenat stavlja se na detekcĳu
-eventualnih uticaja okruženja na funkcionalne i nefunk-
-cionalne karakteristike sistema, kao što su performanse,
-sigurnost ili kompatibilnost. Ovo testiranje ima za cilj da
-potvrdi da je softver spreman za rad u stvarnom okruže-
-nju korisnika, bez potrebe za dodatnim intervencĳama
-nakon instalacĳe.
-
+omogućavaju da se testovi ponavljaju automatski ili u serĳama na više uređaja odjednom, čime se povećava ponovljivost i pouzdanost testiranja.
+Instalacioni testovi se nekada sprovode i u saradnji sa krajnjim korisnicima, kako bi se osiguralo da instalacĳa teče bez grešaka i da sistem nakon instalacĳe ispravno funkcioniše. Poseban akcenat stavlja se na detekcĳu eventualnih uticaja okruženja na funkcionalne i nefunkcionalne karakteristike sistema, kao što su performanse, sigurnost ili kompatibilnost. Ovo testiranje ima za cilj da potvrdi da je softver spreman za rad u stvarnom okruženju korisnika, bez potrebe za dodatnim intervencĳama nakon instalacĳe.
 ### 4.3 Tehnike testiranja
-
-Tehnike testiranja imaju za cilj da pruže sistematski
-odgovor na pitanje kako identifikovati reprezentativ-
-ni skup test slučajeva (test primera, ili samo testova).
-Reprezentativni skup testova treba da obuhvati slučaje-
-ve koji najbolje odražavaju stvarne uslove rada softver-
-skog sistema, ali i one koji imaju povećanu verovatnoću
-da otkrĳu potencĳalne slabosti u implementacĳi. Do-
-datno, treba da omogući efikasno balansiranje između
-obima testiranja i potrošnje resursa. Reprezentativni
-skup testova treba da ima naredne karakteristike:
-
-▶Visok potencĳal otkrivanja grešaka.
-▶Relativno mala veličina.
-▶Relativno velika brzina izvršavanja.
-▶Pruža visok stepen poverenja u pouzdanost sof-
-tvera.
-
-Dobro definisan i pažljivo odabran skup testova predsta-
-vlja osnovu za kvalitetno, ciljno-orĳentisano testiranje
-koje doprinosi visokom kvalitetu softverskog rešenja.
+Tehnike testiranja imaju za cilj da pruže sistematski odgovor na pitanje kako identifikovati reprezentativni skup test slučajeva (test primera, ili samo testova). Reprezentativni skup testova treba da obuhvati slučajeve koji najbolje odražavaju stvarne uslove rada softverskog sistema, ali i one koji imaju povećanu verovatnoću da otkrĳu potencĳalne slabosti u implementacĳi. Dodatno, treba da omogući efikasno balansiranje između obima testiranja i potrošnje resursa. Reprezentativni skup testova treba da ima naredne karakteristike:
+-Visok potencĳal otkrivanja grešaka. -Relativno mala veličina. -Relativno velika brzina izvršavanja. -Pruža visok stepen poverenja u pouzdanost softvera.
+Dobro definisan i pažljivo odabran skup testova predstavlja osnovu za kvalitetno, ciljno-orĳentisano testiranje koje doprinosi visokom kvalitetu softverskog rešenja.

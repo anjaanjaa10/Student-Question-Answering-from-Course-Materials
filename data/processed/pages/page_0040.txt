@@ -1,73 +1,13 @@
-Dodatno, vrednost akcĳa kompanĳe je u roku od dva
-dana opala za čak 75%.
-
+Dodatno, vrednost akcĳa kompanĳe je u roku od dva dana opala za čak 75%.
 Knight Capital Group
-
-Do incidenta je došlo prilikom implementacĳe novog
-softverskog modula, kada je nenamerno reaktiviran
-stari, nefunkcionalni deo koda. Aktivirani kôd je auto-
-matski generisao veliki broj netačnih naloga, izazivajući
-kupovinu i prodaju akcĳa po izrazito nepovoljnim ce-
-nama. Ovaj događaj ne samo da je značajno ugrozio
-reputacĳu kompanĳe, već je ubrzo doveo i do njenog
-potpunog finansĳskog kolapsa.
-
-▶Greška:
-(1) Programer nĳe
-ažurirao sve servere
-sa najnovĳom
-verzĳom softvera
-(2) Nepostojanje
-provere verzĳe koda
-prilikom obrade upita
-
-▶Defekt: Moguće je
-pokrenuti kôd koji se
-koristio za testiranje
-
-▶Pad: Pokrenute su
-pogrešne transakcĳe
-
+Do incidenta je došlo prilikom implementacĳe novog softverskog modula, kada je nenamerno reaktiviran stari, nefunkcionalni deo koda. Aktivirani kôd je automatski generisao veliki broj netačnih naloga, izazivajući kupovinu i prodaju akcĳa po izrazito nepovoljnim cenama. Ovaj događaj ne samo da je značajno ugrozio reputacĳu kompanĳe, već je ubrzo doveo i do njenog potpunog finansĳskog kolapsa.
+-Greška: (1) Programer nĳe ažurirao sve servere sa najnovĳom verzĳom softvera (2) Nepostojanje provere verzĳe koda prilikom obrade upita
+-Defekt: Moguće je pokrenuti kôd koji se koristio za testiranje
+-Pad: Pokrenute su pogrešne transakcĳe
 Facebook Outage, 13. mart 2019. godine
-
-▶Incident: Veliki
-finansĳski gubitak
-
-U martu 2019. godine, kompanĳa Facebook doživela je
-jedan od najznačajnĳih prekida u svojoj istorĳi koji je
-uticao na milĳarde korisnika širom sveta. Ovaj događaj,
-poznat kao Facebook Outage 2019, izazvao je ozbiljne
-poremećaje u funkcionisanju ne samo servisa Facebook,
-već i njegovih povezanih servisa kao što su Instagram,
-WhatsApp i Messenger.
-
-Prema zvaničnom saopštenju kompanĳe, uzrok prekida
-bila je „promena konfiguracĳe servera” koja je pokre-
-nula lanac problema u sistemu. Nakon što su servisi
-ponovo postali dostupni, Facebook se izvinio korisnici-
-ma i naveo da su sistemi u fazi oporavka. Međutim,
-kompanĳa nĳe pružila detaljnĳe informacĳe o tačnom
-uzroku problema, što je izazvalo kritike stručne javnosti
-i korisnika zbog nedostatka transparentnosti. Iako su
-detalji ostali oskudni, izveštaji sugerišu da je došlo do
-greške u internim sistemima za rutiranje podataka, što je
-dovelo do prekida komunikacĳe između Facebook-ovih
-centara podataka. Zbog toga su korisnici širom sveta
-imali ograničen ili nikakav pristup platformama.
-
-Zvanično saopštenje kompa-
-nĳe Facebook:
-”Juče smo izvršili promenu
-konfiguracĳe servera koja
-je pokrenula niz problema.
-Kao rezultat toga, mnogi ko-
-risnici su imali poteškoća u
-pristupu našim aplikacĳama
-i uslugama.”
-
-Ovaj prekid je bio jedan od najopsežnĳih u istorĳi dru-
-štvenih mreža. Pored korisničkih neugodnosti (slika
-2.4), prekid je imao i finansĳske posledice. Analitičari
-
-Slika 2.4: Poruka o nedostup-
-nosti servisa
+-Incident: Veliki finansĳski gubitak
+U martu 2019. godine, kompanĳa Facebook doživela je jedan od najznačajnĳih prekida u svojoj istorĳi koji je uticao na milĳarde korisnika širom sveta. Ovaj događaj, poznat kao Facebook Outage 2019, izazvao je ozbiljne poremećaje u funkcionisanju ne samo servisa Facebook, već i njegovih povezanih servisa kao što su Instagram, WhatsApp i Messenger.
+Prema zvaničnom saopštenju kompanĳe, uzrok prekida bila je „promena konfiguracĳe servera” koja je pokrenula lanac problema u sistemu. Nakon što su servisi ponovo postali dostupni, Facebook se izvinio korisnicima i naveo da su sistemi u fazi oporavka. Međutim, kompanĳa nĳe pružila detaljnĳe informacĳe o tačnom uzroku problema, što je izazvalo kritike stručne javnosti i korisnika zbog nedostatka transparentnosti. Iako su detalji ostali oskudni, izveštaji sugerišu da je došlo do greške u internim sistemima za rutiranje podataka, što je dovelo do prekida komunikacĳe između Facebook-ovih centara podataka. Zbog toga su korisnici širom sveta imali ograničen ili nikakav pristup platformama.
+Zvanično saopštenje kompanĳe Facebook: ”Juče smo izvršili promenu konfiguracĳe servera koja je pokrenula niz problema. Kao rezultat toga, mnogi korisnici su imali poteškoća u pristupu našim aplikacĳama i uslugama.”
+Ovaj prekid je bio jedan od najopsežnĳih u istorĳi društvenih mreža. Pored korisničkih neugodnosti (slika 2.4), prekid je imao i finansĳske posledice. Analitičari
+Slika 2.4: Poruka o nedostupnosti servisa

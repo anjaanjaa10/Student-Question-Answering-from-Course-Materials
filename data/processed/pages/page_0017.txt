@@ -1,61 +1,11 @@
 Pregled
-
-1.1
-Upravljanje kvali-
-tetom softvera . .
-4
-
-▶Koji procesi su važni za kvalitet softvera?
-▶Koji su standardi kvaliteta softvera najbitnĳi i šta
-oni definišu?
-
-1.2
-Standardi . . . . .
-4
-
-1.3
-Atributi kvaliteta
-softvera . . . . . .
-5
-
-▶Kojim se atributima opisuje kvalitet softvera?
-▶Koji atributi kvaliteta softvera su važni za bankar-
-ske aplikacĳe, koji za autonomnu vožnju, koji za
-kalkulator, koji za onlajn prodaju karata, a koji za
-sisteme za razmenu poruka?
-
-Tokom poslednjih godina, IT industrĳa se brzo razvi-
-ja i predstavlja jednu od najdinamičnĳih industrĳa u
-svetu. Softver se razvĳa za veoma raznovrsne uređaje i
-svrhe. Ove namene obuhvataju oblasti poput interneta
-stvari, virtuelne i proširene stvarnosti, igara i zabave,
-pametnih okruženja i zdravstvene zaštite. Takođe, sof-
-tver ima ključnu ulogu u razvoju veštačke inteligencĳe,
-obradi velikih podataka, poslovnim, naučnim i vojnim
-primenama, kao i u savremenim komunikacionim teh-
-nologĳama.
-
-Razvoj softvera je složen proces koji obuhvata veliki broj
-različitih aktivnosti, od kojih se osnovne mogu grupisati
-u:
-
-▶analizu sistema i specifikacĳu zahteva,
-▶projektovanje i implementacĳu softvera,
-▶upravljanje kvalitetom softvera i
-▶održavanje softvera.
-
-Slika 1.1: Softver je svuda oko
-nas. Počevši od malih kućnih
-aparata, preko telefona, prevo-
-znih sredstava, satelita, raketa,
-aparata u zdravstvu — gotovo
-da više ne postoji elektronski
-uređaj koji u sebi ne sadrži ne-
-kakav softver.
-
-Sa sve većim obimom proizvodnje softvera, raste i po-
-treba za efikasnĳim upravljanjem procesima njegove
-izrade. U procesu razvoja softvera, ključno je da se do-
-stupni resursi optimalno iskoriste kako bi se na vreme
-zadovoljili korisnički zahtevi i obezbedio visok kvalitet
-softverskog proizvoda.
+1.1 Upravljanje kvalitetom softvera . . 4
+-Koji procesi su važni za kvalitet softvera? -Koji su standardi kvaliteta softvera najbitnĳi i šta oni definišu?
+1.2 Standardi . . . . . 4
+1.3 Atributi kvaliteta softvera . . . . . . 5
+-Kojim se atributima opisuje kvalitet softvera? -Koji atributi kvaliteta softvera su važni za bankarske aplikacĳe, koji za autonomnu vožnju, koji za kalkulator, koji za onlajn prodaju karata, a koji za sisteme za razmenu poruka?
+Tokom poslednjih godina, IT industrĳa se brzo razvija i predstavlja jednu od najdinamičnĳih industrĳa u svetu. Softver se razvĳa za veoma raznovrsne uređaje i svrhe. Ove namene obuhvataju oblasti poput interneta stvari, virtuelne i proširene stvarnosti, igara i zabave, pametnih okruženja i zdravstvene zaštite. Takođe, softver ima ključnu ulogu u razvoju veštačke inteligencĳe, obradi velikih podataka, poslovnim, naučnim i vojnim primenama, kao i u savremenim komunikacionim tehnologĳama.
+Razvoj softvera je složen proces koji obuhvata veliki broj različitih aktivnosti, od kojih se osnovne mogu grupisati u:
+-analizu sistema i specifikacĳu zahteva, -projektovanje i implementacĳu softvera, -upravljanje kvalitetom softvera i -održavanje softvera.
+Slika 1.1: Softver je svuda oko nas. Počevši od malih kućnih aparata, preko telefona, prevoznih sredstava, satelita, raketa, aparata u zdravstvu — gotovo da više ne postoji elektronski uređaj koji u sebi ne sadrži nekakav softver.
+Sa sve većim obimom proizvodnje softvera, raste i potreba za efikasnĳim upravljanjem procesima njegove izrade. U procesu razvoja softvera, ključno je da se dostupni resursi optimalno iskoriste kako bi se na vreme zadovoljili korisnički zahtevi i obezbedio visok kvalitet softverskog proizvoda.

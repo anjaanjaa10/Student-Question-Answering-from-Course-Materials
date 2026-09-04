@@ -1,57 +1,16 @@
-zahteve), stopa protoka (koliko transakcĳa je apli-
-kacĳa u mogućnosti da obradi u jedinici vremena),
-
-korišćenje resursa — količina i vrsta korišćenih resursa
-i
-
-kapacitet — maksimalna ograničenja (npr. broj kori-
-snika ili veličine ulaza koje aplikacĳa može da
-obradi).
-
-performantnost
-(efikasnost)
-
-Primer 1.3.2 (Kupovina karata) Razmotrimo primer
-sistema za onlajn rezervacĳu i kupovinu avionskih
-karata. Ponašanje ovog sistema treba razmotriti u
-odnosu na svakog pojedinačnog korisnika sistema, ali
-i u kontekstu mogućeg velikog opterećenja sistema
-u situacĳama kada veliki broj korisnika istovremeno
-želi da rezerviše ili kupi kartu.
-
-vremensko
-ponašanje
-
+zahteve), stopa protoka (koliko transakcĳa je aplikacĳa u mogućnosti da obradi u jedinici vremena),
+korišćenje resursa — količina i vrsta korišćenih resursa i
+kapacitet — maksimalna ograničenja (npr. broj korisnika ili veličine ulaza koje aplikacĳa može da obradi).
+performantnost (efikasnost)
+Primer 1.3.2 (Kupovina karata) Razmotrimo primer sistema za onlajn rezervacĳu i kupovinu avionskih karata. Ponašanje ovog sistema treba razmotriti u odnosu na svakog pojedinačnog korisnika sistema, ali i u kontekstu mogućeg velikog opterećenja sistema u situacĳama kada veliki broj korisnika istovremeno želi da rezerviše ili kupi kartu.
+vremensko ponašanje
 Vremensko ponašanje ovog sistema uključuje i:
-
-korišćenje
-resursa
-
-vreme odgovora (odziva) aplikacĳe pri pretraživa-
-nju dostupnih karata i
-
+korišćenje resursa
+vreme odgovora (odziva) aplikacĳe pri pretraživanju dostupnih karata i
 kapacitet
-
-vreme obrade potrebno za rezervacĳu ili plaćanje
-karte.
-
-Na primer, očekivanja koja se postavljaju visokoefika-
-snom sistemu su da:
-
-pretraga karata treba da se izvrši za manje od dve
-sekunde u 97% slučajeva,
-
-prikaz rezultata pretrage (lista dostupnih karata) mo-
-ra da se učita u roku od tri sekunde za 95%
-zahteva,
-
-plaćanje i potvrda rezervacĳe ne smeju trajati duže
-od pet sekundi u 99% slučajeva.
-
-U ovakvom sistemu često je prisutna i komunikacĳa
-sa spoljnim sistemima (kao što su baze podataka ili
-eksterni API servisi za plaćanje), te u tom kontekstu
-može se postaviti uslov da kašnjenje odgovora ek-
-sternih sistema ne sme biti veće od jedne sekunde.
-Relevantni resursi čĳu upotrebu treba pratiti za ovu
-aplikacĳu su procesor, memorĳa, baza podataka i
+vreme obrade potrebno za rezervacĳu ili plaćanje karte.
+Na primer, očekivanja koja se postavljaju visokoefikasnom sistemu su da:
+pretraga karata treba da se izvrši za manje od dve sekunde u 97% slučajeva,
+prikaz rezultata pretrage (lista dostupnih karata) mora da se učita u roku od tri sekunde za 95% zahteva,
+plaćanje i potvrda rezervacĳe ne smeju trajati duže od pet sekundi u 99% slučajeva.
+U ovakvom sistemu često je prisutna i komunikacĳa sa spoljnim sistemima (kao što su baze podataka ili eksterni API servisi za plaćanje), te u tom kontekstu može se postaviti uslov da kašnjenje odgovora eksternih sistema ne sme biti veće od jedne sekunde. Relevantni resursi čĳu upotrebu treba pratiti za ovu aplikacĳu su procesor, memorĳa, baza podataka i

@@ -1,55 +1,12 @@
-Testovima performansi proverava se vremensko po-
-našanje aplikacĳe i njena upotreba resursa. Ova
-vrsta testiranja se fokusira na metrike kao što su
-vreme odgovora na zahteve, broj obrađenih zahte-
-va u jedinici vremena, vreme obrade podataka,
-kao i iskorišćenost memorĳe i drugih sistemskih
-resursa. Sastavni deo testiranja performansi su i
-testovi kapaciteta, stresa i konfiguracĳe.
-
-sistemsko
-testiranje
-
-Testovima kapaciteta proverava se ponašanje si-
-stema pri obradi velikih količina podataka.
-Posebna pažnja posvećuje se granicama si-
-stema, tj. kako softver funkcioniše kada se
-približi maksimalnim kapacitetima definisa-
-nim u zahtevima.
-
-nefunkcionalno
-testiranje
-
+Testovima performansi proverava se vremensko ponašanje aplikacĳe i njena upotreba resursa. Ova vrsta testiranja se fokusira na metrike kao što su vreme odgovora na zahteve, broj obrađenih zahteva u jedinici vremena, vreme obrade podataka, kao i iskorišćenost memorĳe i drugih sistemskih resursa. Sastavni deo testiranja performansi su i testovi kapaciteta, stresa i konfiguracĳe.
+sistemsko testiranje
+Testovima kapaciteta proverava se ponašanje sistema pri obradi velikih količina podataka. Posebna pažnja posvećuje se granicama sistema, tj. kako softver funkcioniše kada se približi maksimalnim kapacitetima definisanim u zahtevima.
+nefunkcionalno testiranje
 performanse
-
-Stres testovima se proverava kako se sistem po-
-naša kada ga izložimo zahtevima izvan nje-
-govog projektovanog kapaciteta, odnosno
-šta se dogodi kada sistem preopteretimo i
-kako se sistem oporavlja kada se opterećenje
-smanji.
-
+Stres testovima se proverava kako se sistem ponaša kada ga izložimo zahtevima izvan njegovog projektovanog kapaciteta, odnosno šta se dogodi kada sistem preopteretimo i kako se sistem oporavlja kada se opterećenje smanji.
 kapacitet
-
 stres
-
-Testovima konfiguracĳe proverava se rad siste-
-ma u različitim hardverskim i softverskim
-okruženjima. Time se obezbeđuje da apli-
-kacĳa funkcioniše stabilno bez obzira na
-konkretne kombinacĳe operativnih sistema,
-drajvera, baza podataka ili uređaja.
-
+Testovima konfiguracĳe proverava se rad sistema u različitim hardverskim i softverskim okruženjima. Time se obezbeđuje da aplikacĳa funkcioniše stabilno bez obzira na konkretne kombinacĳe operativnih sistema, drajvera, baza podataka ili uređaja.
 konfiguracĳa
-
-Primer 4.2.4 (Aplikacĳa za elektronsko bankar-
-stvo — nastavak primera 4.2.3) Testovi kapa-
-citeta su ključni za planiranje infrastrukture i
-predviđanje kapaciteta u rastu korisničke ba-
-ze. Rezultati mogu ukazati na potrebu za hori-
-zontalnim skaliranjem ili optimizacĳom baze
-podataka.
-Naziv test slučaja: TC-C003 — Test kapaciteta
-
-Cilj testa:
-Proceniti ponašanje sistema pri obradi velikog
+Primer 4.2.4 (Aplikacĳa za elektronsko bankarstvo — nastavak primera 4.2.3) Testovi kapaciteta su ključni za planiranje infrastrukture i predviđanje kapaciteta u rastu korisničke baze. Rezultati mogu ukazati na potrebu za horizontalnim skaliranjem ili optimizacĳom baze podataka. Naziv test slučaja: TC-C003 — Test kapaciteta
+Cilj testa: Proceniti ponašanje sistema pri obradi velikog

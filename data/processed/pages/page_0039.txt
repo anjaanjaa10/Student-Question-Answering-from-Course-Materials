@@ -1,51 +1,9 @@
-Pogrešne lokacĳe — Gradovi, znamenitosti i firme su
-bili loše označeni ili potpuno pogrešno locirani.
-
-Na primer, policĳa u Austra-
-lĳi je upozorila građane da
-ne koriste Apple Maps jer je
-vodič za grad Mildura ljude
-odvodio usred opasne pusti-
-nje.
-
-Netačne rute — Navigacĳa je korisnike vodila pogre-
-šnim ili nepostojećim putevima.
-
-Izobličene mape — 3D prikazi zgrada i terena su iz-
-gledali iskrivljeno ili neprirodno. Primer lošeg
-prikaza dat je na slici 2.3.
-
-Nedostajuće informacĳe — Mnoge lokacĳe i ulice nisu
-bile uopšte ucrtane.
-
-Izvršni direktor kompanĳe Apple, Tim Kuk (eng. Tim
-Cook), uputio je javno izvinjenje i korisnicima čak pre-
-poručio da privremeno koriste konkurentske aplikacĳe.
-Zbog skandala, Apple je otpustio nekoliko ključnih ljudi
-koji su bili na visokim pozicĳama. Negativna percepcĳa
-kompanĳe dovela je do pada vrednosti akcĳa Apple-a za
-približno 4,5%, što je bilo smanjenje tržišne vrednosti
-za oko 30 milĳardi dolara. Kako bi ispravio početne de-
-fekte i poboljšao kvalitet svoje aplikacĳe, Apple je tokom
-narednih godina uložio više milĳardi dolara u razvoj
-Apple Maps. Ova ulaganja obuhvatala su akvizicĳe kom-
-panĳa specĳalizovanih za pravljenje mapa, prikupljanje
-sopstvenih podataka, kao i razvoj novih funkcionalnosti.
-Iako je teško precizno kvantifikovati ukupne finansĳske
-gubitke, kombinacĳa pada tržišne vrednosti i višego-
-dišnjih ulaganja u unapređenje Apple Maps sugeriše
-da je ova greška imala značajan ekonomski uticaj na
-kompanĳu.
-
-Slika 2.3: Primer prikaza apli-
-kacĳe Apple Maps
-
+Pogrešne lokacĳe — Gradovi, znamenitosti i firme su bili loše označeni ili potpuno pogrešno locirani.
+Na primer, policĳa u Australĳi je upozorila građane da ne koriste Apple Maps jer je vodič za grad Mildura ljude odvodio usred opasne pustinje.
+Netačne rute — Navigacĳa je korisnike vodila pogrešnim ili nepostojećim putevima.
+Izobličene mape — 3D prikazi zgrada i terena su izgledali iskrivljeno ili neprirodno. Primer lošeg prikaza dat je na slici 2.3.
+Nedostajuće informacĳe — Mnoge lokacĳe i ulice nisu bile uopšte ucrtane.
+Izvršni direktor kompanĳe Apple, Tim Kuk (eng. Tim Cook), uputio je javno izvinjenje i korisnicima čak preporučio da privremeno koriste konkurentske aplikacĳe. Zbog skandala, Apple je otpustio nekoliko ključnih ljudi koji su bili na visokim pozicĳama. Negativna percepcĳa kompanĳe dovela je do pada vrednosti akcĳa Apple-a za približno 4,5%, što je bilo smanjenje tržišne vrednosti za oko 30 milĳardi dolara. Kako bi ispravio početne defekte i poboljšao kvalitet svoje aplikacĳe, Apple je tokom narednih godina uložio više milĳardi dolara u razvoj Apple Maps. Ova ulaganja obuhvatala su akvizicĳe kompanĳa specĳalizovanih za pravljenje mapa, prikupljanje sopstvenih podataka, kao i razvoj novih funkcionalnosti. Iako je teško precizno kvantifikovati ukupne finansĳske gubitke, kombinacĳa pada tržišne vrednosti i višegodišnjih ulaganja u unapređenje Apple Maps sugeriše da je ova greška imala značajan ekonomski uticaj na kompanĳu.
+Slika 2.3: Primer prikaza aplikacĳe Apple Maps
 Knight Capital Group, 1. avgust 2012. godine
-
-U avgustu 2012. godine, kompanĳa Knight Capital Gro-
-up suočila se sa jednim od najozbiljnĳih tehnoloških
-incidenata u istorĳi savremenog finansĳskog tržišta.
-Softverska greška u sistemu za trgovanje rezultirala je
-gubitkom od 440 miliona dolara za svega 45 minuta
-— što predstavlja iznos gotovo četiri puta veći od neto
-profita kompanĳe ostvarenog tokom prethodne godine.
+U avgustu 2012. godine, kompanĳa Knight Capital Group suočila se sa jednim od najozbiljnĳih tehnoloških incidenata u istorĳi savremenog finansĳskog tržišta. Softverska greška u sistemu za trgovanje rezultirala je gubitkom od 440 miliona dolara za svega 45 minuta — što predstavlja iznos gotovo četiri puta veći od neto profita kompanĳe ostvarenog tokom prethodne godine.

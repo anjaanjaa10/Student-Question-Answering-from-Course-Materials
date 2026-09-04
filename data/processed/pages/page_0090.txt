@@ -1,49 +1,7 @@
-▶Vremensko trajanje oporavka posle greške.
-▶Prisustvo curenja memorĳe ili degradacĳe
-performansi.
-
-▶Očuvanost tačnosti i konzistentnosti poda-
-taka.
-
-Kriterĳum prolaznosti:
-Tokom 72 sata kontinuiranog rada ne sme doći
-do nĳednog sistemskog pada. Nakon svake si-
-mulirane greške, sistem mora da se oporavi u
-roku kraćem od 60 sekundi. Potrošnja memorĳe
-ne sme rasti progresivno bez oslobađanja (in-
-dikator curenja memorĳe). Podaci moraju biti
-konzistentni i odgovarati obavljenim transakci-
-jama.
-
-Testovima upotrebljivosti proverava se koliko je sof-
-tverski sistem lak za upotrebu krajnjim korisni-
-cima. Ova vrsta testiranja je posebno važna za
-aplikacĳe sa korisničkim interfejsom, kao što su
-mobilne i veb aplikacĳe, jer ima direktan uticaj
-na korisničko iskustvo i prihvatanje proizvoda. U
-testovima upotrebljivosti proverava se koliko brzo
-novi korisnik može da nauči da koristi sistem bez
-pomoći ili obuke (naučljivost), da li korisnik može
-da izvrši zadatke u prihvatljivom broju koraka
-i u razumnom vremenskom okviru (efikasnost
-korišćenja), da li sistem omogućava korisniku da
-lako prepozna i ispravi greške (prevencĳa i opora-
-vak od grešaka), pristupačnost da li su elementi
-korisničkog interfejsa intuitivno raspoređeni i da
-li korisnik lako razume njihovu svrhu (jasnoća
-interfejsa), da li korisnici subjektivno ocenjuju
-sistem kao prĳatan za korišćenje (zadovoljstvo
-korisnika), da li je sistem upotrebljiv za osobe
-sa različitim oblicima invaliditeta (pristupačnost),
-da li je svrha aplikacĳe jasna i lako razumljiva
-(prepoznatljivost).
-Testiranje se često sprovodi kroz posmatranje kori-
-snika dok izvršavaju tipične zadatke, uz praćenje
-
-sistemsko
-testiranje
-
-nefunkcionalno
-testiranje
-
+-Vremensko trajanje oporavka posle greške. -Prisustvo curenja memorĳe ili degradacĳe performansi.
+-Očuvanost tačnosti i konzistentnosti podataka.
+Kriterĳum prolaznosti: Tokom 72 sata kontinuiranog rada ne sme doći do nĳednog sistemskog pada. Nakon svake simulirane greške, sistem mora da se oporavi u roku kraćem od 60 sekundi. Potrošnja memorĳe ne sme rasti progresivno bez oslobađanja (indikator curenja memorĳe). Podaci moraju biti konzistentni i odgovarati obavljenim transakcijama.
+Testovima upotrebljivosti proverava se koliko je softverski sistem lak za upotrebu krajnjim korisnicima. Ova vrsta testiranja je posebno važna za aplikacĳe sa korisničkim interfejsom, kao što su mobilne i veb aplikacĳe, jer ima direktan uticaj na korisničko iskustvo i prihvatanje proizvoda. U testovima upotrebljivosti proverava se koliko brzo novi korisnik može da nauči da koristi sistem bez pomoći ili obuke (naučljivost), da li korisnik može da izvrši zadatke u prihvatljivom broju koraka i u razumnom vremenskom okviru (efikasnost korišćenja), da li sistem omogućava korisniku da lako prepozna i ispravi greške (prevencĳa i oporavak od grešaka), pristupačnost da li su elementi korisničkog interfejsa intuitivno raspoređeni i da li korisnik lako razume njihovu svrhu (jasnoća interfejsa), da li korisnici subjektivno ocenjuju sistem kao prĳatan za korišćenje (zadovoljstvo korisnika), da li je sistem upotrebljiv za osobe sa različitim oblicima invaliditeta (pristupačnost), da li je svrha aplikacĳe jasna i lako razumljiva (prepoznatljivost). Testiranje se često sprovodi kroz posmatranje korisnika dok izvršavaju tipične zadatke, uz praćenje
+sistemsko testiranje
+nefunkcionalno testiranje
 upotrebljivost

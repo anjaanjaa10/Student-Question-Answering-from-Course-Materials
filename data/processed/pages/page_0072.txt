@@ -1,44 +1,11 @@
 izvršavanja.
-
-▶Raspoređivanje test kompleta u plan izvršavanja
-— u skladu sa raspoloživim resursima i prioriteti-
-ma.
-
-▶Pripremu test podataka i proveru njihove in-
-tegracĳe u okruženje — kako bi se obezbedila
-validnost ulaza i pouzdanost rezultata testiranja.
-
-Na ovaj način, implementacĳa testova zatvara krug
-pripremnih aktivnosti i postavlja temelj za sledeću fazu
-— sâmo izvršavanje testiranja.
-
-Primer 4.1.3 (Aplikacĳa za elektronsko bankarstvo —
-nastavak primera 4.1.2) Naziv test procedure: Testira-
-nje prenosa sredstava u uslovima nedovoljnog stanja
-na računu
-
-Opis: Ova test procedura pokriva slučajeve kada ko-
-risnik pokušava da izvrši prenos novca, ali na računu
-nema dovoljno sredstava za realizacĳu transakcĳe.
-Cilj je da se verifikuje ispravno ponašanje sistema
-u različitim varĳacĳama ovog problema, uključujući
-osnovni nedostatak sredstava, rezervacĳe, provizĳe i
-valute.
-
+-Raspoređivanje test kompleta u plan izvršavanja — u skladu sa raspoloživim resursima i prioritetima.
+-Pripremu test podataka i proveru njihove integracĳe u okruženje — kako bi se obezbedila validnost ulaza i pouzdanost rezultata testiranja.
+Na ovaj način, implementacĳa testova zatvara krug pripremnih aktivnosti i postavlja temelj za sledeću fazu — sâmo izvršavanje testiranja.
+Primer 4.1.3 (Aplikacĳa za elektronsko bankarstvo — nastavak primera 4.1.2) Naziv test procedure: Testiranje prenosa sredstava u uslovima nedovoljnog stanja na računu
+Opis: Ova test procedura pokriva slučajeve kada korisnik pokušava da izvrši prenos novca, ali na računu nema dovoljno sredstava za realizacĳu transakcĳe. Cilj je da se verifikuje ispravno ponašanje sistema u različitim varĳacĳama ovog problema, uključujući osnovni nedostatak sredstava, rezervacĳe, provizĳe i valute.
 Preduslovi:
-
-▶Korisnički nalog je kreiran i verifikovan.
-▶Korisnik ima pristup elektronskom bankarstvu.
-▶Test račun je aktivan i koristi dinarsku valutu
-(RSD).
-
-▶Testno okruženje koristi realne validacione me-
-hanizme.
-
+-Korisnički nalog je kreiran i verifikovan. -Korisnik ima pristup elektronskom bankarstvu. -Test račun je aktivan i koristi dinarsku valutu (RSD).
+-Testno okruženje koristi realne validacione mehanizme.
 Koraci:
-
-Test slučaj 1: Apsolutno nedovoljno sredstava
-Test slučaj 2: Delimično pokrivanje iznosa
-Test slučaj 3: Nedovoljno sredstava zbog provizĳe
-Test slučaj 4: Nedovoljno sredstava zbog rezervisa-
-nih sredstava
+Test slučaj 1: Apsolutno nedovoljno sredstava Test slučaj 2: Delimično pokrivanje iznosa Test slučaj 3: Nedovoljno sredstava zbog provizĳe Test slučaj 4: Nedovoljno sredstava zbog rezervisanih sredstava

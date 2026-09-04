@@ -1,40 +1,5 @@
-snima stek poziva (eng. call stack) svake niti, beležeći niz
-aktivnih funkcĳskih poziva u tom trenutku. Prikupljeni
-podaci se zatim agregiraju tako da budu pogodni za
-analizu.
-
-Na osnovu dovoljno velikog broja uzoraka i za dobro iza-
-brane intervale merenja, moguće je napraviti preciznu
-statističku procenu koji delovi koda se najčešće izvrša-
-vaju ili gde se troši najviše vremena. Uzorkovanje pruža
-statističku aproksimacĳu, a ne precizno merenje broja
-poziva ili vremena izvršavanja. Ako se funkcĳa izvršava
-vrlo brzo i retko, moguće je da neće biti obuhvaćena
-uzorkovanjem.
-
-Ovaj pristup omogućava programu da se izvršava go-
-tovo punom brzinom, što ga čini pogodnim za velike
-i složene aplikacĳe, dugotrajne aplikacĳe i sisteme u
-realnom vremenu. Dodatno, nĳe potrebno ponovno pre-
-vođenje izvornog koda već se profajliranje uzimanjem
-uzoraka može vršiti nad proizvoljnim izvršivim dato-
-tekama (ali prisustvo debag simbola može da poboljša
-analizu i interpretacĳu rezultata).
-
-Najpoznatĳi alati koji vrše profajliranje uzorkovanjem
-su perf, oprofile, gprof (kombinacĳa uzorkovanja i in-
-strumentacĳe), Visual Studio Profiler (ima podršku i za
-instrumentaciono profajliranje), Intel VTune Profiler, Go-
-ogle CPU Profiler i Instruments (Xcode).
-
-Primer 6.2.4 (perf) Alat perf uveden je kao deo Li-
-nux kernela verzĳe 2.6.31, objavljene u septembru
-2009. godine. Cilj alata bio je da zameni starĳe i manje
-fleksibilne alate za profajliranje uzorkovanjem, poput
-alata oprofile, kao i da pruži moderan interfejs za kori-
-šćenje savremenih ugrađenih hardverskih brojača za
-performanse (eng. performance monitoring units). Od
-tada se perf aktivno razvĳa zajedno sa Linux kerne-
-lom i održava ga Linux kernel zajednica, uz značajan
-doprinos programera iz kompanĳa kao što su Red Hat,
-Intel, Google u IBM.
+snima stek poziva (eng. call stack) svake niti, beležeći niz aktivnih funkcĳskih poziva u tom trenutku. Prikupljeni podaci se zatim agregiraju tako da budu pogodni za analizu.
+Na osnovu dovoljno velikog broja uzoraka i za dobro izabrane intervale merenja, moguće je napraviti preciznu statističku procenu koji delovi koda se najčešće izvršavaju ili gde se troši najviše vremena. Uzorkovanje pruža statističku aproksimacĳu, a ne precizno merenje broja poziva ili vremena izvršavanja. Ako se funkcĳa izvršava vrlo brzo i retko, moguće je da neće biti obuhvaćena uzorkovanjem.
+Ovaj pristup omogućava programu da se izvršava gotovo punom brzinom, što ga čini pogodnim za velike i složene aplikacĳe, dugotrajne aplikacĳe i sisteme u realnom vremenu. Dodatno, nĳe potrebno ponovno prevođenje izvornog koda već se profajliranje uzimanjem uzoraka može vršiti nad proizvoljnim izvršivim datotekama (ali prisustvo debag simbola može da poboljša analizu i interpretacĳu rezultata).
+Najpoznatĳi alati koji vrše profajliranje uzorkovanjem su perf, oprofile, gprof (kombinacĳa uzorkovanja i instrumentacĳe), Visual Studio Profiler (ima podršku i za instrumentaciono profajliranje), Intel VTune Profiler, Google CPU Profiler i Instruments (Xcode).
+Primer 6.2.4 (perf) Alat perf uveden je kao deo Linux kernela verzĳe 2.6.31, objavljene u septembru 2009. godine. Cilj alata bio je da zameni starĳe i manje fleksibilne alate za profajliranje uzorkovanjem, poput alata oprofile, kao i da pruži moderan interfejs za korišćenje savremenih ugrađenih hardverskih brojača za performanse (eng. performance monitoring units). Od tada se perf aktivno razvĳa zajedno sa Linux kernelom i održava ga Linux kernel zajednica, uz značajan doprinos programera iz kompanĳa kao što su Red Hat, Intel, Google u IBM.

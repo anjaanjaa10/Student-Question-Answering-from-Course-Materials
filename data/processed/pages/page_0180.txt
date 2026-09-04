@@ -1,54 +1,9 @@
-zultat procesa transformacĳe koda se čuva u memorĳi i
-izvršava se po potrebi. Valgrind troši najviše vremena
-na sam proces transformacĳe koda, kao i na pronalaže-
-nje i izvršavanje transformisanog koda. Usporenje koje
-Valgrind nameće izvršavanju programa je od 5 do 100
-puta, u zavisnosti od konkretnog alata.
-
+zultat procesa transformacĳe koda se čuva u memorĳi i izvršava se po potrebi. Valgrind troši najviše vremena na sam proces transformacĳe koda, kao i na pronalaženje i izvršavanje transformisanog koda. Usporenje koje Valgrind nameće izvršavanju programa je od 5 do 100 puta, u zavisnosti od konkretnog alata.
 Najpoznatĳi Valgrind alati su:
-
-Kako Valgrind i njegovi alati
-ne analiziraju izvorni kôd
-već mašinski kôd programa,
-to znači da ih je moguće
-koristiti za analizu progra-
-ma napisanih u bilo kom
-programskom jeziku. Ipak,
-najčešće se koriste za ana-
-lizu programa napisanih
-u jezicima C i C++ jer su i
-greške koje se analiziraju i
-prate karakteristične za te
-jezike.
-
-▶Memcheck — detektor memorĳskih grešaka,
-▶Massif — detektor memorĳskih grešaka praće-
-njem upotrebe dinamičke memorĳe,
-
-▶Cachegrind — profajler keš memorĳe,
-▶Callgrind — profajler funkcĳa,
-▶Helgrind i DRD — detektori grešaka višenitnog
-izvršavanja.
-
+Kako Valgrind i njegovi alati ne analiziraju izvorni kôd već mašinski kôd programa, to znači da ih je moguće koristiti za analizu programa napisanih u bilo kom programskom jeziku. Ipak, najčešće se koriste za analizu programa napisanih u jezicima C i C++ jer su i greške koje se analiziraju i prate karakteristične za te jezike.
+-Memcheck — detektor memorĳskih grešaka, -Massif — detektor memorĳskih grešaka praćenjem upotrebe dinamičke memorĳe,
+-Cachegrind — profajler keš memorĳe, -Callgrind — profajler funkcĳa, -Helgrind i DRD — detektori grešaka višenitnog izvršavanja.
 ### 6.2 Profajleri
-
-Važan deo testiranja performansi odnosi se na merenje
-vremenske i memorĳske efikasnosti programa. Ukoliko
-program ne zadovoljava postavljene kriterĳume perfor-
-mansi, neophodno je identifikovati uzroke i sprovesti
-odgovarajuće optimizacĳe. Proces optimizacĳe pred-
-stavlja sastavni i neizostavan deo razvoja softverskih
-sistema, jer obezbeđuje da implementacĳa ispunjava
-zahteve u pogledu brzine izvršavanja i potrošnje resur-
-sa.
-
-Kako bi se precizno identifikovali delovi koda koji za-
-htevaju poboljšanje, u praksi se koriste specĳalizovani
-pomoćni alati — profajleri — koji generišu detaljne in-
-formacĳe o ponašanju programa tokom izvršavanja. Na
-osnovu ovih informacĳa donose se odluke o prioritetima
-i načinima optimizacĳe.
-
-Profajliranje je vid dinamičke analize programa. Profajli-
-ranjem se tokom izvršavanja programa nad unapred de-
-finisanim skupom ulaznih podataka prikupljaju detaljni
+Važan deo testiranja performansi odnosi se na merenje vremenske i memorĳske efikasnosti programa. Ukoliko program ne zadovoljava postavljene kriterĳume performansi, neophodno je identifikovati uzroke i sprovesti odgovarajuće optimizacĳe. Proces optimizacĳe predstavlja sastavni i neizostavan deo razvoja softverskih sistema, jer obezbeđuje da implementacĳa ispunjava zahteve u pogledu brzine izvršavanja i potrošnje resursa.
+Kako bi se precizno identifikovali delovi koda koji zahtevaju poboljšanje, u praksi se koriste specĳalizovani pomoćni alati — profajleri — koji generišu detaljne informacĳe o ponašanju programa tokom izvršavanja. Na osnovu ovih informacĳa donose se odluke o prioritetima i načinima optimizacĳe.
+Profajliranje je vid dinamičke analize programa. Profajliranjem se tokom izvršavanja programa nad unapred definisanim skupom ulaznih podataka prikupljaju detaljni

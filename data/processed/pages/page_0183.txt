@@ -1,53 +1,7 @@
-programa sa ciljem prikupljanja profila. Priku-
-pljanje profila koji je potreban za optimizacĳu je
-često veoma zahtevan posao koji značajno tro-
-ši memorĳske i vremenske resurse. Zbog toga se
-umesto prikupljanja profila, nekada koriste statički
-profajleri, odnosno predviđanje profila metodama
-mašinskog učenja na osnovu karakteristika koda.
-Na primer, obrada grešaka i izuzetaka odgovara-
-ju putanjama programa koje se ređe izvršavaju
-u odnosu na glavne funkcionalnosti programa.
-Modeli mašinskog učenja mogu da nauče takve i
-kompleksnĳe zakonitosti i da na osnovu statičkih
-osobina koda predvide koji će se delovi programa
-najčešće izvršavati.
-
-Razvoju statičkih profajlera
-modelima mašinskog učenja
-aktivno doprinosi i dr Milan
-Čugurović, sa Matematičkog
-fakulteta:
-GraalSP: Polyglot, efficient, and
-robust machine learning-based
-static profiler
-Njegova doktorska teza:
-Predviđanje profila izvršavanja
-programa tehnikama mašinskog
-učenja
-
+programa sa ciljem prikupljanja profila. Prikupljanje profila koji je potreban za optimizacĳu je često veoma zahtevan posao koji značajno troši memorĳske i vremenske resurse. Zbog toga se umesto prikupljanja profila, nekada koriste statički profajleri, odnosno predviđanje profila metodama mašinskog učenja na osnovu karakteristika koda. Na primer, obrada grešaka i izuzetaka odgovaraju putanjama programa koje se ređe izvršavaju u odnosu na glavne funkcionalnosti programa. Modeli mašinskog učenja mogu da nauče takve i kompleksnĳe zakonitosti i da na osnovu statičkih osobina koda predvide koji će se delovi programa najčešće izvršavati.
+Razvoju statičkih profajlera modelima mašinskog učenja aktivno doprinosi i dr Milan Čugurović, sa Matematičkog fakulteta: GraalSP: Polyglot, efficient, and robust machine learning-based static profiler Njegova doktorska teza: Predviđanje profila izvršavanja programa tehnikama mašinskog učenja
 Optimizacĳa u fazi kompilacĳe tokom izvršavanja pro-
-
-grama je karakteristična za kompilacĳu u toku
-izvršavanja‗ (eng. Just-In-Time compilation, JIT).
-Kompilacĳa u toku izvršavanja koristi profil koji
-se dobĳa tokom izvršavanja da bi se donele odluke
-o tome da se neki delovi koda kompiliraju, umesto
-interpretiraju, i da se dodatno optimizuju.
-
+grama je karakteristična za kompilacĳu u toku izvršavanja‗ (eng. Just-In-Time compilation, JIT). Kompilacĳa u toku izvršavanja koristi profil koji se dobĳa tokom izvršavanja da bi se donele odluke o tome da se neki delovi koda kompiliraju, umesto interpretiraju, i da se dodatno optimizuju.
 6.2.2 Kvalitet profila
-
-Na izvršavanje programa utiču konkretni ulazi i razli-
-čiti ulazi daju različite rezultate profajliranja. Da bi se
-donosile odluke o optimizacĳi na osnovu profajliranja,
-važno je da izvršavanje u okviru kojeg se vrši profaj-
-liranje reflektuje realnu upotrebu programa, odnosno
-da su skupljeni podaci na osnovu relevantnih ulaznih
-podataka ili da su skupljeni podaci na osnovu više razli-
-čitih skupova ulaznih podataka. U suprotnom, mogu se
-propustiti prilike za optimizacĳu programa ili se mogu
-doneti pogrešne odluke.
-
-‗ Kompilacĳa u toku izvršavanja je karakteristična za sve jezike koji
-se izvršavaju na Javinoj virtuelnoj mašini, na primer Java, Scala i
-Kotlin.
+Na izvršavanje programa utiču konkretni ulazi i različiti ulazi daju različite rezultate profajliranja. Da bi se donosile odluke o optimizacĳi na osnovu profajliranja, važno je da izvršavanje u okviru kojeg se vrši profajliranje reflektuje realnu upotrebu programa, odnosno da su skupljeni podaci na osnovu relevantnih ulaznih podataka ili da su skupljeni podaci na osnovu više različitih skupova ulaznih podataka. U suprotnom, mogu se propustiti prilike za optimizacĳu programa ili se mogu doneti pogrešne odluke.
+‗ Kompilacĳa u toku izvršavanja je karakteristična za sve jezike koji se izvršavaju na Javinoj virtuelnoj mašini, na primer Java, Scala i Kotlin.

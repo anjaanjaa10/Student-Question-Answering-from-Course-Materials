@@ -1,39 +1,5 @@
 Predgovor
-
-Ova knjiga nastala je kao rezultat držanja predmeta Verifikacĳa softvera koji već više
-od osam godina predajem studentima master studĳa na Matematičkom fakultetu
-Univerziteta u Beogradu. Tokom tog perioda nastavni materĳali su se postepeno
-razvĳali, dopunjavali i unapređivali, prateći kako razvoj oblasti verifikacĳe sof-
-tvera tako i iskustva stečena u radu sa generacĳama studenata. Upravo je iz tog
-kontinuiranog nastavnog i naučnog rada proistekla ova knjiga.
-
-Knjiga obuhvata sve teme koje se obrađuju u okviru kursa. Svaka oblast ilustrovana
-je brojnim primerima koji bi trebalo da olakšaju razumevanje osnovnih koncepata
-i njihove praktične primene. Na širokim marginama uz tekst nalaze se kratke
-napomene sa zanimljivostima i aktuelnim informacĳama iz oblasti verifikacĳe
-softvera. Na kraju svake tematske celine dat je spisak pitanja koja mogu poslužiti za
-proveru savladanog znanja. Pitanja se često sastoje iz više delova, pa je potrebno
-odgovoriti na svaki od njih — od najopštĳeg, kojim se proverava razumevanje šireg
-konteksta i osnovnih ideja, do najspecifičnĳeg, koji zahteva detaljno poznavanje
-obrađenog gradiva.
-
-Tokom rada na ovoj knjizi imala sam podršku i pomoć velikog broja kolega
-i studenata, kojima ovom prilikom želim da izrazim svoju iskrenu zahvalnost.
-Zahvalnost dugujem profesorima Viktoru Kunčaku, Dušanu Tošiću i Silvĳi Gilezan
-čĳi su rad i ideje uticali na moja interesovanja i istraživanja u oblasti verifikacĳe
-softvera. Zahvaljujem se Petru Jovanoviću, kolegi iz kompanĳe Syrmia (danas
-HTEC Group), koji mi je pružio priliku da steknem dragoceno industrĳsko iskustvo
-poverivši mi razvoj i vođenje projekta zasnovanog na statičkoj analizi softvera,
-sa ciljem automatizacĳe provere usklađenosti koda sa standardom AUTOSAR
-C++14. Zahvaljujem se i Katarini Šonjić Vujić i Filipu Vujiću koji su me uključili u
-organizacĳu konferencĳe Belgrade Test Conference, povezali sa zajednicom koja se
-bavi testiranjem softvera i time doprineli proširivanju mojih znanja. Zahvaljujem se
-kolegi Milanu Bankoviću na zanačajnom doprinosu u početnoj verzĳi materĳala za
-poglavlje Proveravanje modela.
-
-Zahvalnost dugujem asistentima na kursu, Ani Vulović i Ivanu Ristoviću, koji
-su kroz pripremu vežbi i rad sa studentima doprineli kvalitetu nastave i razvoju
-kursa. Zahvalnost dugujem studentima master studĳa koji su tokom godina, kroz
-svoje seminarske radove, doprineli produbljivanju i proširivanju pojedinih tema
-iz ove oblasti. Njihova istraživanja, pitanja i zapažanja često su ukazivala na
-nove uglove posmatranja i podsticala me da pojedine delove gradiva dodatno
+Ova knjiga nastala je kao rezultat držanja predmeta Verifikacĳa softvera koji već više od osam godina predajem studentima master studĳa na Matematičkom fakultetu Univerziteta u Beogradu. Tokom tog perioda nastavni materĳali su se postepeno razvĳali, dopunjavali i unapređivali, prateći kako razvoj oblasti verifikacĳe softvera tako i iskustva stečena u radu sa generacĳama studenata. Upravo je iz tog kontinuiranog nastavnog i naučnog rada proistekla ova knjiga.
+Knjiga obuhvata sve teme koje se obrađuju u okviru kursa. Svaka oblast ilustrovana je brojnim primerima koji bi trebalo da olakšaju razumevanje osnovnih koncepata i njihove praktične primene. Na širokim marginama uz tekst nalaze se kratke napomene sa zanimljivostima i aktuelnim informacĳama iz oblasti verifikacĳe softvera. Na kraju svake tematske celine dat je spisak pitanja koja mogu poslužiti za proveru savladanog znanja. Pitanja se često sastoje iz više delova, pa je potrebno odgovoriti na svaki od njih — od najopštĳeg, kojim se proverava razumevanje šireg konteksta i osnovnih ideja, do najspecifičnĳeg, koji zahteva detaljno poznavanje obrađenog gradiva.
+Tokom rada na ovoj knjizi imala sam podršku i pomoć velikog broja kolega i studenata, kojima ovom prilikom želim da izrazim svoju iskrenu zahvalnost. Zahvalnost dugujem profesorima Viktoru Kunčaku, Dušanu Tošiću i Silvĳi Gilezan čĳi su rad i ideje uticali na moja interesovanja i istraživanja u oblasti verifikacĳe softvera. Zahvaljujem se Petru Jovanoviću, kolegi iz kompanĳe Syrmia (danas HTEC Group), koji mi je pružio priliku da steknem dragoceno industrĳsko iskustvo poverivši mi razvoj i vođenje projekta zasnovanog na statičkoj analizi softvera, sa ciljem automatizacĳe provere usklađenosti koda sa standardom AUTOSAR C++14. Zahvaljujem se i Katarini Šonjić Vujić i Filipu Vujiću koji su me uključili u organizacĳu konferencĳe Belgrade Test Conference, povezali sa zajednicom koja se bavi testiranjem softvera i time doprineli proširivanju mojih znanja. Zahvaljujem se kolegi Milanu Bankoviću na zanačajnom doprinosu u početnoj verzĳi materĳala za poglavlje Proveravanje modela.
+Zahvalnost dugujem asistentima na kursu, Ani Vulović i Ivanu Ristoviću, koji su kroz pripremu vežbi i rad sa studentima doprineli kvalitetu nastave i razvoju kursa. Zahvalnost dugujem studentima master studĳa koji su tokom godina, kroz svoje seminarske radove, doprineli produbljivanju i proširivanju pojedinih tema iz ove oblasti. Njihova istraživanja, pitanja i zapažanja često su ukazivala na nove uglove posmatranja i podsticala me da pojedine delove gradiva dodatno

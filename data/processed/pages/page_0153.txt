@@ -1,39 +1,4 @@
-već se samo nastavlja dalje sa izvršavanjem procesa.
-Ukoliko uslov jeste ispunjen, debager zaustavlja rad
-procesa i prikazuje relevantne informacĳe, kao i za
-obične tačke prekida.
-
-Savremeni debageri omogućavaju i postavljanje tačaka
-posmatranja (eng. watchpoint) nad određenim lokacĳa-
-ma u memorĳi. Kada se sadržaj označene memorĳske
-lokacĳe promeni, debager automatski pauzira izvršava-
-nje programa, čime se olakšava praćenje neželjenih ili
-neočekivanih promena podataka u toku rada aplikacĳe.
-Ova tehnika se naročito koristi kod analize grešaka iza-
-zvanih nepredviđenim upisima u memorĳu, kao što su
-prekoračenje bafera (eng. buffer overflow) ili konkurentni
-pristupi deljenim resursima.
-
-Primer 5.2.3 (Hardver — specĳalni registri za deba-
-govanje) Za efikasno funkcionisanje, debager može
-da koristi i direktno neke funkcionalnosti hardvera,
-ukoliko su dostupne. Na primer, tačke posmatranja
-omogućavaju praćenje vrednosti neke promenljive u
-memorĳi, tj. da li se neka vrednost u memorĳi me-
-nja ili se sa nje nešto čita. Ukoliko postoji podrška
-hardvera (specĳalni registri koji pamte i proveravaju
-odgovarajuće adrese), biće podignut izuzetak koji će
-debager da obradi. Ukoliko to nĳe dostupno ili se
-zahteva praćenje većeg broja vrednosti nego što je to
-dostupno podrškom hardvera, onda debager mora
-da izvršava instrukcĳu po instrukcĳu i da za svaku
-proverava šta se dešava na traženim memorĳskim
-lokacĳama, što značajno usporava izvršavanje.
-
-Interaktivno debagovanje omogućava precizno i flek-
-sibilno praćenje toka izvršavanja, što je od izuzetne
-važnosti u složenim programima gde je ponašanje teško
-predvideti. Kroz kombinacĳu pauziranja, ispitivanja i
-nastavljanja rada, programer stiče detaljan uvid u pona-
-šanje softverskog sistema i može efikasno identifikovati
-greške.
+već se samo nastavlja dalje sa izvršavanjem procesa. Ukoliko uslov jeste ispunjen, debager zaustavlja rad procesa i prikazuje relevantne informacĳe, kao i za obične tačke prekida.
+Savremeni debageri omogućavaju i postavljanje tačaka posmatranja (eng. watchpoint) nad određenim lokacĳama u memorĳi. Kada se sadržaj označene memorĳske lokacĳe promeni, debager automatski pauzira izvršavanje programa, čime se olakšava praćenje neželjenih ili neočekivanih promena podataka u toku rada aplikacĳe. Ova tehnika se naročito koristi kod analize grešaka izazvanih nepredviđenim upisima u memorĳu, kao što su prekoračenje bafera (eng. buffer overflow) ili konkurentni pristupi deljenim resursima.
+Primer 5.2.3 (Hardver — specĳalni registri za debagovanje) Za efikasno funkcionisanje, debager može da koristi i direktno neke funkcionalnosti hardvera, ukoliko su dostupne. Na primer, tačke posmatranja omogućavaju praćenje vrednosti neke promenljive u memorĳi, tj. da li se neka vrednost u memorĳi menja ili se sa nje nešto čita. Ukoliko postoji podrška hardvera (specĳalni registri koji pamte i proveravaju odgovarajuće adrese), biće podignut izuzetak koji će debager da obradi. Ukoliko to nĳe dostupno ili se zahteva praćenje većeg broja vrednosti nego što je to dostupno podrškom hardvera, onda debager mora da izvršava instrukcĳu po instrukcĳu i da za svaku proverava šta se dešava na traženim memorĳskim lokacĳama, što značajno usporava izvršavanje.
+Interaktivno debagovanje omogućava precizno i fleksibilno praćenje toka izvršavanja, što je od izuzetne važnosti u složenim programima gde je ponašanje teško predvideti. Kroz kombinacĳu pauziranja, ispitivanja i nastavljanja rada, programer stiče detaljan uvid u ponašanje softverskog sistema i može efikasno identifikovati greške.

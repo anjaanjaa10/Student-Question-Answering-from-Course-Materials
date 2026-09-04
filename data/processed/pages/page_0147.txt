@@ -1,41 +1,8 @@
-debag su te optimizacĳe isključene ili svedene na mi-
-nimum kako bi se očuvala što preciznĳa veza između
-izvornog i izvršivog koda. Zbog odsustva optimizacĳa,
-izvršiva datoteka generisana u režimu debag najčešće je
-znatno veća od datoteke prevedene u režimu riliz†. Ta-
-kođe, izvršavanje programa prevedenog u ovom režimu
-može biti primetno sporĳe i manje efikasno u pogledu
-iskorišćenja memorĳe. Međutim, ta neefikasnost je pri-
-hvatljiva u fazi razvoja, jer omogućava precizno praćenje
-toka izvršavanja i stanja promenljivih.
-
-Primer 5.1.2 (Prevođenje za pronalaženje grešaka)
-Prilikom prevođenja programa pomoću kompajlera
-
-gcc, ne postoji jedinstvena opcĳa za režim prevođenja
-za pronalaženje grešaka, ali se to postiže kombinova-
-njem opcĳe koja uključuje korišćenje najnižeg nivoa
-optimizacĳe -O0 i opcĳe -g koja uključuje upisivanje
-informacĳa za debagovanje u izvršivu datoteku.
-
-Kao što je pomenuto, u mnogim sistemima za iz-
-gradnju koda, izbor režima može da se uključi jedin-
-stvenom opcĳom. U sistemu CMake, opcĳa -DCMAKE_-
-
-BUILD_TYPE se za režim prevođenja za pronalaženje
-grešaka postavlja na vrednost Debug.
-
+debag su te optimizacĳe isključene ili svedene na minimum kako bi se očuvala što preciznĳa veza između izvornog i izvršivog koda. Zbog odsustva optimizacĳa, izvršiva datoteka generisana u režimu debag najčešće je znatno veća od datoteke prevedene u režimu riliz†. Takođe, izvršavanje programa prevedenog u ovom režimu može biti primetno sporĳe i manje efikasno u pogledu iskorišćenja memorĳe. Međutim, ta neefikasnost je prihvatljiva u fazi razvoja, jer omogućava precizno praćenje toka izvršavanja i stanja promenljivih.
+Primer 5.1.2 (Prevođenje za pronalaženje grešaka) Prilikom prevođenja programa pomoću kompajlera
+gcc, ne postoji jedinstvena opcĳa za režim prevođenja za pronalaženje grešaka, ali se to postiže kombinovanjem opcĳe koja uključuje korišćenje najnižeg nivoa optimizacĳe -O0 i opcĳe -g koja uključuje upisivanje informacĳa za debagovanje u izvršivu datoteku.
+Kao što je pomenuto, u mnogim sistemima za izgradnju koda, izbor režima može da se uključi jedinstvenom opcĳom. U sistemu CMake, opcĳa -DCMAKE_-
+BUILD_TYPE se za režim prevođenja za pronalaženje grešaka postavlja na vrednost Debug.
 Formati za predstavljanje pomoćnih informacĳa
-
-Formati za predstavljanje pomoćnih informacĳa potreb-
-nih za debagovanje preciziraju način na koji kompajler
-može da zapiše podatke kao što su nazivi funkcĳa, na-
-zivi promenljivih, tipovi podataka, odgovarajuće linĳe
-iz izvorne datoteke i slično. Najpoznatĳi formati za
-predstavljanje pomoćnih informacĳa potrebnih za deba-
-govanje su format DWARF i format Microsoft CodeView.
-Ovi formati nisu kompatibilni.
-
-† Izvršiva datoteka može biti značajno veća i iz drugih razloga.
-Na primer, informacĳe u formatu DWARF se upisuju direktno u
-izvršivu datoteku.
+Formati za predstavljanje pomoćnih informacĳa potrebnih za debagovanje preciziraju način na koji kompajler može da zapiše podatke kao što su nazivi funkcĳa, nazivi promenljivih, tipovi podataka, odgovarajuće linĳe iz izvorne datoteke i slično. Najpoznatĳi formati za predstavljanje pomoćnih informacĳa potrebnih za debagovanje su format DWARF i format Microsoft CodeView. Ovi formati nisu kompatibilni.
+† Izvršiva datoteka može biti značajno veća i iz drugih razloga. Na primer, informacĳe u formatu DWARF se upisuju direktno u izvršivu datoteku.

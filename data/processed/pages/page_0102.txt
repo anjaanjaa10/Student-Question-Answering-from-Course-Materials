@@ -1,49 +1,11 @@
 pokrivenosti.
-
-Na primer, za veb aplikacĳu za kupovinu, u okviru
-specifikacĳe mogu biti zadati naredni zahtevi:
-
-▶Korisnik može dodati proizvod u korpu.
-▶Korisnik može obrisati proizvod iz korpe.
-▶Korisnik može završiti kupovinu klikom na
-dugme Kupi.
-
-U okviru implementacĳe, uz te zadatke, programer
-implementira i sledeće
-
-▶Kada je korpa prazna, dugme Kupi se automat-
-ski onemogućava.
-
-▶Ako korisnik pokuša da doda negativan broj
-proizvoda, sistem prikazuje poruku o grešci.
-
-Pokrivenost zahteva u ovom slučaju ne obuhvata
-pokrivenost funkcionalnosti jer nedostaju testovi im-
-plementiranih funkcionalnosti za onemogućavanje
-dugmeta Kupi kada je korpa prazna i za prikaziva-
-nje poruke o grešci prilikom unosa negativnog broja
-proizvoda.
-
+Na primer, za veb aplikacĳu za kupovinu, u okviru specifikacĳe mogu biti zadati naredni zahtevi:
+-Korisnik može dodati proizvod u korpu. -Korisnik može obrisati proizvod iz korpe. -Korisnik može završiti kupovinu klikom na dugme Kupi.
+U okviru implementacĳe, uz te zadatke, programer implementira i sledeće
+-Kada je korpa prazna, dugme Kupi se automatski onemogućava.
+-Ako korisnik pokuša da doda negativan broj proizvoda, sistem prikazuje poruku o grešci.
+Pokrivenost zahteva u ovom slučaju ne obuhvata pokrivenost funkcionalnosti jer nedostaju testovi implementiranih funkcionalnosti za onemogućavanje dugmeta Kupi kada je korpa prazna i za prikazivanje poruke o grešci prilikom unosa negativnog broja proizvoda.
 4.3.2 Podela tehnika testiranja
-
-Većina softverskih sistema podrazumeva mogućnost
-relativno jasnog utvrđivanja očekivanog izlaza za zadate
-uslove. U takvim slučajevima, dobri test primeri se mogu
-naći na osnovu specifikacĳe programa (testiranje crne
-kutĳe), na osnovu koda programa (testiranje bele kutĳe)
-ili na osnovu kombinacĳe specifikacĳe i koda programa
-(testiranje sive kutĳe).
-
-Odnos: Testiranje crne kutĳe
-je testiranje iz ugla kori-
-snika dok je testiranje bele
-kutĳe testiranje iz ugla pro-
-gramera.
-
-Testiranje crne kutĳe (eng. black box testing) — generi-
-sanje test primera bez razmatranja interne struk-
-ture koda već isključivo na osnovu specifikacĳe.
-Ovakav način testiranja se fokusira na ponašanje
-sistema, posmatrano iz korisničkog ugla. Drugi
-nazivi su i funkcionalno testiranje (eng. functio-
-nal testing), testiranje ponašanja (eng. behavioural
+Većina softverskih sistema podrazumeva mogućnost relativno jasnog utvrđivanja očekivanog izlaza za zadate uslove. U takvim slučajevima, dobri test primeri se mogu naći na osnovu specifikacĳe programa (testiranje crne kutĳe), na osnovu koda programa (testiranje bele kutĳe) ili na osnovu kombinacĳe specifikacĳe i koda programa (testiranje sive kutĳe).
+Odnos: Testiranje crne kutĳe je testiranje iz ugla korisnika dok je testiranje bele kutĳe testiranje iz ugla programera.
+Testiranje crne kutĳe (eng. black box testing) — generisanje test primera bez razmatranja interne strukture koda već isključivo na osnovu specifikacĳe. Ovakav način testiranja se fokusira na ponašanje sistema, posmatrano iz korisničkog ugla. Drugi nazivi su i funkcionalno testiranje (eng. functional testing), testiranje ponašanja (eng. behavioural

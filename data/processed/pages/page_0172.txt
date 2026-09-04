@@ -1,28 +1,8 @@
 Ispitna pitanja
-
-32. Debagovanje. Veza izvršivog koda i debagera. Re-
-žim prevođenja za upotrebu. Primeri.
-
-33. Debagovanje. Veza izvršivog koda i debagera. Re-
-žim prevođenja za pronalaženje grešaka. Formati
-za predstavljanje pomoćnih informacĳa. Primeri.
-
-34. Debagovanje. Veza izvršivog koda i debagera.
-Kombinovani režimi prevođenja. Primeri.
-
-35. Debagovanje. Veza izvršivog koda i debagera.
-Anti-debagovanje.
-
-36. Debagovanje. Vrste debagovanja. Interaktivno de-
-bagovanje. Implementacĳa interaktivnog debago-
-vanja, tačaka prekida i tačaka posmatranja. Prime-
-ri.
-
-37. Debagovanje. Vrste debagovanja. Udaljeno deba-
-govanje. Debagovanje nakon prekida izvršavanja
-programa. Primeri.
-
-38. Debagovanje. Primeri debagera.
-39. Debagovanje. Otvoreni problemi.
-40. Debagovanje. Štampanje umesto debagera. Prime-
-ri.
+32. Debagovanje. Veza izvršivog koda i debagera. Režim prevođenja za upotrebu. Primeri.
+33. Debagovanje. Veza izvršivog koda i debagera. Režim prevođenja za pronalaženje grešaka. Formati za predstavljanje pomoćnih informacĳa. Primeri.
+34. Debagovanje. Veza izvršivog koda i debagera. Kombinovani režimi prevođenja. Primeri.
+35. Debagovanje. Veza izvršivog koda i debagera. Anti-debagovanje.
+36. Debagovanje. Vrste debagovanja. Interaktivno debagovanje. Implementacĳa interaktivnog debagovanja, tačaka prekida i tačaka posmatranja. Primeri.
+37. Debagovanje. Vrste debagovanja. Udaljeno debagovanje. Debagovanje nakon prekida izvršavanja programa. Primeri.
+38. Debagovanje. Primeri debagera. 39. Debagovanje. Otvoreni problemi. 40. Debagovanje. Štampanje umesto debagera. Primeri.

@@ -1,0 +1,21 @@
+Tabela 6.2: Poređenje sanitajzera
+Sanitajzer Otkriva greške Podržani kompajleri
+Uticaj na performanse
+AddressSanitizer (ASan)
+Pristup memorĳi izvan granica, korišćenje nakon oslobađanja, dvostruko oslobađanje, curenje memorĳe
+Clang/LLVM, GCC, XCode, MSVC
+Umeren
+MemorySanitizer (MSan)
+Korišćenje neinicĳalizovanih vrednosti
+Clang/LLVM Visok
+ThreadSanitizer (TSan)
+Nesinhronizovan pristup podacima
+Clang/LLVM, GCC
+Veoma visok
+UndefinedBehaviorSanitizer (UBSan)
+Nedefinisano ponašanje prema standardu jezika
+Clang/LLVM, GCC
+Mali do umeren
+detekcĳi grešaka u upravljanju memorĳom. On instrumentuje program tokom kompilacĳe, ubacujući dodatne provere pri svakom pristupu memorĳi, i preuređuje način organizacĳe memorĳskog prostora tokom izvršavanja kako bi omogućio precizno otkrivanje čitavog spektra grešaka. AddressSantizer je dostupan u okviru kompajlera GCC, Clang/LLVM, XCode i MSVC.
+AddressSanitizer detektuje nepravilne pristupe memorĳi kao što su čitanje ili pisanje izvan granica alocirane memorĳe, korišćenje memorĳe nakon njenog oslobađanja, dvostruko oslobađanje memorĳe i curenje memorĳe. Ove greške su uobičajene u programima napisanim u jezicima poput C i C++, a često su uzrok padova programa, oštećenja podataka ili sigurnosnih propusta.
+Osnovni princip rada alata ASan zasniva se na instrumentacĳi svih pristupa memorĳi i uvođenju provera validnosti na svaku operacĳu čitanja i pisanja. Pored toga, alokacĳe memorĳe proširuju se dodatnim tzv. „crvenim zonama” (eng. red zones), koje okružuju svaki blok memorĳe i služe za otkrivanje prekoračenja granica. Status svakog bajta memorĳe čuva se u posebnoj do-

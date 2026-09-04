@@ -1,54 +1,16 @@
-Primer 4.3.17 (Maksimalna vrednost) Razmotrimo
-naredni kôd
-
+Primer 4.3.17 (Maksimalna vrednost) Razmotrimo naredni kôd
 1 max = b;
-
 2 if (a > max) {
-
-3
-max = a;
-
+3 max = a;
 4 }
-
-Test {a=6, b=3} pokriva sve naredbe (izvršavanje pro-
-lazi kroz naredbe 1, 2, 3 i 4), ali ne i sve putanje
-(nedostaje putanja 1, 2, 4) kao ni sve odluke (odluka
-u linĳi 2 se razmatra samo kao tačna, ne i kao netačna).
-
-Testovi {a=6, b=3} i {a=3, b=6} pokrivaju i sve naredbe,
-sve putanje i sve odluke. Dodati drugi test pokriva
-putanju kroz linĳe 1, 2, 4. Odluka u linĳi 2 u ovom
-testu ima vrednost netačno.
-
-Međutim, za visokokvalitetno testiranje kao i za kritične
-delove sistema, gde su greške neprihvatljive ili izuzetno
-skupe, prati se pokrivenost putanja, uslova i višestrukih
-uslova. Odabir odgovarajuće metrike treba da zavisi
-od konteksta upotrebe softvera, njegove složenosti i
-posledica potencĳalnih grešaka.
-
-Primer 4.3.18 (Inkrementiranje pozitivnih brojeva)
-Razmotrimo naredni kôd i njegovu pokrivenost testo-
-vima.
-
-1
-if(a > 0 && b > 0) {
-
-2
-a++;
-
-3
-b++;
-
-4
-}
-
-Test
-{a=1, b=2}
-pokriva sve naredbe ali
-
-▶ne pokriva sve odluke — nedostaje odluka da
-uslov 𝑎> 0 && 𝑏> 0 nĳe ispunjen,
-
-▶ne pokriva sve uslove — nedostaje da su vred-
-nosti oba podizraza netačne,
+Test {a=6, b=3} pokriva sve naredbe (izvršavanje prolazi kroz naredbe 1, 2, 3 i 4), ali ne i sve putanje (nedostaje putanja 1, 2, 4) kao ni sve odluke (odluka u linĳi 2 se razmatra samo kao tačna, ne i kao netačna).
+Testovi {a=6, b=3} i {a=3, b=6} pokrivaju i sve naredbe, sve putanje i sve odluke. Dodati drugi test pokriva putanju kroz linĳe 1, 2, 4. Odluka u linĳi 2 u ovom testu ima vrednost netačno.
+Međutim, za visokokvalitetno testiranje kao i za kritične delove sistema, gde su greške neprihvatljive ili izuzetno skupe, prati se pokrivenost putanja, uslova i višestrukih uslova. Odabir odgovarajuće metrike treba da zavisi od konteksta upotrebe softvera, njegove složenosti i posledica potencĳalnih grešaka.
+Primer 4.3.18 (Inkrementiranje pozitivnih brojeva) Razmotrimo naredni kôd i njegovu pokrivenost testovima.
+1 if(a > 0 && b > 0) {
+2 a++;
+3 b++;
+4 }
+Test {a=1, b=2} pokriva sve naredbe ali
+-ne pokriva sve odluke — nedostaje odluka da uslov 𝑎> 0 && 𝑏> 0 nĳe ispunjen,
+-ne pokriva sve uslove — nedostaje da su vrednosti oba podizraza netačne,

@@ -1,0 +1,11 @@
+sličnu namenu i značajan broj preklapajućih detekcĳa, koriste različite algoritme za analizu izvršavanja i otkrivaju delimično različite tipove grešaka.
+Greške u višenitnom izvršavanju koje alati detektuju uključuju mrtvo blokiranje (eng. deadlock) kao posledica pogrešnog redosleda zaključavanja i pristup zajedničkoj memorĳi bez adekvatne sinhronizacĳe i zaključavanja. Alat DRD može da detektuje i zadržavanje katanca (eng. lock-holding) i lažno deljenje (eng. false sharing). Greške u korišćenju POSIX niti koje ovi alati mogu da otkrĳu su:
+pogrešno otključavanje muteksa — kada je muteks nevažeći, nĳe prethodno zaključan ili je zaključan od strane druge niti,
+nepravilno rukovanje zaključanim muteksom — uništavanje nevažećeg ili zaključanog muteksa, kao i dealokacĳa memorĳe koja sadrži zaključan muteks,
+pogrešno korišćenje funkcĳe pthread_cond_wait — prosleđivanje nezaključanog, nevažećeg ili muteksa koji je zaključala druga nit,
+greške u radu sa barĳerama pthread_barrier — nevažeća ili dvostruka inicĳalizacĳa, kao i čekanje na objekat koji nikada nĳe inicĳalizovan.
+Rezime
+-Profajleri i sanitajzeri su alati koji vrše dinamičku analizu programa.
+-Instrumentacĳa je proces dodavanja instrukcĳa u program kako bi se, tokom njegovog izvršavanja, pratile određene pojave i prikupljali podaci o njegovom ponašanju.
+-Instrumentacĳom se značajno utiče na performanse instrumentovanog programa i postoje različiti algoritmi koji imaju za cilj smanjivanje troškova instrumentacĳe.
+-Profajliranje može biti implementirano softverski,

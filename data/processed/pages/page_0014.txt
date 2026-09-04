@@ -1,93 +1,26 @@
-10 Proveravanje modela
-305
-
-10.1 Osnove i motivacĳa
-. . . . . . . . . . . . . . . . . . . . . . . . . . .
-305
-
-10.1.1
-Osnovni pojmovi
-. . . . . . . . . . . . . . . . . . . . . . . .
-306
-
-10.1.2
-Primene proveravanja modela . . . . . . . . . . . . . . . . .
-310
-
-10.2 Pravljenje modela
-. . . . . . . . . . . . . . . . . . . . . . . . . . . .
-312
-
-10.2.1
-Modelovanje jednostavnih sistema
-. . . . . . . . . . . . . .
-314
-
-10.2.2 Modelovanje hardvera
-. . . . . . . . . . . . . . . . . . . . .
-320
-
-10.2.3 Modelovanje softvera . . . . . . . . . . . . . . . . . . . . . .
-322
-
-10.3 Formalna specifikacĳa . . . . . . . . . . . . . . . . . . . . . . . . . .
-327
-
-10.3.1
-Klase svojstava . . . . . . . . . . . . . . . . . . . . . . . . . .
-327
-
-10.3.2 Temporalne logike . . . . . . . . . . . . . . . . . . . . . . . .
-330
-
-10.3.3 Linearna temporalna logika
-. . . . . . . . . . . . . . . . . .
-332
-
-10.3.4 Logike CTL∗i CTL . . . . . . . . . . . . . . . . . . . . . . . .
-338
-
-10.4 Algoritmi za proveravanje modela . . . . . . . . . . . . . . . . . . .
-340
-
-10.4.1
-Obilazak grafa tranzicionog sistema . . . . . . . . . . . . . .
-340
-
-10.4.2 Provera LTL svojstva putem Bihĳevih automata . . . . . . .
-342
-
-10.5 Kontrola kombinatorne eksplozĳe u proveravanju modela
-. . . . .
-346
-
-10.5.1
-Apstrakcĳa predikata . . . . . . . . . . . . . . . . . . . . . .
-347
-
-10.5.2 Simboličko proveravanje modela . . . . . . . . . . . . . . . .
-351
-
-10.5.3 Ograničeno proveravanje modela . . . . . . . . . . . . . . .
-354
-
-11 Apstraktna interpretacĳa
-365
-
-11.1
-Konkretan i apstraktan domen . . . . . . . . . . . . . . . . . . . . .
-366
-
-11.2 Konkretno izvršavanje i apstraktna interpretacĳa
-. . . . . . . . . .
-372
-
-11.3 Formalne osnove apstraktne interpretacĳe
-. . . . . . . . . . . . . .
-381
-
-11.4 Praktične primene . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-389
-
-Indeks pojmova
-393
+10 Proveravanje modela 305
+10.1 Osnove i motivacĳa . . . . . . . . . . . . . . . . . . . . . . . . . . . 305
+10.1.1 Osnovni pojmovi . . . . . . . . . . . . . . . . . . . . . . . . 306
+10.1.2 Primene proveravanja modela . . . . . . . . . . . . . . . . . 310
+10.2 Pravljenje modela . . . . . . . . . . . . . . . . . . . . . . . . . . . . 312
+10.2.1 Modelovanje jednostavnih sistema . . . . . . . . . . . . . . 314
+10.2.2 Modelovanje hardvera . . . . . . . . . . . . . . . . . . . . . 320
+10.2.3 Modelovanje softvera . . . . . . . . . . . . . . . . . . . . . . 322
+10.3 Formalna specifikacĳa . . . . . . . . . . . . . . . . . . . . . . . . . . 327
+10.3.1 Klase svojstava . . . . . . . . . . . . . . . . . . . . . . . . . . 327
+10.3.2 Temporalne logike . . . . . . . . . . . . . . . . . . . . . . . . 330
+10.3.3 Linearna temporalna logika . . . . . . . . . . . . . . . . . . 332
+10.3.4 Logike CTL∗i CTL . . . . . . . . . . . . . . . . . . . . . . . . 338
+10.4 Algoritmi za proveravanje modela . . . . . . . . . . . . . . . . . . . 340
+10.4.1 Obilazak grafa tranzicionog sistema . . . . . . . . . . . . . . 340
+10.4.2 Provera LTL svojstva putem Bihĳevih automata . . . . . . . 342
+10.5 Kontrola kombinatorne eksplozĳe u proveravanju modela . . . . . 346
+10.5.1 Apstrakcĳa predikata . . . . . . . . . . . . . . . . . . . . . . 347
+10.5.2 Simboličko proveravanje modela . . . . . . . . . . . . . . . . 351
+10.5.3 Ograničeno proveravanje modela . . . . . . . . . . . . . . . 354
+11 Apstraktna interpretacĳa 365
+11.1 Konkretan i apstraktan domen . . . . . . . . . . . . . . . . . . . . . 366
+11.2 Konkretno izvršavanje i apstraktna interpretacĳa . . . . . . . . . . 372
+11.3 Formalne osnove apstraktne interpretacĳe . . . . . . . . . . . . . . 381
+11.4 Praktične primene . . . . . . . . . . . . . . . . . . . . . . . . . . . . 389
+Indeks pojmova 393

@@ -1,46 +1,12 @@
-vremena, broja grešaka i nivoa frustracĳe. Cilj je
-da se identifikuju prepreke koje bi korisniku ote-
-žale ili onemogućile korišćenje sistema. Takođe,
-često se koriste upitnici i intervjui nakon testiranja
-kako bi se saznao subjektivni utisak korisnika.
-
-Primer 4.2.7 (Aplikacĳa za elektronsko bankar-
-stvo — nastavak primera 4.2.6) Test naučljivosti
-je važan u ranim fazama dizajna korisničkog
-interfejsa i često se koristi za usmeravanje itera-
-tivnih poboljšanja.
-
-Naziv test slučaja: TC-N010 — Provera naučlji-
-vosti prenosa novca sa jednog na drugi tekući
-račun.
-
-Opis: Proveriti koliko brzo novi korisnik, bez
-prethodnog iskustva sa aplikacĳom, može sa-
-mostalno da nauči kako da izvrši osnovnu funk-
-cionalnost – prenos sredstava.
-
-Scenario: Učesniku (koji ranĳe nĳe koristio apli-
-kacĳu) se daje pametni telefon sa instaliranom
-verzĳom aplikacĳe i osnovnim uputstvom za
-početak (npr. kako da se prĳavi). Zadatak je
-sledeći:
-
-„Prenesite 1000 RSD sa tekućeg raču-
-na na drugi račun koristeći opcĳu za
-internu transakcĳu.“
-
+vremena, broja grešaka i nivoa frustracĳe. Cilj je da se identifikuju prepreke koje bi korisniku otežale ili onemogućile korišćenje sistema. Takođe, često se koriste upitnici i intervjui nakon testiranja kako bi se saznao subjektivni utisak korisnika.
+Primer 4.2.7 (Aplikacĳa za elektronsko bankarstvo — nastavak primera 4.2.6) Test naučljivosti je važan u ranim fazama dizajna korisničkog interfejsa i često se koristi za usmeravanje iterativnih poboljšanja.
+Naziv test slučaja: TC-N010 — Provera naučljivosti prenosa novca sa jednog na drugi tekući račun.
+Opis: Proveriti koliko brzo novi korisnik, bez prethodnog iskustva sa aplikacĳom, može samostalno da nauči kako da izvrši osnovnu funkcionalnost – prenos sredstava.
+Scenario: Učesniku (koji ranĳe nĳe koristio aplikacĳu) se daje pametni telefon sa instaliranom verzĳom aplikacĳe i osnovnim uputstvom za početak (npr. kako da se prĳavi). Zadatak je sledeći:
+„Prenesite 1000 RSD sa tekućeg računa na drugi račun koristeći opcĳu za internu transakcĳu.“
 Parametri koji se prate:
-
-▶Vreme potrebno da korisnik pronađe opci-
-ju za prenos sredstava.
-
-▶Broj pokušaja i grešaka pre nego što se
-uspešno izvrši transakcĳa.
-
-▶Broj pitanja koje korisnik postavi (ako je
-dozvoljena asistencĳa).
-
-▶Subjektivna ocena korisnika (npr. ocena
-složenosti na skali od 1 do 5).
-
+-Vreme potrebno da korisnik pronađe opciju za prenos sredstava.
+-Broj pokušaja i grešaka pre nego što se uspešno izvrši transakcĳa.
+-Broj pitanja koje korisnik postavi (ako je dozvoljena asistencĳa).
+-Subjektivna ocena korisnika (npr. ocena složenosti na skali od 1 do 5).
 Kriterĳum prolaznosti: Korisnik bi trebalo da

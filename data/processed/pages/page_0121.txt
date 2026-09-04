@@ -1,64 +1,20 @@
-pokrivenosti. Osnovni koraci u testiranju bele kutĳe
-su:
-
-1. Analiza i razumevanje strukture i logike izvornog
-koda;
-
+pokrivenosti. Osnovni koraci u testiranju bele kutĳe su:
+1. Analiza i razumevanje strukture i logike izvornog koda;
 2. Kreiranje test primera na osnovu
-
 a) identifikovanih relevantnih putanja i
-
 b) odabranih metrika pokrivenosti;
-
 3. Izvršavanje test primera.
-
 Metrike pokrivenosti koda
-
-Metrike pokrivenosti koda predstavljaju važno sredstvo
-za procenu kvaliteta testiranja softvera. One pomažu
-u identifikacĳi delova sistema koji su testirani i onih
-koji su ostali neprovereni, čime omogućavaju donošenje
-informisanih odluka o daljem razvoju i unapređenju
-testne infrastrukture. Metrike pokrivenosti koda koje se
-najčešće koriste su pokrivenost putanja, naredbi, odluka,
-uslova, višestrukih uslova i funkcĳa.
-
-Pokrivenost putanja
-=
-
+Metrike pokrivenosti koda predstavljaju važno sredstvo za procenu kvaliteta testiranja softvera. One pomažu u identifikacĳi delova sistema koji su testirani i onih koji su ostali neprovereni, čime omogućavaju donošenje informisanih odluka o daljem razvoju i unapređenju testne infrastrukture. Metrike pokrivenosti koda koje se najčešće koriste su pokrivenost putanja, naredbi, odluka, uslova, višestrukih uslova i funkcĳa.
+Pokrivenost putanja =
 Izvršenih putanja
-
-Pokrivenost putanja (eng. path coverage) Mera koja po-
-kazuje koliki je procenat putanja u programu koje
-su izvršene tokom testiranja. Potpuna pokrivenost
-znači da je svaka moguća putanja kroz program
-izvršena bar jednom.
-
+Pokrivenost putanja (eng. path coverage) Mera koja pokazuje koliki je procenat putanja u programu koje su izvršene tokom testiranja. Potpuna pokrivenost znači da je svaka moguća putanja kroz program izvršena bar jednom.
 Ukupno putanja × 100%
-
-Pokrivenost naredbi
-=
-
+Pokrivenost naredbi =
 Izvršenih naredbi
-
-Pokrivenost naredbi (eng. statement coverage) Mera ko-
-ja pokazuje koliki je procenat naredbi u programu
-koje su izvršene tokom testiranja. Potpuna pokrive-
-nost se postiže kada je svaka naredba u programu
-izvršena bar jednom.
-
+Pokrivenost naredbi (eng. statement coverage) Mera koja pokazuje koliki je procenat naredbi u programu koje su izvršene tokom testiranja. Potpuna pokrivenost se postiže kada je svaka naredba u programu izvršena bar jednom.
 Ukupno naredbi × 100%
-
-Pokrivenost odluka
-=
-
+Pokrivenost odluka =
 Ispitanih odluka
-
-Pokrivenost grana/odluka (eng. branch/decision covera-
-ge) Mera koja pokazuje koliki je procenat ishoda
-odluka testirano u odnosu na ukupan broj odlu-
-ka u programu. Za potpunu pokrivenost, svaka
-odluka u kodu mora biti evaluirana bar jednom
-kao tačna i bar jednom kao netačna.
-
+Pokrivenost grana/odluka (eng. branch/decision coverage) Mera koja pokazuje koliki je procenat ishoda odluka testirano u odnosu na ukupan broj odluka u programu. Za potpunu pokrivenost, svaka odluka u kodu mora biti evaluirana bar jednom kao tačna i bar jednom kao netačna.
 Ukupno odluka × 100%

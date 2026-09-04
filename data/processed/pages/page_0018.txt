@@ -1,40 +1,8 @@
 ### 1.1 Upravljanje kvalitetom softvera
-
-Upravljanje kvalitetom softvera (eng. quality management)
-obuhvata principe, metode i procese koji se koriste za
-obezbeđivanje i unapređivanje kvaliteta softvera. Cilj
-upravljanja kvalitetom je da se ispune zahtevi korisnika,
-optimizuju poslovni procesi i smanji broj defekata.
-
-Visok kvalitet softvera predstavlja ključni faktor njegove
-uspešnosti, bilo da se koristi u komercĳalne svrhe na tr-
-žištu ili u okviru specifičnih, nekomercĳalnih okruženja.
-Standardi kvaliteta softvera definišu smernice i pro-
-pise koji omogućavaju sistematski pristup upravljanju
-kvalitetom. Pored toga, za postizanje visokokvalitet-
-nog softvera neophodna je automatizovana podrška i
-upotreba sofisticiranih alata.
-
+Upravljanje kvalitetom softvera (eng. quality management) obuhvata principe, metode i procese koji se koriste za obezbeđivanje i unapređivanje kvaliteta softvera. Cilj upravljanja kvalitetom je da se ispune zahtevi korisnika, optimizuju poslovni procesi i smanji broj defekata.
+Visok kvalitet softvera predstavlja ključni faktor njegove uspešnosti, bilo da se koristi u komercĳalne svrhe na tržištu ili u okviru specifičnih, nekomercĳalnih okruženja. Standardi kvaliteta softvera definišu smernice i propise koji omogućavaju sistematski pristup upravljanju kvalitetom. Pored toga, za postizanje visokokvalitetnog softvera neophodna je automatizovana podrška i upotreba sofisticiranih alata.
 Osnovni procesi koji su vezani za kvalitet softvera su:
-
-▶planiranje kvaliteta softvera,
-▶obezbeđivanje (eng. assurance) kvaliteta softvera,
-▶kontrolu (eng. control) kvaliteta softvera i
-▶poboljšanje kvaliteta softvera.
-
-Planiranje kvaliteta je neophodno kako bi se definisao
-pristup razvoju softvera koji omogućava postizanje že-
-ljenog nivoa kvaliteta. Na primer, različiti nivoi kvaliteta
-očekuju se za softver aviona i za igricu na mobilnom
-telefonu. Obezbeđivanje kvaliteta podrazumeva uklju-
-čivanje aspekata kvaliteta u svakodnevni razvoj, dok
-kontrola treba da obezbedi kvalitet krajnjeg proizvoda.
-Na kraju, poboljšanje kvaliteta podrazumeva kontinuira-
-no praćenje i unapređivanje procesa razvoja kroz analizu
-povratnih informacĳa i primenu novih metodologĳa.
-
+-planiranje kvaliteta softvera, -obezbeđivanje (eng. assurance) kvaliteta softvera, -kontrolu (eng. control) kvaliteta softvera i -poboljšanje kvaliteta softvera.
+Planiranje kvaliteta je neophodno kako bi se definisao pristup razvoju softvera koji omogućava postizanje željenog nivoa kvaliteta. Na primer, različiti nivoi kvaliteta očekuju se za softver aviona i za igricu na mobilnom telefonu. Obezbeđivanje kvaliteta podrazumeva uključivanje aspekata kvaliteta u svakodnevni razvoj, dok kontrola treba da obezbedi kvalitet krajnjeg proizvoda. Na kraju, poboljšanje kvaliteta podrazumeva kontinuirano praćenje i unapređivanje procesa razvoja kroz analizu povratnih informacĳa i primenu novih metodologĳa.
 ### 1.2 Standardi
-
-Željeni kvalitet softvera definiše se softverskim zahtevi-
-ma, ali može biti nametnut i različitim međunarodnim
-standardima. Serĳa standarda ISO/IEC 25000 sadrži
+Željeni kvalitet softvera definiše se softverskim zahtevima, ali može biti nametnut i različitim međunarodnim standardima. Serĳa standarda ISO/IEC 25000 sadrži

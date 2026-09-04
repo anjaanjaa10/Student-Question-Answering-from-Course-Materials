@@ -1,54 +1,13 @@
 Uslovi testa:
-
-▶Pokrenuti sve navedene programe istovre-
-meno sa aplikacĳom.
-
-▶Izvršiti osnovne funkcĳe u aplikacĳi: pri-
-java, pregled računa, slanje novca, pristup
-izvodima.
-
-▶Posmatrati eventualne konflikte: zamrza-
-vanja, gubitak mrežne konekcĳe, bezbed-
-nosna upozorenja, itd.
-
+-Pokrenuti sve navedene programe istovremeno sa aplikacĳom.
+-Izvršiti osnovne funkcĳe u aplikacĳi: prijava, pregled računa, slanje novca, pristup izvodima.
+-Posmatrati eventualne konflikte: zamrzavanja, gubitak mrežne konekcĳe, bezbednosna upozorenja, itd.
 Metrike koje se prate:
-
-▶Broj zabeleženih konflikata između apli-
-kacĳe i drugih programa
-
-▶Smanjenje performansi aplikacĳe u uslovi-
-ma koegzistencĳe
-
-▶Broj korisničkih funkcionalnosti koje su
-otežano dostupne ili onemogućene
-
-Kriterĳum prolaznosti:
-Bankarska aplikacĳa mora biti funkcionalna i
-stabilna tokom istovremenog rada sa drugim
-programima. Ne sme doći do prekida funkci-
-onalnosti, gubitka podataka, ili problema sa
-bezbednosnim komponentama sistema. Maksi-
-malno dozvoljen broj manjih vizuelnih ili funk-
-cionalnih anomalĳa: 1.
-
-Testovima pouzdanosti proverava se stabilnost softve-
-ra i sposobnost da funkcioniše bez grešaka tokom
-određenog vremenskog perioda, u realnim ili si-
-muliranim uslovima rada. Na primer, proverava
-se da li softver može da radi bez prekida i padova
-tokom dužeg vremenskog korišćenja (stabilnost
-u radu, zrelost i dostupnost), ispituje se sposob-
-nost sistema da se oporavi nakon što dođe do
-greške, bilo automatski ili uz minimalnu interven-
-cĳu korisnika (oporavak od grešaka), softver se
-izvršava neprekidno tokom više sati ili dana (du-
-gotrajno testiranje) da bi se otkrile skrivene greške
-(npr. curenje memorĳe, degradacĳa performansi)
-
-sistemsko
-testiranje
-
-nefunkcionalno
-testiranje
-
+-Broj zabeleženih konflikata između aplikacĳe i drugih programa
+-Smanjenje performansi aplikacĳe u uslovima koegzistencĳe
+-Broj korisničkih funkcionalnosti koje su otežano dostupne ili onemogućene
+Kriterĳum prolaznosti: Bankarska aplikacĳa mora biti funkcionalna i stabilna tokom istovremenog rada sa drugim programima. Ne sme doći do prekida funkcionalnosti, gubitka podataka, ili problema sa bezbednosnim komponentama sistema. Maksimalno dozvoljen broj manjih vizuelnih ili funkcionalnih anomalĳa: 1.
+Testovima pouzdanosti proverava se stabilnost softvera i sposobnost da funkcioniše bez grešaka tokom određenog vremenskog perioda, u realnim ili simuliranim uslovima rada. Na primer, proverava se da li softver može da radi bez prekida i padova tokom dužeg vremenskog korišćenja (stabilnost u radu, zrelost i dostupnost), ispituje se sposobnost sistema da se oporavi nakon što dođe do greške, bilo automatski ili uz minimalnu intervencĳu korisnika (oporavak od grešaka), softver se izvršava neprekidno tokom više sati ili dana (dugotrajno testiranje) da bi se otkrile skrivene greške (npr. curenje memorĳe, degradacĳa performansi)
+sistemsko testiranje
+nefunkcionalno testiranje
 pouzdanost

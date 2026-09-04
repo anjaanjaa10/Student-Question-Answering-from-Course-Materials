@@ -1,49 +1,11 @@
-▶Provera prikaza početnog ekrana, menĳa
-i funkcionalnosti (pregled stanja, prenos
-sredstava).
-
-▶Upoređivanje vizuelne konzistentnosti in-
-terfejsa.
-
-▶Provera lokalizacĳe (prikaz na srpskom i
-engleskom jeziku).
-
-Kriterĳum prolaznosti: Aplikacĳa mora da mo-
-gući korisnicima da nesmetano obave sve osnov-
-ne operacĳe na svim platformama. Ne sme do-
-ći do pada sistema, vizuelnih nepravilnosti ili
-funkcionalnih razlika među verzĳama.
-
+-Provera prikaza početnog ekrana, menĳa i funkcionalnosti (pregled stanja, prenos sredstava).
+-Upoređivanje vizuelne konzistentnosti interfejsa.
+-Provera lokalizacĳe (prikaz na srpskom i engleskom jeziku).
+Kriterĳum prolaznosti: Aplikacĳa mora da mogući korisnicima da nesmetano obave sve osnovne operacĳe na svim platformama. Ne sme doći do pada sistema, vizuelnih nepravilnosti ili funkcionalnih razlika među verzĳama.
 Istraživačko testiranje
-
-Jedna posebna forma sistemskog testiranja jeste istraži-
-vačko testiranje (eng. exploratory testing). Ova metoda
-testiranja oslanja se na znanje, intuicĳu i kreativnost
-testera, pri čemu se testiranje ne zasniva isključivo na
-prethodno definisanim test slučajevima, već se test slu-
-čajevi osmišljavaju i izvršavaju u hodu.
-
-sistemsko
-testiranje
-
-Istraživačko testiranje podrazumeva otkrivanje neoče-
-kivanih pravaca korišćenja softverskog sistema, kao
-i prepoznavanje potencĳalnih problema koji nisu bili
-identifikovani tokom analize i dizajna testova. Tokom
-ove aktivnosti tester intuitivno istražuje aplikacĳu, po-
-smatra njeno ponašanje u različitim situacĳama i na
-osnovu uočenih obrazaca formuliše nove test slučajeve
-u realnom vremenu.
-
-istraživačko
-testiranje
-
-Ova vrsta testiranja ima najveći značaj kada je softver
-već funkcionalno zaokružen, odnosno kada je aplikacĳa
-dostupna u svom gotovo finalnom obliku. Tada tester
-ima mogućnost da uoči alternativne tokove korišće-
-nja sistema koji nisu prethodno uzeti u obzir, čime se
-značajno povećava pokrivenost testiranjem.
-
-Ukoliko se istraživačko testiranje zanemari, postoji ri-
-zik da određene funkcionalnosti ostanu neproverene,
+Jedna posebna forma sistemskog testiranja jeste istraživačko testiranje (eng. exploratory testing). Ova metoda testiranja oslanja se na znanje, intuicĳu i kreativnost testera, pri čemu se testiranje ne zasniva isključivo na prethodno definisanim test slučajevima, već se test slučajevi osmišljavaju i izvršavaju u hodu.
+sistemsko testiranje
+Istraživačko testiranje podrazumeva otkrivanje neočekivanih pravaca korišćenja softverskog sistema, kao i prepoznavanje potencĳalnih problema koji nisu bili identifikovani tokom analize i dizajna testova. Tokom ove aktivnosti tester intuitivno istražuje aplikacĳu, posmatra njeno ponašanje u različitim situacĳama i na osnovu uočenih obrazaca formuliše nove test slučajeve u realnom vremenu.
+istraživačko testiranje
+Ova vrsta testiranja ima najveći značaj kada je softver već funkcionalno zaokružen, odnosno kada je aplikacĳa dostupna u svom gotovo finalnom obliku. Tada tester ima mogućnost da uoči alternativne tokove korišćenja sistema koji nisu prethodno uzeti u obzir, čime se značajno povećava pokrivenost testiranjem.
+Ukoliko se istraživačko testiranje zanemari, postoji rizik da određene funkcionalnosti ostanu neproverene,

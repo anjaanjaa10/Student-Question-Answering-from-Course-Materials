@@ -1,0 +1,7 @@
+### 6.3 Alati za dinamičku detekcĳu grešaka
+Alati za dinamičku detekcĳu grešaka koriste instrumentacĳu kako bi omogućili automatsku detekcĳu grešaka u kodu, najčešće u radu sa memorĳom i nitima. Postali su neizostavan deo modernih razvojnih alata, jer značajno doprinose stabilnosti, bezbednosti i pouzdanosti softverskih sistema. Njihova glavna prednost je u tome što automatizuju proveru velikog broja potencĳalno problematičnih situacĳa, čime programeru omogućavaju da se fokusira na otklanjanje grešaka umesto na njihovo traženje. Ovi alati se obično primenjuju u ranim fazama razvoja i testiranja, često i kao dodatni stepen sigurnosti da kôd ne sadrži greške.
+6.3.1 Sanitajzeri
+Sanitajzeri se razvĳaju u okviru kompajlerskih infrastruktura. U fazi kompilacĳe, oni vrše automatsku instrumentacĳu kao i drugačĳu organizacĳu memorĳe tako da se u fazi izvršavanja omogućava automatska detekcĳa grešaka. Primena sanitajzera značajno povećava vreme izvršavanja programa i potrošnju memorĳe, zbog čega se obično koriste samo u testnom, a ne u produkcionom okruženju.
+Najpoznatĳi sanitajzeri su adresni sanitajzer AddressSanitizer, sanitajzer memorĳe MemorySanitizer, sanitajzer niti ThreadSanitizer i sanitajzer nedefinisanog ponašanja UndefinedBehaviorSanitizer. U tabeli 6.2 dat je uporedni pregled karakteristika ovih sanitajzera, dok su detalji za svaki sanitajzer dati u nastavku.
+Adresni sanitajzer
+Adresni sanitajzer AddressSanitizer (ASan) je jedan od najčešće korišćenih sanitajzera, namenjen dinamičkoj

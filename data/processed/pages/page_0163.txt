@@ -1,39 +1,5 @@
-komponenti. Podržani programski jezici uključuju C,
-C++, Objective-C i Swift. LLDB se može integrisati u
-različita razvojna okruženja, kao što su Xcode, CLion,
-Qt creator i Visual Studio Code.
-
-Debager je prvenstveno razvĳan za Unix-olike ope-
-rativne sisteme, uključujući macOS i Linux, ali je u
-poslednjim verzĳama proširena i podrška za Microsoft
-Windows, iako još uvek u nešto manjoj meri nego kod
-debagera GDB. LLDB ima poseban značaj u ekosiste-
-mu Apple platformi, gde predstavlja podrazumevani
-debager u razvoju aplikacĳa za macOS, iOS i srodne
-sisteme.
-
-Primer 5.3.3 (Debageri Visual Studio Debugger i WinDbg)
-Debagere Visual Studio Debugger i WinDbg razvĳa kom-
-panĳa Microsoft. Oba su namenjena za rad u okviru
-Windows operativnih sistema i pored podrške za jezike
-C i C++, imaju podršku i za programske jezike zasno-
-vane na .NET platformi (uključujući, na primer, C#,
-Visual Basic i F#). Oba alata podržavaju interaktivno
-debagovanje i post-mortem analizu.
-
-Visual Studio Debugger je duboko integrisan u grafičko
-razvojno okruženje Visual Studio i prvenstveno je na-
-menjen razvoju korisničkih aplikacĳa, pri čemu nudi
-intuitivni korisnički interfejs, automatsku inspekci-
-ju vrednosti, vizuelno upravljanje tačkama prekida i
-druge udobnosti grafičkog korisničkog interfejsa koje
-ga čine pogodnim za svakodnevni razvoj aplikacĳa.
-
-Debager WinDbg je manje poznat u širem krugu pro-
-gramera u poređenju sa debagerom Visual Studio
-Debugger, ali predstavlja naprednĳi alat sa širim spek-
-trom mogućnosti, posebno u kontekstu sistemskog
-debagovanja. WinDbg nudi preciznĳu kontrolu i de-
-taljnĳi uvid u sistemski kontekst, što ga čini pogodnim
-za analizu modula kernela, drajvera, sistemskih kom-
-ponenti i složenih grešaka koje se ne mogu lako otkriti
+komponenti. Podržani programski jezici uključuju C, C++, Objective-C i Swift. LLDB se može integrisati u različita razvojna okruženja, kao što su Xcode, CLion, Qt creator i Visual Studio Code.
+Debager je prvenstveno razvĳan za Unix-olike operativne sisteme, uključujući macOS i Linux, ali je u poslednjim verzĳama proširena i podrška za Microsoft Windows, iako još uvek u nešto manjoj meri nego kod debagera GDB. LLDB ima poseban značaj u ekosistemu Apple platformi, gde predstavlja podrazumevani debager u razvoju aplikacĳa za macOS, iOS i srodne sisteme.
+Primer 5.3.3 (Debageri Visual Studio Debugger i WinDbg) Debagere Visual Studio Debugger i WinDbg razvĳa kompanĳa Microsoft. Oba su namenjena za rad u okviru Windows operativnih sistema i pored podrške za jezike C i C++, imaju podršku i za programske jezike zasnovane na .NET platformi (uključujući, na primer, C#, Visual Basic i F#). Oba alata podržavaju interaktivno debagovanje i post-mortem analizu.
+Visual Studio Debugger je duboko integrisan u grafičko razvojno okruženje Visual Studio i prvenstveno je namenjen razvoju korisničkih aplikacĳa, pri čemu nudi intuitivni korisnički interfejs, automatsku inspekciju vrednosti, vizuelno upravljanje tačkama prekida i druge udobnosti grafičkog korisničkog interfejsa koje ga čine pogodnim za svakodnevni razvoj aplikacĳa.
+Debager WinDbg je manje poznat u širem krugu programera u poređenju sa debagerom Visual Studio Debugger, ali predstavlja naprednĳi alat sa širim spektrom mogućnosti, posebno u kontekstu sistemskog debagovanja. WinDbg nudi preciznĳu kontrolu i detaljnĳi uvid u sistemski kontekst, što ga čini pogodnim za analizu modula kernela, drajvera, sistemskih komponenti i složenih grešaka koje se ne mogu lako otkriti

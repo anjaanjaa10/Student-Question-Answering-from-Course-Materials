@@ -1,44 +1,10 @@
 Pregled
-
-3.1 Odnos verifikacĳe i
-validacĳe softvera . 38
-
-▶Koji je odnos verifikacĳe i validacĳe softvera?
-▶Kako se definišu verifikacĳa i validacĳa softvera?
-▶Koji pristupi i problemi koji se javljaju u okviru
-verifikacĳe softvera?
-
-3.2 Tehnike verifikacĳe
-softvera . . . . . . . 40
-
-▶Koje su specifičnosti automatske statičke verifika-
-cĳe softvera?
-
-Obezbeđivanje i kontrola kvaliteta softvera obuhvataju
-procese validacĳe i verifikacĳe.
-
-Verifikacĳa softvera obuhvata sve procese koji su po-
-trebni da se osigura da razvĳeni softver zadovo-
-ljava zadatu specifikacĳu, odnosno da ne sadrži
-defekte i da bude ispravan. Verifikacĳom se odgo-
-vara na pitanje „Da li je softver ispravno izgrađen?”
-i fokusira se na proveru da li sistem u potpunosti
-ispunjava specifikacĳu.
-
-Validacĳa softvera obuhvata sve procese koji su po-
-trebni da se osigura da razvĳeni softver zadovo-
-ljava korisničke potrebe. Validacĳom se odgovara
-na pitanje „Da li je izgrađen pravi softver?” i pro-
-cenjuje da li softver ispunjava potrebe i očekivanja
-krajnjih korisnika.
-
-U oba slučaja, kontrola se najčešće sprovodi testiranjem,
-ali postoje i druge napredne tehnike koje se mogu koristi-
-ti. Kako bi softverski proizvod bio upotrebljiv i uspešan,
-neophodno je da zadovolji i kriterĳume ispravnosti i
-kriterĳume usklađenosti sa korisničkim zahtevima.
-
-Funkcionalna podobnost, performantnost, kompatibil-
-nost, pouzdanost, sigurnost, bezbednost i prenosivost
-predstavljaju dinamička svojstva softvera i procenjuju
-se primarno kroz procese verifikacĳe. Upotrebljivost
+3.1 Odnos verifikacĳe i validacĳe softvera . 38
+-Koji je odnos verifikacĳe i validacĳe softvera? -Kako se definišu verifikacĳa i validacĳa softvera? -Koji pristupi i problemi koji se javljaju u okviru verifikacĳe softvera?
+3.2 Tehnike verifikacĳe softvera . . . . . . . 40
+-Koje su specifičnosti automatske statičke verifikacĳe softvera?
+Obezbeđivanje i kontrola kvaliteta softvera obuhvataju procese validacĳe i verifikacĳe.
+Verifikacĳa softvera obuhvata sve procese koji su potrebni da se osigura da razvĳeni softver zadovoljava zadatu specifikacĳu, odnosno da ne sadrži defekte i da bude ispravan. Verifikacĳom se odgovara na pitanje „Da li je softver ispravno izgrađen?” i fokusira se na proveru da li sistem u potpunosti ispunjava specifikacĳu.
+Validacĳa softvera obuhvata sve procese koji su potrebni da se osigura da razvĳeni softver zadovoljava korisničke potrebe. Validacĳom se odgovara na pitanje „Da li je izgrađen pravi softver?” i procenjuje da li softver ispunjava potrebe i očekivanja krajnjih korisnika.
+U oba slučaja, kontrola se najčešće sprovodi testiranjem, ali postoje i druge napredne tehnike koje se mogu koristiti. Kako bi softverski proizvod bio upotrebljiv i uspešan, neophodno je da zadovolji i kriterĳume ispravnosti i kriterĳume usklađenosti sa korisničkim zahtevima.
+Funkcionalna podobnost, performantnost, kompatibilnost, pouzdanost, sigurnost, bezbednost i prenosivost predstavljaju dinamička svojstva softvera i procenjuju se primarno kroz procese verifikacĳe. Upotrebljivost

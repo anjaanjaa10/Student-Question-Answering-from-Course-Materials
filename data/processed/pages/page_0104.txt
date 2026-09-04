@@ -1,35 +1,8 @@
-Testiranje sive kutĳe (eng. gray box testing) — pred-
-stavlja prelaz između tehnika crne i bele kutĳe
-(mešovita strategĳa). Kod ove tehnike postoji uvid
-u unutrašnju strukturu sistema, ali ne u toj meri
-kao kod tehnika bele kutĳe. Koristi se, na primer,
-kod komponentnog i integracionog testiranja. Ovo
-je tehnika koju koriste i programeri i testeri.
-
+Testiranje sive kutĳe (eng. gray box testing) — predstavlja prelaz između tehnika crne i bele kutĳe (mešovita strategĳa). Kod ove tehnike postoji uvid u unutrašnju strukturu sistema, ali ne u toj meri kao kod tehnika bele kutĳe. Koristi se, na primer, kod komponentnog i integracionog testiranja. Ovo je tehnika koju koriste i programeri i testeri.
 Siva kutĳa
-
 Ulaz
-
 Izlaz
-
 ?
-
 Slika 4.8: Testiranje sive kutĳe: mešovita strategĳa.
-
 Problem proročišta
-
-Prethodne tehnike testiranja podrazumevaju da je za
-ulazne vrednosti moguće jednostavno odrediti odgova-
-rajuće izlazne vrednosti. Međutim, to ne mora da bude
-slučaj za sve softverske sisteme. Preciznĳe, proročište
-(eng. test oracle) je mehanizam (ili znanje) koje omogu-
-ćava testeru da odredi: „Očekivani rezultat za ulaz U
-je izlaz I“ i da uporedi stvarni izlaz sa tim očekivanim.
-Kada takav mehanizam ne postoji ili ga je teško defini-
-sati, dolazi do problema proročišta. Problem proročišta
-(eng. oracle problem) u testiranju softvera odnosi se na iza-
-zov određivanja da li je rezultat testa ispravan — tj. kako
-sa sigurnošću znati da je izlaz sistema za određeni ulaz
-tačan. Problem proročišta je izražen u oblastima kao
-što su računarska grafika, konstrukcĳa kompilatora i
-mašinsko učenje.
+Prethodne tehnike testiranja podrazumevaju da je za ulazne vrednosti moguće jednostavno odrediti odgovarajuće izlazne vrednosti. Međutim, to ne mora da bude slučaj za sve softverske sisteme. Preciznĳe, proročište (eng. test oracle) je mehanizam (ili znanje) koje omogućava testeru da odredi: „Očekivani rezultat za ulaz U je izlaz I“ i da uporedi stvarni izlaz sa tim očekivanim. Kada takav mehanizam ne postoji ili ga je teško definisati, dolazi do problema proročišta. Problem proročišta (eng. oracle problem) u testiranju softvera odnosi se na izazov određivanja da li je rezultat testa ispravan — tj. kako sa sigurnošću znati da je izlaz sistema za određeni ulaz tačan. Problem proročišta je izražen u oblastima kao što su računarska grafika, konstrukcĳa kompilatora i mašinsko učenje.

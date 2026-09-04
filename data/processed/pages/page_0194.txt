@@ -1,0 +1,10 @@
+Proveravajući kôd Duplirani kôd Legenda
+Neinstrumentovan blok
+Instrumentovan blok
+Provera uslova
+Postojeće ivice
+Ivice dodate između proveravajućeg i dupliranog koda
+Slika 6.6: Dupliranje koda radi periodičnog izvršavanja instrumentovanog koda
+odnosu na profajliranje na osnovu fiksiranih vremenskih intervala.
+Predložen pristup smanjuje vreme izvršavanja ali povećava potrebnu memorĳu kao i vreme kompilacĳe. Postoje proširene verzĳe ovog pristupa koje ne prave celu kopĳu koda već samo onih delova koji su vezani za instrumentacĳu, jer, za rekonstrukcĳu profila nĳe potrebno instrumentovati svaki blok ili svaku granu. Delimičnim dupliranjem (slika 6.7) može se smanjiti upotreba memorĳe i vreme kompilacĳe sa potpunim zadržavanjem preciznosti dobĳenih informacĳa (u odnosu na potpuno dupliranje koda).
+Primer 6.2.6 (Profajler keš memorĳe Cachegrind) Cachegrind je alat platforme Valgrind namenjen softverskom profajliranju keš memorĳe i izvršavanja grana. On simulira memorĳski podsistem procesora i prati

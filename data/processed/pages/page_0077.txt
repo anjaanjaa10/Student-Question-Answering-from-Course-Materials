@@ -1,58 +1,17 @@
-▶pojedinačni moduli,
-▶grupe modula (vezanih namenom, upotrebom,
-ponašanjem ili strukturom) ili
-
-▶ceo sistem.
-
-U skladu sa pomenutom podelom, prema nivou testi-
-ranja, razlikujemo testove jedinice koda, komponentne,
-integracione i sistemske testove. Na svakom nivou mogu
-se testirati funkcionalne i nefunkcionalne karakteristike
-softvera.
-
+-pojedinačni moduli, -grupe modula (vezanih namenom, upotrebom, ponašanjem ili strukturom) ili
+-ceo sistem.
+U skladu sa pomenutom podelom, prema nivou testiranja, razlikujemo testove jedinice koda, komponentne, integracione i sistemske testove. Na svakom nivou mogu se testirati funkcionalne i nefunkcionalne karakteristike softvera.
 Testiranje
-
 Komponentno
-
 Integraciono
-
 Sistemsko
-
 testiranje
-
 testiranje
-
 testiranje
-
 jedinica koda
-
 Slika 4.3: Nivoi testiranja
-
-Posebna vrsta testiranja koja se može javiti u okviru sva-
-kog nivoa je regresiono testiranje. Regresiono testiranje
-(eng. regression testing) predstavlja proces ponovnog iz-
-vršavanja prethodno uspešno završenih test slučajeva s
-ciljem da se proveri da li novouvedene izmene u softveru
-nisu nenamerno dovele do regresĳe, tj. narušile postojeću
-funkcionalnost sistema ili dovele do pada performansi.
-Regresiono testiranje se sprovodi uvek nakon ispravki
-grešaka, dodavanja novih funkcionalnosti i prilikom
-refaktorisanja koda.
-
+Posebna vrsta testiranja koja se može javiti u okviru svakog nivoa je regresiono testiranje. Regresiono testiranje (eng. regression testing) predstavlja proces ponovnog izvršavanja prethodno uspešno završenih test slučajeva s ciljem da se proveri da li novouvedene izmene u softveru nisu nenamerno dovele do regresĳe, tj. narušile postojeću funkcionalnost sistema ili dovele do pada performansi. Regresiono testiranje se sprovodi uvek nakon ispravki grešaka, dodavanja novih funkcionalnosti i prilikom refaktorisanja koda.
 4.2.1 Testiranje jedinica koda
-
-Primeri izazova testiranja u
-funkcionalnim programskim
-jezicima mogu se videti u
-master tezi Ane Petrović:
-
-Testiranje jedinica koda (eng. unit testing) predstavlja
-proveru ispravnosti najmanjih delova softverskog si-
-stema koji se mogu nezavisno testirati. U zavisnosti
-od programske paradigme, jedinice koda mogu biti
-različite: u objektno orĳentisanom programiranju to su
-najčešće klase, u funkcionalnom programiranju funkcĳe,
-
-Testiranje funkcionalnih progra-
-ma na primeru aplikacĳe koja
-koristi jezike Elm i Eliksir
+Primeri izazova testiranja u funkcionalnim programskim jezicima mogu se videti u master tezi Ane Petrović:
+Testiranje jedinica koda (eng. unit testing) predstavlja proveru ispravnosti najmanjih delova softverskog sistema koji se mogu nezavisno testirati. U zavisnosti od programske paradigme, jedinice koda mogu biti različite: u objektno orĳentisanom programiranju to su najčešće klase, u funkcionalnom programiranju funkcĳe,
+Testiranje funkcionalnih programa na primeru aplikacĳe koja koristi jezike Elm i Eliksir

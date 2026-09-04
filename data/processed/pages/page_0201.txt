@@ -1,0 +1,9 @@
+se koriste. Kada otkrĳe da dve ili više niti pristupaju istoj promenljivoj, a bar jedna od njih vrši upis, bez adekvatne sinhronizacĳe, sanitajzer prĳavljuje grešku, navodeći tačne lokacĳe problematičnih pristupa.
+Osnovna prednost ovog sanitajzera je u tome što otkriva nesinhronizovan pristup podacima, grešku koja je veoma opasna i teška za otkrivanje. Međutim, programi instrumentovani ovim sanitajzerom izvršavaju se znatno sporĳe, a potrošnja memorĳe je značajno veća u poređenju sa neinstrumentovanom verzĳom. Tipično uspori izvršavanje od 5 do 15 puta, a memorĳsko dodatno opterećenje je od 5 do 10 puta.
+Sanitajzer nedefinisanog ponašanja
+Sanitajzer nedefinisanog ponašanja UndefinedBehaviorSanitizer (UBSan) namenjen je otkrivanju ponašanja koja su nedozvoljena ili nedefinisana prema standardu programskog jezika. Nedefinisana ponašanja u jezicima kao što su C i C++ često su izvor suptilnih grešaka koje mogu dovesti do ozbiljnih problema uključujući padove programa i oštećenja podataka. UndefinedBehaviorSanitizer je dostupan u okviru kompajlera GCC i Clang/LLVM.
+UBSan instrumentuje kôd tokom kompilacĳe i dodaje provere za razne vrste operacĳa koje mogu izazvati nedefinisano ponašanje. Među najčešćim problemima koje UBSan detektuje su:
+-prekoračenje opsega celobrojnih tipova (eng. integer overflow),
+-konverzĳe između tipova koje nisu dozvoljene (koje vode prekoračenju),
+-pristup nepravilno poravnatim memorĳskim lokacĳama (eng. unaligned access),
+-dereferenciranje null pokazivača, -operacĳa šiftovanja koja vodi do prekoračenja tipa.

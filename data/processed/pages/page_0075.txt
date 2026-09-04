@@ -1,46 +1,11 @@
 kriveno odgovarajućim test slučajevima.
-
-2. Prolaznost test slučajeva: 100% kritičnih test slu-
-čajeva i najmanje 98% svih ostalih test slučajeva
-mora biti uspešno izvršeno.
-
+2. Prolaznost test slučajeva: 100% kritičnih test slučajeva i najmanje 98% svih ostalih test slučajeva mora biti uspešno izvršeno.
 3. Odsustvo kritičnih i visoko-prioritetnih grešaka:
-
-Nisu dozvoljene greške koje utiču na osnovnu
-funkcionalnost sistema (npr. greške koje one-
-mogućavaju prĳavu korisnika, pregled stanja
-računa, ili izvršavanje transakcĳa).
-
-4. Potvrđena sigurnost sistema: Sigurnosne provere
-moraju potvrditi da sistem ne sadrži ranjivosti
-koje bi mogle dovesti do neautorizovanog pri-
-stupa, curenja podataka ili drugih sigurnosnih
-incidenata.
-
-5. Stabilnost u test okruženju: Aplikacĳa mora sta-
-bilno funkcionisati tokom višednevnog testira-
-nja bez rušenja, curenja memorĳe ili degradacĳe
-performansi.
-
-6. Obezbeđena testna dokumentacĳa: Sva testna do-
-kumentacĳa (test planovi, zapisnici o testiranju,
-rezultati testova, prĳave grešaka) mora biti ažur-
-na i kompletna.
-
-7. Odobrenje zainteresovanih strana: Tim za testira-
-nje, razvoj, bezbednost i poslovni korisnici mo-
-raju formalno potvrditi da su svi zahtevi zado-
-voljeni i da je sistem spreman za dalji proces.
-
+Nisu dozvoljene greške koje utiču na osnovnu funkcionalnost sistema (npr. greške koje onemogućavaju prĳavu korisnika, pregled stanja računa, ili izvršavanje transakcĳa).
+4. Potvrđena sigurnost sistema: Sigurnosne provere moraju potvrditi da sistem ne sadrži ranjivosti koje bi mogle dovesti do neautorizovanog pristupa, curenja podataka ili drugih sigurnosnih incidenata.
+5. Stabilnost u test okruženju: Aplikacĳa mora stabilno funkcionisati tokom višednevnog testiranja bez rušenja, curenja memorĳe ili degradacĳe performansi.
+6. Obezbeđena testna dokumentacĳa: Sva testna dokumentacĳa (test planovi, zapisnici o testiranju, rezultati testova, prĳave grešaka) mora biti ažurna i kompletna.
+7. Odobrenje zainteresovanih strana: Tim za testiranje, razvoj, bezbednost i poslovni korisnici moraju formalno potvrditi da su svi zahtevi zadovoljeni i da je sistem spreman za dalji proces.
 Zatvaranje testiranja
-
-Zatvaranje testiranja označava završnu fazu test procesa,
-koja nastupa kada su svi planirani testovi sprovedeni i
-softver je isporučen krajnjem korisniku, bez daljih oba-
-veza održavanja. Međutim, ovakva situacĳa je u praksi
-veoma retka, jer se nakon isporuke softvera gotovo uvek
-podrazumeva i njegovo održavanje, u okviru kog se
-testiranje i dalje sprovodi — u vidu provera ispravki,
-unapređenja funkcionalnosti ili novih verzĳa softvera.
-
+Zatvaranje testiranja označava završnu fazu test procesa, koja nastupa kada su svi planirani testovi sprovedeni i softver je isporučen krajnjem korisniku, bez daljih obaveza održavanja. Međutim, ovakva situacĳa je u praksi veoma retka, jer se nakon isporuke softvera gotovo uvek podrazumeva i njegovo održavanje, u okviru kog se testiranje i dalje sprovodi — u vidu provera ispravki, unapređenja funkcionalnosti ili novih verzĳa softvera.
 Testiranje se može zatvoriti i u drugim okolnostima —

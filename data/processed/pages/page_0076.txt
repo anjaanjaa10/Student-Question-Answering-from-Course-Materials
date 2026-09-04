@@ -1,59 +1,15 @@
-na primer, u slučaju da je projekat otkazan, ako su ciljevi
-testiranja ostvareni ranĳe nego što je planirano, ili ako
-nema više smisla nastavljati testiranje zbog promene
-poslovnih prioriteta.
-
+na primer, u slučaju da je projekat otkazan, ako su ciljevi testiranja ostvareni ranĳe nego što je planirano, ili ako nema više smisla nastavljati testiranje zbog promene poslovnih prioriteta.
 faze testiranja
-
-Tokom faze zatvaranja testiranja, vrši se arhiviranje test
-slučajeva, izveštaja i prateće dokumentacĳe, čime se
-omogućava budući uvid u realizovane aktivnosti. Isto-
-vremeno, sprovodi se analiza samog procesa testiranja,
-uz identifikacĳu onih praksi koje su se pokazale uspe-
-šnima i koje bi trebalo zadržati i primeniti u budućim
-projektima.
-
-planiranje
-testiranja
-
-analiza, dizajn
-i implemen-
-tacĳa testova
-
-Podjednako je važno prepoznati i aspekte koji nisu
-funkcionisali dobro, kako bi se greške iz prošlosti izbegle
-i unapredila efikasnost testiranja u narednim iteracĳama.
-Na taj način, zatvaranje testiranja ne označava samo kraj
-jedne faze, već i priliku za učenje i stalno poboljšanje
-procesa.
-
-izvršavanje
-testova
-
+Tokom faze zatvaranja testiranja, vrši se arhiviranje test slučajeva, izveštaja i prateće dokumentacĳe, čime se omogućava budući uvid u realizovane aktivnosti. Istovremeno, sprovodi se analiza samog procesa testiranja, uz identifikacĳu onih praksi koje su se pokazale uspešnima i koje bi trebalo zadržati i primeniti u budućim projektima.
+planiranje testiranja
+analiza, dizajn i implementacĳa testova
+Podjednako je važno prepoznati i aspekte koji nisu funkcionisali dobro, kako bi se greške iz prošlosti izbegle i unapredila efikasnost testiranja u narednim iteracĳama. Na taj način, zatvaranje testiranja ne označava samo kraj jedne faze, već i priliku za učenje i stalno poboljšanje procesa.
+izvršavanje testova
 evaluacĳa testova
-
-zatvaranje
-testiranja
-
+zatvaranje testiranja
 ### 4.2 Vrste i nivoi testiranja
-
-Testiranje softvera može se klasifikovati na više načina,
-u zavisnosti od cilja, obima i nivoa na kojem se testira-
-nje sprovodi. Osnovna podela testiranja odnosi se na
-prirodu osobina koje se proveravaju, pa razlikujemo:
-
-Testiranje funkcionalnih karakteristika usmereno je
-na proveru da li aplikacĳa pravilno izvršava funk-
-cĳe definisane specifikacĳom zahteva. Ova vrsta
-testiranja ispituje ponašanje sistema u odnosu na
-očekivane ulaze i izlaze.
-
-Testiranje nefunkcionalnih karakteristika usmereno
-je na tehničke i kvalitativne aspekte sistema, kao
-što su performanse, sigurnost, upotrebljivost, kom-
-patibilnost i pouzdanost.
-
-Druga bitna podela je podela po nivoima testiranja (slika
-4.3). Mogu se testirati
-
-▶osnovne jedinice koda,
+Testiranje softvera može se klasifikovati na više načina, u zavisnosti od cilja, obima i nivoa na kojem se testiranje sprovodi. Osnovna podela testiranja odnosi se na prirodu osobina koje se proveravaju, pa razlikujemo:
+Testiranje funkcionalnih karakteristika usmereno je na proveru da li aplikacĳa pravilno izvršava funkcĳe definisane specifikacĳom zahteva. Ova vrsta testiranja ispituje ponašanje sistema u odnosu na očekivane ulaze i izlaze.
+Testiranje nefunkcionalnih karakteristika usmereno je na tehničke i kvalitativne aspekte sistema, kao što su performanse, sigurnost, upotrebljivost, kompatibilnost i pouzdanost.
+Druga bitna podela je podela po nivoima testiranja (slika 4.3). Mogu se testirati
+-osnovne jedinice koda,

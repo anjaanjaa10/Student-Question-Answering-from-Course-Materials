@@ -1,59 +1,11 @@
-Ako bi tehničar najpre uneo prvi režim, a zatim ga
-promenio u drugi, softver nĳe uvek uspevao da ispravno
-ažurira stanje uređaja. Rezultat toga je bio da uređaj
-misli da koristi snop niskog intenziteta i doze koje su za
-to predviđene, ali bi zapravo poslao visokoenergetski
-snop bez zaštitnog filtera. Greška je nastajala usled loše
-sinhronizacĳe:
-
-Therac 25
-Greška:
-(1) Programer je napravio
-grešku u promeni podataka
-bez adekvatne sinhronizaci-
-je,
-(2) Tehničar je promenio
-režim rada u pogrešnom tre-
-nutku
-Defekt: Mogućnost slanja
-visokoenergetskog snopa
-bez zaštitnog filtera
-Pad: Prekoračena je bezbed-
-na doza zračenja
-Incident: Pacĳent je umro
-
-▶Jedan proces je ažurirao režim tretmana.
-▶Drugi proces je proveravao spremnost uređaja za
-zračenje.
-
-Ako bi se ti procesi „preklopili“ u pogrešnom trenutku,
-uređaj bi pogrešno zaključio da je sve spremno i poslao
-snop visoke energĳe bez zaštitnog filtera sa dozom
-zračenja koja je predviđena za snop niskog intenziteta.
-
-Pored ove softverske greške, nesrećama su doprineli i
-naredni propusti:
-
-▶nedostatak hardverskih sigurnosnih sistema —
-Therac-25 je uklonio fizičke sigurnosne blokade
-koje su postojale u prethodnim uređajima, osla-
-njajući se isključivo na softver,
-
-▶loša dĳagnostika — interfejs aparata nĳe jasno
-ukazivao na probleme, tehničari su dobĳali neja-
-sne poruke o grešci i
-
-▶zanemarivanje prethodnih incidenata — kompa-
-nĳa AECL nĳe preduzela adekvatne mere nakon
-inicĳalnih pritužbi i događaja.
-
-Kao rezultat ovih nesrećnih događaja, razvĳeni su novi
-standardi za sigurnost medicinskih uređaja, uključujući
-rigoroznĳe zahteve za testiranje i formalnu verifikacĳu
-softvera u medicinskim sistemima.
-
+Ako bi tehničar najpre uneo prvi režim, a zatim ga promenio u drugi, softver nĳe uvek uspevao da ispravno ažurira stanje uređaja. Rezultat toga je bio da uređaj misli da koristi snop niskog intenziteta i doze koje su za to predviđene, ali bi zapravo poslao visokoenergetski snop bez zaštitnog filtera. Greška je nastajala usled loše sinhronizacĳe:
+Therac 25 Greška: (1) Programer je napravio grešku u promeni podataka bez adekvatne sinhronizacije, (2) Tehničar je promenio režim rada u pogrešnom trenutku Defekt: Mogućnost slanja visokoenergetskog snopa bez zaštitnog filtera Pad: Prekoračena je bezbedna doza zračenja Incident: Pacĳent je umro
+-Jedan proces je ažurirao režim tretmana. -Drugi proces je proveravao spremnost uređaja za zračenje.
+Ako bi se ti procesi „preklopili“ u pogrešnom trenutku, uređaj bi pogrešno zaključio da je sve spremno i poslao snop visoke energĳe bez zaštitnog filtera sa dozom zračenja koja je predviđena za snop niskog intenziteta.
+Pored ove softverske greške, nesrećama su doprineli i naredni propusti:
+-nedostatak hardverskih sigurnosnih sistema — Therac-25 je uklonio fizičke sigurnosne blokade koje su postojale u prethodnim uređajima, oslanjajući se isključivo na softver,
+-loša dĳagnostika — interfejs aparata nĳe jasno ukazivao na probleme, tehničari su dobĳali nejasne poruke o grešci i
+-zanemarivanje prethodnih incidenata — kompanĳa AECL nĳe preduzela adekvatne mere nakon inicĳalnih pritužbi i događaja.
+Kao rezultat ovih nesrećnih događaja, razvĳeni su novi standardi za sigurnost medicinskih uređaja, uključujući rigoroznĳe zahteve za testiranje i formalnu verifikacĳu softvera u medicinskim sistemima.
 Dahran raketa, 25. februar 1991. godine
-
-Tokom Zalivskog rata, 25. februara 1991. godine, iračka
-balistička raketa pogodila je američku vojnu bazu u Da-
-hranu (Saudĳska Arabĳa), usmrtivši 28 vojnika i ranivši
+Tokom Zalivskog rata, 25. februara 1991. godine, iračka balistička raketa pogodila je američku vojnu bazu u Dahranu (Saudĳska Arabĳa), usmrtivši 28 vojnika i ranivši

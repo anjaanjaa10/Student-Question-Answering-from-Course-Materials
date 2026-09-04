@@ -1,52 +1,11 @@
-misĳa vrednih više stotina miliona dolara, dok softver-
-ski problemi u nuklearnim elektranama nose potencĳal
-za katastrofe nesagledivih razmera. Zbog svega ovoga,
-razvoj softvera u ovim oblastima zahteva najviši stepen
-pažnje, rigorozno testiranje i stalnu proveru kvaliteta.
-
+misĳa vrednih više stotina miliona dolara, dok softverski problemi u nuklearnim elektranama nose potencĳal za katastrofe nesagledivih razmera. Zbog svega ovoga, razvoj softvera u ovim oblastima zahteva najviši stepen pažnje, rigorozno testiranje i stalnu proveru kvaliteta.
 ### 2.1 Primeri poznatih grešaka
-
-Greška
-proizvodi
-−→
-
-Greške koje naprave programeri, ukoliko se ne otkrĳu u
-procesu ispitivanja ispravnosti softvera, čine da softver
-nĳe u potpunosti ispravan, odnosno da sadrži defekte. Ti
-defekti u određenim situacĳama uzrokuju pad sistema,
-odnosno softver se ponaša drugačĳe od očekivanog.
-Pad pravi incident koji može da ima posledice.
-
-Defekt
-uzrokuje
-−→
-
-Pad
-pravi
-−→
-
-Incident
-ima
-−→𝑝𝑜𝑠𝑙𝑒𝑑𝑖𝑐𝑒
-
+Greška proizvodi −→
+Greške koje naprave programeri, ukoliko se ne otkrĳu u procesu ispitivanja ispravnosti softvera, čine da softver nĳe u potpunosti ispravan, odnosno da sadrži defekte. Ti defekti u određenim situacĳama uzrokuju pad sistema, odnosno softver se ponaša drugačĳe od očekivanog. Pad pravi incident koji može da ima posledice.
+Defekt uzrokuje −→
+Pad pravi −→
+Incident ima −→𝑝𝑜𝑠𝑙𝑒𝑑𝑖𝑐𝑒
 2.1.1 Neprĳatnosti i materĳalni gubici
-
-Neke od najpoznatĳih softverskih grešaka, osim što
-su izazvale ozbiljne neprĳatnosti korisnicima, ostavile
-su i duboke finansĳske posledice po kompanĳe koje
-su ih razvile. Njihov uticaj nĳe bio ograničen samo na
-korisničko iskustvo, već je često vodio ka gubicima po-
-verenja, padu akcĳa i tržišne vrednosti, kao i značajnim
-materĳalnim štetama.
-
+Neke od najpoznatĳih softverskih grešaka, osim što su izazvale ozbiljne neprĳatnosti korisnicima, ostavile su i duboke finansĳske posledice po kompanĳe koje su ih razvile. Njihov uticaj nĳe bio ograničen samo na korisničko iskustvo, već je često vodio ka gubicima poverenja, padu akcĳa i tržišne vrednosti, kao i značajnim materĳalnim štetama.
 Aplikacĳa Apple Maps, 2012
-
-Kompanĳa Apple je 2012. godine odlučila da ukloni
-aplikacĳu za mape Google Maps na svom operativnom si-
-stemu iOS i zameni je svojom aplikacĳom — Apple Maps.
-Nova aplikacĳa je predstavljena uz operativni sistem
-iOS 6, a trebalo je da bude modernĳa, sa 3D prikazima,
-navigacĳom koja prati tekuće stanje u saobraćaju i gla-
-sovnim navođenjem. Međutim, aplikacĳa Apple Maps
-je odmah po lansiranju doživela veliku kritiku zbog
-brojnih grešaka, uključujući:
+Kompanĳa Apple je 2012. godine odlučila da ukloni aplikacĳu za mape Google Maps na svom operativnom sistemu iOS i zameni je svojom aplikacĳom — Apple Maps. Nova aplikacĳa je predstavljena uz operativni sistem iOS 6, a trebalo je da bude modernĳa, sa 3D prikazima, navigacĳom koja prati tekuće stanje u saobraćaju i glasovnim navođenjem. Međutim, aplikacĳa Apple Maps je odmah po lansiranju doživela veliku kritiku zbog brojnih grešaka, uključujući:

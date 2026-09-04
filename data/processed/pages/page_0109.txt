@@ -1,50 +1,13 @@
-bi i svi ostali test slučajevi iz iste klase otkrili istu
-tu grešku.
-
-▶Ukoliko jedan test slučaj iz određene klase ekvi-
-valencĳe ne otkrĳe grešku, pretpostavlja se da ni
-ostali test slučajevi iz te klase ne bi otkrili grešku.
-
-Na osnovu ovih pretpostavki, testiranje se može raci-
-onalizovati izborom po jednog predstavnika iz svake
-klase. Ključni koraci primene ove tehnike su:
-
-1. Identifikovati sve validne klase ekvivalencĳe za
-ulazne vrednosti koje bi sistem trebalo da prihvati
-za dalju obradu.
-
-2. Izabrati po jedan test slučaj za svaku validnu
-klasu.
-
-3. Identifikovati nevalidne klase ekvivalencĳe za
-ulazne vrednosti koje bi sistem trebalo da odbaci.
-
-4. Izabrati po jedan test slučaj za svaku nevalidnu
-klasu.
-
-Na taj način se smanjuje broj potrebnih testova, a da
-se pritom zadrži visok nivo pokrivenosti funkcionalnih
-pravila sistema i otkrivanja potencĳalnih grešaka.
-
-Primer 4.3.8 (Zapošljavanje na osnovu starosti) Pret-
-postavimo da sistem za zapošljavanje sprovodi pravila
-na osnovu starosti kandidata. Pravila su definisana
-narednom tabelom:
-
-Godine
-Pravilo
-
-0–16
-Ne zaposliti
-16–18
-Može se zaposliti samo sa pola
-radnog vremena
-18–55
-Može se zaposliti sa punim rad-
-nim vremenom
-55–99
-Ne zaposliti
-
+bi i svi ostali test slučajevi iz iste klase otkrili istu tu grešku.
+-Ukoliko jedan test slučaj iz određene klase ekvivalencĳe ne otkrĳe grešku, pretpostavlja se da ni ostali test slučajevi iz te klase ne bi otkrili grešku.
+Na osnovu ovih pretpostavki, testiranje se može racionalizovati izborom po jednog predstavnika iz svake klase. Ključni koraci primene ove tehnike su:
+1. Identifikovati sve validne klase ekvivalencĳe za ulazne vrednosti koje bi sistem trebalo da prihvati za dalju obradu.
+2. Izabrati po jedan test slučaj za svaku validnu klasu.
+3. Identifikovati nevalidne klase ekvivalencĳe za ulazne vrednosti koje bi sistem trebalo da odbaci.
+4. Izabrati po jedan test slučaj za svaku nevalidnu klasu.
+Na taj način se smanjuje broj potrebnih testova, a da se pritom zadrži visok nivo pokrivenosti funkcionalnih pravila sistema i otkrivanja potencĳalnih grešaka.
+Primer 4.3.8 (Zapošljavanje na osnovu starosti) Pretpostavimo da sistem za zapošljavanje sprovodi pravila na osnovu starosti kandidata. Pravila su definisana narednom tabelom:
+Godine Pravilo
+0–16 Ne zaposliti 16–18 Može se zaposliti samo sa pola radnog vremena 18–55 Može se zaposliti sa punim radnim vremenom 55–99 Ne zaposliti
 Validne klase ekvivalencĳe:
-
-▶V1 — Godine u opsegu 0–16 (npr. 10)
+-V1 — Godine u opsegu 0–16 (npr. 10)

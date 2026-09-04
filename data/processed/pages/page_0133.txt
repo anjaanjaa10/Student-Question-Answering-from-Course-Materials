@@ -1,41 +1,8 @@
-Primer 4.3.25 (Konstrukcĳa kompilatora) Veoma je
-teško utvrditi ekvivalencĳu između izvornog koda i
-izvršivog koda. Jedna alternativa je da se u dati izvor-
-ni kôd dodaju određene naredbe ili delovi naredbi
-koje mu ne menjaju semantiku. Na primer, to može
-biti dodavanje nule izrazu (time se ne menja vred-
-nost izraza) ili dodavanje uslova koji je uvek ispunjen
-(uslov if (true) ... takođe ne menja semantiku
-programa). Za tako izmenjene izvorne programe, tre-
-balo bi da bude generisan izvršivi kôd koji se ponaša
-na isti način kao i početni kôd.
-
-Primer 4.3.26 (Mašinsko učenje — klasifikacĳa slika)
-Razmotrimo klasifikator slika obučen da prepoznaje
-kategorĳe objekata na slikama. Jedan primer meta-
-morfnog odnosa je:
-
-Ako se ulazna slika rotira za mali ugao
-(npr. do 10◦), očekuje se da klasifikacĳa
-ostane nepromenjena.
-
-Na osnovu ove osobine, moguće je konstruisati sledeći
-postupak testiranja:
-
-1. Izabrati originalni test primer 𝑥(sliku) za koji
-klasifikator daje rezultat 𝑓(𝑥).
-
-2. Generisati transformisani primer 𝑥′ (npr. rotaci-
-ja slike za 5◦).
-
-3. Uporediti rezultate 𝑓(𝑥) i 𝑓(𝑥′); ukoliko se razli-
-kuju, to može ukazivati na potencĳalnu grešku
-u modelu, ili na potrebu za dodatnim podacima
-u obuci.
-
-Međutim, u praksi, relacĳa ekvivalencĳe nĳe uvek do-
-stupna metamorfna relacĳa. U tim slučajevima koriste
-se slabĳe forme, kao što su relacĳe očuvanja određe-
-nih karakteristika rezultata ili relacĳe koje predviđaju
-smer promene izlaza. Pravilna selekcĳa metamorfnih
-relacĳa zahteva duboko razumevanje testiranog sistema
+Primer 4.3.25 (Konstrukcĳa kompilatora) Veoma je teško utvrditi ekvivalencĳu između izvornog koda i izvršivog koda. Jedna alternativa je da se u dati izvorni kôd dodaju određene naredbe ili delovi naredbi koje mu ne menjaju semantiku. Na primer, to može biti dodavanje nule izrazu (time se ne menja vrednost izraza) ili dodavanje uslova koji je uvek ispunjen (uslov if (true) ... takođe ne menja semantiku programa). Za tako izmenjene izvorne programe, trebalo bi da bude generisan izvršivi kôd koji se ponaša na isti način kao i početni kôd.
+Primer 4.3.26 (Mašinsko učenje — klasifikacĳa slika) Razmotrimo klasifikator slika obučen da prepoznaje kategorĳe objekata na slikama. Jedan primer metamorfnog odnosa je:
+Ako se ulazna slika rotira za mali ugao (npr. do 10◦), očekuje se da klasifikacĳa ostane nepromenjena.
+Na osnovu ove osobine, moguće je konstruisati sledeći postupak testiranja:
+1. Izabrati originalni test primer 𝑥(sliku) za koji klasifikator daje rezultat 𝑓(𝑥).
+2. Generisati transformisani primer 𝑥′ (npr. rotacija slike za 5◦).
+3. Uporediti rezultate 𝑓(𝑥) i 𝑓(𝑥′); ukoliko se razlikuju, to može ukazivati na potencĳalnu grešku u modelu, ili na potrebu za dodatnim podacima u obuci.
+Međutim, u praksi, relacĳa ekvivalencĳe nĳe uvek dostupna metamorfna relacĳa. U tim slučajevima koriste se slabĳe forme, kao što su relacĳe očuvanja određenih karakteristika rezultata ili relacĳe koje predviđaju smer promene izlaza. Pravilna selekcĳa metamorfnih relacĳa zahteva duboko razumevanje testiranog sistema

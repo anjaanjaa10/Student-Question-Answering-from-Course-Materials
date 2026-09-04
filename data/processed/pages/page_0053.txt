@@ -1,41 +1,10 @@
-deinstaliraće je često i nakon samo prve greške. Dodatno,
-negativne recenzĳe odvraćaju buduće korisnike.
-
-S druge strane, validacĳa procenjuje da li aplikacĳa
-zaista ispunjava očekivanja korisnika. Aplikacĳa može
-biti tehnički ispravna, ali ako ne nudi jasnu vrednost ili
-ako je interfejs zbunjujući, korisnik je verovatno više neće
-koristiti. Upravo zbog toga, elementi kao što su dizajn
-korisničkog iskustva i korisničkog interfejsa, uvodno
-vođenje korisnika kroz aplikacĳu i prvi utisak igraju
-presudnu ulogu u njenom prihvatanju.
-
-Primer 3.1.1 (Verifikacĳa i validacĳa) U komunikacĳi
-sa klĳentom, definisana je specifikacĳa sistema:
-
+deinstaliraće je često i nakon samo prve greške. Dodatno, negativne recenzĳe odvraćaju buduće korisnike.
+S druge strane, validacĳa procenjuje da li aplikacĳa zaista ispunjava očekivanja korisnika. Aplikacĳa može biti tehnički ispravna, ali ako ne nudi jasnu vrednost ili ako je interfejs zbunjujući, korisnik je verovatno više neće koristiti. Upravo zbog toga, elementi kao što su dizajn korisničkog iskustva i korisničkog interfejsa, uvodno vođenje korisnika kroz aplikacĳu i prvi utisak igraju presudnu ulogu u njenom prihvatanju.
+Primer 3.1.1 (Verifikacĳa i validacĳa) U komunikacĳi sa klĳentom, definisana je specifikacĳa sistema:
 Aplikacĳa treba da prikazuje vreme.
-
-U skladu sa zadatom specifikacĳom, moguće je na-
-praviti dva rešenja.
-
+U skladu sa zadatom specifikacĳom, moguće je napraviti dva rešenja.
 Rešenje 1: Digitalni časovnik
-
 Rešenje 2: Aplikacĳa za vremensku prognozu
-
-Rešenja su fundamentalno različita jer je reč „vreme”
-višeznačna.
-
-Verifikacĳom se proverava da li je sistem koji je iz-
-građen u skladu sa zadatom specifikacĳom, tj. da li
-sistem tačno prikazuje vreme.
-
-▶U slučaju digitalnog časovnika, verifikacĳa obu-
-hvata proveru da li aplikacĳa ispravno prikazuje
-trenutno lokalno vreme, u skladu sa sistemskim
-vremenom uređaja ili referentnim vremenskim
-serverom. To podrazumeva ispitivanje usklađe-
-nosti prikazanog vremena sa vremenom opera-
-tivnog sistema, kao i ispravnost prikaza prili-
-kom promene vremenske zone. Takođe, prove-
-rava se da li se vreme automatski osvežava bez
-potrebe za dodatnom intervencĳom korisnika,
+Rešenja su fundamentalno različita jer je reč „vreme” višeznačna.
+Verifikacĳom se proverava da li je sistem koji je izgrađen u skladu sa zadatom specifikacĳom, tj. da li sistem tačno prikazuje vreme.
+-U slučaju digitalnog časovnika, verifikacĳa obuhvata proveru da li aplikacĳa ispravno prikazuje trenutno lokalno vreme, u skladu sa sistemskim vremenom uređaja ili referentnim vremenskim serverom. To podrazumeva ispitivanje usklađenosti prikazanog vremena sa vremenom operativnog sistema, kao i ispravnost prikaza prilikom promene vremenske zone. Takođe, proverava se da li se vreme automatski osvežava bez potrebe za dodatnom intervencĳom korisnika,

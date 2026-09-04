@@ -1,52 +1,13 @@
-uspešno izvrši transakcĳu bez pomoći u roku
-kraćem od 5 minuta, sa najviše jednom greškom
-(npr. pogrešan izbor opcĳe ili unos iznosa u
-pogrešno polje).
-
-Napomena: Test se ponavlja sa 30 korisnika ka-
-ko bi se dobila reprezentativna metrika. Ukoliko
-većina ispitanika ima poteškoće sa istim delovi-
-ma interfejsa, to je jasan indikator za poboljšanje
-dizajna.
-
-Testovima bezbednosti proverava se zaštita ljudi, opre-
-me i okruženja od neželjenih efekata korišćenja
-softvera, posebno u kritičnim sistemima kao što
-su medicinski uređaji, automobilski sistemi, va-
-zduhoplovstvo, industrĳska automatizacĳa i slični
-domeni gde greška može imati ozbiljne posledice
-po bezbednost.
-
-sistemsko
-testiranje
-
-nefunkcionalno
-testiranje
-
+uspešno izvrši transakcĳu bez pomoći u roku kraćem od 5 minuta, sa najviše jednom greškom (npr. pogrešan izbor opcĳe ili unos iznosa u pogrešno polje).
+Napomena: Test se ponavlja sa 30 korisnika kako bi se dobila reprezentativna metrika. Ukoliko većina ispitanika ima poteškoće sa istim delovima interfejsa, to je jasan indikator za poboljšanje dizajna.
+Testovima bezbednosti proverava se zaštita ljudi, opreme i okruženja od neželjenih efekata korišćenja softvera, posebno u kritičnim sistemima kao što su medicinski uređaji, automobilski sistemi, vazduhoplovstvo, industrĳska automatizacĳa i slični domeni gde greška može imati ozbiljne posledice po bezbednost.
+sistemsko testiranje
+nefunkcionalno testiranje
 bezbednost
-
-Primer 4.2.8 (Autonomna vožnja) Testovi be-
-zbednosti su posebno važni u kontekstu auto-
-nomne vožnje.
-
-Naziv test slučaja: TC-S007 — Automatsko zau-
-stavljanje prilikom iznenadne prepreke na putu.
-
-Opis: Proveriti kako autonomni sistem reaguje
-u slučaju iznenadne prepreke na putu, sa ciljem
-zaštite putnika i drugih učesnika u saobraćaju.
-
-Scenario: Tokom vožnje pri brzini od 50 km/h,
-pešak iznenada ulazi na put na udaljenosti od
-15 metara ispred vozila. Sistem za autonom-
-nu vožnju mora da detektuje pešaka i aktivira
-bezbednosne mehanizme: kočenje, izbegavanje
-sudara i/ili upozorenje putnicima.
-
+Primer 4.2.8 (Autonomna vožnja) Testovi bezbednosti su posebno važni u kontekstu autonomne vožnje.
+Naziv test slučaja: TC-S007 — Automatsko zaustavljanje prilikom iznenadne prepreke na putu.
+Opis: Proveriti kako autonomni sistem reaguje u slučaju iznenadne prepreke na putu, sa ciljem zaštite putnika i drugih učesnika u saobraćaju.
+Scenario: Tokom vožnje pri brzini od 50 km/h, pešak iznenada ulazi na put na udaljenosti od 15 metara ispred vozila. Sistem za autonomnu vožnju mora da detektuje pešaka i aktivira bezbednosne mehanizme: kočenje, izbegavanje sudara i/ili upozorenje putnicima.
 Uslovi testa:
-
-▶Vozilo je u režimu potpunog autonomnog
-upravljanja.
-
-▶Test se izvodi u zatvorenom kontrolisa-
-nom okruženju sa korišćenjem lutke kao
+-Vozilo je u režimu potpunog autonomnog upravljanja.
+-Test se izvodi u zatvorenom kontrolisanom okruženju sa korišćenjem lutke kao

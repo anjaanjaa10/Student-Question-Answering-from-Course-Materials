@@ -1,36 +1,10 @@
-testing), testiranje vođeno podacima (eng. data dri-
-ven testing). Prednost ovog pristupa je mogućnost
-potpunog razdvajanja programera i testera i zato
-ovo testiranje obično obavljaju testeri. Zadatak te-
-stera je da sistemu pruži ulaze, a zatim da proveri
-izlaze u odnosu na datu specifikacĳu.
-
+testing), testiranje vođeno podacima (eng. data driven testing). Prednost ovog pristupa je mogućnost potpunog razdvajanja programera i testera i zato ovo testiranje obično obavljaju testeri. Zadatak testera je da sistemu pruži ulaze, a zatim da proveri izlaze u odnosu na datu specifikacĳu.
 Crna kutĳa
-
 Ulaz
-
 Izlaz
-
 Slika 4.6: Testiranje crne kutĳe: fokus na ulazu i izlazu
-
-Testiranje bele kutĳe (eng. white box testing) — generi-
-sanje test primera na osnovu interne strukture i
-logike koda. Alternativni nazivi za ovaj pristup su
-strukturno testiranje (eng. structural testing) i testi-
-ranje vođeno logikom (eng. logic driven testing), što
-dodatno naglašava oslonac na logičku strukturu
-koda i neophodnost poznavanja implementacĳe
-radi pisanja testova za ovu vrstu testiranja. Zbog
-toga testiranje bele kutĳe obično obavljaju progra-
-meri tokom faze razvoja softvera. Primer testiranja
-bele kutĳe su testovi jedinica koda u kojima se pro-
-verava ispravnost najmanjih funkcionalnih delova
-softvera.
-
+Testiranje bele kutĳe (eng. white box testing) — generisanje test primera na osnovu interne strukture i logike koda. Alternativni nazivi za ovaj pristup su strukturno testiranje (eng. structural testing) i testiranje vođeno logikom (eng. logic driven testing), što dodatno naglašava oslonac na logičku strukturu koda i neophodnost poznavanja implementacĳe radi pisanja testova za ovu vrstu testiranja. Zbog toga testiranje bele kutĳe obično obavljaju programeri tokom faze razvoja softvera. Primer testiranja bele kutĳe su testovi jedinica koda u kojima se proverava ispravnost najmanjih funkcionalnih delova softvera.
 Bela kutĳa
-
 Ulaz
-
 Izlaz
-
 Slika 4.7: Testiranje bele kutĳe: fokus na strukturi koda.

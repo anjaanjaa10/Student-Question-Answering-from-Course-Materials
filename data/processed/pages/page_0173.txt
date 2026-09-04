@@ -1,48 +1,9 @@
 Pregled
-
-6.1
-Instrumentacĳa 160
-
-6.2
-Profajleri . . . . 166
-
-▶Šta je instrumentacĳa i kako se ona koristi?
-▶Koja je uloga profajliranja, a koja sanitiziranja u
-procesu razvoja softvera?
-
-6.3
-Alati za dina-
-mičku detekcĳu
-grešaka . . . . . 183
-
-▶Koje vrste profajlera postoje?
-▶Koji su najpoznatĳi sanitajzeri i šta oni omoguća-
-vaju?
-
-U procesu razvoja softvera, naročito složenih i zahtevnih
-sistema, neophodno je osigurati efikasnost i pouzdanost
-krajnjeg proizvoda. Za postizanje ovih ciljeva koriste se
-različiti alati za dinamičku analizu programa i detekcĳu
-grešaka, od kojih se izdvajaju profajleri i sanitajzeri. Ovi
-alati omogućavaju detaljno praćenje ponašanja softvera
-tokom njegovog izvršavanja, ali na drugačĳi način u
-odnosu na debagere.
-
-Profajleri prikupljaju informacĳe o performansama pro-
-grama — na primer, koliko često se izvršavaju određene
-funkcĳe, koliko vremena se troši u različitim delovima
-koda i koliko se memorĳe i ostalih resursa koristi. Profaj-
-leri se koriste kada postoje problemi sa performansama
-i kada je potrebno optimizovati kôd, najčešće u kasni-
-jim fazama razvoja, kada su osnovne funkcionalnosti
-sistema implementirane.
-
-Sanitajzeri, s druge strane, fokusirani su na automatsku
-detekcĳu grešaka koje mogu dovesti do nestabilnosti,
-kvarova ili sigurnosnih propusta. Oni identifikuju pro-
-bleme kao što su pristupi neinicĳalizovanoj ili nealoci-
-ranoj memorĳi, curenje memorĳe ili greške u pristupu
-podacima kod višenitnih aplikacĳa. Sanitajzeri se mogu
-koristiti da olakšaju pronalaženje uzroka uočenog de-
-fekta u kodu, ali i za proveru da li kôd sadrži greške čak
-i onda kada nema uočenih defekata. Sanitajzeri mogu
+6.1 Instrumentacĳa 160
+6.2 Profajleri . . . . 166
+-Šta je instrumentacĳa i kako se ona koristi? -Koja je uloga profajliranja, a koja sanitiziranja u procesu razvoja softvera?
+6.3 Alati za dinamičku detekcĳu grešaka . . . . . 183
+-Koje vrste profajlera postoje? -Koji su najpoznatĳi sanitajzeri i šta oni omogućavaju?
+U procesu razvoja softvera, naročito složenih i zahtevnih sistema, neophodno je osigurati efikasnost i pouzdanost krajnjeg proizvoda. Za postizanje ovih ciljeva koriste se različiti alati za dinamičku analizu programa i detekcĳu grešaka, od kojih se izdvajaju profajleri i sanitajzeri. Ovi alati omogućavaju detaljno praćenje ponašanja softvera tokom njegovog izvršavanja, ali na drugačĳi način u odnosu na debagere.
+Profajleri prikupljaju informacĳe o performansama programa — na primer, koliko često se izvršavaju određene funkcĳe, koliko vremena se troši u različitim delovima koda i koliko se memorĳe i ostalih resursa koristi. Profajleri se koriste kada postoje problemi sa performansama i kada je potrebno optimizovati kôd, najčešće u kasnijim fazama razvoja, kada su osnovne funkcionalnosti sistema implementirane.
+Sanitajzeri, s druge strane, fokusirani su na automatsku detekcĳu grešaka koje mogu dovesti do nestabilnosti, kvarova ili sigurnosnih propusta. Oni identifikuju probleme kao što su pristupi neinicĳalizovanoj ili nealociranoj memorĳi, curenje memorĳe ili greške u pristupu podacima kod višenitnih aplikacĳa. Sanitajzeri se mogu koristiti da olakšaju pronalaženje uzroka uočenog defekta u kodu, ali i za proveru da li kôd sadrži greške čak i onda kada nema uočenih defekata. Sanitajzeri mogu

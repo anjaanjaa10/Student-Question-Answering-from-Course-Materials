@@ -1,56 +1,13 @@
-već i njihovo kontinuirano praćenje, proveru ispravki i
-konačnu potvrdu da su greške uspešno otklonjene. Sva-
-ka korekcĳa zahteva ponovno izvršavanje relevantnih
-testova kako bi se osiguralo da popravka nĳe dovela do
-novih problema ili narušila postojeću funkcionalnost.
-
-Ova faza testiranja zahteva intenzivnu i jasnu komuni-
-kacĳu između testera i programera. Bliska saradnja i
-razmena informacĳa omogućavaju bržu identifikacĳu
-uzroka grešaka, efikasnĳe rešavanje problema i osigura-
-nje stabilnosti sistema u završnim fazama razvoja.
-
+već i njihovo kontinuirano praćenje, proveru ispravki i konačnu potvrdu da su greške uspešno otklonjene. Svaka korekcĳa zahteva ponovno izvršavanje relevantnih testova kako bi se osiguralo da popravka nĳe dovela do novih problema ili narušila postojeću funkcionalnost.
+Ova faza testiranja zahteva intenzivnu i jasnu komunikacĳu između testera i programera. Bliska saradnja i razmena informacĳa omogućavaju bržu identifikacĳu uzroka grešaka, efikasnĳe rešavanje problema i osiguranje stabilnosti sistema u završnim fazama razvoja.
 Evaluacĳa testova
-
 faze testiranja
-
-Evaluacĳa testova (eng. test evaluation) obuhvata proce-
-nu kriterĳuma završetka testiranja i izveštavanje. Svaka
-izmena u kodu, čak i koja podrazumeva popravljanje
-grešaka, može da dovede do novih grešaka. Iz tog razlo-
-ga se, za različite oblasti testiranja, definiše kriterĳum
-završetka testiranja u odnosu na rezultate izvršavanja
-testova, procenta nerešenih bagova ili preostalog vre-
-mena za testiranje. Proces evaluacĳa uključuje i pregled
-rezultata dobĳenih analizom izlaza test slučajeva.
-
-planiranje
-testiranja
-
-analiza, dizajn
-i implemen-
-tacĳa testova
-
-izvršavanje
-testova
-
-Izlazni kriterĳumi (eng. exit criteria) određuju da li je
-testiranje kompletirano i da li je aplikacĳa spremna za
-korišćenje u skladu sa korisničkim zahtevima. Da bi se
-odredilo da li su izlazni kriterĳumi ispunjeni, potrebno
-je uzeti u obzir rezultate testiranja date kroz sažeti
-izveštaj testiranja (eng. test summary report), rezultate
-izračunavanja raznih metrika i izveštaj o defektima
-(eng. defect analysis report).
-
+Evaluacĳa testova (eng. test evaluation) obuhvata procenu kriterĳuma završetka testiranja i izveštavanje. Svaka izmena u kodu, čak i koja podrazumeva popravljanje grešaka, može da dovede do novih grešaka. Iz tog razloga se, za različite oblasti testiranja, definiše kriterĳum završetka testiranja u odnosu na rezultate izvršavanja testova, procenta nerešenih bagova ili preostalog vremena za testiranje. Proces evaluacĳa uključuje i pregled rezultata dobĳenih analizom izlaza test slučajeva.
+planiranje testiranja
+analiza, dizajn i implementacĳa testova
+izvršavanje testova
+Izlazni kriterĳumi (eng. exit criteria) određuju da li je testiranje kompletirano i da li je aplikacĳa spremna za korišćenje u skladu sa korisničkim zahtevima. Da bi se odredilo da li su izlazni kriterĳumi ispunjeni, potrebno je uzeti u obzir rezultate testiranja date kroz sažeti izveštaj testiranja (eng. test summary report), rezultate izračunavanja raznih metrika i izveštaj o defektima (eng. defect analysis report).
 evaluacĳa testova
-
-zatvaranje
-testiranja
-
-Primer 4.1.4 (Aplikacĳa za elektronsko bankarstvo —
-nastavak primera 4.1.3) Primer izlaznih kriterĳuma
-za elektronsko bankarstvo dat je u nastavku.
-
-1. Pokrivenost testovima: 95% definisanih funkcio-
-nalnih i nefunkcionalnih zahteva mora biti po-
+zatvaranje testiranja
+Primer 4.1.4 (Aplikacĳa za elektronsko bankarstvo — nastavak primera 4.1.3) Primer izlaznih kriterĳuma za elektronsko bankarstvo dat je u nastavku.
+1. Pokrivenost testovima: 95% definisanih funkcionalnih i nefunkcionalnih zahteva mora biti po-

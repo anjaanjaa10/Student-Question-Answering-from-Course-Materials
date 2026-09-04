@@ -1,57 +1,13 @@
 potrebno:
-
-▶Održavati poverljivost — podaci korisnika
-
-mo-
-raju biti maksimalno zaštićeni. Na primer, uko-
-liko korisnik može da pristupi svojoj mobilnoj
-banci i pregleda stanje na računu — niko drugi
-ne sme videti ove informacĳe. To uključuje da
-pristup aplikacĳi mora biti zaštićen lozinkom,
-PIN-om ili biometrĳom (otisak prsta, prepozna-
-vanje lica), podaci moraju biti šifrovani tokom
-prenosa i skladištenja, a sama aplikacĳa ne sme
-dozvoliti snimanje ekrana kako bi se sprečilo
-curenje podataka.
-
+-Održavati poverljivost — podaci korisnika
+moraju biti maksimalno zaštićeni. Na primer, ukoliko korisnik može da pristupi svojoj mobilnoj banci i pregleda stanje na računu — niko drugi ne sme videti ove informacĳe. To uključuje da pristup aplikacĳi mora biti zaštićen lozinkom, PIN-om ili biometrĳom (otisak prsta, prepoznavanje lica), podaci moraju biti šifrovani tokom prenosa i skladištenja, a sama aplikacĳa ne sme dozvoliti snimanje ekrana kako bi se sprečilo curenje podataka.
 sigurnost
-
 poverljivost
-
 integritet
-
 odgovornost
-
-▶Garantovati integritet — transakcĳe ne smeju
-biti neovlašćeno menjane. Na primer, ukoliko
-korisnik izvrši uplatu putem aplikacĳe, transak-
-cĳa mora biti tačna i niko ne sme neovlašćeno
-izmeniti iznos uplate. Banka mora da šifruje
-podatke tokom prenosa, svaka transakcĳa mora
-da ima digitalni potpis koji potvrđuje da nĳe
-menjana, a sistem mora da može da detektuje
-bilo kakve neovlašćene izmene podataka i da ih
-pritom odmah blokira.
-
+-Garantovati integritet — transakcĳe ne smeju biti neovlašćeno menjane. Na primer, ukoliko korisnik izvrši uplatu putem aplikacĳe, transakcĳa mora biti tačna i niko ne sme neovlašćeno izmeniti iznos uplate. Banka mora da šifruje podatke tokom prenosa, svaka transakcĳa mora da ima digitalni potpis koji potvrđuje da nĳe menjana, a sistem mora da može da detektuje bilo kakve neovlašćene izmene podataka i da ih pritom odmah blokira.
 autentifikabilnost
-
 neporecivost
-
-▶Obezbediti odgovornost — sve aktivnosti se
-beleže i mogu se proveriti. Na primer, ukoliko se
-korisnik žali da neko neovlašćeno koristi njegov
-račun – banka mora biti u stanju da proveri ko
-je koristio aplikacĳu i kada.
-
-▶Osigurati autentifikabilnost — samo pravi kori-
-snik može pristupiti svom računu. Banka mora
-biti sigurna da se korisnik koji pokušava da se
-prĳavi u aplikacĳu zaista identifikuje kao pravi
-vlasnik računa. Ovo se može ostvariti korišće-
-njem višefaktorske autentifikacĳe koja uključuje
-na primer lozinku, biometrĳu i jednokratne ko-
-dove. Dodatno, prĳava preko novog uređaja
-treba da zahteva dodatnu verifikacĳu putem
-elektronske pošte ili telefonskog poziva.
-
-▶Omogućiti neporecivost — korisnik ne može
+-Obezbediti odgovornost — sve aktivnosti se beleže i mogu se proveriti. Na primer, ukoliko se korisnik žali da neko neovlašćeno koristi njegov račun – banka mora biti u stanju da proveri ko je koristio aplikacĳu i kada.
+-Osigurati autentifikabilnost — samo pravi korisnik može pristupiti svom računu. Banka mora biti sigurna da se korisnik koji pokušava da se prĳavi u aplikacĳu zaista identifikuje kao pravi vlasnik računa. Ovo se može ostvariti korišćenjem višefaktorske autentifikacĳe koja uključuje na primer lozinku, biometrĳu i jednokratne kodove. Dodatno, prĳava preko novog uređaja treba da zahteva dodatnu verifikacĳu putem elektronske pošte ili telefonskog poziva.
+-Omogućiti neporecivost — korisnik ne može

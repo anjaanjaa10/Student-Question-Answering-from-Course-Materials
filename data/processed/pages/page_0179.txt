@@ -1,54 +1,20 @@
 Mašinski kôd
-
-0110001010
-1010110101
-0110101011
-
+0110001010 1010110101 0110101011
 Disasembliranje
-
 Međukod
-
 Originalni međukôd
-
 Optimizacĳa 1
-
-Redundantan originalni
-međukôd, podizrazi...
-
-Dodatni međukôd
-Mrtav međukôd,
-izrazi koji se
-mogu izračunati
-pre izvršavanja
-
+Redundantan originalni međukôd, podizrazi...
+Dodatni međukôd Mrtav međukôd, izrazi koji se mogu izračunati pre izvršavanja
 Instrumentacĳa
-
 Optimizacĳa 2
-
 Izgradnja grafa
-
-Instrukcĳe,
-virtuelni registri
-
-Instrukcĳe,
-izabrani registri
-
+Instrukcĳe, virtuelni registri
+Instrukcĳe, izabrani registri
 Odabir instrukcĳa
-
-Virtuelni
-registri
-
+Virtuelni registri
 Alokacĳa registara
-
 Registri
-
 Asembliranje
-
-0111000101
-0010101010
-1101010101
-0101110010
-1110100010
-
-Slika 6.1: Faze transformacĳe koda koje su neophodne radi instrumentacĳe koda u fazi izvršavanja
-(platforma Valgrind)
+0111000101 0010101010 1101010101 0101110010 1110100010
+Slika 6.1: Faze transformacĳe koda koje su neophodne radi instrumentacĳe koda u fazi izvršavanja (platforma Valgrind)

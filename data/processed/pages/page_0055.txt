@@ -1,63 +1,7 @@
-ku verifikacĳu softvera. Dinamička verifikacĳa softvera
-podrazumeva ispitivanje ispravnosti softvera u toku
-njegovog izvršavanja. Statička verifikacĳa softvera pod-
-razumeva ispitivanje ispravnosti softvera bez njegovog
-izvršavanja, odnosno analizu izvornog koda.
-
-Dinamička verifikacĳa softvera.
-Najčešći vid dina-
-mičke verifikacĳe softvera je testiranje. Testiranje je iz-
-vršavanje programa sa ciljem da se pronađe što više
-mogućih defekata ili da se stekne dovoljno poverenja
-u sistem koji se testira. Pravilnim i sistematičnim te-
-stiranjem podižemo nivo pouzdanosti i smanjujemo
-verovatnoću da greške promaknu. Obim testiranja i
-aktivnosti koje su vezane za testiranje zavise od me-
-todologĳe razvoja softvera i prilagođavaju se svakom
-konkretnom projektu. Moderni pristupi razvoju softve-
-ra podrazumevaju da je testiranje prisutno u svakoj
-fazi razvoja softvera. U okviru dinamičke verifikacĳe
-softvera, koriste se i alati za debagovanje kao i razne
-vrste profajlera.
-
-Napomena: Testiranje se če-
-sto koristi i kao sinonim za
-verifikacĳu i kao sinonim
-za validacĳu softvera. Testi-
-ranje se često koristi i kao
-sinonim za brigu o kvalitetu
-softvera. Međutim, testiranje
-je ipak samo važan deo veri-
-fikacĳe softvera, važan deo
-validacĳe softvera, a verifika-
-cĳa i validacĳa su važan deo
-brige o kvalitetu softvera.
-
-Statička verifikacĳa softvera.
-Postoje različite vrste
-statičke verifikacĳe:
-
-Metode mašinskog učenja
-mogu da se koriste za pred-
-viđanje grešaka u softveru.
-Jedan takav primer se može
-videti u master radu Nikole
-Vidiča:
-Primena mašinskog učenja u
-verifikacĳi softvera
-
-▶Provere i pregledi koda koje rade ljudi
-▶Formalne metode verifikacĳe softvera — uslo-
-vi ispravnosti softvera iskazuju se u terminima
-matematičkih tvrđenja na striktno definisanom
-formalnom jeziku izabrane matematičke teorĳe.
-
-Ručne provere i pregledi koda su veoma važni i svakod-
-nevno se primenjuju u okviru procesa razvoja softvera.
-Formalne metode se sve više koriste na najrazličitĳe
-načine. Važno mesto u oblasti formalnih metoda zauzi-
-ma formalna semantika programskih jezika. Formalna
-semantika programskog jezika koristi matematičke mo-
-dele i formalne tehnike za precizno definisanje značenja
-programa. Cilj formalne semantike je da na rigorozan
-način opiše kako se izvršavaju naredbe u programskom
+ku verifikacĳu softvera. Dinamička verifikacĳa softvera podrazumeva ispitivanje ispravnosti softvera u toku njegovog izvršavanja. Statička verifikacĳa softvera podrazumeva ispitivanje ispravnosti softvera bez njegovog izvršavanja, odnosno analizu izvornog koda.
+Dinamička verifikacĳa softvera. Najčešći vid dinamičke verifikacĳe softvera je testiranje. Testiranje je izvršavanje programa sa ciljem da se pronađe što više mogućih defekata ili da se stekne dovoljno poverenja u sistem koji se testira. Pravilnim i sistematičnim testiranjem podižemo nivo pouzdanosti i smanjujemo verovatnoću da greške promaknu. Obim testiranja i aktivnosti koje su vezane za testiranje zavise od metodologĳe razvoja softvera i prilagođavaju se svakom konkretnom projektu. Moderni pristupi razvoju softvera podrazumevaju da je testiranje prisutno u svakoj fazi razvoja softvera. U okviru dinamičke verifikacĳe softvera, koriste se i alati za debagovanje kao i razne vrste profajlera.
+Napomena: Testiranje se često koristi i kao sinonim za verifikacĳu i kao sinonim za validacĳu softvera. Testiranje se često koristi i kao sinonim za brigu o kvalitetu softvera. Međutim, testiranje je ipak samo važan deo verifikacĳe softvera, važan deo validacĳe softvera, a verifikacĳa i validacĳa su važan deo brige o kvalitetu softvera.
+Statička verifikacĳa softvera. Postoje različite vrste statičke verifikacĳe:
+Metode mašinskog učenja mogu da se koriste za predviđanje grešaka u softveru. Jedan takav primer se može videti u master radu Nikole Vidiča: Primena mašinskog učenja u verifikacĳi softvera
+-Provere i pregledi koda koje rade ljudi -Formalne metode verifikacĳe softvera — uslovi ispravnosti softvera iskazuju se u terminima matematičkih tvrđenja na striktno definisanom formalnom jeziku izabrane matematičke teorĳe.
+Ručne provere i pregledi koda su veoma važni i svakodnevno se primenjuju u okviru procesa razvoja softvera. Formalne metode se sve više koriste na najrazličitĳe načine. Važno mesto u oblasti formalnih metoda zauzima formalna semantika programskih jezika. Formalna semantika programskog jezika koristi matematičke modele i formalne tehnike za precizno definisanje značenja programa. Cilj formalne semantike je da na rigorozan način opiše kako se izvršavaju naredbe u programskom

@@ -1,36 +1,4 @@
-putem standardnog razvojnog okruženja. Koristi se
-kao samostalna aplikacĳa, često iz komandne linĳe, i
-zahteva viši nivo tehničkog znanja.
-
-Primer 5.3.4 (Debageri za programski jezik Java) Za
-programski jezik Java dostupan je debager jdb koji
-je deo standardne Java distribucĳe. Debager jdb se
-može koristiti iz komandne linĳe na sličan način
-kao i gdb, omogućavajući interaktivno debagovanje
-(postavljanje tačaka prekida, koračanje kroz kôd i
-ispitivanje vrednosti promenljivih). Takođe, može
-se integrisati u razvojna okruženja poput Eclipse i
-IntelliJ IDEA, što omogućava grafički interfejs i lakšu
-upotrebu. Iako je jdb namenski alat za Javu, moguće
-je koristiti za Javu i druge debagere u kombinacĳi
-sa specifičnim podešavanjima i prevodiocima koji
-generišu izvršivi kôd. Na primer, debager gdb može
-da se koristi u kombinacĳi sa kompajlerom Native
-Image koji je sastavni deo kompajlerske infrastrukture
-GraalVM.
-
-Primer 5.3.5 (Debageri za programski jezik Python)
-Za skript jezike takođe postoje odgovarajući debageri.
-Na primer, programski jezik Python ima standardni
-modul pdb, koji omogućava interaktivno debagova-
-nje direktno iz terminala ili integracĳu u razvojne
-alate. Modul pdb podržava osnovne debagerske funk-
-cĳe: postavljanje tačaka prekida, koračanje kroz kôd i
-inspekcĳu stanja programa.
-
-Primer 5.3.6 (Debageri za programski jezik Go) Stan-
-dardno okruženje za razvoj u jeziku Go ne dolazi sa
-ugrađenim interaktivnim debagerom. Programi napi-
-sani u programskom jeziku Go mogu se debagovati
-debagerom gdb, ali uz ograničene mogućnosti zbog
-modela konkurentnosti koji jezik Go koristi. Najzna-
+putem standardnog razvojnog okruženja. Koristi se kao samostalna aplikacĳa, često iz komandne linĳe, i zahteva viši nivo tehničkog znanja.
+Primer 5.3.4 (Debageri za programski jezik Java) Za programski jezik Java dostupan je debager jdb koji je deo standardne Java distribucĳe. Debager jdb se može koristiti iz komandne linĳe na sličan način kao i gdb, omogućavajući interaktivno debagovanje (postavljanje tačaka prekida, koračanje kroz kôd i ispitivanje vrednosti promenljivih). Takođe, može se integrisati u razvojna okruženja poput Eclipse i IntelliJ IDEA, što omogućava grafički interfejs i lakšu upotrebu. Iako je jdb namenski alat za Javu, moguće je koristiti za Javu i druge debagere u kombinacĳi sa specifičnim podešavanjima i prevodiocima koji generišu izvršivi kôd. Na primer, debager gdb može da se koristi u kombinacĳi sa kompajlerom Native Image koji je sastavni deo kompajlerske infrastrukture GraalVM.
+Primer 5.3.5 (Debageri za programski jezik Python) Za skript jezike takođe postoje odgovarajući debageri. Na primer, programski jezik Python ima standardni modul pdb, koji omogućava interaktivno debagovanje direktno iz terminala ili integracĳu u razvojne alate. Modul pdb podržava osnovne debagerske funkcĳe: postavljanje tačaka prekida, koračanje kroz kôd i inspekcĳu stanja programa.
+Primer 5.3.6 (Debageri za programski jezik Go) Standardno okruženje za razvoj u jeziku Go ne dolazi sa ugrađenim interaktivnim debagerom. Programi napisani u programskom jeziku Go mogu se debagovati debagerom gdb, ali uz ograničene mogućnosti zbog modela konkurentnosti koji jezik Go koristi. Najzna-

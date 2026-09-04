@@ -1,51 +1,12 @@
-Testovima kompatibilnosti proverava se način na koji
-sistem komunicira sa spoljnim komponentama
-i sistemima. Ovaj vid testiranja uključuje ispiti-
-vanje koegzistencĳe (mogućnosti rada zajedno
-sa drugim softverima na istom sistemu) i inter-
-operabilnosti (sposobnosti razmene podataka i
-funkcionalne saradnje sa drugim sistemima). Ci-
-lj je da se osigura da sistem može uspešno da
-funkcioniše u širem okruženju bez konflikata ili
-nekompatibilnosti.
-
-sistemsko
-testiranje
-
-Primer 4.2.5 (Aplikacĳa za elektronsko bankar-
-stvo — nastavak primera 4.2.4) Aplikacĳa mora
-da se izvršava stabilno i kada se istovremeno
-izvršavaju druge aplikacĳe.
-
-nefunkcionalno
-testiranje
-
-Naziv test slučaja: TC-K009 — Koegzistencĳa
-sa antivirusom, VPN klĳentom i upravljanjem
-lozinkama.
-
+Testovima kompatibilnosti proverava se način na koji sistem komunicira sa spoljnim komponentama i sistemima. Ovaj vid testiranja uključuje ispitivanje koegzistencĳe (mogućnosti rada zajedno sa drugim softverima na istom sistemu) i interoperabilnosti (sposobnosti razmene podataka i funkcionalne saradnje sa drugim sistemima). Cilj je da se osigura da sistem može uspešno da funkcioniše u širem okruženju bez konflikata ili nekompatibilnosti.
+sistemsko testiranje
+Primer 4.2.5 (Aplikacĳa za elektronsko bankarstvo — nastavak primera 4.2.4) Aplikacĳa mora da se izvršava stabilno i kada se istovremeno izvršavaju druge aplikacĳe.
+nefunkcionalno testiranje
+Naziv test slučaja: TC-K009 — Koegzistencĳa sa antivirusom, VPN klĳentom i upravljanjem lozinkama.
 kompatibilnost
-
-Opis: Proveriti da li elektronska bankarska apli-
-kacĳa može da funkcioniše ispravno kada se
-izvršava paralelno sa drugim softverom instali-
-ranim na korisnikovom uređaju, bez međusob-
-nog negativnog uticaja.
-
-Scenario: Korisnik koristi elektronsku bankar-
-sku aplikacĳu dok su istovremeno aktivni drugi
-programi koji zahtevaju mrežnu komunikaci-
-ju i bezbednosne resurse, kao što su antivirus
-softver, VPN klĳent i aplikacĳe za upravljanje
-lozinkama.
-
+Opis: Proveriti da li elektronska bankarska aplikacĳa može da funkcioniše ispravno kada se izvršava paralelno sa drugim softverom instaliranim na korisnikovom uređaju, bez međusobnog negativnog uticaja.
+Scenario: Korisnik koristi elektronsku bankarsku aplikacĳu dok su istovremeno aktivni drugi programi koji zahtevaju mrežnu komunikaciju i bezbednosne resurse, kao što su antivirus softver, VPN klĳent i aplikacĳe za upravljanje lozinkama.
 Okruženje testa:
-
-▶OS: Windows 11
-▶Aktivni softveri:
-
-• Antivirus: Kaspersky Internet Security
-• VPN: Cisco VPN
-• Password manager: Bitwarden
-
-▶Aplikacĳa pokrenuta u pregledaču Chrome
+-OS: Windows 11 -Aktivni softveri:
+• Antivirus: Kaspersky Internet Security • VPN: Cisco VPN • Password manager: Bitwarden
+-Aplikacĳa pokrenuta u pregledaču Chrome

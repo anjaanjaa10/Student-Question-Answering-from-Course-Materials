@@ -1,50 +1,14 @@
-▶Verifikacĳa softvera može da bude dinamička i
-statička.
-
-▶Dinamička verifikacĳa softvera se oslanja pre sve-
-ga na testiranje, ali testiranje ne može da garantuje
-ispravnost softvera.
-
-▶Statička verifikacĳa softvera uključuje ljudske pre-
-glede koda i formalne metode.
-
-▶Automatska statička verifikacĳa: neophodni su
-kompromisi između preciznosti i efikasnosti.
-
-▶Razvoj direktno iz specifikacĳe i formalno doka-
-zivanje ispravnosti softvera koristi se za razvoj
-kritičnih delova aplikacĳa.
-
+-Verifikacĳa softvera može da bude dinamička i statička.
+-Dinamička verifikacĳa softvera se oslanja pre svega na testiranje, ali testiranje ne može da garantuje ispravnost softvera.
+-Statička verifikacĳa softvera uključuje ljudske preglede koda i formalne metode.
+-Automatska statička verifikacĳa: neophodni su kompromisi između preciznosti i efikasnosti.
+-Razvoj direktno iz specifikacĳe i formalno dokazivanje ispravnosti softvera koristi se za razvoj kritičnih delova aplikacĳa.
 Literatura
-
-[1]
-Paul Ammann i Jeff Offutt. Introduction to Softwa-
-re Testing. Cambridge University Press, 2017. doi:
-
+[1] Paul Ammann i Jeff Offutt. Introduction to Software Testing. Cambridge University Press, 2017. doi:
 10.1017/9781316771273.
-
-[2]
-Antonia Bertolino. Software Testing Research: Ac-
-hievements, Challenges, Dreams. 2007., str. 85–103.
-doi: 10.1109/FOSE.2007.25.
-
-[3]
-Edmund M. Clarke, Orna Grumberg i Doron A.
-Peled. Model Checking. MIT Press, 1999. isbn:
-9780262032704.
-
-[4]
-Glenford J. Myers, Corey Sandler i Tom Badgett.
-The Art of Software Testing. 3. izdanje. Wiley, 2011.
-isbn: 9781118031964.
-
-[5]
-Doron Peled. Software Reliability Methods. Sprin-
-ger, 2001. doi: 10.1007/978-1-4757-3540-6.
-
+[2] Antonia Bertolino. Software Testing Research: Achievements, Challenges, Dreams. 2007., str. 85–103. doi: 10.1109/FOSE.2007.25.
+[3] Edmund M. Clarke, Orna Grumberg i Doron A. Peled. Model Checking. MIT Press, 1999. isbn: 9780262032704.
+[4] Glenford J. Myers, Corey Sandler i Tom Badgett. The Art of Software Testing. 3. izdanje. Wiley, 2011. isbn: 9781118031964.
+[5] Doron Peled. Software Reliability Methods. Springer, 2001. doi: 10.1007/978-1-4757-3540-6.
 Ispitna pitanja
-
-8. Odnos verifikacĳe i validacĳe softvera. Primeri.
-9. Tehnike verifikacĳe softvera. Osnovna podela. Mo-
-gućnosti dinamičkog i statičkog pristupa verifika-
-cĳi softvera.
+8. Odnos verifikacĳe i validacĳe softvera. Primeri. 9. Tehnike verifikacĳe softvera. Osnovna podela. Mogućnosti dinamičkog i statičkog pristupa verifikacĳi softvera.

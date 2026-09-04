@@ -1,52 +1,6 @@
-ja se nalaze na preseku validacĳe i verifikacĳe softvera.
-Na primer, testiranjem prihvatljivosti, koje obično spro-
-vodi sam korisnik ili predstavnik korisnika, procenjuje
-se da li je softver upotrebljiv i spreman za puštanje u
-produkcĳu. Osim što uključuje funkcionalne provere,
-često podrazumeva i subjektivne ocene o korisničkom
-iskustvu i interfejsu.
-
-Slično tome, aplikacĳe u realnom vremenu i interaktiv-
-ne aplikacĳe, poput video igara, sistema za virtuelnu
-realnost ili specĳalizovanih simulacĳa, zahtevaju manu-
-elnu evaluacĳu ponašanja sistema tokom neposredne
-upotrebe. U takvim slučajevima, subjektivno korisnič-
-ko iskustvo ima ključnu ulogu u oceni ispravnosti i
-kvaliteta softvera.
-
-U kontekstu validacĳe softvera, provera korisničkog in-
-terfejsa često zahteva manuelni pristup. Vizuelni aspek-
-ti kao što su poravnanje elemenata, čitljivost i jasnoća
-poruka najbolje se procenjuju ljudskim okom. Automa-
-tizovani alati mogu potvrditi prisustvo odgovarajućih
-elemenata, ali ne i njihovu funkcionalnu ili estetsku
-vrednost. Slično, testiranja vezana za ocenu naučivosti i
-intuitivnosti korišćenja fokusiraju se na iskustvo krajnjeg
-korisnika. Ona ocenjuju koliko je softver jednostavan
-za učenje i upotrebu, što zahteva direktno posmatranje
-korisnika, analizu ponašanja i prikupljanje povratnih
-informacĳa.
-
+ja se nalaze na preseku validacĳe i verifikacĳe softvera. Na primer, testiranjem prihvatljivosti, koje obično sprovodi sam korisnik ili predstavnik korisnika, procenjuje se da li je softver upotrebljiv i spreman za puštanje u produkcĳu. Osim što uključuje funkcionalne provere, često podrazumeva i subjektivne ocene o korisničkom iskustvu i interfejsu.
+Slično tome, aplikacĳe u realnom vremenu i interaktivne aplikacĳe, poput video igara, sistema za virtuelnu realnost ili specĳalizovanih simulacĳa, zahtevaju manuelnu evaluacĳu ponašanja sistema tokom neposredne upotrebe. U takvim slučajevima, subjektivno korisničko iskustvo ima ključnu ulogu u oceni ispravnosti i kvaliteta softvera.
+U kontekstu validacĳe softvera, provera korisničkog interfejsa često zahteva manuelni pristup. Vizuelni aspekti kao što su poravnanje elemenata, čitljivost i jasnoća poruka najbolje se procenjuju ljudskim okom. Automatizovani alati mogu potvrditi prisustvo odgovarajućih elemenata, ali ne i njihovu funkcionalnu ili estetsku vrednost. Slično, testiranja vezana za ocenu naučivosti i intuitivnosti korišćenja fokusiraju se na iskustvo krajnjeg korisnika. Ona ocenjuju koliko je softver jednostavan za učenje i upotrebu, što zahteva direktno posmatranje korisnika, analizu ponašanja i prikupljanje povratnih informacĳa.
 4.4.2 Automatsko izvršavanje test primera
-
-Primeri kako automatsko
-izvršavanje testova ubrzava
-razvojni ciklus, poboljšava
-kvalitet koda i osigurava
-stabilnost aplikacĳa mogu
-se videti u master radovima
-Milice Galjak:
-Automatsko testiranje mobilnih
-aplikacĳa
-i Nikole Dimića:
-Automatsko testiranje mikroser-
-visnih aplikacĳa
-
-Iako manuelno testiranje omogućava uvid u korisničko
-iskustvo i subjektivne aspekte sistema, ono je često
-podložno greškama, sporo i teško skalabilno. Zbog toga
-je automatizacĳa testiranja od ključnog značaja, naročito
-kod složenih sistema i testova koji se često ponavljaju.
-Automatizovani testovi smanjuju potrebu za ručnim
-intervencĳama, ubrzavaju razvoj i unapređuju kvalitet
-softverskog proizvoda.
+Primeri kako automatsko izvršavanje testova ubrzava razvojni ciklus, poboljšava kvalitet koda i osigurava stabilnost aplikacĳa mogu se videti u master radovima Milice Galjak: Automatsko testiranje mobilnih aplikacĳa i Nikole Dimića: Automatsko testiranje mikroservisnih aplikacĳa
+Iako manuelno testiranje omogućava uvid u korisničko iskustvo i subjektivne aspekte sistema, ono je često podložno greškama, sporo i teško skalabilno. Zbog toga je automatizacĳa testiranja od ključnog značaja, naročito kod složenih sistema i testova koji se često ponavljaju. Automatizovani testovi smanjuju potrebu za ručnim intervencĳama, ubrzavaju razvoj i unapređuju kvalitet softverskog proizvoda.

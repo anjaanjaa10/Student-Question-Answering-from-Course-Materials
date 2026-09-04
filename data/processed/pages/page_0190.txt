@@ -1,0 +1,25 @@
+A
+𝐴65
+50 15
+B C
+𝐵50 𝐶15
+12 13
+48
+38
+D
+17
+𝐷25
+10
+2
+E
+15
+𝐸48
+F
+𝐹17
+(a) Profili blokova su upisani uz oznaku bloka (npr. blok A je izvršen 65 puta)
+(b) Profili grana su su označeni uz svaku granu (npr. grana A-B je izvršena 50 puta)
+Slika 6.3: Profili dobĳeni profajliranjem blokova (levo) i profajliranjem grana (desno)
+se dobiti i podaci koji se dobĳaju profajliranjem blokova. Broj izvršavanja svakog bloka može se izračunati pomoću brojača grana tako što se sumiraju sve grane koje ulaze u blok. Primer profila grana dat je na slici 6.3b.
+Naivni algoritam profajliranja grana podrazumeva da se za svaku naredbu skoka umeće po jedan brojač. Međutim, takvo rešenje previše opterećuje program. Profajliranje grana, ukoliko se instrumentacĳa radi u fazi kompilacĳe, može da se implementira značajno efikasnije. Rešenje koje podrazumeva minimalni broj umetnutih brojača predložio je Donald Knut (eng. Donald Knuth). Osnovni koraci Knutovog algoritma profajliranja grana su:
+Podsetnik Razapinjuće stablo je podskup grafa G koji sadrži sve čvorove pokrivene sa minimalnim mogućim brojem grana. Razapinjuće stablo ne sadrži cikluse i ne može biti nepovezano. Po definicĳi, svaki povezan neusmeren graf G ima najmanje jedno razapinjuće stablo. Broj grana u razapinjućem stablu je 𝑣−1, gde je 𝑣broj čvorova grafa.
+1. Konstruisati graf kontrole toka (eng. control flow graph) programa, u kojem svaki čvor predstavlja blok instrukcĳa, a grana naredbu skoka ili grananja.

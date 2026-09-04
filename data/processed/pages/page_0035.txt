@@ -1,43 +1,8 @@
-Aplikacĳa treba da bude jednostavna za instalacĳu na
-različitim uređajima. Na mobilnim uređajima, korisni-
-ci treba da mogu da preuzmu aplikacĳu sa App Store-a
-ili Google Play-a uz nekoliko klikova ili komandi. Za
-desktop verzĳu, aplikacĳa treba da bude dostupna za
-platforme Windows, Linux i macOS u vidu jednostav-
-nih instalacĳa koje se pokreću sa par klikova. Za veb
-verzĳe, aplikacĳa mora da omogući jednostavno kori-
-šćenje u pretraživaču bez potrebe za preuzimanjem
-ili instalacĳom.
-
-Prilikom ažuriranja aplikacĳe, potrebno je omogući-
-ti laku zamenljivost starĳe verzĳe novom verzĳom.
-Zamenljivost znači da aplikacĳa omogućava da no-
-va verzĳa može zameniti staru verzĳu bez gubitka
-podataka, kao što su starĳa putovanja, preferencĳe
-korisnika ili istorĳa pretrage. Takođe, zamenljivost
-podrazumeva lako uklanjanje prethodne verzĳe apli-
-kacĳe prilikom instalacĳe nove. U slučaju da korisnik
-želi da pređe na konkurentsku aplikacĳu, zamenlji-
-vost podrazumeva da će podaci kao što su rezervacĳe
-ili istorĳa pretrage biti prenosivi ili lako eksportovani
-u druge formate.
-
+Aplikacĳa treba da bude jednostavna za instalacĳu na različitim uređajima. Na mobilnim uređajima, korisnici treba da mogu da preuzmu aplikacĳu sa App Store-a ili Google Play-a uz nekoliko klikova ili komandi. Za desktop verzĳu, aplikacĳa treba da bude dostupna za platforme Windows, Linux i macOS u vidu jednostavnih instalacĳa koje se pokreću sa par klikova. Za veb verzĳe, aplikacĳa mora da omogući jednostavno korišćenje u pretraživaču bez potrebe za preuzimanjem ili instalacĳom.
+Prilikom ažuriranja aplikacĳe, potrebno je omogućiti laku zamenljivost starĳe verzĳe novom verzĳom. Zamenljivost znači da aplikacĳa omogućava da nova verzĳa može zameniti staru verzĳu bez gubitka podataka, kao što su starĳa putovanja, preferencĳe korisnika ili istorĳa pretrage. Takođe, zamenljivost podrazumeva lako uklanjanje prethodne verzĳe aplikacĳe prilikom instalacĳe nove. U slučaju da korisnik želi da pređe na konkurentsku aplikacĳu, zamenljivost podrazumeva da će podaci kao što su rezervacĳe ili istorĳa pretrage biti prenosivi ili lako eksportovani u druge formate.
 Rezime
-
-▶Cilj upravljanja kvalitetom je da se ispune zahtevi
-korisnika, optimizuju poslovni procesi i smanji
-broj grešaka ili defekata.
-
-▶Osnovni procesi koji su vezani za kvalitet softvera
-uključuju planiranje, obezbeđivanje, kontrolu i
-poboljšanje kvaliteta softvera.
-
-▶Serĳa standarda ISO/IEC 25000 sadrži okvir za
-procenu kvaliteta softvera.
-
-▶U zavisnosti od svrhe i ciljeva softvera, svaki atri-
-but kvaliteta softvera može imati različit nivo
-važnosti.
-
-▶Osnovni atributi kvaliteta softvera su funkcional-
-na podobnost, performantnost, kompatibilnost,
+-Cilj upravljanja kvalitetom je da se ispune zahtevi korisnika, optimizuju poslovni procesi i smanji broj grešaka ili defekata.
+-Osnovni procesi koji su vezani za kvalitet softvera uključuju planiranje, obezbeđivanje, kontrolu i poboljšanje kvaliteta softvera.
+-Serĳa standarda ISO/IEC 25000 sadrži okvir za procenu kvaliteta softvera.
+-U zavisnosti od svrhe i ciljeva softvera, svaki atribut kvaliteta softvera može imati različit nivo važnosti.
+-Osnovni atributi kvaliteta softvera su funkcionalna podobnost, performantnost, kompatibilnost,

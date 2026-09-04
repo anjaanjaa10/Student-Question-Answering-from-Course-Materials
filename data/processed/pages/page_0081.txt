@@ -1,46 +1,10 @@
-Integracioni testovi otkrivaju razne vrste problema,
-uključujući:
-
-▶nekompatibilnost podataka pri razmeni između
-modula,
-
-▶neusklađene formate, tipove ili protokole komu-
-nikacĳe,
-
-▶pogrešno tumačenje interfejsa ili očekivanih vred-
-nosti,
-
-▶greške u redosledu izvršavanja aktivnosti.
-
-Ove testove obično sprovode testeri, iako je u praksi
-česta saradnja sa programerima, naročito u složenim
-sistemima. Dobra praksa je da se integraciono testiranje
-sprovodi inkrementalno — kako se nove komponente ra-
-zvĳaju i dodaju sistemu, tako se istovremeno proverava
-njihova integracĳa.
-
+Integracioni testovi otkrivaju razne vrste problema, uključujući:
+-nekompatibilnost podataka pri razmeni između modula,
+-neusklađene formate, tipove ili protokole komunikacĳe,
+-pogrešno tumačenje interfejsa ili očekivanih vrednosti,
+-greške u redosledu izvršavanja aktivnosti.
+Ove testove obično sprovode testeri, iako je u praksi česta saradnja sa programerima, naročito u složenim sistemima. Dobra praksa je da se integraciono testiranje sprovodi inkrementalno — kako se nove komponente razvĳaju i dodaju sistemu, tako se istovremeno proverava njihova integracĳa.
 Integraciono
-
 testiranje
-
-Primer 4.2.2 (Realni brojevi) Dve softverske kompo-
-nente, Aproksimacĳa i Optimizacĳa, vrše računanja sa
-realnim brojevima. Međutim, zbog nedovoljno pre-
-cizne specifikacĳe, jedna komponenta koristi realne
-brojeve jednostruke tačnosti (float), dok druga koristi
-realne brojeve dvostruke tačnosti (double). Iako sva-
-ka od komponenti zasebno funkcioniše ispravno u
-okviru svojih testova, njihova integracĳa dovodi do
-neočekivanih odstupanja u rezultatima. Na primer,
-vrednost double d = 1234567.89; kada se prebaci u
-float postaje 1234567.875 što doprinosi nepreciznosti
-izračunavanja.
-
-Upravo kroz integraciono testiranje, takva neusklađe-
-nost u tipovima podataka treba da se otkrĳe. Testovi bi
-trebalo da obuhvate međusobnu razmenu podataka
-između komponenti i da provere konzistentnost vred-
-nosti, preciznost proračuna i stabilnost u radu. Kada
-se ovakva greška otkrĳe, neophodno je uskladiti po-
-datkovne tipove kako bi se osigurala kompatibilnost
-komponenti i sprečile greške u računanju.
+Primer 4.2.2 (Realni brojevi) Dve softverske komponente, Aproksimacĳa i Optimizacĳa, vrše računanja sa realnim brojevima. Međutim, zbog nedovoljno precizne specifikacĳe, jedna komponenta koristi realne brojeve jednostruke tačnosti (float), dok druga koristi realne brojeve dvostruke tačnosti (double). Iako svaka od komponenti zasebno funkcioniše ispravno u okviru svojih testova, njihova integracĳa dovodi do neočekivanih odstupanja u rezultatima. Na primer, vrednost double d = 1234567.89; kada se prebaci u float postaje 1234567.875 što doprinosi nepreciznosti izračunavanja.
+Upravo kroz integraciono testiranje, takva neusklađenost u tipovima podataka treba da se otkrĳe. Testovi bi trebalo da obuhvate međusobnu razmenu podataka između komponenti i da provere konzistentnost vrednosti, preciznost proračuna i stabilnost u radu. Kada se ovakva greška otkrĳe, neophodno je uskladiti podatkovne tipove kako bi se osigurala kompatibilnost komponenti i sprečile greške u računanju.

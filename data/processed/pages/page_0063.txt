@@ -1,60 +1,7 @@
-to slučaj u tradicionalnim pristupima razvoju softvera),
-ono se integriše u svaku fazu razvoja: svaka funkcio-
-nalna celina se implementira i istovremeno proverava
-testovima, čime se omogućava brza povratna informaci-
-ja i pravovremeno otkrivanje defekata.
-
-Savremeni pristupi razvoju
-softvera obuhvataju i razvoj
-vođen ponašanjem. Razvoj
-vođen ponašanjem omoguća-
-va jasnu definicĳu poslovnih
-zahteva, poboljšava komu-
-nikacĳu između razvojnih
-i poslovnih timova i dopri-
-nosi unapređenju kvaliteta
-i pouzdanosti softverskih
-sistema. Primer razvoja vo-
-đenog ponašanjem može se
-videti u master tezi Veroni-
-ke Marinković:
-Razvoj vođen ponašanjem kroz
-primenu alata Cucumber
-
-Kako složenost softverskih sistema raste, proporcional-
-no raste i značaj testiranja. Greške koje promaknu u
-ranim fazama razvoja mogu da izazovu lančane proble-
-me, koji ne samo da komplikuju završne faze projekta,
-već u krajnjem slučaju mogu dovesti i do potpunog
-neuspeha proizvoda.
-
-Zbog toga je od suštinskog značaja da se sve greške
-otkrĳu što ranĳe u životnom ciklusu softvera. Ispravlja-
-nje grešaka u početnim fazama razvoja je znatno brže,
-jednostavnĳe i jeftinĳe u poređenju sa otklanjanjem gre-
-šaka u kasnĳim fazama. To je povezano i sa brojem ljudi
-koje je potrebno uključiti u proces ispravljanja greške,
-a koji zavisi od faze razvoja softvera u kojoj se greška
-pronađe:
-
-Faza analize zahteva. Greška zahteva revizĳu defini-
-sanih zahteva. Trošak uključuje dodatno vreme
-analitičara.
-
-Faza dizajna softvera. Ispravka greške podrazumeva
-izmenu dizajna, što zahteva dodatni rad dizajnera
-i ažuriranje opisa implementacĳe.
-
-Faza implementacĳe softvera. Greške otkrivene tokom
-kodiranja obično programer brzo ispravi. Cena
-zavisi od složenosti, ali je niža ako programer sam
-pronađe grešku. U okviru implementacĳa softve-
-ra, posebno je bitna faza integracĳe komponenti,
-koja obuhvata sklapanje različitih softverskih kom-
-ponenti u veće celine. Greške su u ovoj fazi teže
-za otkrivanje jer uključuju više različitih delova
-softverskog sistema. Ispravka zahteva saradnju vi-
-še članova tima i potencĳalno različitih razvojnih
-timova pa samim tim i više vremena za analizu
-uzroka, što utiče i na to da je ispravljanje greške
-skuplje.
+to slučaj u tradicionalnim pristupima razvoju softvera), ono se integriše u svaku fazu razvoja: svaka funkcionalna celina se implementira i istovremeno proverava testovima, čime se omogućava brza povratna informacija i pravovremeno otkrivanje defekata.
+Savremeni pristupi razvoju softvera obuhvataju i razvoj vođen ponašanjem. Razvoj vođen ponašanjem omogućava jasnu definicĳu poslovnih zahteva, poboljšava komunikacĳu između razvojnih i poslovnih timova i doprinosi unapređenju kvaliteta i pouzdanosti softverskih sistema. Primer razvoja vođenog ponašanjem može se videti u master tezi Veronike Marinković: Razvoj vođen ponašanjem kroz primenu alata Cucumber
+Kako složenost softverskih sistema raste, proporcionalno raste i značaj testiranja. Greške koje promaknu u ranim fazama razvoja mogu da izazovu lančane probleme, koji ne samo da komplikuju završne faze projekta, već u krajnjem slučaju mogu dovesti i do potpunog neuspeha proizvoda.
+Zbog toga je od suštinskog značaja da se sve greške otkrĳu što ranĳe u životnom ciklusu softvera. Ispravljanje grešaka u početnim fazama razvoja je znatno brže, jednostavnĳe i jeftinĳe u poređenju sa otklanjanjem grešaka u kasnĳim fazama. To je povezano i sa brojem ljudi koje je potrebno uključiti u proces ispravljanja greške, a koji zavisi od faze razvoja softvera u kojoj se greška pronađe:
+Faza analize zahteva. Greška zahteva revizĳu definisanih zahteva. Trošak uključuje dodatno vreme analitičara.
+Faza dizajna softvera. Ispravka greške podrazumeva izmenu dizajna, što zahteva dodatni rad dizajnera i ažuriranje opisa implementacĳe.
+Faza implementacĳe softvera. Greške otkrivene tokom kodiranja obično programer brzo ispravi. Cena zavisi od složenosti, ali je niža ako programer sam pronađe grešku. U okviru implementacĳa softvera, posebno je bitna faza integracĳe komponenti, koja obuhvata sklapanje različitih softverskih komponenti u veće celine. Greške su u ovoj fazi teže za otkrivanje jer uključuju više različitih delova softverskog sistema. Ispravka zahteva saradnju više članova tima i potencĳalno različitih razvojnih timova pa samim tim i više vremena za analizu uzroka, što utiče i na to da je ispravljanje greške skuplje.

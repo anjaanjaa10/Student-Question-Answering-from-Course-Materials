@@ -1,79 +1,34 @@
 10 (gdb) next
-
-11 5
-for (size_t i = 1; i < velicina_niza; i
-
+11 5 for (size_t i = 1; i < velicina_niza; i
 ++) {
-
 12 (gdb) info locals
-
 13 i = 140737488346839
-
 14 max = 8
-
 15 (gdb) next
-
-16 6
-int tekuci = niz[i];
-
+16 6 int tekuci = niz[i];
 17 (gdb) info locals
-
 18 tekuci = 0
-
 19 i = 1
-
 20 max = 8
-
 21 (gdb) info args
-
 22 niz = 0x7fffffffded0
-
 23 velicina_niza = 6
-
-Uslovne tačke prekida postavljaju se dodavanjem
-uslova prekida. Na primer, komandom
-
+Uslovne tačke prekida postavljaju se dodavanjem uslova prekida. Na primer, komandom
 1 break 6 if i==3
-
-prekidamo izvršavanje na linĳi 6 ukoliko je vrednost
-promenljive i jednaka 3. Slično, komandom
-
+prekidamo izvršavanje na linĳi 6 ukoliko je vrednost promenljive i jednaka 3. Slično, komandom
 1 watch max
-
-možemo da prekinemo izvršavanje svaki put kada se
-promeni vrednost promenljive max. Komandom
-
+možemo da prekinemo izvršavanje svaki put kada se promeni vrednost promenljive max. Komandom
 1 info break
-
-možemo da vidimo koje su sve prekidne tačke trenut-
-no postavljene u programu.
-
+možemo da vidimo koje su sve prekidne tačke trenutno postavljene u programu.
 1 (gdb) break 6 if i==3
-
 2 Breakpoint 2 at 0x55555555518c: file
-
 maksimum_niza.c, line 6.
-
 3 (gdb) watch max
-
 4 Hardware watchpoint 3: max
-
 5 (gdb) info break
-
-6 Num
-Type
-Disp Enb Address
-
+6 Num Type Disp Enb Address
 What
-
-7 1
-breakpoint
-keep y
-0
-
+7 1 breakpoint keep y 0
 x0000555555555169 in maksimum_niza at
-
 maksimum_niza.c:3
-
-8
-breakpoint already hit 1 time
+8 breakpoint already hit 1 time

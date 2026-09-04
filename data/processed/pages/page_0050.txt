@@ -1,47 +1,13 @@
-▶Postoji veliki broj primera softverskih grešaka
-koje su imale značajne materĳalne i nematerĳalne
-posledice.
-
-▶Materĳalni troškovi neispravnog softvera se mere
-hiljadama milĳardi dolara na godišnjem nivou.
-
-▶Troškovi neispravnog softvera u velikoj meri su
-posledica tehničkog duga, odnosno pravljenja sof-
-tvera bez adekvatnog kvaliteta.
-
+-Postoji veliki broj primera softverskih grešaka koje su imale značajne materĳalne i nematerĳalne posledice.
+-Materĳalni troškovi neispravnog softvera se mere hiljadama milĳardi dolara na godišnjem nivou.
+-Troškovi neispravnog softvera u velikoj meri su posledica tehničkog duga, odnosno pravljenja softvera bez adekvatnog kvaliteta.
 Literatura
-
-[1]
-Victor R. Basili i Barry T. Perricone. Software Errors
-and Complexity: An Empirical Investigation. U:
-Communications of the ACM 27.1 (1984.), str. 42–
-52. doi: 10.1145/69605.2085.
-
-[2]
-Albert Endres. An analysis of errors and their
-causes in system programs. U: Proceedings of the
-International Conference on Reliable Software. Los
-Angeles, California: ACM, 1975., str. 327–336. doi:
-
+[1] Victor R. Basili i Barry T. Perricone. Software Errors and Complexity: An Empirical Investigation. U: Communications of the ACM 27.1 (1984.), str. 42– 52. doi: 10.1145/69605.2085.
+[2] Albert Endres. An analysis of errors and their causes in system programs. U: Proceedings of the International Conference on Reliable Software. Los Angeles, California: ACM, 1975., str. 327–336. doi:
 10.1145/800027.808455.
-
-[3]
-Thomas J. Ostrand, Elaine J. Weyuker i Robert M.
-Bell. Predicting the Location and Number of Faults
-in Large Software Systems. U: IEEE Transactions
-on Software Engineering 31.4 (2005.), str. 340–355.
-doi: 10.1109/TSE.2005.49.
-
-[4]
-James Reason. Human Error. Cambridge Universi-
-ty Press, 1990. isbn: 9780521314190.
-
+[3] Thomas J. Ostrand, Elaine J. Weyuker i Robert M. Bell. Predicting the Location and Number of Faults in Large Software Systems. U: IEEE Transactions on Software Engineering 31.4 (2005.), str. 340–355. doi: 10.1109/TSE.2005.49.
+[4] James Reason. Human Error. Cambridge University Press, 1990. isbn: 9780521314190.
 Ispitna pitanja
-
-5. Uticaj neispravnog softvera. Primeri neprĳatnosti
-i materĳalnih gubitaka.
-
-6. Uticaj neispravnog softvera. Primeri fatalnih po-
-sledica.
-
+5. Uticaj neispravnog softvera. Primeri neprĳatnosti i materĳalnih gubitaka.
+6. Uticaj neispravnog softvera. Primeri fatalnih posledica.
 7. Troškovi usled grešaka u softveru.

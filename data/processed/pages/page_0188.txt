@@ -1,43 +1,8 @@
 Slika 6.2: Deo plamenog grafa za izvršavanje programa Game of Life u Javi
-
-Širina svake trake proporcionalna je vremenu koje je
-program proveo u tom metodu i metodama koje su iz
-njega pozvane.
-
-Plameni graf na pregledan način prikazuje veliki broj
-uzoraka i pomaže u donošenju odluka o prioritetima
-u optimizacĳi performansi. Vizuelni prikaz putanja
-poziva olakšava i otkrivanje neočekivanih redosleda
-izvršavanja ili neefikasnih rekurzivnih poziva.
-
+Širina svake trake proporcionalna je vremenu koje je program proveo u tom metodu i metodama koje su iz njega pozvane.
+Plameni graf na pregledan način prikazuje veliki broj uzoraka i pomaže u donošenju odluka o prioritetima u optimizacĳi performansi. Vizuelni prikaz putanja poziva olakšava i otkrivanje neočekivanih redosleda izvršavanja ili neefikasnih rekurzivnih poziva.
 6.2.4 Instrumentaciono profajliranje
-
-Informacĳe o pokriveno-
-sti koda se generišu nakon
-završetka rada programa.
-Međutim, specifičnosti ne-
-kih programa, poput serve-
-ra, operativnih sistema ili
-sistema za rad u realnom
-vremenu, zahtevaju uvid u
-pokrivenost i pre završetka
-rada programa. Jedno reše-
-nje za prikazivanje podataka
-o pokrivenosti koda u fazi
-izvršavanja može se videti u
-master radu Marine Nikolić:
-Prikupljanje i prikaz podataka o
-izvršavanju programa
-
-Instrumentacĳom se mogu pratiti najrazličitĳe karakte-
-ristike izvršavanja programa. Profili koji se koriste za
-određivanje delova koda koji se najčešće izvršavaju kao i
-tačni udeli učestalosti izvršavanja različitih delova koda,
-za kompajlerski zasnovane optimizacĳe i za utvrđiva-
-nje pokrivenosti koda testovima, dobĳaju se na osnovu
-sledećih vrsta profajliranja:
-
+Informacĳe o pokrivenosti koda se generišu nakon završetka rada programa. Međutim, specifičnosti nekih programa, poput servera, operativnih sistema ili sistema za rad u realnom vremenu, zahtevaju uvid u pokrivenost i pre završetka rada programa. Jedno rešenje za prikazivanje podataka o pokrivenosti koda u fazi izvršavanja može se videti u master radu Marine Nikolić: Prikupljanje i prikaz podataka o izvršavanju programa
+Instrumentacĳom se mogu pratiti najrazličitĳe karakteristike izvršavanja programa. Profili koji se koriste za određivanje delova koda koji se najčešće izvršavaju kao i tačni udeli učestalosti izvršavanja različitih delova koda, za kompajlerski zasnovane optimizacĳe i za utvrđivanje pokrivenosti koda testovima, dobĳaju se na osnovu sledećih vrsta profajliranja:
 1. profajliranje putanja,
-
-2. profajliranje grana i
-3. profajliranje blokova.
+2. profajliranje grana i 3. profajliranje blokova.

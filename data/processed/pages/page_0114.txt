@@ -1,54 +1,7 @@
-Uslovi mogu biti binarni (na primer, da/ne, istina/laž)
-ili viševrednosni (na primer, malo/srednje/veliko). Kada
-su uslovi binarni, iz svakog pravila se obično izvodi
-jedan test slučaj. Kod viševrednosnih uslova može se
-izvesti više test slučajeva, u zavisnosti od željenog nivoa
-pokrivenosti.
-
-U slučajevima kada više pravila dovode do iste akcĳe,
-bez obzira na vrednost nekog uslova, moguće je izvršiti
-objedinjavanje pravila (eng. table collapsing). U takvim
-slučajevima, uslov koji ne utiče na ishod označava se
-simbolom „—” (crtica) i naziva se nebitnim (eng. don’t
-care).
-
-Test slučajevi izvedeni iz tabele odlučivanja mogu se
-dodatno kombinovati sa drugim tehnikama testiranja,
-kao što su testiranje pomoću klasa ekvivalencĳe ili te-
-stiranje graničnih vrednosti. Ova kombinacĳa povećava
-preciznost i efektivnost testiranja.
-
-Primer 4.3.10 (Bankomat) Klĳent zahteva isplatu go-
-tovine na bankomatu. Sistem treba da odluči da li će
-da odobri isplatu. Odlučivanje vrši pomoću podata-
-ka o sredstvima na računu i o dozvoljenom minusu.
-Način odlučivanja je prikazan narednom tabelom.
-
-Pravilo 1
-Pravilo 2
-Pravilo 3
-
-Uslovi
-Dovoljno sredstava na računu
-Da
-Ne
-Ne
-Dozvoljen minus
-—
-Da
-Ne
-Akcĳe
-Isplata odobrena
-Da
-Da
-Ne
-
-Prvo pravilo je dobĳeno spajanjem dva pravila: kada
-ima dovoljno sredstava na računu, nezavisno od toga
-da li je minus dozvoljen ili ne, isplata se odobrava. Iz
-drugog pravila može se izvesti test slučaj tako što se
-za ulaz uzme da korisnik nema dovoljno sredstava na
-računu i da mu je dozvoljen minus. Zatim se izlaz iz
-programa poredi sa očekivanom akcĳom, a to je da
-je isplata odobrena. Iz trećeg pravila može se izvesti
-test slučaj za koji isplata nĳe odobrena.
+Uslovi mogu biti binarni (na primer, da/ne, istina/laž) ili viševrednosni (na primer, malo/srednje/veliko). Kada su uslovi binarni, iz svakog pravila se obično izvodi jedan test slučaj. Kod viševrednosnih uslova može se izvesti više test slučajeva, u zavisnosti od željenog nivoa pokrivenosti.
+U slučajevima kada više pravila dovode do iste akcĳe, bez obzira na vrednost nekog uslova, moguće je izvršiti objedinjavanje pravila (eng. table collapsing). U takvim slučajevima, uslov koji ne utiče na ishod označava se simbolom „—” (crtica) i naziva se nebitnim (eng. don’t care).
+Test slučajevi izvedeni iz tabele odlučivanja mogu se dodatno kombinovati sa drugim tehnikama testiranja, kao što su testiranje pomoću klasa ekvivalencĳe ili testiranje graničnih vrednosti. Ova kombinacĳa povećava preciznost i efektivnost testiranja.
+Primer 4.3.10 (Bankomat) Klĳent zahteva isplatu gotovine na bankomatu. Sistem treba da odluči da li će da odobri isplatu. Odlučivanje vrši pomoću podataka o sredstvima na računu i o dozvoljenom minusu. Način odlučivanja je prikazan narednom tabelom.
+Pravilo 1 Pravilo 2 Pravilo 3
+Uslovi Dovoljno sredstava na računu Da Ne Ne Dozvoljen minus — Da Ne Akcĳe Isplata odobrena Da Da Ne
+Prvo pravilo je dobĳeno spajanjem dva pravila: kada ima dovoljno sredstava na računu, nezavisno od toga da li je minus dozvoljen ili ne, isplata se odobrava. Iz drugog pravila može se izvesti test slučaj tako što se za ulaz uzme da korisnik nema dovoljno sredstava na računu i da mu je dozvoljen minus. Zatim se izlaz iz programa poredi sa očekivanom akcĳom, a to je da je isplata odobrena. Iz trećeg pravila može se izvesti test slučaj za koji isplata nĳe odobrena.

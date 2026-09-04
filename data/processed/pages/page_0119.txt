@@ -1,83 +1,26 @@
-4
-return 0;
-
+4 return 0;
 5 }
-
-Ova funkcĳa ima dve putanje. Prva putanja nakon pro-
-vere uslova a > 0 (linĳa 2) izvršava naredbu return
-
+Ova funkcĳa ima dve putanje. Prva putanja nakon provere uslova a > 0 (linĳa 2) izvršava naredbu return
 1 (linĳa 3). Druga putanja nakon provere uslova a >
-
 0 (linĳa 2) izvršava naredbu return 0 (linĳa 3).
-
-Analogno ispitivanju svih kombinacĳa ulaza kod tehni-
-ka zasnovanih na modelu crne kutĳe, može se zahtevati
-ispitivanje svih putanja kroz program. Međutim, zbog
-eksponencĳalnog rasta broja mogućih putanja sa po-
-rastom složenosti programa, potpuno testiranje svih
-putanja je u praksi najčešće neizvodljivo.
-
-Primer 4.3.14 (Funkcĳa pozitivni — nastavak prime-
-ra 4.3.13) Posmatrajmo kôd funkcĳe koja za tri broja
-računa koliko njih je pozitivno.
-
+Analogno ispitivanju svih kombinacĳa ulaza kod tehnika zasnovanih na modelu crne kutĳe, može se zahtevati ispitivanje svih putanja kroz program. Međutim, zbog eksponencĳalnog rasta broja mogućih putanja sa porastom složenosti programa, potpuno testiranje svih putanja je u praksi najčešće neizvodljivo.
+Primer 4.3.14 (Funkcĳa pozitivni — nastavak primera 4.3.13) Posmatrajmo kôd funkcĳe koja za tri broja računa koliko njih je pozitivno.
 1 int pozitivni(int a1, int a2, int a3) {
-
-2
-int brojPozitivnih = 0;
-
-3
-if (a1 > 0)
-
-4
-brojPozitivnih++;
-
-5
-if (a2 > 0)
-
-6
-pozitivan++;
-
-7
-if (a3 > 0)
-
-8
-brojPozitivnih++;
-
-9
-return brojPozitivnih;
-
+2 int brojPozitivnih = 0;
+3 if (a1 > 0)
+4 brojPozitivnih++;
+5 if (a2 > 0)
+6 pozitivan++;
+7 if (a3 > 0)
+8 brojPozitivnih++;
+9 return brojPozitivnih;
 10 }
-
-Broj putanja kroz ovaj program je 23, jer za svaku
-od tri naredbe grananja imamo opcĳu izvršavanja
-ukoliko je uslov ispunjen i ukoliko nĳe. Konkretno, to
-su putanje koje prolaze kroz naredne linĳe koda:
-
+Broj putanja kroz ovaj program je 23, jer za svaku od tri naredbe grananja imamo opcĳu izvršavanja ukoliko je uslov ispunjen i ukoliko nĳe. Konkretno, to su putanje koje prolaze kroz naredne linĳe koda:
 1. 1, 2, 3, 4, 5, 6, 7, 8, 9
-
-2. 1, 2, 3, 4, 5, 6, 7,
-9
-
-3. 1, 2, 3, 4, 5,
-7, 8, 9
-
-4. 1, 2, 3, 4, 5,
-7,
-9
-
-5. 1, 2, 3,
-5, 6, 7, 8, 9
-
-6. 1, 2, 3,
-5, 6, 7,
-9
-
-7. 1, 2, 3,
-5,
-7, 8, 9
-
-8. 1, 2, 3,
-5,
-7,
-9
+2. 1, 2, 3, 4, 5, 6, 7, 9
+3. 1, 2, 3, 4, 5, 7, 8, 9
+4. 1, 2, 3, 4, 5, 7, 9
+5. 1, 2, 3, 5, 6, 7, 8, 9
+6. 1, 2, 3, 5, 6, 7, 9
+7. 1, 2, 3, 5, 7, 8, 9
+8. 1, 2, 3, 5, 7, 9

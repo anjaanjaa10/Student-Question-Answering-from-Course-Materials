@@ -1,55 +1,15 @@
-▶Regresiono testiranje predstavlja proces ponovnog
-izvršavanja prethodno uspešno završenih testova.
-
-▶Pokrivenost testiranjem je metrika koja pomaže
-da se proceni koliko su testovi sveobuhvatni.
-
-▶Tehnike testiranja se dele na testiranje crne kutĳe,
-testiranje bele kutĳe i testiranje sive kutĳe.
-
-▶Metamorfno testiranje je pristup testiranju pri
-postojanju problema proročišta.
-
-▶Testiranje može da bude manuelno i automatizo-
-vano.
-
+-Regresiono testiranje predstavlja proces ponovnog izvršavanja prethodno uspešno završenih testova.
+-Pokrivenost testiranjem je metrika koja pomaže da se proceni koliko su testovi sveobuhvatni.
+-Tehnike testiranja se dele na testiranje crne kutĳe, testiranje bele kutĳe i testiranje sive kutĳe.
+-Metamorfno testiranje je pristup testiranju pri postojanju problema proročišta.
+-Testiranje može da bude manuelno i automatizovano.
 Literatura
-
-[1]
-Paul Ammann i Jeff Offutt. Introduction to Softwa-
-re Testing. Cambridge University Press, 2017. doi:
-
+[1] Paul Ammann i Jeff Offutt. Introduction to Software Testing. Cambridge University Press, 2017. doi:
 10.1017/9781316771273.
-
-[2]
-Boris Beizer. Software Testing Techniques. 2. izda-
-nje. Van Nostrand Reinhold, 1990.
-
-[3]
-Robert Binder. Testing Object-Oriented Systems.
-Addison-Wesley, 1999.
-
-[4]
-Koen Claessen i John Hughes. QuickCheck: A
-Lightweight Tool for Random Testing of Haskell
-Programs. U: ACM SIGPLAN Notices 35.9 (2000.),
-str. 268–279. doi: 10.1145/357766.351266.
-
-[5]
-Gordon Fraser i Andrea Arcuri. A Large-Scale
-Evaluation of Automated Unit Test Generation
-Using EvoSuite. U: ACM Transactions on Software
-Engineering and Methodology 24.2 (2014.). doi:
-
+[2] Boris Beizer. Software Testing Techniques. 2. izdanje. Van Nostrand Reinhold, 1990.
+[3] Robert Binder. Testing Object-Oriented Systems. Addison-Wesley, 1999.
+[4] Koen Claessen i John Hughes. QuickCheck: A Lightweight Tool for Random Testing of Haskell Programs. U: ACM SIGPLAN Notices 35.9 (2000.), str. 268–279. doi: 10.1145/357766.351266.
+[5] Gordon Fraser i Andrea Arcuri. A Large-Scale Evaluation of Automated Unit Test Generation Using EvoSuite. U: ACM Transactions on Software Engineering and Methodology 24.2 (2014.). doi:
 10.1145/2685612.
-
-[6]
-Barton P. Miller, Lars Fredriksen i Bryan So. An
-Empirical Study of the Reliability of UNIX Utiliti-
-es. U: Communications of the ACM 33.12 (1990.),
-str. 32–44. doi: 10.1145/96267.96279.
-
-[7]
-Glenford J. Myers, Corey Sandler i Tom Badgett.
-The Art of Software Testing. 3. izdanje. Wiley, 2011.
-isbn: 9781118031964.
+[6] Barton P. Miller, Lars Fredriksen i Bryan So. An Empirical Study of the Reliability of UNIX Utilities. U: Communications of the ACM 33.12 (1990.), str. 32–44. doi: 10.1145/96267.96279.
+[7] Glenford J. Myers, Corey Sandler i Tom Badgett. The Art of Software Testing. 3. izdanje. Wiley, 2011. isbn: 9781118031964.

@@ -1,46 +1,9 @@
-Primer 4.3.9 (Zapošljavanje na osnovu starosti — na-
-stavak primera 4.3.8) Prilikom analize graničnih vred-
-nosti, uočava se problem u specifikacĳi sistema na
-granicama klasa ekvivalencĳe. Naime, vrednosti 16,
-18 i 55 pojavljuju se u više klasa, što dovodi do pre-
-klapanja. Na primer, jedno pravilo navodi da osobe
-stare 16 godina ne treba zaposliti, dok drugo pravilo
-ističe da se takve osobe mogu zaposliti sa pola radnog
-vremena. Ovakvo preklapanje ukazuje na grešku u
-specifikacĳi koju je neophodno ispraviti.
-
-Ispravna verzĳa tabele, koja eliminiše ova preklapanja,
-prikazana je u nastavku:
-
-Godine
-Pravilo
-
-0–15
-Ne zaposliti
-16–17
-Može se zaposliti samo sa pola
-radnog vremena
-18–54
-Može se zaposliti sa punim rad-
-nim vremenom
-55–99
-Ne zaposliti
-
-Na osnovu nje možemo da definišemo slične validne
-klase ekvivalencĳe i njihove predstavnike.
-
+Primer 4.3.9 (Zapošljavanje na osnovu starosti — nastavak primera 4.3.8) Prilikom analize graničnih vrednosti, uočava se problem u specifikacĳi sistema na granicama klasa ekvivalencĳe. Naime, vrednosti 16, 18 i 55 pojavljuju se u više klasa, što dovodi do preklapanja. Na primer, jedno pravilo navodi da osobe stare 16 godina ne treba zaposliti, dok drugo pravilo ističe da se takve osobe mogu zaposliti sa pola radnog vremena. Ovakvo preklapanje ukazuje na grešku u specifikacĳi koju je neophodno ispraviti.
+Ispravna verzĳa tabele, koja eliminiše ova preklapanja, prikazana je u nastavku:
+Godine Pravilo
+0–15 Ne zaposliti 16–17 Može se zaposliti samo sa pola radnog vremena 18–54 Može se zaposliti sa punim radnim vremenom 55–99 Ne zaposliti
+Na osnovu nje možemo da definišemo slične validne klase ekvivalencĳe i njihove predstavnike.
 Validne klase ekvivalencĳe:
-
-▶V1 — Godine u opsegu 0–15 (npr. 10)
-▶V2 — Godine u opsegu 16–17 (npr. 17)
-▶V3 — Godine u opsegu 18–54 (npr. 30)
-▶V4 — Godine u opsegu 55–99 (npr. 70)
-
-Dalje, na osnovu definisanih klasa ekvivalencĳe, mo-
-žemo definisati odgovarajuće vrednosti na granicama:
-
-▶Granica 0: {0, 1}
-▶Granica 15: {14, 15, 16}
-▶Granica 16: {15, 16, 17}
-▶Granica 17: {16, 17, 18}
-▶Granica 18: {17, 18, 19}
+-V1 — Godine u opsegu 0–15 (npr. 10) -V2 — Godine u opsegu 16–17 (npr. 17) -V3 — Godine u opsegu 18–54 (npr. 30) -V4 — Godine u opsegu 55–99 (npr. 70)
+Dalje, na osnovu definisanih klasa ekvivalencĳe, možemo definisati odgovarajuće vrednosti na granicama:
+-Granica 0: {0, 1} -Granica 15: {14, 15, 16} -Granica 16: {15, 16, 17} -Granica 17: {16, 17, 18} -Granica 18: {17, 18, 19}

@@ -1,74 +1,12 @@
-jeziku, čime se eliminiše dvosmislenost i omogućava
-proverljiva interpretacĳa. Formalna semantika pred-
-stavlja temelj za razumevanje i analiziranje značenja
-softverskog koda na precizan, matematički način.
-
+jeziku, čime se eliminiše dvosmislenost i omogućava proverljiva interpretacĳa. Formalna semantika predstavlja temelj za razumevanje i analiziranje značenja softverskog koda na precizan, matematički način.
 Upravo kroz formalnu semantiku postaje moguće:
-
-▶modelovati izvršavanje programa nezavisno od
-konkretne mašine ili kompajlera,
-
-▶dokazivati korektnost softverskih komponenti i
-▶razvĳati alate za formalnu verifikacĳu.
-
-Idealno rešenje za verifikacĳu softvera bi bio alat koji
-automatski analizira kôd i daje precizne informacĳe o
-njegovoj ispravnosti. Međutim, postoji fundamentalno
-ograničenje zbog kojeg tako nešto nĳe moguće napraviti.
-Naime, halting problem je neodlučiv.‗ Ne postoji opšti
-automatizovan način za proveravanje da li je neka nared-
-ba programa dostižna, pa sami tim ni da li je ispravna,
-odnosno da li je sam program ispravan.
-
-Slika
-3.2:
-Logo
-alata
-Rocq
-(https:
-//rocq-prover.org/)
-
-Posledica teorĳskog ograničenja je da nĳe moguće na-
-praviti program koji bi potpuno automatski u konačnom
-vremenu, koristeći konačne resurse mogao da utvrdi
-ispravnost proizvoljnog programa potpuno precizno.
-Međutim, ukoliko se odreknemo potpune preciznosti,
-možemo da napravimo program koji poptuno automat-
-ski, u konačnom vremenu, koristeći konačne resurse
-može da dâ veoma korisne informacĳe o ispravnosti
-programa, iako ne u potpunosti precizne. Preciznost
-može da bude narušena na dva načina. Alat može da
-ima
-
-Slika 3.3: Logo alata Isa-
-belle (https://isabelle.in.
-tum.de/)
-
-Rocq je interaktivni dokazi-
-vač teorema, odnosno po-
-moćnik za dokazivanje. On
-omogućava pisanje matema-
-tičkih dokaza i formalnih
-specifikacĳa, tj. pisanje pro-
-grama i dokaza da programi
-ispunjavaju svoje specifikaci-
-je.
-Rocq je ranĳe bio poznat kao
-Coq Proof Assistant. Pod tim
-imenom je 2013. godine do-
-bio ACM Software System
-Award kao i ACM SIGPLAN
-Programming Languages Softwa-
-re Award, dve najprestižnĳe
-nagrade koje softver može
-da dobĳe.
-
-▶lažna upozorenja — da prĳavljuje problem koji u
-realnom izvršavanju ne može da se desi,
-
-▶propuštene greške — da ne prĳavljuje problem
-koji u realnom izvršavanju može da se desi.
-
-‗ Alan Turing, On Computable Numbers With an Application to the
-Entscheidungsproblem, Proceedings of the London Mathematical
-Society, 1936.
+-modelovati izvršavanje programa nezavisno od konkretne mašine ili kompajlera,
+-dokazivati korektnost softverskih komponenti i -razvĳati alate za formalnu verifikacĳu.
+Idealno rešenje za verifikacĳu softvera bi bio alat koji automatski analizira kôd i daje precizne informacĳe o njegovoj ispravnosti. Međutim, postoji fundamentalno ograničenje zbog kojeg tako nešto nĳe moguće napraviti. Naime, halting problem je neodlučiv.‗ Ne postoji opšti automatizovan način za proveravanje da li je neka naredba programa dostižna, pa sami tim ni da li je ispravna, odnosno da li je sam program ispravan.
+Slika 3.2: Logo alata Rocq (https: //rocq-prover.org/)
+Posledica teorĳskog ograničenja je da nĳe moguće napraviti program koji bi potpuno automatski u konačnom vremenu, koristeći konačne resurse mogao da utvrdi ispravnost proizvoljnog programa potpuno precizno. Međutim, ukoliko se odreknemo potpune preciznosti, možemo da napravimo program koji poptuno automatski, u konačnom vremenu, koristeći konačne resurse može da dâ veoma korisne informacĳe o ispravnosti programa, iako ne u potpunosti precizne. Preciznost može da bude narušena na dva načina. Alat može da ima
+Slika 3.3: Logo alata Isabelle (https://isabelle.in. tum.de/)
+Rocq je interaktivni dokazivač teorema, odnosno pomoćnik za dokazivanje. On omogućava pisanje matematičkih dokaza i formalnih specifikacĳa, tj. pisanje programa i dokaza da programi ispunjavaju svoje specifikacije. Rocq je ranĳe bio poznat kao Coq Proof Assistant. Pod tim imenom je 2013. godine dobio ACM Software System Award kao i ACM SIGPLAN Programming Languages Software Award, dve najprestižnĳe nagrade koje softver može da dobĳe.
+-lažna upozorenja — da prĳavljuje problem koji u realnom izvršavanju ne može da se desi,
+-propuštene greške — da ne prĳavljuje problem koji u realnom izvršavanju može da se desi.
+‗ Alan Turing, On Computable Numbers With an Application to the Entscheidungsproblem, Proceedings of the London Mathematical Society, 1936.

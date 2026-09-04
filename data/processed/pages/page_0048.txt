@@ -1,48 +1,9 @@
-failures), uključujući greške u funkcionisanju si-
-stema i nepredviđene zastoje, doveli do gubitaka
-od oko 1560 milĳardi dolara. Ovaj broj predstavlja
-povećanje od 22% u odnosu na 2018. godinu.
-
-Neuspešni razvojni projekti: Neuspešni ili otkazani
-softverski projekti, često zbog lošeg upravljanja
-ili nedostatka kvaliteta, doveli su do gubitaka od
-260 milĳardi dolara.
-
-Problemi sa zastarelim sistemima: Održavanje i nado-
-gradnja zastarelih sistema koštali su oko 520 mili-
-jardi dolara.
-
-Tehnički dug: Troškovi tehničkog duga‡ (eng. technical
-debt), koji predstavlja nepopravljene greške i nee-
-fikasnosti u kodu, procenjeni su na 1310 milĳardi
-dolara.
-
-Gubici zbog sajberkriminala: U izveštaju nĳe navede-
-na tačna procena troškova usled sajberkriminala,
-osim da su ovi troškovi značajni i u porastu.
-
-CISQ u izveštaju za 2022. godinu navodi da su najviše
-porasli gubici
-
-▶prouzrokovani sajber kriminalom koji su rezultat
-postojećih softverskih ranjivosti. Oni su između
-2020. i 2021. godine porasli za 64%, a rastući
-trend se nastavio i u 2022. godini. Prosečan trošak
-jednog incidenta narušavanja podataka u SAD-u
-dostigao je 9,44 miliona dolara.
-
-▶nastali usled problema u komponentama softvera
-otvorenog koda. Broj neuspeha zbog slabosti u
-komponentama otvorenog koda povećao se za
-
-‡ Tehnički dug se odnosi na posledice pravljenja brzih, kratkoročnih
-rešenja u razvoju softvera, umesto boljih, dugoročno održivih
-rešenja. To je cena koju tim mora da plati u budućnosti zbog
-kompromisa u kvalitetu koda napravljenih da bi se nešto brže
-isporučilo danas. Tehnički dug nastaje usled nejasnih i nepreciznih
-zahteva, zaobilaženja dobrih programerskih praksi da bi se „stigao
-rok“, odsustva testova i dokumentacĳe, održavanja starog koda bez
-značajnih refaktorisanja i nedostatka automatizacĳe i sigurnosnih
-provera. Posledice tehničkog duga su teži i sporĳi razvoj novih
-funkcionalnosti, više grešaka i kvarova, kao i povećani troškovi
-održavanja.
+failures), uključujući greške u funkcionisanju sistema i nepredviđene zastoje, doveli do gubitaka od oko 1560 milĳardi dolara. Ovaj broj predstavlja povećanje od 22% u odnosu na 2018. godinu.
+Neuspešni razvojni projekti: Neuspešni ili otkazani softverski projekti, često zbog lošeg upravljanja ili nedostatka kvaliteta, doveli su do gubitaka od 260 milĳardi dolara.
+Problemi sa zastarelim sistemima: Održavanje i nadogradnja zastarelih sistema koštali su oko 520 milijardi dolara.
+Tehnički dug: Troškovi tehničkog duga‡ (eng. technical debt), koji predstavlja nepopravljene greške i neefikasnosti u kodu, procenjeni su na 1310 milĳardi dolara.
+Gubici zbog sajberkriminala: U izveštaju nĳe navedena tačna procena troškova usled sajberkriminala, osim da su ovi troškovi značajni i u porastu.
+CISQ u izveštaju za 2022. godinu navodi da su najviše porasli gubici
+-prouzrokovani sajber kriminalom koji su rezultat postojećih softverskih ranjivosti. Oni su između 2020. i 2021. godine porasli za 64%, a rastući trend se nastavio i u 2022. godini. Prosečan trošak jednog incidenta narušavanja podataka u SAD-u dostigao je 9,44 miliona dolara.
+-nastali usled problema u komponentama softvera otvorenog koda. Broj neuspeha zbog slabosti u komponentama otvorenog koda povećao se za
+‡ Tehnički dug se odnosi na posledice pravljenja brzih, kratkoročnih rešenja u razvoju softvera, umesto boljih, dugoročno održivih rešenja. To je cena koju tim mora da plati u budućnosti zbog kompromisa u kvalitetu koda napravljenih da bi se nešto brže isporučilo danas. Tehnički dug nastaje usled nejasnih i nepreciznih zahteva, zaobilaženja dobrih programerskih praksi da bi se „stigao rok“, odsustva testova i dokumentacĳe, održavanja starog koda bez značajnih refaktorisanja i nedostatka automatizacĳe i sigurnosnih provera. Posledice tehničkog duga su teži i sporĳi razvoj novih funkcionalnosti, više grešaka i kvarova, kao i povećani troškovi održavanja.

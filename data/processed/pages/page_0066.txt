@@ -1,66 +1,16 @@
 4.1.3 Faze testiranja softvera
-
-Za početak procesa testiranja, postojanje koda nĳe ne-
-ophodno. Dovoljno je imati jasno definisane zahteve
-korisnika jer priprema za testiranje počinje analizom
-tih zahteva. Dakle, da bi se započeli procesi vezani za
-testiranje, potrebno je da postoji specifikacĳa zahteva
-sistema (eng. system requirements specification) kao i spe-
-cifikacĳa zahteva softvera (eng. software requirements
-specification).
-
-Testiranje softvera se u opštem slučaju sastoji od na-
-rednih faza, pri čemu svaka faza obuhvata veliki broj
-aktivnosti.
-
+Za početak procesa testiranja, postojanje koda nĳe neophodno. Dovoljno je imati jasno definisane zahteve korisnika jer priprema za testiranje počinje analizom tih zahteva. Dakle, da bi se započeli procesi vezani za testiranje, potrebno je da postoji specifikacĳa zahteva sistema (eng. system requirements specification) kao i specifikacĳa zahteva softvera (eng. software requirements specification).
+Testiranje softvera se u opštem slučaju sastoji od narednih faza, pri čemu svaka faza obuhvata veliki broj aktivnosti.
 1. Planiranje testiranja
-
-2. Analiza, dizajn i implementacĳa testova
-3. Izvršavanje testova
-4. Evaluacĳa testova
-5. Zatvaranje testiranja
-
-Ove faze se usklađuju sa metodologĳom razvoja softvera
-tako da se u okviru iterativnih modela razvoja izvršavaju
-iterativno.
-
+2. Analiza, dizajn i implementacĳa testova 3. Izvršavanje testova 4. Evaluacĳa testova 5. Zatvaranje testiranja
+Ove faze se usklađuju sa metodologĳom razvoja softvera tako da se u okviru iterativnih modela razvoja izvršavaju iterativno.
 Planiranje testiranja
-
 Planiranje definiše:
-
-▶potrebne vrste
-testova,
-
-Planiranje testiranja (eng. test planning) predstavlja pri-
-premu za proces testiranja. Plan testiranja se prilagođava
-svakom konkretnom projektu.
-
-▶tehnike testiranja koje
-će se koristiti,
-
-▶načine sprovođenja
-testiranja,
-
-Planiranje testiranja započinje analizom zahteva, pri
-čemu se detaljno razmatraju svi funkcionalni i nefunk-
-cionalni aspekti sistema. Na osnovu te analize definišu
-se ciljevi testiranja, odnosno šta se želi postići samim
-testiranjem. Sledeći korak obuhvata određivanje opsega
-testiranja, uključujući odluku o tome koje će komponen-
-te softvera biti testirane i koliko. Dodatno, određuju se i
-načini testiranja: koji će delovi testiranja biti sprovedeni
-ručno, a koji automatizovano, uključujući i alate koji će
-
-▶opseg testiranja,
-▶ulazne i izlazne
-kriterĳume, posebno
-kriterĳum završetka,
-
-▶potrebne resurse,
-▶procenu rizika,
-▶metodologĳu
-praćenja defekata i
-
-▶uloge i način
-komunikacĳe između
-članova tima.
+-potrebne vrste testova,
+Planiranje testiranja (eng. test planning) predstavlja pripremu za proces testiranja. Plan testiranja se prilagođava svakom konkretnom projektu.
+-tehnike testiranja koje će se koristiti,
+-načine sprovođenja testiranja,
+Planiranje testiranja započinje analizom zahteva, pri čemu se detaljno razmatraju svi funkcionalni i nefunkcionalni aspekti sistema. Na osnovu te analize definišu se ciljevi testiranja, odnosno šta se želi postići samim testiranjem. Sledeći korak obuhvata određivanje opsega testiranja, uključujući odluku o tome koje će komponente softvera biti testirane i koliko. Dodatno, određuju se i načini testiranja: koji će delovi testiranja biti sprovedeni ručno, a koji automatizovano, uključujući i alate koji će
+-opseg testiranja, -ulazne i izlazne kriterĳume, posebno kriterĳum završetka,
+-potrebne resurse, -procenu rizika, -metodologĳu praćenja defekata i
+-uloge i način komunikacĳe između članova tima.

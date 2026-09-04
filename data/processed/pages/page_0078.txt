@@ -1,47 +1,10 @@
-dok se u imperativnom programiranju obično testiraju
-procedure i pojedinačni moduli.
-
-Ova vrsta testiranja omogućava detaljan uvid u po-
-našanje svake pojedinačne jedinice, čime se osigurava
-stabilna osnova za kasnĳu integracĳu u veće sisteme.
-1008-1987 IEEE Standard for Software Unit Testing je stan-
-dard koji definiše jedinično testiranje i koji postavlja
-smernice i preporuke za njegovo sprovođenje.
-
-Jedna od ključnih prednosti testiranja jedinica koda jeste
-snažna podrška u alatima za automatsko izvršavanje i
-proveru rezultata rada testova, koji su često integrisani
-u savremena razvojna okruženja. Automatizacĳa ovih
-testova omogućava brzu i čestu proveru funkcionalnosti
-u toku razvoja.
-
+dok se u imperativnom programiranju obično testiraju procedure i pojedinačni moduli.
+Ova vrsta testiranja omogućava detaljan uvid u ponašanje svake pojedinačne jedinice, čime se osigurava stabilna osnova za kasnĳu integracĳu u veće sisteme. 1008-1987 IEEE Standard for Software Unit Testing je standard koji definiše jedinično testiranje i koji postavlja smernice i preporuke za njegovo sprovođenje.
+Jedna od ključnih prednosti testiranja jedinica koda jeste snažna podrška u alatima za automatsko izvršavanje i proveru rezultata rada testova, koji su često integrisani u savremena razvojna okruženja. Automatizacĳa ovih testova omogućava brzu i čestu proveru funkcionalnosti u toku razvoja.
 Testiranje
-
 jedinica koda
-
-Cilj jediničnih testova je da se potvrdi da izolovani de-
-lovi koda funkcionišu u skladu sa očekivanjima. Kada
-jedinica koda komunicira sa spoljnim resursima, kao
-što su standardni ulaz, mreža, baze podataka ili fajl
-sistemi, ta komunikacĳa se u test okruženju zamenju-
-je fiksiranim (eng. mock) vrednostima. Isto važi i za
-komunikacĳu sa drugim klasama ili komponentama –
-sve se apstrahuje, kako bi se test fokusirao isključivo
-na ponašanje posmatrane jedinice. Dozvoljena je samo
-interakcĳa sa memorĳom.
-
-Ove testove najčešće pišu sami programeri tokom razvo-
-ja, što omogućava brzo otkrivanje i otklanjanje grešaka.
-Ukoliko postoji problem unutar same jedinice koda,
-upravo ova faza testiranja treba da ga otkrĳe — pre nego
-što dođe do složenĳih i skupljih grešaka u kasnĳim
-fazama razvoja.
-
-Primer 4.2.1 (Biblioteka unittest u jeziku Python)
-Funkcĳa saberi(a, b) je jednostavna funkcĳa ko-
-ja vraća zbir dva broja i definisana je u modulu
-
+Cilj jediničnih testova je da se potvrdi da izolovani delovi koda funkcionišu u skladu sa očekivanjima. Kada jedinica koda komunicira sa spoljnim resursima, kao što su standardni ulaz, mreža, baze podataka ili fajl sistemi, ta komunikacĳa se u test okruženju zamenjuje fiksiranim (eng. mock) vrednostima. Isto važi i za komunikacĳu sa drugim klasama ili komponentama – sve se apstrahuje, kako bi se test fokusirao isključivo na ponašanje posmatrane jedinice. Dozvoljena je samo interakcĳa sa memorĳom.
+Ove testove najčešće pišu sami programeri tokom razvoja, što omogućava brzo otkrivanje i otklanjanje grešaka. Ukoliko postoji problem unutar same jedinice koda, upravo ova faza testiranja treba da ga otkrĳe — pre nego što dođe do složenĳih i skupljih grešaka u kasnĳim fazama razvoja.
+Primer 4.2.1 (Biblioteka unittest u jeziku Python) Funkcĳa saberi(a, b) je jednostavna funkcĳa koja vraća zbir dva broja i definisana je u modulu
 matematika.py.
-
-1
-def saberi(a, b):
+1 def saberi(a, b):

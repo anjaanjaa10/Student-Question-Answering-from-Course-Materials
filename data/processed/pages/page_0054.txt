@@ -1,40 +1,6 @@
-odnosno bez manuelnog osvežavanja stranice
-ili aplikacĳe.
-
-▶Kod aplikacĳa za prikaz vremenske progno-
-ze, verifikacĳa se fokusira na tačnost i konzi-
-stentnost prikaza prognoziranih meteoroloških
-podataka koji se preuzimaju sa odgovarajućih
-vremenskih servisa, kao što su AccuWeather ili
-OpenWeatherMap. Neophodno je utvrditi da li se
-podaci, poput temperature i opisa vremenskih
-uslova, prikazuju u odgovarajućem i očekiva-
-nom formatu. Pored toga, proverava se i da li
-aplikacĳa ispravno prikazuje vremenske podat-
-ke za različite lokacĳe, bilo da su one definisane
-nazivima gradova ili geografskim koordinata-
-ma.
-
-Validacĳa predstavlja postupak kojim se utvrđuje da
-li je razvĳeni sistem u skladu sa stvarnim potrebama i
-očekivanjima korisnika. Na primer, ukoliko je korisnik
-zahtevao digitalni časovnik, tada je rešenje koje imple-
-mentira upravo tu funkcionalnost validno. Međutim,
-ako je korisnik očekivao aplikacĳu za vremensku
-prognozu, tada digitalni časovnik ne zadovoljava nje-
-gove potrebe i smatra se potpuno neodgovarajućim
-rešenjem.
-
-Jasno je da i potpuno ispravan digitalni časovnik ne-
-ma vrednost u kontekstu zahteva za aplikacĳom koja
-prikazuje vremenske uslove. S druge strane, ukoli-
-ko je korisnik zaista želeo digitalni časovnik, ali je
-implementacĳa neispravna, sistem takođe postaje ne-
-upotrebljiv.
-
+odnosno bez manuelnog osvežavanja stranice ili aplikacĳe.
+-Kod aplikacĳa za prikaz vremenske prognoze, verifikacĳa se fokusira na tačnost i konzistentnost prikaza prognoziranih meteoroloških podataka koji se preuzimaju sa odgovarajućih vremenskih servisa, kao što su AccuWeather ili OpenWeatherMap. Neophodno je utvrditi da li se podaci, poput temperature i opisa vremenskih uslova, prikazuju u odgovarajućem i očekivanom formatu. Pored toga, proverava se i da li aplikacĳa ispravno prikazuje vremenske podatke za različite lokacĳe, bilo da su one definisane nazivima gradova ili geografskim koordinatama.
+Validacĳa predstavlja postupak kojim se utvrđuje da li je razvĳeni sistem u skladu sa stvarnim potrebama i očekivanjima korisnika. Na primer, ukoliko je korisnik zahtevao digitalni časovnik, tada je rešenje koje implementira upravo tu funkcionalnost validno. Međutim, ako je korisnik očekivao aplikacĳu za vremensku prognozu, tada digitalni časovnik ne zadovoljava njegove potrebe i smatra se potpuno neodgovarajućim rešenjem.
+Jasno je da i potpuno ispravan digitalni časovnik nema vrednost u kontekstu zahteva za aplikacĳom koja prikazuje vremenske uslove. S druge strane, ukoliko je korisnik zaista želeo digitalni časovnik, ali je implementacĳa neispravna, sistem takođe postaje neupotrebljiv.
 ### 3.2 Tehnike verifikacĳe softvera
-
-Verifikacĳa softvera obuhvata skup sistematskih me-
-toda i aktivnosti kojima se proverava da li softverski
-proizvod ispravno implementira zadatu specifikacĳu.
-Tehnike verifikacĳe softvera uključuju dinamičku i statič-
+Verifikacĳa softvera obuhvata skup sistematskih metoda i aktivnosti kojima se proverava da li softverski proizvod ispravno implementira zadatu specifikacĳu. Tehnike verifikacĳe softvera uključuju dinamičku i statič-

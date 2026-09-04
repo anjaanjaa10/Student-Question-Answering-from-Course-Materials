@@ -1,52 +1,13 @@
 sistemu.
-
-▶Debagovanje nakon prekida izvršavanja progra-
-ma omogućava uvid u stanje memorĳe nakon
-prekida izvršavanja programa u situacĳama kada
-se greške moraju analizirati bez direktnog ponov-
-nog izvršavanja programa u identičnim uslovima.
-
-▶Najpoznatĳi debageri su gdb, lldb, Visual Studio
-Debugger i WinDbg.
-
-▶Debagovanje ima niz ograničenja i ne može se
-uvek primeniti.
-
-▶Štampanje umesto debagovanja je tehnika koja se
-smatra prevaziđenom i koju treba koristiti samo
-kada ne postoji alternativa.
-
+-Debagovanje nakon prekida izvršavanja programa omogućava uvid u stanje memorĳe nakon prekida izvršavanja programa u situacĳama kada se greške moraju analizirati bez direktnog ponovnog izvršavanja programa u identičnim uslovima.
+-Najpoznatĳi debageri su gdb, lldb, Visual Studio Debugger i WinDbg.
+-Debagovanje ima niz ograničenja i ne može se uvek primeniti.
+-Štampanje umesto debagovanja je tehnika koja se smatra prevaziđenom i koju treba koristiti samo kada ne postoji alternativa.
 Literatura
-
-[1]
-David J. Agans. Debugging. Amacom, 2002. isbn:
-9780814471685.
-
-[2]
-Holger Cleve i Andreas Zeller. Locating causes
-of program failures. U: Proceedings of the 27th
-International Conference on Software Engineering.
-ICSE ’05. St. Louis, MO, USA: ACM, 2005., str. 342–
-351. doi: 10.1145/1062455.1062522.
-
-[3]
-James A. Jones i Mary Jean Harrold. Empirical eva-
-luation of the tarantula automatic fault-localization
-technique. U: Proceedings of the 20th IEEE/ACM
-International Conference on Automated Softwa-
-re Engineering. ASE ’05. Long Beach, CA, USA:
-ACM, 2005., str. 273–282. doi: 10.1145/1101908.
-
+[1] David J. Agans. Debugging. Amacom, 2002. isbn: 9780814471685.
+[2] Holger Cleve i Andreas Zeller. Locating causes of program failures. U: Proceedings of the 27th International Conference on Software Engineering. ICSE ’05. St. Louis, MO, USA: ACM, 2005., str. 342– 351. doi: 10.1145/1062455.1062522.
+[3] James A. Jones i Mary Jean Harrold. Empirical evaluation of the tarantula automatic fault-localization technique. U: Proceedings of the 20th IEEE/ACM International Conference on Automated Software Engineering. ASE ’05. Long Beach, CA, USA: ACM, 2005., str. 273–282. doi: 10.1145/1101908.
 1101949.
-
-[4]
-Andreas Zeller. Why Programs Fail. Morgan Kauf-
-mann, 2009. isbn: 978-0-12-374515-6. doi: 10.1016/
-
+[4] Andreas Zeller. Why Programs Fail. Morgan Kaufmann, 2009. isbn: 978-0-12-374515-6. doi: 10.1016/
 B978-0-12-374515-6.X0000-7.
-
-[5]
-Andreas Zeller i Ralf Hildebrandt. Simplifying and
-Isolating Failure-Inducing Input. U: IEEE Transac-
-tions on Software Engineering 28.2 (2002.), str. 183–
-200. doi: 10.1109/32.988498.
+[5] Andreas Zeller i Ralf Hildebrandt. Simplifying and Isolating Failure-Inducing Input. U: IEEE Transactions on Software Engineering 28.2 (2002.), str. 183– 200. doi: 10.1109/32.988498.

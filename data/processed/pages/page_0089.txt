@@ -1,45 +1,11 @@
-i proverava se otpornost na promene okruženja,
-tj. kako sistem reaguje na promene u okruženju
-(npr. prekid mreže, promena konfiguracĳe).
-
-Primer 4.2.6 (Aplikacĳa za elektronsko bankar-
-stvo — nastavak primera 4.2.5) Testovi pouzda-
-nosti su važni za kritične sisteme kao što su
-bankarski, gde pouzdanost direktno utiče na
-poverenje korisnika i bezbednost podataka.
-
-Naziv test slučaja: TC-P006 — Pouzdanost to-
-kom 72h
-Opis:
-Proceniti sposobnost sistema da radi stabilno
-i bez prekida tokom produženog vremenskog
-perioda, u realnim uslovima korišćenja.
-
-Scenario:
-Izvršavanje aplikacĳe u trajanju od 72 sata bez
-prekida, tokom kojih se konstantno generišu ko-
-risnički zahtevi (prĳave, pregledi računa, tran-
-sferi sredstava, uplate računa), uz periodične
-simulacĳe grešaka i poremećaja u mrežnom
-okruženju.
-
+i proverava se otpornost na promene okruženja, tj. kako sistem reaguje na promene u okruženju (npr. prekid mreže, promena konfiguracĳe).
+Primer 4.2.6 (Aplikacĳa za elektronsko bankarstvo — nastavak primera 4.2.5) Testovi pouzdanosti su važni za kritične sisteme kao što su bankarski, gde pouzdanost direktno utiče na poverenje korisnika i bezbednost podataka.
+Naziv test slučaja: TC-P006 — Pouzdanost tokom 72h Opis: Proceniti sposobnost sistema da radi stabilno i bez prekida tokom produženog vremenskog perioda, u realnim uslovima korišćenja.
+Scenario: Izvršavanje aplikacĳe u trajanju od 72 sata bez prekida, tokom kojih se konstantno generišu korisnički zahtevi (prĳave, pregledi računa, transferi sredstava, uplate računa), uz periodične simulacĳe grešaka i poremećaja u mrežnom okruženju.
 Uslovi testa:
-
-▶Aplikacĳa se pokreće u testnom okruženju
-koje odgovara produkcionom.
-
-▶Koristi se alat za automatizacĳu koji konti-
-nuirano šalje realistične zahteve sa različi-
-tih virtuelnih korisničkih naloga.
-
-▶Na svakih 12 sati se simulira greška u ko-
-munikacĳi sa bazom podataka, zatim opo-
-ravak.
-
-▶Prati se stabilnost sistema, ponašanje me-
-morĳe i CPU-a, kao i sposobnost aplikacĳe
-da se automatski oporavi.
-
+-Aplikacĳa se pokreće u testnom okruženju koje odgovara produkcionom.
+-Koristi se alat za automatizacĳu koji kontinuirano šalje realistične zahteve sa različitih virtuelnih korisničkih naloga.
+-Na svakih 12 sati se simulira greška u komunikacĳi sa bazom podataka, zatim oporavak.
+-Prati se stabilnost sistema, ponašanje memorĳe i CPU-a, kao i sposobnost aplikacĳe da se automatski oporavi.
 Metrike koje se prate:
-
-▶Broj sistemskih padova ili prekida rada.
+-Broj sistemskih padova ili prekida rada.

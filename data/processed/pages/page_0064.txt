@@ -1,41 +1,6 @@
-Faza sistemskog testiranja. Cena greške otkrivene u
-ovoj fazi uključuje rad tima zaduženog za kvalitet
-softvera, prĳavu greške, komunikacĳu sa progra-
-merima, ponovna testiranja i praćenje kroz sistem
-za praćenje defekata. Ukoliko u procesu razvo-
-ja softvera postoji korak testiranja prihvatljivosti
-softvera, cena greške dodatno obuhvata i rad kup-
-ca odnosno korisnika koji vrši proveru da li je
-softver prihvatljiv. Korisnički otkrivene greške
-zahtevaju dodatnu koordinacĳu sa timom zadu-
-ženim za kvalitet softvera i povratnu integracĳu
-ispravki. Trošak uključuje vreme korisnika i pro-
-dužava završne faze projekta.
-
-Faza upotrebe. Greške u produkcĳi imaju najveću cenu.
-Pored tehničke ispravke, dolazi do gubitka pove-
-renja korisnika i potencĳalne reputacione štete.
-
+Faza sistemskog testiranja. Cena greške otkrivene u ovoj fazi uključuje rad tima zaduženog za kvalitet softvera, prĳavu greške, komunikacĳu sa programerima, ponovna testiranja i praćenje kroz sistem za praćenje defekata. Ukoliko u procesu razvoja softvera postoji korak testiranja prihvatljivosti softvera, cena greške dodatno obuhvata i rad kupca odnosno korisnika koji vrši proveru da li je softver prihvatljiv. Korisnički otkrivene greške zahtevaju dodatnu koordinacĳu sa timom zaduženim za kvalitet softvera i povratnu integracĳu ispravki. Trošak uključuje vreme korisnika i produžava završne faze projekta.
+Faza upotrebe. Greške u produkcĳi imaju najveću cenu. Pored tehničke ispravke, dolazi do gubitka poverenja korisnika i potencĳalne reputacione štete.
 4.1.2 Uloga testera u razvoju softvera
-
-Projekti u oblasti razvoja softvera mogu se voditi na
-najrazličitĳe načine. Briga o kvalitetu softvera podra-
-zumeva primenu različitih pravila, procedura i praksi,
-koje zavise kako od vrste projekta, tako i od zrelosti i
-veličine same kompanĳe. U nekim slučajevima kvalitet
-softvera je odgovornost razvojnog tima, dok u drugim
-postoji posebno definisan tim zadužen za ovu oblast.
-
-Tim za obezbeđenje kvaliteta softvera može postojati
-kao zasebna organizaciona jedinica unutar kompanĳe
-koja razvĳa softver (interni tim), ili može biti eksterno
-angažovan od strane specĳalizovane firme koja pruža
-usluge testiranja i kontrole kvaliteta. U nekim kompani-
-jama, posebno u manjim i manje formalnim okruženji-
-ma, ovakav tim uopšte ne postoji, a aktivnosti testiranja
-programeri obavljaju ad-hoc.
-
-Tester softvera (eng. software tester) ili jednostavno tester
-je stručnjak koji se bavi planiranjem, izvođenjem i doku-
-mentovanjem aktivnosti testiranja softverskog sistema,
-sa ciljem da se obezbedi očekivani kvalitet proizvoda.
+Projekti u oblasti razvoja softvera mogu se voditi na najrazličitĳe načine. Briga o kvalitetu softvera podrazumeva primenu različitih pravila, procedura i praksi, koje zavise kako od vrste projekta, tako i od zrelosti i veličine same kompanĳe. U nekim slučajevima kvalitet softvera je odgovornost razvojnog tima, dok u drugim postoji posebno definisan tim zadužen za ovu oblast.
+Tim za obezbeđenje kvaliteta softvera može postojati kao zasebna organizaciona jedinica unutar kompanĳe koja razvĳa softver (interni tim), ili može biti eksterno angažovan od strane specĳalizovane firme koja pruža usluge testiranja i kontrole kvaliteta. U nekim kompanijama, posebno u manjim i manje formalnim okruženjima, ovakav tim uopšte ne postoji, a aktivnosti testiranja programeri obavljaju ad-hoc.
+Tester softvera (eng. software tester) ili jednostavno tester je stručnjak koji se bavi planiranjem, izvođenjem i dokumentovanjem aktivnosti testiranja softverskog sistema, sa ciljem da se obezbedi očekivani kvalitet proizvoda.

@@ -1,64 +1,11 @@
-▶V2 — Godine u opsegu 16–18 (npr. 17)
-▶V3 — Godine u opsegu 18–55 (npr. 30)
-▶V4 — Godine u opsegu 55–99 (npr. 70)
-
+-V2 — Godine u opsegu 16–18 (npr. 17) -V3 — Godine u opsegu 18–55 (npr. 30) -V4 — Godine u opsegu 55–99 (npr. 70)
 Nevalidne klase ekvivalencĳe:
-
-▶I1 – Vrednost ispod minimalne vrednosti
-(npr. −5)
-
-▶I2 – Vrednost iznad maksimalne vrednosti
-(npr. 105)
-
+-I1 – Vrednost ispod minimalne vrednosti (npr. −5)
+-I2 – Vrednost iznad maksimalne vrednosti (npr. 105)
 Test slučajevi:
-
-ID
-Klasa
-Ulaz
-Očekivani rezultat
-
-TC1
-V1
-10
-Ne zaposliti
-TC2
-V2
-17
-Zapošljavanje sa pola
-radnog vremena
-TC3
-V3
-30
-Zapošljavanje sa punim
-radnim vremenom
-TC4
-V4
-70
-Ne zaposliti
-TC5
-I1
-−5
-Odbiti unos
-TC6
-I2
-105
-Odbiti unos
-
-Korišćenjem tehnike klasa ekvivalencĳe, broj test slu-
-čajeva za ispravne unose se smanjuje sa 100 (po jedan
-za svaku validnu godinu) na svega nekoliko repre-
-zentativnih testova, uz zadržavanje pokrivenosti svih
-funkcionalnih pravila sistema.
-
-Napomena: Često je lakše identifikovati validne klase
-ekvivalencĳe od nevalidnih. Na primer, pored neva-
-lidnih unosa -5 i 105, potrebno je testirati i nevalidne
-unose kao što je unos izraza koji vodi neispravnom
-broju (npr. 66+35), unos slova i nenumeričkih karak-
-tera i slično.
-
+ID Klasa Ulaz Očekivani rezultat
+TC1 V1 10 Ne zaposliti TC2 V2 17 Zapošljavanje sa pola radnog vremena TC3 V3 30 Zapošljavanje sa punim radnim vremenom TC4 V4 70 Ne zaposliti TC5 I1 −5 Odbiti unos TC6 I2 105 Odbiti unos
+Korišćenjem tehnike klasa ekvivalencĳe, broj test slučajeva za ispravne unose se smanjuje sa 100 (po jedan za svaku validnu godinu) na svega nekoliko reprezentativnih testova, uz zadržavanje pokrivenosti svih funkcionalnih pravila sistema.
+Napomena: Često je lakše identifikovati validne klase ekvivalencĳe od nevalidnih. Na primer, pored nevalidnih unosa -5 i 105, potrebno je testirati i nevalidne unose kao što je unos izraza koji vodi neispravnom broju (npr. 66+35), unos slova i nenumeričkih karaktera i slično.
 Granične vrednosti
-
-Testiranje pomoću klasa ekvivalencĳe predstavlja osnov-
-nu tehniku za oblikovanje test slučajeva. Međutim, u
-praksi se pokazalo da se veliki broj grešaka javlja upravo
+Testiranje pomoću klasa ekvivalencĳe predstavlja osnovnu tehniku za oblikovanje test slučajeva. Međutim, u praksi se pokazalo da se veliki broj grešaka javlja upravo

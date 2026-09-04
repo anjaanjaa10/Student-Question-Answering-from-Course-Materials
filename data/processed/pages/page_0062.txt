@@ -1,67 +1,9 @@
-radi, na koji način treba da funkcioniše, u kojim uslo-
-vima, koje potrebe korisnika treba da zadovolji i kako
-treba da ostvaruje interakcĳu sa krajnjim korisnikom.
-Svako odstupanje softvera od ovih zahteva smatra se
-defektom. Defekti su neposredna posledica ljudskih gre-
-šaka napravljenih u različitim fazama razvoja softvera
-— od analize i dizajna, preko implementacĳe, pa sve do
-testiranja i održavanja.
-
-Testiranje softvera predstavlja sistematsku aktivnost u
-okviru životnog ciklusa razvoja, koja ima za cilj da ot-
-krĳe defekte pre nego što softver dospe u ruke krajnjih
-korisnika. Osim što doprinosi identifikacĳi i ispravljanju
-defekata, testiranje takođe pomaže u proceni pouzdano-
-sti, performansi i ukupne stabilnosti softverskog proi-
-zvoda. Na taj način, ono igra ključnu ulogu u postizanju
-visokog kvaliteta i korisničkog zadovoljstva.
-
-4.1.1 Cena greške u kontekstu vremena
-otkrivanja
-
-U savremenom razvoju softvera, osnovni cilj organiza-
-cĳa i razvojnih timova jeste postizanje maksimalnog
-profita kroz isporuku proizvoda visokog kvaliteta, ali
-istovremeno uz poštovanje vremenskih rokova i bu-
-džetskih ograničenja. Upravo iz tog razloga, metode i
-pristupi koji omogućavaju bržu, efikasnĳu i pouzdanĳu
-isporuku softverskih rešenja postaju sve važnĳi.
-
-Slika
-4.1:
-Edger
-Dĳkstra
-(eng. Edsger Dĳkstra)a, do-
-bitnik
-Tjuringove
-nagrade
-1972. godine:
-
-”Program testing
-can show the pre-
-sence of bugs, ne-
-ver their absen-
-ce”
-
-Faze razvoja softvera su organizovane prema metodo-
-logĳi koja se koristi za upravljanje razvojem softverskog
-projekta, a osnovne faze se javljaju u svim modelima
-razvoja. Osnovne faze razvoja softvera uključuju ana-
-lizu zahteva, dizajn i implementacĳu softvera, razne
-vrste testiranja i upotrebu softvera. Najzastupljenĳe i
-trenutno najpopularnĳe su agilne metodologĳe razvoja
-softvera (npr. Scrum, Kanban, Extreme Programming). One
-se zasnivaju na iterativnom pristupu koji podrazumeva
-paralelno razvĳanje i testiranje softverskih komponenti.
-Umesto da se testiranje odlaže za kraj procesa (kao što je
-
-Testiranje može da potvrdi pri-
-sustvo grešaka u softveru —
-testiranje ne može da dokaže
-ispravnost softvera.
-
-a Fotografiju je napravio Ha-
-milton Richards. Fotografija
-je dostupna pod licencom
-Creative Commons Attribution-
-Share Alike 3.0
+radi, na koji način treba da funkcioniše, u kojim uslovima, koje potrebe korisnika treba da zadovolji i kako treba da ostvaruje interakcĳu sa krajnjim korisnikom. Svako odstupanje softvera od ovih zahteva smatra se defektom. Defekti su neposredna posledica ljudskih grešaka napravljenih u različitim fazama razvoja softvera — od analize i dizajna, preko implementacĳe, pa sve do testiranja i održavanja.
+Testiranje softvera predstavlja sistematsku aktivnost u okviru životnog ciklusa razvoja, koja ima za cilj da otkrĳe defekte pre nego što softver dospe u ruke krajnjih korisnika. Osim što doprinosi identifikacĳi i ispravljanju defekata, testiranje takođe pomaže u proceni pouzdanosti, performansi i ukupne stabilnosti softverskog proizvoda. Na taj način, ono igra ključnu ulogu u postizanju visokog kvaliteta i korisničkog zadovoljstva.
+4.1.1 Cena greške u kontekstu vremena otkrivanja
+U savremenom razvoju softvera, osnovni cilj organizacĳa i razvojnih timova jeste postizanje maksimalnog profita kroz isporuku proizvoda visokog kvaliteta, ali istovremeno uz poštovanje vremenskih rokova i budžetskih ograničenja. Upravo iz tog razloga, metode i pristupi koji omogućavaju bržu, efikasnĳu i pouzdanĳu isporuku softverskih rešenja postaju sve važnĳi.
+Slika 4.1: Edger Dĳkstra (eng. Edsger Dĳkstra)a, dobitnik Tjuringove nagrade 1972. godine:
+”Program testing can show the presence of bugs, never their absence”
+Faze razvoja softvera su organizovane prema metodologĳi koja se koristi za upravljanje razvojem softverskog projekta, a osnovne faze se javljaju u svim modelima razvoja. Osnovne faze razvoja softvera uključuju analizu zahteva, dizajn i implementacĳu softvera, razne vrste testiranja i upotrebu softvera. Najzastupljenĳe i trenutno najpopularnĳe su agilne metodologĳe razvoja softvera (npr. Scrum, Kanban, Extreme Programming). One se zasnivaju na iterativnom pristupu koji podrazumeva paralelno razvĳanje i testiranje softverskih komponenti. Umesto da se testiranje odlaže za kraj procesa (kao što je
+Testiranje može da potvrdi prisustvo grešaka u softveru — testiranje ne može da dokaže ispravnost softvera.
+a Fotografiju je napravio Hamilton Richards. Fotografija je dostupna pod licencom Creative Commons AttributionShare Alike 3.0

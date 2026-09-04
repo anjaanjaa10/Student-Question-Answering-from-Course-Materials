@@ -1,75 +1,18 @@
-Automatsko
-generisa-
-nje testova
-
-Automatsko
-izvršava-
-nje testova
-
-Manuelno
-generisa-
-nje testova
-
-Manuelno
-izvršava-
-nje testova
-
-(2) Polu-
-automatsko
-testiranje
-
-(3) Polu-
-automatsko
-testiranje
-
-Automatsko
-generisa-
-nje testova
-
-Manuelno
-izvršava-
-nje testova
-
-Manuelno
-generisa-
-nje testova
-
-Automatsko
-izvršava-
-nje testova
-
-(4) Auto-
-matsko
-testiranje
-
-(1) Manuelno
-testiranje
-
-Načini sprovo-
-đenja testiranja
-
+Automatsko generisanje testova
+Automatsko izvršavanje testova
+Manuelno generisanje testova
+Manuelno izvršavanje testova
+(2) Poluautomatsko testiranje
+(3) Poluautomatsko testiranje
+Automatsko generisanje testova
+Manuelno izvršavanje testova
+Manuelno generisanje testova
+Automatsko izvršavanje testova
+(4) Automatsko testiranje
+(1) Manuelno testiranje
+Načini sprovođenja testiranja
 Slika 4.14: Načini izvođenja testiranja softvera
-
 4.4.1 Manuelno testiranje
-
-Termin manuelno testiranje podrazumeva da se obe
-aktivnosti sprovode manuelno, odnosno da testeri smi-
-šljaju test slučajeve i samostalno sprovode testiranje i
-ocenjuju rezultate testiranja. Manuelno testiranje je ne-
-zamenjivo u delovima verifikacĳe koji zahtevaju ljudsku
-percepcĳu, razumevanje konteksta i subjektivnu proce-
-nu kvaliteta. Dodatno, manuelno testiranje je ključno u
-domenu validacĳe softvera, gde je cilj da se utvrdi da li
-softver zaista zadovoljava potrebe i očekivanja krajnjih
-korisnika, a ne samo da li funkcioniše prema tehničkim
-specifikacĳama.
-
-U kontekstu verifikacĳe softvera, primer upotrebe ma-
-nuelnih tehnika testiranja je istraživačko testiranje, koje
-se oslanja na iskustvo i intuicĳu testera. Umesto striktno
-definisanih koraka, tester istražuje softver u realnom
-vremenu, tražeći neočekivane greške i ponašanja. Au-
-tomatizacĳa ne može da zameni ovu vrstu kreativnog
-pristupa.
-
+Termin manuelno testiranje podrazumeva da se obe aktivnosti sprovode manuelno, odnosno da testeri smišljaju test slučajeve i samostalno sprovode testiranje i ocenjuju rezultate testiranja. Manuelno testiranje je nezamenjivo u delovima verifikacĳe koji zahtevaju ljudsku percepcĳu, razumevanje konteksta i subjektivnu procenu kvaliteta. Dodatno, manuelno testiranje je ključno u domenu validacĳe softvera, gde je cilj da se utvrdi da li softver zaista zadovoljava potrebe i očekivanja krajnjih korisnika, a ne samo da li funkcioniše prema tehničkim specifikacĳama.
+U kontekstu verifikacĳe softvera, primer upotrebe manuelnih tehnika testiranja je istraživačko testiranje, koje se oslanja na iskustvo i intuicĳu testera. Umesto striktno definisanih koraka, tester istražuje softver u realnom vremenu, tražeći neočekivane greške i ponašanja. Automatizacĳa ne može da zameni ovu vrstu kreativnog pristupa.
 Manuelnim testiranjem često se proveravaju svojstva ko-

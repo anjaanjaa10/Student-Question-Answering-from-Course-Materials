@@ -1,98 +1,16 @@
-3
-brojac_saberi++;
-
-Ime alata Valgrind (izgovara
-se Velgrind, između a i e) po-
-tiče iz nordĳske mitologĳe,
-gde Valgrind označava glav-
-nu kapĳu koja vodi u Val-
-halu (eng. Valhalla) — Odi-
-novu dvoranu u koju ulaze
-duše palih ratnika. Odin je
-vrhovni bog u nordĳskoj
-mitologĳi, bog mudrosti, po-
-ezĳe, rata i smrti. Valgrind je
-simbolično opisan kao širo-
-ka, čvrsta kapĳa kroz koju
-prolaze samo oni koji su do-
-stojni Odinove časti i poziva.
-
-4
-return a + b;
-
+3 brojac_saberi++;
+Ime alata Valgrind (izgovara se Velgrind, između a i e) potiče iz nordĳske mitologĳe, gde Valgrind označava glavnu kapĳu koja vodi u Valhalu (eng. Valhalla) — Odinovu dvoranu u koju ulaze duše palih ratnika. Odin je vrhovni bog u nordĳskoj mitologĳi, bog mudrosti, poezĳe, rata i smrti. Valgrind je simbolično opisan kao široka, čvrsta kapĳa kroz koju prolaze samo oni koji su dostojni Odinove časti i poziva.
+4 return a + b;
 5 }
-
-Manuelna instrumentacĳa se u praksi gotovo nikada
-ne primenjuje. Ovde se koristi kao ilustracĳa, jer se
-sličan kôd automatski ubacuje, bilo putem kompajlera,
-bilo putem specĳalizovanih alata.
-
+Manuelna instrumentacĳa se u praksi gotovo nikada ne primenjuje. Ovde se koristi kao ilustracĳa, jer se sličan kôd automatski ubacuje, bilo putem kompajlera, bilo putem specĳalizovanih alata.
 Instrumentacĳa u fazi izvršavanja
-
-Valgrind je platforma koja omogućava izvršavanje pro-
-grama, njegovu instrumentacĳu u fazi izvršavanja i sni-
-manje izveštaja koji nastaju prilikom analize izvršavanja
-programa. Valgrind se koristi kao osnova za pravljenje
-alata za dinamičku analizu programa: profajlera i alata
-za dinamičku detekcĳu grešaka u programima.
-
-Autori alata su ovo ime oda-
-brali kako bi dočarali ideju
-ulaska u „unutrašnjost“ pro-
-grama: kao što Valgrind u
-mitologĳi otvara put u svet
-hrabrih ratnika, tako i sof-
-tverski Valgrind omogućava
-programerima da zavire u
-unutrašnje stanje svojih apli-
-kacĳa, otkrivajući greške i
-nedostatke koje inače ne bi
-mogli da vide. Ovo ime isti-
-če ulogu alata kao „čuvara
-kapĳe“ između uobičaje-
-nog izvršavanja programa i
-njegove detaljne analize na
-nivou memorĳe i performan-
-si.
-
-Svi Valgrind alati rade na istoj osnovi koja obuhvata
-podršku za izvršavanje i snimanje rezultata analize, kao
-i interfejs ka definisanju instrumentacĳe. Informacĳe
-koje se emituju variraju u zavisnosti od zadate instru-
-mentacĳe koja je specifična za svaki pojedinačni alat:
-
+Valgrind je platforma koja omogućava izvršavanje programa, njegovu instrumentacĳu u fazi izvršavanja i snimanje izveštaja koji nastaju prilikom analize izvršavanja programa. Valgrind se koristi kao osnova za pravljenje alata za dinamičku analizu programa: profajlera i alata za dinamičku detekcĳu grešaka u programima.
+Autori alata su ovo ime odabrali kako bi dočarali ideju ulaska u „unutrašnjost“ programa: kao što Valgrind u mitologĳi otvara put u svet hrabrih ratnika, tako i softverski Valgrind omogućava programerima da zavire u unutrašnje stanje svojih aplikacĳa, otkrivajući greške i nedostatke koje inače ne bi mogli da vide. Ovo ime ističe ulogu alata kao „čuvara kapĳe“ između uobičajenog izvršavanja programa i njegove detaljne analize na nivou memorĳe i performansi.
+Svi Valgrind alati rade na istoj osnovi koja obuhvata podršku za izvršavanje i snimanje rezultata analize, kao i interfejs ka definisanju instrumentacĳe. Informacĳe koje se emituju variraju u zavisnosti od zadate instrumentacĳe koja je specifična za svaki pojedinačni alat:
 Valgrind + Instrumentacĳa = Alat za dinamičku analizu
-
-Izazovi uspešnog rada alata zasnovanog na platformi
-Valgrind sastoje se, pre svega, u sklapanju dva procesa
-u jedan: program koji se analizira i program alata se
-sklapaju u jedan proces. Mnogi resursi se dele između
-ova dva programa, kao što su registri ili memorĳa, i
-potrebno ih je pravilno uskladiti.
-
-Dostupnost Valgrinda
-Valgrind je sistemski i arhi-
-tekturalno zavisni alat koji
-radi na sledećim platforma-
-ma:
-
-Prilikom analize izvršavanja programa nĳedan deo pro-
-grama koji se analizira se ne izvršava u svom izvornom
-obliku. Valgrind deli originalni kôd u sekvence koje
-se nazivaju osnovni blokovi. Osnovni blok je linearna
-sekvenca mašinskog koda, na čĳi se početak dolazi ne-
-kom naredbom skoka, koja u sebi ne sadrži grananja,
-pozive funkcĳa ili skokove, i koja se završava sa sko-
-kom, pozivom funkcĳe ili naredbom povratka u funkcĳu
-
-Linux - x86, AMD64, ARM,
-ARM64, PPC32,
-PPC64, S390X,
-MIPS32, MIPS64
-
-Solaris - x86, AMD64
-Android - ARM, ARM64,
-x86, MIPS32
-
-Darwin - x86, AMD64 (Mac
-OS X 10.12)
+Izazovi uspešnog rada alata zasnovanog na platformi Valgrind sastoje se, pre svega, u sklapanju dva procesa u jedan: program koji se analizira i program alata se sklapaju u jedan proces. Mnogi resursi se dele između ova dva programa, kao što su registri ili memorĳa, i potrebno ih je pravilno uskladiti.
+Dostupnost Valgrinda Valgrind je sistemski i arhitekturalno zavisni alat koji radi na sledećim platformama:
+Prilikom analize izvršavanja programa nĳedan deo programa koji se analizira se ne izvršava u svom izvornom obliku. Valgrind deli originalni kôd u sekvence koje se nazivaju osnovni blokovi. Osnovni blok je linearna sekvenca mašinskog koda, na čĳi se početak dolazi nekom naredbom skoka, koja u sebi ne sadrži grananja, pozive funkcĳa ili skokove, i koja se završava sa skokom, pozivom funkcĳe ili naredbom povratka u funkcĳu
+Linux - x86, AMD64, ARM, ARM64, PPC32, PPC64, S390X, MIPS32, MIPS64
+Solaris - x86, AMD64 Android - ARM, ARM64, x86, MIPS32
+Darwin - x86, AMD64 (Mac OS X 10.12)

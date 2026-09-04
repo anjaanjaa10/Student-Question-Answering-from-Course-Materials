@@ -1,54 +1,11 @@
-Automatski pristupi obično teže da imaju ili samo lažna
-upozorenja, ili samo propuštene greške — kombinova-
-nje lažnih upozorenja sa propuštenim greškama čini
-alat praktično nepoželjnim.
-
-Statička verifikacĳa softvera
-je vremenski veoma zahtev-
-na. Primer upotrebe parale-
-lizacĳe sa ciljem poboljšanja
-efikasnosti statičke verifika-
-cĳe može se videti u master
-radu Branislave Živković:
-Paralelizacĳa statičke verifikacĳe
-softvera
-
-Takođe, prilikom izgradnje automatskog alata za ispi-
-tivanje ispravnosti često se pravi kompromis između
-preciznosti i efikasnosti. Efikasni alati najčešće nisu
-precizni, dok precizni alati nisu efikasni.
-
+Automatski pristupi obično teže da imaju ili samo lažna upozorenja, ili samo propuštene greške — kombinovanje lažnih upozorenja sa propuštenim greškama čini alat praktično nepoželjnim.
+Statička verifikacĳa softvera je vremenski veoma zahtevna. Primer upotrebe paralelizacĳe sa ciljem poboljšanja efikasnosti statičke verifikacĳe može se videti u master radu Branislave Živković: Paralelizacĳa statičke verifikacĳe softvera
+Takođe, prilikom izgradnje automatskog alata za ispitivanje ispravnosti često se pravi kompromis između preciznosti i efikasnosti. Efikasni alati najčešće nisu precizni, dok precizni alati nisu efikasni.
 U automatsku statičku analizu se ubrajaju:
-
-▶simboličko izvršavanje,
-▶proveravanje modela i
-▶apstraktna interpretacĳa.
-
-Pored alata za automatsko otkrivanje grešaka u progra-
-mima, formalne metode verifikacĳe softvera obuhvataju
-i tehnike razvoja ispravnog softvera. Generisanje koda
-direktno iz specifikacĳe i formalno dokazivanje isprav-
-nosti softvera koji se razvĳa predstavljaju najviši nivo
-sigurnosti u ispravnost softvera. Ovo je ujedno i naj-
-skuplji razvoj softvera i zahteva visoko stručne ljude
-i upotrebu posebnih alata, kao što su npr Rocq (slika
-3.2) i Isabelle (slika 3.3). Iako ovakav razvoj softvera
-vodi najpouzdanĳem softveru, on je ujedno i najskuplji
-i najsporĳi pa se u industrĳi najčešće koristi samo za
-razvoj kritičnih delova koda.
-
+-simboličko izvršavanje, -proveravanje modela i -apstraktna interpretacĳa.
+Pored alata za automatsko otkrivanje grešaka u programima, formalne metode verifikacĳe softvera obuhvataju i tehnike razvoja ispravnog softvera. Generisanje koda direktno iz specifikacĳe i formalno dokazivanje ispravnosti softvera koji se razvĳa predstavljaju najviši nivo sigurnosti u ispravnost softvera. Ovo je ujedno i najskuplji razvoj softvera i zahteva visoko stručne ljude i upotrebu posebnih alata, kao što su npr Rocq (slika 3.2) i Isabelle (slika 3.3). Iako ovakav razvoj softvera vodi najpouzdanĳem softveru, on je ujedno i najskuplji i najsporĳi pa se u industrĳi najčešće koristi samo za razvoj kritičnih delova koda.
 Rezime
-
-▶Obezbeđivanje i kontrola kvaliteta softvera obu-
-hvataju validacĳu i verifikacĳu softvera.
-
-▶Validacĳa softvera obuhvata sve procese koji su
-potrebni da se osigura da definisana specifikacĳa
-softvera zadovoljava korisničke potrebe.
-
-▶Verifikacĳa softvera obuhvata sve procese koji
-su potrebni da se osigura da razvĳeni softver
-zadovoljava zadatu specifikacĳu.
-
-▶I verifikacĳa i validacĳa su od suštinske važnosti
-za kvalitet softvera.
+-Obezbeđivanje i kontrola kvaliteta softvera obuhvataju validacĳu i verifikacĳu softvera.
+-Validacĳa softvera obuhvata sve procese koji su potrebni da se osigura da definisana specifikacĳa softvera zadovoljava korisničke potrebe.
+-Verifikacĳa softvera obuhvata sve procese koji su potrebni da se osigura da razvĳeni softver zadovoljava zadatu specifikacĳu.
+-I verifikacĳa i validacĳa su od suštinske važnosti za kvalitet softvera.

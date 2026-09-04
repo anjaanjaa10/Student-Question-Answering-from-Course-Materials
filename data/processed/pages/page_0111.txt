@@ -1,49 +1,11 @@
-na granicama definisanih klasa. Odatle potiče ideja o
-dodatnoj tehnici: testiranju graničnih vrednosti (eng. bo-
-undary value testing).
-
+na granicama definisanih klasa. Odatle potiče ideja o dodatnoj tehnici: testiranju graničnih vrednosti (eng. boundary value testing).
 tehnike testiranja
-
-Ova tehnika fokusira se na vrednosti koje se nalaze na sa-
-mim granicama, neposredno ispod i neposredno iznad
-granica klasa ekvivalencĳe, jer upravo na tim mestima
-programeri najčešće prave greške. Tipična greška je po-
-grešno upisivanje operatora nejednakosti, na primer
-korišćenje znaka > umesto znaka ≥(ili obratno).
-
-testiranje
-crne kutĳe
-
-granične
-vrednosti
-
-Primetimo da su termini ispod i iznad relativni pojmo-
-vi koji zavise od tipa i preciznosti vrednosti koje se
-testiraju. Na primer, kod celobrojnih vrednosti, to su
-uzastopni brojevi (𝑛−1 i 𝑛+1, ukoliko je 𝑛granica), dok
-kod realnih brojeva razlika može biti definisana brojem
-značajnih decimala. Dodatna složenost se javlja kada
-postoje višedimenzionalni ulazi (npr. dve povezane nu-
-meričke vrednosti) ili kada se radi sa realnim brojevima
-visoke preciznosti. U takvim slučajevima, identifikacĳa
-relevantnih granica i test tačaka zahteva dodatnu pažnju
-i detaljnĳu analizu.
-
-Osnovni koraci za primenu testiranja graničnih vredno-
-sti su sledeći:
-
-1. Identifikovati klase ekvivalencĳe na osnovu ula-
-znih podataka.
-
-2. Odrediti tačne granice svake identifikovane klase.
-3. Za svaku granicu, definisati sledeće test tačke:
-
-▶tačku na samoj granici,
-▶tačku neposredno ispod granice,
-▶tačku neposredno iznad granice.
-
-Važno je imati u vidu da tačke koje se nalaze ispod i
-iznad granice mogu da pripadaju klasama ekvivalencĳe
-koje su već obuhvaćene testovima. Zbog toga treba paziti
-da se testovi ne dupliraju kada se kombinuje testiranje
-graničnih vrednosti sa testiranjem klasa ekvivalencĳe.
+Ova tehnika fokusira se na vrednosti koje se nalaze na samim granicama, neposredno ispod i neposredno iznad granica klasa ekvivalencĳe, jer upravo na tim mestima programeri najčešće prave greške. Tipična greška je pogrešno upisivanje operatora nejednakosti, na primer korišćenje znaka > umesto znaka ≥(ili obratno).
+testiranje crne kutĳe
+granične vrednosti
+Primetimo da su termini ispod i iznad relativni pojmovi koji zavise od tipa i preciznosti vrednosti koje se testiraju. Na primer, kod celobrojnih vrednosti, to su uzastopni brojevi (𝑛−1 i 𝑛+1, ukoliko je 𝑛granica), dok kod realnih brojeva razlika može biti definisana brojem značajnih decimala. Dodatna složenost se javlja kada postoje višedimenzionalni ulazi (npr. dve povezane numeričke vrednosti) ili kada se radi sa realnim brojevima visoke preciznosti. U takvim slučajevima, identifikacĳa relevantnih granica i test tačaka zahteva dodatnu pažnju i detaljnĳu analizu.
+Osnovni koraci za primenu testiranja graničnih vrednosti su sledeći:
+1. Identifikovati klase ekvivalencĳe na osnovu ulaznih podataka.
+2. Odrediti tačne granice svake identifikovane klase. 3. Za svaku granicu, definisati sledeće test tačke:
+-tačku na samoj granici, -tačku neposredno ispod granice, -tačku neposredno iznad granice.
+Važno je imati u vidu da tačke koje se nalaze ispod i iznad granice mogu da pripadaju klasama ekvivalencĳe koje su već obuhvaćene testovima. Zbog toga treba paziti da se testovi ne dupliraju kada se kombinuje testiranje graničnih vrednosti sa testiranjem klasa ekvivalencĳe.

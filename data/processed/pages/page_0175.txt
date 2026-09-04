@@ -1,41 +1,7 @@
-nja instrukcĳa u program kako bi se tokom njegovog
-izvršavanja, pratile određene pojave i prikupljali poda-
-ci o njegovom ponašanju. Instrumentacĳa se koristi u
-jednoj vrsti profajlera kao i u sanitajzerima i drugim
-alatima za dinamičko otkrivanje grešaka.
-
-Najvažnĳe osobine koje dobra instrumentacĳa treba da
-zadovolji su:
-
+nja instrukcĳa u program kako bi se tokom njegovog izvršavanja, pratile određene pojave i prikupljali podaci o njegovom ponašanju. Instrumentacĳa se koristi u jednoj vrsti profajlera kao i u sanitajzerima i drugim alatima za dinamičko otkrivanje grešaka.
+Najvažnĳe osobine koje dobra instrumentacĳa treba da zadovolji su:
 1. Ne utiče na funkcionalnost programa.
-
-2. Prikuplja sve neophodne podatke i samo njih.
-3. Ne usporava previše rad programa.
-4. Ne povećava previše upotrebu memorĳe.
-
-Prvi uslov ističe da ukoliko dodata instrumentacĳa utiče
-na funkcionalnost programa onda prikupljeni podaci
-neće oslikavati pravi način njegovog rada. Drugi uslov
-je važan jer prikupljanje nepotrebnih podataka dodatno
-usporava program i samu njihovu obradu, dok premalo
-informacĳa može biti beznačajno.
-
-Preterano usporavanje rada programa može da vodi do
-praktične neupotrebljivosti programa zbog instrumenta-
-cĳe. Na primer, ako izvršavanje programa traje jedan sat,
-a usporenje koje instrumentacĳa nameće izvršavanju je
-sto puta, onda izvršavanje instrumentovanog programa
-traje 100 sati što je prilično nepraktično. Slično, ako pro-
-gram već zahteva upotrebu velike količine memorĳe,
-onda povećanje potrošnje memorĳe može da utiče na
-to da instrumentovan program ne može da stane na
-uređaj na kojem treba da se izvršava. Usporavanje i po-
-većavanje upotrebe memorĳe zavise od tipa aplikacĳe i
-mogu se kontrolisati izborom delova programa koji se
-instrumentuju.
-
-Primer 6.1.1 (Uređaji koji rade u realnom vremenu)
-Usporavanje rada programa koje je posledica instru-
-mentacĳe je posebno važno u kontekstu sistema koji
-treba da rade u realnom vremenu. Ovi sistemi često
-imaju vrlo stroga vremenska ograničenja koja se in-
+2. Prikuplja sve neophodne podatke i samo njih. 3. Ne usporava previše rad programa. 4. Ne povećava previše upotrebu memorĳe.
+Prvi uslov ističe da ukoliko dodata instrumentacĳa utiče na funkcionalnost programa onda prikupljeni podaci neće oslikavati pravi način njegovog rada. Drugi uslov je važan jer prikupljanje nepotrebnih podataka dodatno usporava program i samu njihovu obradu, dok premalo informacĳa može biti beznačajno.
+Preterano usporavanje rada programa može da vodi do praktične neupotrebljivosti programa zbog instrumentacĳe. Na primer, ako izvršavanje programa traje jedan sat, a usporenje koje instrumentacĳa nameće izvršavanju je sto puta, onda izvršavanje instrumentovanog programa traje 100 sati što je prilično nepraktično. Slično, ako program već zahteva upotrebu velike količine memorĳe, onda povećanje potrošnje memorĳe može da utiče na to da instrumentovan program ne može da stane na uređaj na kojem treba da se izvršava. Usporavanje i povećavanje upotrebe memorĳe zavise od tipa aplikacĳe i mogu se kontrolisati izborom delova programa koji se instrumentuju.
+Primer 6.1.1 (Uređaji koji rade u realnom vremenu) Usporavanje rada programa koje je posledica instrumentacĳe je posebno važno u kontekstu sistema koji treba da rade u realnom vremenu. Ovi sistemi često imaju vrlo stroga vremenska ograničenja koja se in-

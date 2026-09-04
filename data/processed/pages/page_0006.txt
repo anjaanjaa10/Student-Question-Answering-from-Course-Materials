@@ -1,43 +1,11 @@
-Autor:
-dr Milena Vujošević Janičić, vanredni profesor na Matematičkom fakultetu u Beogradu
-
-VERIFIKACĲA SOFTVERA
-Prvo izdanje, 2026.
-
-Izdavač:
-Matematički fakultet Univerziteta u Beogradu, Studentski trg 16, 11000 Beograd
-Za izdavača: prof. dr Dragoljub Kečkić, dekan
-
-Recenzenti:
-dr Mirko Spasić, docent na Matematičkom fakultetu u Beogradu
-dr Maja Vukasović, docent na Elektrotehničkom fakultetu u Beogradu
-Obrada teksta i ilustracĳe: autor
-Štampa: Skripta internacional, Beograd
-Tiraž: 30
-
-CIP - Katalogizacija u publikaciji
-Narodna biblioteka Srbije, Beograd
-
-004.415.5(075.8)
-VUJOXEVI Janiqi, Milena, 1980-
-Verifikacĳa softvera / Milena Vujošević Janičić ;[ilustracĳe autor]. - 1. izd.
-- Beograd : Univerzitet u Beogradu, Matematički fakultet, 2026 (Beograd :
-Skripta internacional). 392 str. : ilustr. ; 24 cm
-
-Tiraž 30. - Napomene i bibliografske reference uz tekst. - Bibliografija uz
-svako poglavlje. - Register.
-
+Autor: dr Milena Vujošević Janičić, vanredni profesor na Matematičkom fakultetu u Beogradu
+VERIFIKACĲA SOFTVERA Prvo izdanje, 2026.
+Izdavač: Matematički fakultet Univerziteta u Beogradu, Studentski trg 16, 11000 Beograd Za izdavača: prof. dr Dragoljub Kečkić, dekan
+Recenzenti: dr Mirko Spasić, docent na Matematičkom fakultetu u Beogradu dr Maja Vukasović, docent na Elektrotehničkom fakultetu u Beogradu Obrada teksta i ilustracĳe: autor Štampa: Skripta internacional, Beograd Tiraž: 30
+CIP - Katalogizacija u publikaciji Narodna biblioteka Srbije, Beograd
+004.415.5(075.8) VUJOXEVI Janiqi, Milena, 1980Verifikacĳa softvera / Milena Vujošević Janičić ;[ilustracĳe autor]. - 1. izd. - Beograd : Univerzitet u Beogradu, Matematički fakultet, 2026 (Beograd : Skripta internacional). 392 str. : ilustr. ; 24 cm
+Tiraž 30. - Napomene i bibliografske reference uz tekst. - Bibliografija uz svako poglavlje. - Register.
 ISBN 978-86-7589-210-6
-
-1. Vujoxevi Janiqi, Milena, 1980- [autor][ilustrator]
-a) Softver { Testirae
-
+1. Vujoxevi Janiqi, Milena, 1980- [autor][ilustrator] a) Softver { Testirae
 COBISS.SR-ID 191794697
-
-Copyright ©Milena Vujošević Janičić
-Ovo delo zaštićeno je licencom Creative Commons CC BY-NC-ND 4.0 (Attribution-
-NonCommercial-NoDerivatives 4.0 International License). Detalji licence mogu se videti
-na veb-adresi http://creativecommons.org/licenses/by-nc-nd/4.0/. Dozvoljeno je
-umnožavanje, distribucĳa i javno saopštavanje dela, pod uslovom da se navedu imena
-autora. Upotreba dela u komercĳalne svrhe nĳe dozvoljena. Prerada, preoblikovanje i
-upotreba dela u sklopu nekog drugog nĳe dozvoljena.
+Copyright ©Milena Vujošević Janičić Ovo delo zaštićeno je licencom Creative Commons CC BY-NC-ND 4.0 (AttributionNonCommercial-NoDerivatives 4.0 International License). Detalji licence mogu se videti na veb-adresi http://creativecommons.org/licenses/by-nc-nd/4.0/. Dozvoljeno je umnožavanje, distribucĳa i javno saopštavanje dela, pod uslovom da se navedu imena autora. Upotreba dela u komercĳalne svrhe nĳe dozvoljena. Prerada, preoblikovanje i upotreba dela u sklopu nekog drugog nĳe dozvoljena.

@@ -1,67 +1,18 @@
 4.3.1 Pokrivenost testiranjem
-
-Pokrivenost testiranjem (eng. test coverage) je metrika ko-
-ja pomaže da se proceni koliko su testovi sveobuhvatni
-i koliko dobro proveravaju funkcionalnost, strukturu i
-ponašanje sistema. Koristi se za procenu kvaliteta sof-
-tvera. Takođe, može se koristiti i da ukaže na delove
-sistema koji nisu testirani. Pomaže u donošenju odluke
-da li je softver spreman za isporuku.
-
-Pokrivenost
-=
-Broj testiranih elem.
-
-Pokrivenost se definiše kao procenat elemenata sistema
-koji su obuhvaćeni testiranjem u odnosu na sve elemente
-te vrste. Postoje razne vrste pokrivenosti, a osnovne vrste
-pokrivenosti su date u nastavku.
-
+Pokrivenost testiranjem (eng. test coverage) je metrika koja pomaže da se proceni koliko su testovi sveobuhvatni i koliko dobro proveravaju funkcionalnost, strukturu i ponašanje sistema. Koristi se za procenu kvaliteta softvera. Takođe, može se koristiti i da ukaže na delove sistema koji nisu testirani. Pomaže u donošenju odluke da li je softver spreman za isporuku.
+Pokrivenost = Broj testiranih elem.
+Pokrivenost se definiše kao procenat elemenata sistema koji su obuhvaćeni testiranjem u odnosu na sve elemente te vrste. Postoje razne vrste pokrivenosti, a osnovne vrste pokrivenosti su date u nastavku.
 Ukupan broj elem. × 100%
-
-Pokrivenost zahteva (eng. requirements coverage) Mera
-koja pokazuje koliki je procenat zahteva prove-
-ren testiranjem u odnosu na ukupan broj zahteva
-korisnika koji su definisani kroz specifikacĳu. Pot-
-puna pokrivenost podrazumeva da je svaki zahtev
-testiran.
-
-Pokrivenost zahteva
-=
-
+Pokrivenost zahteva (eng. requirements coverage) Mera koja pokazuje koliki je procenat zahteva proveren testiranjem u odnosu na ukupan broj zahteva korisnika koji su definisani kroz specifikacĳu. Potpuna pokrivenost podrazumeva da je svaki zahtev testiran.
+Pokrivenost zahteva =
 Broj testiranih zahteva
-
 Ukupan broj zahteva × 100%
-
-Pokrivenost funkcionalnosti (eng. functional coverage)
-Mera koja pokazuje koliki je procenat funkcional-
-nosti proveren testiranjem u odnosu na ukupan
-broj funkcionalnosti sistema. Potpuna pokrivenost
-podrazumeva da je svaka funkcionalnost testira-
-na.
-
+Pokrivenost funkcionalnosti (eng. functional coverage) Mera koja pokazuje koliki je procenat funkcionalnosti proveren testiranjem u odnosu na ukupan broj funkcionalnosti sistema. Potpuna pokrivenost podrazumeva da je svaka funkcionalnost testirana.
 Pokrivenost funkcionalnosti =
-
 Broj testiranih funkc.
-
 Ukupan broj funkc. × 100%
-
-Pokrivenost koda (eng. code coverage) Ova mera sadrži
-u sebi veći broj različitih pokrivenosti. Na primer,
-pokrivenost naredbi se definiše kao broj izvršenih
-naredbi u okviru testiranja podeljen sa ukupnim
-brojem naredbi u projektu. Pokrivenost koda se
-detaljno razmatra u delu 4.3.4.
-
-Pokrivenost koda
-=
-
+Pokrivenost koda (eng. code coverage) Ova mera sadrži u sebi veći broj različitih pokrivenosti. Na primer, pokrivenost naredbi se definiše kao broj izvršenih naredbi u okviru testiranja podeljen sa ukupnim brojem naredbi u projektu. Pokrivenost koda se detaljno razmatra u delu 4.3.4.
+Pokrivenost koda =
 Broj izvršenih elem.
-
 Ukupan broj tih elem. × 100%
-
-Primer 4.3.1 (Veb aplikacĳa za kupovinu) Visoka po-
-krivenost zahteva ne znači nužno i visoku pokrivenost
-funkcionalnosti — mogu postojati funkcionalnosti ko-
-je nisu formalno dokumentovane zahtevima, a koje
-ipak treba testirati. Zato se u praksi često prate obe
+Primer 4.3.1 (Veb aplikacĳa za kupovinu) Visoka pokrivenost zahteva ne znači nužno i visoku pokrivenost funkcionalnosti — mogu postojati funkcionalnosti koje nisu formalno dokumentovane zahtevima, a koje ipak treba testirati. Zato se u praksi često prate obe

@@ -1,60 +1,22 @@
-3. Odabir skupa od 𝐶linearno nezavisnih osnovnih
-putanja;
-
-4. Kreiranje test primera za svaku osnovnu putanju;
-5. Izvršavanje testova i analiza rezultata.
-
-Primena testiranja osnovnih putanja garantuje pokri-
-venost svih naredbi i svih grana u kodu, jer je skup
-osnovnih putanja konstruisan tako da pokriva svaki
-čvor i svaku logičku odluku u grafu toka upravljanja.
-
-Primer 4.3.22 (Osnovne putanje) Naredni graf odgo-
-vara grafu kontrole toka programa P.
-
+3. Odabir skupa od 𝐶linearno nezavisnih osnovnih putanja;
+4. Kreiranje test primera za svaku osnovnu putanju; 5. Izvršavanje testova i analiza rezultata.
+Primena testiranja osnovnih putanja garantuje pokrivenost svih naredbi i svih grana u kodu, jer je skup osnovnih putanja konstruisan tako da pokriva svaki čvor i svaku logičku odluku u grafu toka upravljanja.
+Primer 4.3.22 (Osnovne putanje) Naredni graf odgovara grafu kontrole toka programa P.
 A
-
-1
-2
-
+1 2
 B
-
 D
-
-5
-6
-
-3
-4
-
+5 6
+3 4
 E
-
 7
-
 8
-
 C
-
 F
-
-9
-10
-
+9 10
 G
-
 Ciklomatična kompleksnost za dati graf je 5, jer je
-
 𝐶= 10 −7 + 2 = 5
-
-Primenimo naredni algoritam odabira 5 linearno ne-
-zavisnih osnovnih putanja. U svakom čvoru odluke
-potrebno je promeniti odluku, počevši od poslednje
-donete odluke. U skladu sa time, imamo naredne
-putanje:
-
+Primenimo naredni algoritam odabira 5 linearno nezavisnih osnovnih putanja. U svakom čvoru odluke potrebno je promeniti odluku, počevši od poslednje donete odluke. U skladu sa time, imamo naredne putanje:
 1. A, B, C, G
-
-2. A, B, C, B, C, G
-3. A, B, E, F, G
-4. A, D, E, F, G
-5. A, D, F, G
+2. A, B, C, B, C, G 3. A, B, E, F, G 4. A, D, E, F, G 5. A, D, F, G

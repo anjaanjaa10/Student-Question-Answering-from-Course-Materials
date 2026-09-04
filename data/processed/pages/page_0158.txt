@@ -1,38 +1,5 @@
-tehnika jeste debagovanje unazad (eng. reverse debug-
-ging), koje omogućava programeru da prati izvršavanje
-koda unazad, analizirajući operacĳe koje su dovele do
-određenog stanja.
-
+tehnika jeste debagovanje unazad (eng. reverse debugging), koje omogućava programeru da prati izvršavanje koda unazad, analizirajući operacĳe koje su dovele do određenog stanja.
 5.2.2 Udaljeno debagovanje
-
-Pored interaktivnog debagovanja koje se sprovodi na
-lokalnoj mašini, često se koristi i udaljeno debagovanje
-(eng. remote debugging). Ova tehnika podrazumeva in-
-teraktivno debagovanje pri čemu se aplikacĳa izvršava
-na jednom sistemu — ciljnom sistemu, dok se proces
-debagovanja obavlja sa drugog sistema — udaljenog
-sistema. Povezivanje se ostvaruje preko mreže koristeći
-odgovarajuće protokole i servise.
-
-Udaljeno debagovanje omogućava da debager sa uda-
-ljenog računara upravlja izvršavanjem programa na cilj-
-nom sistemu, postavlja tačke prekida, ispituje vrednosti
-promenljivih i dobĳa informacĳe o stanju memorĳe i re-
-gistara ciljne aplikacĳe. Ova tehnika je naročito korisna
-u scenarĳima kada ciljni sistem ima ograničene resurse
-i ne može lokalno izvršavati debager, što je čest slučaj
-kod uređaja sa ugrađenim računarom (eng. embedded
-systems), kao i prilikom razvoja sistema za koje nĳe lako
-obezbediti direktni fizički pristup, kao što su IoT (eng. in-
-ternet of things) platforme ili sistemi u produkcionom
-okruženju.
-
-Primer 5.2.5 (Udaljeno debagovanje korišćenjem de-
-bagera gdb) Korišćenjem alata gdb na udaljenom si-
-stemu i servisa gdbserver na ciljnom sistemu, moguće
-je uspostaviti vezu između razvojne stanice i ciljnog
-sistema, čime se omogućava upravljanje izvršavanjem
-programa sa udaljene lokacĳe. Da bi udaljeno deba-
-govanje bilo moguće, potrebno je da ciljna i udaljena
-arhitektura budu iste, ili da debager na udaljenom
-sistemu ima podršku za arhitekturu ciljnog sistema
+Pored interaktivnog debagovanja koje se sprovodi na lokalnoj mašini, često se koristi i udaljeno debagovanje (eng. remote debugging). Ova tehnika podrazumeva interaktivno debagovanje pri čemu se aplikacĳa izvršava na jednom sistemu — ciljnom sistemu, dok se proces debagovanja obavlja sa drugog sistema — udaljenog sistema. Povezivanje se ostvaruje preko mreže koristeći odgovarajuće protokole i servise.
+Udaljeno debagovanje omogućava da debager sa udaljenog računara upravlja izvršavanjem programa na ciljnom sistemu, postavlja tačke prekida, ispituje vrednosti promenljivih i dobĳa informacĳe o stanju memorĳe i registara ciljne aplikacĳe. Ova tehnika je naročito korisna u scenarĳima kada ciljni sistem ima ograničene resurse i ne može lokalno izvršavati debager, što je čest slučaj kod uređaja sa ugrađenim računarom (eng. embedded systems), kao i prilikom razvoja sistema za koje nĳe lako obezbediti direktni fizički pristup, kao što su IoT (eng. internet of things) platforme ili sistemi u produkcionom okruženju.
+Primer 5.2.5 (Udaljeno debagovanje korišćenjem debagera gdb) Korišćenjem alata gdb na udaljenom sistemu i servisa gdbserver na ciljnom sistemu, moguće je uspostaviti vezu između razvojne stanice i ciljnog sistema, čime se omogućava upravljanje izvršavanjem programa sa udaljene lokacĳe. Da bi udaljeno debagovanje bilo moguće, potrebno je da ciljna i udaljena arhitektura budu iste, ili da debager na udaljenom sistemu ima podršku za arhitekturu ciljnog sistema

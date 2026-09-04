@@ -1,41 +1,7 @@
 sve višestruke uslove ni sve putanje).
-
-Testovi
-{a=1, b=2, c=3, d=4} i
-{a=-1, b=-2, c=-3, d=-4}
-pokrivaju sve naredbe, sve odluke i sve uslove (ali ne
-i sve višestruke uslove ni sve putanje).
-
-Testovi
-{a=1, b=2, c=3, d=4},
-{a=1, b=-2, c=3, d=-4},
-{a=-1, b=2, c=-3, d=4} i
-{a=-1, b=-2, c=-3, d=-4}
-pokrivaju sve naredbe, sve odluke, sve uslove i sve
-višestruke uslove, ali ne i sve putanje.
-
-Testovi
-{a=1, b=2, c=3, d=4},
-{a=1, b=2, c=-3, d=4},
-{a=-1, b=2, c=3, d=4} i
-{a=1, b=-2, c=3, d=-4}
-pokrivaju sve naredbe, sve odluke, sve uslove i sve
-putanje, ali ne i sve višestruke uslove.
-
+Testovi {a=1, b=2, c=3, d=4} i {a=-1, b=-2, c=-3, d=-4} pokrivaju sve naredbe, sve odluke i sve uslove (ali ne i sve višestruke uslove ni sve putanje).
+Testovi {a=1, b=2, c=3, d=4}, {a=1, b=-2, c=3, d=-4}, {a=-1, b=2, c=-3, d=4} i {a=-1, b=-2, c=-3, d=-4} pokrivaju sve naredbe, sve odluke, sve uslove i sve višestruke uslove, ali ne i sve putanje.
+Testovi {a=1, b=2, c=3, d=4}, {a=1, b=2, c=-3, d=4}, {a=-1, b=2, c=3, d=4} i {a=1, b=-2, c=3, d=-4} pokrivaju sve naredbe, sve odluke, sve uslove i sve putanje, ali ne i sve višestruke uslove.
 Preporučeni nivo pokrivenosti
-
-U praksi, pitanje „Koliki nivo pokrivenosti je dovoljno
-dobar?“ nema univerzalni odgovor i zavisi od priro-
-de softverskog sistema, njegovog konteksta upotrebe,
-kritičnosti i ciljeva testiranja. Ipak, industrĳska praksa
-pokazuje određene smernice koje se često koriste kao
-polazna tačka.
-
-Na primer, za pokrivenost naredbi, iako se potpuna
-pokrivenost često postavlja kao cilj, kao preporučeni
-prag navodi se nivo od 80% do 90%. Ova vrednost
-predstavlja kompromis između efikasnosti testiranja
-i troškova njegove realizacĳe. Važno je napomenuti
-da čak i potpuna pokrivenost ne garantuje odsustvo
-grešaka. Ona samo znači da je sav kôd bio izvršen tokom
-testiranja, ali ne i da su obuhvaćeni svi logički putevi,
+U praksi, pitanje „Koliki nivo pokrivenosti je dovoljno dobar?“ nema univerzalni odgovor i zavisi od prirode softverskog sistema, njegovog konteksta upotrebe, kritičnosti i ciljeva testiranja. Ipak, industrĳska praksa pokazuje određene smernice koje se često koriste kao polazna tačka.
+Na primer, za pokrivenost naredbi, iako se potpuna pokrivenost često postavlja kao cilj, kao preporučeni prag navodi se nivo od 80% do 90%. Ova vrednost predstavlja kompromis između efikasnosti testiranja i troškova njegove realizacĳe. Važno je napomenuti da čak i potpuna pokrivenost ne garantuje odsustvo grešaka. Ona samo znači da je sav kôd bio izvršen tokom testiranja, ali ne i da su obuhvaćeni svi logički putevi,

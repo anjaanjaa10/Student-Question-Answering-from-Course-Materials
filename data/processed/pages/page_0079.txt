@@ -1,69 +1,29 @@
-2
-return a + b
-
-Naredni kôd (datoteka test_matematika.py koja je
-u istom direktorĳumu sa datotekom matematika.py)
-sadrži jednostavan jedinični test za ovu funkcĳu.
-
+2 return a + b
+Naredni kôd (datoteka test_matematika.py koja je u istom direktorĳumu sa datotekom matematika.py) sadrži jednostavan jedinični test za ovu funkcĳu.
 1 import unittest
-
 2 from matematika import saberi
-
 3
-
 4 class TestSaberi(unittest.TestCase):
-
-5
-def test_saberi_pozitivne(self):
-
-6
-self.assertEqual(saberi(2, 3), 5)
-
+5 def test_saberi_pozitivne(self):
+6 self.assertEqual(saberi(2, 3), 5)
 7
-
-8
-def test_saberi_negativne(self):
-
-9
-self.assertEqual(saberi(-1, -1), -2)
-
+8 def test_saberi_negativne(self):
+9 self.assertEqual(saberi(-1, -1), -2)
 10
-
 11 if __name__ == ’__main__’:
-
-12
-unittest.main()
-
-Klasa TestSaberi nasleđuje klasu unittest.TestCase
-i sadrži dva testa:
-
-▶Jedan testira sabiranje pozitivnih brojeva.
-▶Drugi testira sabiranje negativnih brojeva.
-
-Funkcĳa assertEqual proverava da li je rezultat funk-
-cĳe jednak očekivanoj vrednosti. Funkcĳa
-
+12 unittest.main()
+Klasa TestSaberi nasleđuje klasu unittest.TestCase i sadrži dva testa:
+-Jedan testira sabiranje pozitivnih brojeva. -Drugi testira sabiranje negativnih brojeva.
+Funkcĳa assertEqual proverava da li je rezultat funkcĳe jednak očekivanoj vrednosti. Funkcĳa
 1 unittest.main()
-
 pokreće ove testove.
-
-Test se pokreće iz komandne linĳe narednom nared-
-bom
-
+Test se pokreće iz komandne linĳe narednom naredbom
 1 python test_matematika.py
-
 Ako je sve ispravno, izlaz će izgledati ovako:
-
 1 ..
-
 2 -------------------------------------------------
-
 3 Ran 2 tests in 0.001s
-
 4
-
 5 OK
-
 4.2.2 Komponentno i integraciono testiranje
-
 Komponentno testiranje (eng. component testing) prove-

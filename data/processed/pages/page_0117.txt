@@ -1,66 +1,12 @@
 Zatvori
-
 Otvori
-
 Otvori/Obavesti
-
-Zatvorena
-Otvorena
-
+Zatvorena Otvorena
 Zatvori/Obavesti
-
-Ugasi
-program
-
-Slika 4.11: Dĳagram stanja za
-ugrađenu kasu
-
-prednost tabela stanja jeste njihov sistematični pristup
-jer prikazuju sve moguće kombinacĳe stanja i događaja.
-Takvim pristupom mogu da se uoče situacĳe u kojima
-ponašanje sistema nĳe definisano, što može da spreči
-pojavu grešaka. Kod tabela stanja, iz svakog reda se
-može direktno izvesti jedan test slučaj. Tabele stanja
-postaju nepraktične ukoliko postoji veliki broj mogućih
-stanja i događaja.
-
-Primer 4.3.12 (Ugrađena kasa — nastavak primera
-4.3.11) Tabela stanja za ugrađenu kasu prikazana je u
-narednoj tabeli.
-
-Trenutno stanje
-Događaj
-Akcĳa
-Naredno stanje
-
-Zatvorena
-otvori
-obavesti
-Otvorena
-Zatvorena
-zatvori
--
-Zatvorena
-Zatvorena
-ugasi program
--
-Zatvorena
-Otvorena
-otvori
--
-Otvorena
-Otvorena
-zatvori
-obavesti
-Zatvorena
-Otvorena
-ugasi program
--
-Nedefinisano
-
-Na osnovu tabele možemo lako da uočimo da postoji
-test slučaj za koje stanje nĳe definisano. To je test slučaj
-koji odgovara situacĳi u kojoj korisnik sistema želi
-da ugasi program, a kasa nĳe zatvorena (poslednji
-red tabele). Mogućnost ostavljanja otvorene kase nĳe
-očigledna na dĳagramu stanja 4.11, ali jeste u tabeli
+Ugasi program
+Slika 4.11: Dĳagram stanja za ugrađenu kasu
+prednost tabela stanja jeste njihov sistematični pristup jer prikazuju sve moguće kombinacĳe stanja i događaja. Takvim pristupom mogu da se uoče situacĳe u kojima ponašanje sistema nĳe definisano, što može da spreči pojavu grešaka. Kod tabela stanja, iz svakog reda se može direktno izvesti jedan test slučaj. Tabele stanja postaju nepraktične ukoliko postoji veliki broj mogućih stanja i događaja.
+Primer 4.3.12 (Ugrađena kasa — nastavak primera 4.3.11) Tabela stanja za ugrađenu kasu prikazana je u narednoj tabeli.
+Trenutno stanje Događaj Akcĳa Naredno stanje
+Zatvorena otvori obavesti Otvorena Zatvorena zatvori - Zatvorena Zatvorena ugasi program - Zatvorena Otvorena otvori - Otvorena Otvorena zatvori obavesti Zatvorena Otvorena ugasi program - Nedefinisano
+Na osnovu tabele možemo lako da uočimo da postoji test slučaj za koje stanje nĳe definisano. To je test slučaj koji odgovara situacĳi u kojoj korisnik sistema želi da ugasi program, a kasa nĳe zatvorena (poslednji red tabele). Mogućnost ostavljanja otvorene kase nĳe očigledna na dĳagramu stanja 4.11, ali jeste u tabeli

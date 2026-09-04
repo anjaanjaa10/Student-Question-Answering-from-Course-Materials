@@ -1,54 +1,16 @@
 1.3.1 Funkcionalna podobnost
-
-Funkcionalna podobnost (eng. functional suitability) od-
-govara stepenu u kojem softver ispunjava funkcionalne
-zahteve i obuhvata naredne podatribute:
-
-funkcionalnu ispravnost — softver treba da daje tačne
-rezultate,
-
-funkcionalnu potpunost — dostupnost funkcĳa koje
-su očekivane specifikacĳom i
-
-funkcionalnu prikladnost — ispunjavanje očekivane
-funkcionalnosti.
-
-funkcionalna
-podobnost
-
-Primer 1.3.1 (Kalkulator) Razmotrimo primer jedno-
-stavnog kalkulatora.
-
-Funkcionalna ispravnost podrazumeva da kalkulator
-uvek računa ispravne vrednosti. Na primer, kalkulator
-treba da ne greši u sabiranju dva broja.
-
-funkcionalna
-ispravnost
-
-Funkcionalna potpunost podrazumeva da kalkulator
-ima dostupne sve funkcionalnosti predviđene specifi-
-kacĳom. Na primer, željene funkcionalnosti mogu da
-budu sabiranje, oduzimanje, množenje i deljenje.
-
-funkcionalna
-potpunost
-
-funkcionalna
-prikladnost
-
-Funkcionalna prikladnost podrazumeva da se kalku-
-lator ponaša na očekivani način. Na primer, kalkulator
-ne treba da ima neočekivane dodatne opcĳe kao što
-su skidanje sadržaja sa interneta ili puštanje filmova.
-
+Funkcionalna podobnost (eng. functional suitability) odgovara stepenu u kojem softver ispunjava funkcionalne zahteve i obuhvata naredne podatribute:
+funkcionalnu ispravnost — softver treba da daje tačne rezultate,
+funkcionalnu potpunost — dostupnost funkcĳa koje su očekivane specifikacĳom i
+funkcionalnu prikladnost — ispunjavanje očekivane funkcionalnosti.
+funkcionalna podobnost
+Primer 1.3.1 (Kalkulator) Razmotrimo primer jednostavnog kalkulatora.
+Funkcionalna ispravnost podrazumeva da kalkulator uvek računa ispravne vrednosti. Na primer, kalkulator treba da ne greši u sabiranju dva broja.
+funkcionalna ispravnost
+Funkcionalna potpunost podrazumeva da kalkulator ima dostupne sve funkcionalnosti predviđene specifikacĳom. Na primer, željene funkcionalnosti mogu da budu sabiranje, oduzimanje, množenje i deljenje.
+funkcionalna potpunost
+funkcionalna prikladnost
+Funkcionalna prikladnost podrazumeva da se kalkulator ponaša na očekivani način. Na primer, kalkulator ne treba da ima neočekivane dodatne opcĳe kao što su skidanje sadržaja sa interneta ili puštanje filmova.
 1.3.2 Performantnost
-
-Performantnost (efikasnost) (eng. performance) odgo-
-vara stepenu u kojem softver zadovoljava vremenske
-i resursne zahteve. Performantnost obuhvata naredne
-podatribute:
-
-vremensko ponašanje — vreme odgovora i obrade (ko-
-liko vremena je potrebno da aplikacĳa da odgovor
-korisniku, odnosno da obradi neke netrivĳalne
+Performantnost (efikasnost) (eng. performance) odgovara stepenu u kojem softver zadovoljava vremenske i resursne zahteve. Performantnost obuhvata naredne podatribute:
+vremensko ponašanje — vreme odgovora i obrade (koliko vremena je potrebno da aplikacĳa da odgovor korisniku, odnosno da obradi neke netrivĳalne

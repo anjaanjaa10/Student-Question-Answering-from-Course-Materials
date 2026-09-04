@@ -1,0 +1,31 @@
+i
+i
+𝐵1
+𝐵1
+a b
+a b
+𝐵2
+𝐵2
+k
+k
+c d
+𝐵3
+c d
+𝐵3
+j
+j
+𝐵4 𝐵5
+e
+𝐵4 𝐵5
+e
+f g
+f g
+𝐵6
+𝐵6
+h
+h
+(a) Broj izvršavanja neinstrumentovanih grana se može izračunati u narednom redosledu: 𝑓= 𝑐 𝑔= 𝑑 𝑎= 𝑐+ 𝑑 𝑏= 𝑒+ 𝑘 𝑗= 𝑎+ 𝑏−𝑖 ℎ= 𝑒+ 𝑓+ 𝑔−𝑗
+(b) Broj izvršavanja neinstrumentovanih grana se može izračunati u narednom redosledu: 𝑐= 𝑓 𝑑= 𝑔 𝑎= 𝑐+ 𝑑 𝑏= 𝑒+ 𝑘 𝑗= 𝑎+ 𝑏−𝑖 ℎ= 𝑒+ 𝑓+ 𝑔−𝑗
+Slika 6.5: Profajliranje grana: dve mogućnosti grana za instrumentacĳu. Plavom bojom i punom linĳom obeležene su grane koje se instrumentuju, dok su isprekidane crne grane deo razapinjućeg stabla. Na osnovu instrumentovanih grana je moguće rekonstruisati brojeve izvršavanja preostalih grana. Razlika u izračunavanju za ova dva primera je samo u prva dva koraka.
+Broj izvršavanja grana koje ne sadrže brojač se može izračunati na osnovu profajliranih vrednosti jer je zbir izlaznih vrednosti grana iz jednog bloka jednak zbiru ulaznih vrednosti grana u taj blok. Primer izračunavanja je dat na slici 6.5.
+Optimalno razapinjuće stablo grafa izvršavanja programa je ono stablo kod kojeg se grane najveći broj puta izvršavaju, jer ako se te grane ne instrumentuju, onda se izvršavanje programa najmanje opterećuje. Međutim, to je upravo informacĳa koja se profajliranjem i traži i zbog koje se instrumentacĳa i radi, tako da je veoma teško izabrati baš to stablo. Tomas Bal (eng. Tomas Ball) i Džejms Larus (eng. James R. Larus) su osmislili heuristike izbora onih grana za koje se predviđa, na osnovu statičke analize koda, da će se najmanje puta izvršiti.

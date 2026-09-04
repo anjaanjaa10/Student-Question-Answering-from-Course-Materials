@@ -1,62 +1,21 @@
-▶analizu sistemskih logova i izlaznih datoteka.
-
-Debageri kao što su GDB,
-LLDB i WinDbg podržavaju
-post-mortem debagovanje.
-
-Primer 5.2.6 (Datoteka core dump) Naredni jednosta-
-van program izaziva grešku Segmentation fault zbog
-derefernciranja NULL pokazivača u linĳi 6.
-
+-analizu sistemskih logova i izlaznih datoteka.
+Debageri kao što su GDB, LLDB i WinDbg podržavaju post-mortem debagovanje.
+Primer 5.2.6 (Datoteka core dump) Naredni jednostavan program izaziva grešku Segmentation fault zbog derefernciranja NULL pokazivača u linĳi 6.
 1 // crash.c
-
 2 #include <stdio.h>
-
 3
-
 4 int main() {
-
-5
-int *p = NULL;
-
-6
-*p = 42;
-
-7
-return 0;
-
+5 int *p = NULL;
+6 *p = 42;
+7 return 0;
 8 }
-
 Ukoliko se program prevede sa
-
-1
-gcc -g crash.c -o crash
-
+1 gcc -g crash.c -o crash
 i pokrena sa
-
 1 ./crash
-
 dobĳa se poruka
-
 1 Segmentation fault (core dumped)
-
-Standardna podešavanja većine Linux distribucĳa pod-
-razumevaju da se core dump datoteka ne generiše, ali
-se to može promeniti podešavanjima sistema koja
-zavise od distribucĳe i verzĳe same distribucĳe. Pored
-ostalog, potrebno je podesiti da veličina core dump da-
-toteke ne bude ograničena. Na primer, u okviru Linux
-distribucĳe Ubuntu, to se radi komandom ulimit -c
-
-unlimited. Takođe, potrebno je pokrenuti odgvaraju-
-ći sistemski servis za generisanje core dump datoteka
-kao i pronaći lokacĳu gde se core dump datoteka sme-
-šta (ili namestiti da se on smesti u isti direktorĳum
-kao i izvršiva datoteka).
-
-Ime core dump datoteke može da bude u različitim
-formatima. Na primer, ako se generisana datoteka
-zove
-
-core.24122.crash.1750685973
-i ako se nalazi u istom direktorĳumu, onda se deba-
+Standardna podešavanja većine Linux distribucĳa podrazumevaju da se core dump datoteka ne generiše, ali se to može promeniti podešavanjima sistema koja zavise od distribucĳe i verzĳe same distribucĳe. Pored ostalog, potrebno je podesiti da veličina core dump datoteke ne bude ograničena. Na primer, u okviru Linux distribucĳe Ubuntu, to se radi komandom ulimit -c
+unlimited. Takođe, potrebno je pokrenuti odgvarajući sistemski servis za generisanje core dump datoteka kao i pronaći lokacĳu gde se core dump datoteka smešta (ili namestiti da se on smesti u isti direktorĳum kao i izvršiva datoteka).
+Ime core dump datoteke može da bude u različitim formatima. Na primer, ako se generisana datoteka zove
+core.24122.crash.1750685973 i ako se nalazi u istom direktorĳumu, onda se deba-

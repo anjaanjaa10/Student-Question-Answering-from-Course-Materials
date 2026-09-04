@@ -1,0 +1,13 @@
+𝐵1 𝐵1𝑑
+𝐵1
+𝐵2 𝐵2𝑑
+𝐵2 𝐵2𝑑
+𝐵3 𝐵4 𝐵3𝑑 𝐵4𝑑
+𝐵3 𝐵4 𝐵3𝑑
+𝐵5 𝐵5𝑑
+𝐵5
+(a) Potpuno dupliranje koda
+(b) Delimično dupliranje koda
+Slika 6.7: Potpuno i delimično dupliranje koda: blokove 𝐵1, 𝐵4 i 𝐵5 nĳe potrebno duplirati jer je za njihove duplikate moguća rekonstrukcĳa vrednosti na osnovu instrumentovanih blokova. Ako se izvršio dupliran blok 𝐵2𝑑, onda se tačno jednom izvršio i blok 𝐵1𝑑. Blok 𝐵5𝑑se izvršio onoliko puta koliko i blok 𝐵2𝑑, a broj izvršavanja bloka 𝐵4𝑑je jednak razlici broja izvršavanja blokova 𝐵2𝑑i 𝐵3𝑑. Slično se mogu rekonstruisati i profili grana. Zbog toga je dovoljno duplirati samo blokove 𝐵2 i 𝐵3.
+pristupe softverskom kešu tokom izvršavanja analiziranog programa. Simulacĳa uključuje keš prvog nivoa (L1) podeljen na dve nezavisne sekcĳe: I1 za instrukcĳe i D1 za podatke, kao i objedinjeni drugi nivo keša (L2), što odgovara konfiguracĳi mnogih modernih procesora. Na mašinama sa tri ili više nivoa keša, Cachegrind modeluje prvi i poslednji nivo, odnosno sekcĳe I1, D1 i LL (poslednji nivo keša).
+Alat prikuplja detaljnu statistiku o pristupima memorĳi i kešu, kako na nivou celog programa, tako i pojedinačno za svaku funkcĳu. Prate se ukupni brojevi izvršenih instrukcĳa, čitanja i upisa u memorĳu, kao i broj promašaja prilikom čitanja i upisa u različite nivoe keš memorĳe — posebno za instrukcĳe i

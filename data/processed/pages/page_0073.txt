@@ -1,60 +1,16 @@
 Test slučaj 5: Nedovoljno sredstava u drugoj valuti
-
 Završni uslovi:
-
-▶Sve test transakcĳe treba da budu evidentirane
-u log fajlovima.
-
-▶Nĳe dozvoljena promena stvarnog salda kori-
-snika.
-
-▶Sistem mora prikazati odgovarajuće poruke gre-
-ške.
-
-Primetimo da test slučaj vezan za ponovne uzastop-
-ne pokušaje podizanja novca kada na računu nema
-dovoljno sredstava može takođe da se uvrsti u ovu
-proceduru testiranja ili da se grupiše u drugu proce-
-duru testiranja, na primer, u neku koja se odnosi na
-sigurnost sistema.
-
+-Sve test transakcĳe treba da budu evidentirane u log fajlovima.
+-Nĳe dozvoljena promena stvarnog salda korisnika.
+-Sistem mora prikazati odgovarajuće poruke greške.
+Primetimo da test slučaj vezan za ponovne uzastopne pokušaje podizanja novca kada na računu nema dovoljno sredstava može takođe da se uvrsti u ovu proceduru testiranja ili da se grupiše u drugu proceduru testiranja, na primer, u neku koja se odnosi na sigurnost sistema.
 Izvršavanje testova
-
 faze testiranja
-
-Izvršavanje testova (eng. test execution) predstavlja fazu
-u kojoj se praktično primenjuju test slučajevi i test proce-
-dure razvĳene tokom prethodnih faza. Testovi se mogu
-sprovoditi ručno – kada tester sam prati korake iz test
-slučaja – ili automatski, korišćenjem specĳalizovanih
-alata koji omogućavaju bržu proveru funkcionalnosti.
-
-planiranje
-testiranja
-
-analiza, dizajn
-i implemen-
-tacĳa testova
-
-Prilikom testiranja, neophodna je organizacĳa testiranja
-kako bi se testovi izvršavali u skladu sa prioritetima
-i efikasno, bez gubljenja resursa i vremena. To uklju-
-čuje raspoređivanje testova, kontrolu test okruženja i
-praćenje napretka test aktivnosti.
-
-izvršavanje
-testova
-
+Izvršavanje testova (eng. test execution) predstavlja fazu u kojoj se praktično primenjuju test slučajevi i test procedure razvĳene tokom prethodnih faza. Testovi se mogu sprovoditi ručno – kada tester sam prati korake iz test slučaja – ili automatski, korišćenjem specĳalizovanih alata koji omogućavaju bržu proveru funkcionalnosti.
+planiranje testiranja
+analiza, dizajn i implementacĳa testova
+Prilikom testiranja, neophodna je organizacĳa testiranja kako bi se testovi izvršavali u skladu sa prioritetima i efikasno, bez gubljenja resursa i vremena. To uključuje raspoređivanje testova, kontrolu test okruženja i praćenje napretka test aktivnosti.
+izvršavanje testova
 evaluacĳa testova
-
-zatvaranje
-testiranja
-
-Izvršavanje testova predstavlja ključni korak u prove-
-renju funkcionalnosti sistema i verifikacĳi da softver
-ispunjava postavljene zahteve. Tokom ove faze, testovi
-se sistematski sprovode kako bi se otkrile greške, ali i
-kako bi se pratio trenutni status svih prethodno prĳa-
-vljenih problema. Dakle, pored samog testiranja, važan
-deo ove aktivnosti jeste praćenje i upravljanje greškama
-– to podrazumeva ne samo prĳavu otkrivenih problema,
+zatvaranje testiranja
+Izvršavanje testova predstavlja ključni korak u proverenju funkcionalnosti sistema i verifikacĳi da softver ispunjava postavljene zahteve. Tokom ove faze, testovi se sistematski sprovode kako bi se otkrile greške, ali i kako bi se pratio trenutni status svih prethodno prĳavljenih problema. Dakle, pored samog testiranja, važan deo ove aktivnosti jeste praćenje i upravljanje greškama – to podrazumeva ne samo prĳavu otkrivenih problema,

@@ -1,44 +1,12 @@
-Sistem mora biti neprekidno dostupan, što znači da
-nikada ne sme biti van funkcĳe — dostupnost siste-
-ma. To podrazumeva mogućnost simultanog prĳema
-velikog broja poziva, kao i postojanje dodatne in-
-frastrukture u slučaju pada primarnog sistema ili
-njegovih delova.
-
-Ukoliko na nekoj serverskoj lokacĳi dođe do prekida
-napajanja, sistem mora nastaviti sa radom bez vidlji-
-vih problema. Posao tog servera treba automatski
-da bude preusmeren na drugi dostupni server, či-
-me se osigurava kontinuitet rada i sprečava gubitak
-podataka — tolerancĳa na greške.
-
-Takođe, bitno je da sistem u slučaju softverskog pada
-može automatski da se oporavi i nastavi sa radom —
-sposobnost oporavka.
-
+Sistem mora biti neprekidno dostupan, što znači da nikada ne sme biti van funkcĳe — dostupnost sistema. To podrazumeva mogućnost simultanog prĳema velikog broja poziva, kao i postojanje dodatne infrastrukture u slučaju pada primarnog sistema ili njegovih delova.
+Ukoliko na nekoj serverskoj lokacĳi dođe do prekida napajanja, sistem mora nastaviti sa radom bez vidljivih problema. Posao tog servera treba automatski da bude preusmeren na drugi dostupni server, čime se osigurava kontinuitet rada i sprečava gubitak podataka — tolerancĳa na greške.
+Takođe, bitno je da sistem u slučaju softverskog pada može automatski da se oporavi i nastavi sa radom — sposobnost oporavka.
 1.3.5 Upotrebljivost
-
-Upotrebljivost (eng. usability) odgovara stepenu u kojem
-korisnici mogu koristiti softver. Upotrebljivost obuhvata
-naredne podatribute:
-
-naučljivost — koliko je jednostavno naučiti kako se
-softver koristi,
-
-operabilnost — koliko je lako raditi sa softverom i kon-
-trolisati ga,
-
-zaštitu od korisničkih grešaka — mere u okviru sa-
-mog softvera koje sprečavaju pravljenje grešaka u
-korišćenju,
-
-estetiku korisničkog interfejsa — vizuelnu prĳatnost
-i prihvatljivost dizajna,
-
-pristupačnost — mogućnost da osobe sa različitim ste-
-penima sposobnosti mogu da koriste softver i
-
-prepoznatljivost svrhe aplikacĳe — jasnoću namene
-softvera korisnicima.
-
+Upotrebljivost (eng. usability) odgovara stepenu u kojem korisnici mogu koristiti softver. Upotrebljivost obuhvata naredne podatribute:
+naučljivost — koliko je jednostavno naučiti kako se softver koristi,
+operabilnost — koliko je lako raditi sa softverom i kontrolisati ga,
+zaštitu od korisničkih grešaka — mere u okviru samog softvera koje sprečavaju pravljenje grešaka u korišćenju,
+estetiku korisničkog interfejsa — vizuelnu prĳatnost i prihvatljivost dizajna,
+pristupačnost — mogućnost da osobe sa različitim stepenima sposobnosti mogu da koriste softver i
+prepoznatljivost svrhe aplikacĳe — jasnoću namene softvera korisnicima.
 Primer 1.3.5 (Bankarska aplikacĳa) Razmotrimo pri-

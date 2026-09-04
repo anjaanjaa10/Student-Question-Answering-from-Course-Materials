@@ -1,68 +1,14 @@
-koje vrši kompajler menjaju strukturu izvršivog koda:
-uklanjaju se delovi koda, funkcĳe se spajaju ili reorgani-
-zuju, čime se narušava mogućnost jasnog povezivanja
-sa izvornim kodom što čini debagovanje značajno ote-
-žanim.
-
-Na kraju, kod veoma velikih i kompleksnih sistema,
-količina podataka i broj međusobno povezanih kom-
-ponenti često prevazilaze mogućnosti praćenja putem
-debagera. U takvim slučajevima, debagovanje postaje
-sporo, nepregledno i nedovoljno skalabilno.
-
-Zbog svega navedenog, debagovanje se u praksi često
-kombinuje sa drugim tehnikama: logovanjem, automat-
-skim testiranjem, statičkom analizom i specĳalizovanim
-alatima za otkrivanje specifičnih vrsta grešaka. Razu-
-mevanje ograničenja debagovanja je ključno kako bi se
-odabrala odgovarajuća strategĳa za ispitivanje i ispra-
-vljanje softverskih problema.
-
+koje vrši kompajler menjaju strukturu izvršivog koda: uklanjaju se delovi koda, funkcĳe se spajaju ili reorganizuju, čime se narušava mogućnost jasnog povezivanja sa izvornim kodom što čini debagovanje značajno otežanim.
+Na kraju, kod veoma velikih i kompleksnih sistema, količina podataka i broj međusobno povezanih komponenti često prevazilaze mogućnosti praćenja putem debagera. U takvim slučajevima, debagovanje postaje sporo, nepregledno i nedovoljno skalabilno.
+Zbog svega navedenog, debagovanje se u praksi često kombinuje sa drugim tehnikama: logovanjem, automatskim testiranjem, statičkom analizom i specĳalizovanim alatima za otkrivanje specifičnih vrsta grešaka. Razumevanje ograničenja debagovanja je ključno kako bi se odabrala odgovarajuća strategĳa za ispitivanje i ispravljanje softverskih problema.
 ### 5.5 Štampanje umesto debagera
-
 Štampanje vrednosti promenljivih pomoću funkcĳe
-
 Print umesto debagera
-
-print (odnosno funkcĳe koja vrši štampanje) predstavlja
-jednu od prvih tehnika debagovanja koju većina progra-
-mera usvaja. Razlog za to je jednostavnost — tehnika
-je intuitivna, lako primenljiva i ne zahteva poznavanje
-dodatnih alata.
-
+print (odnosno funkcĳe koja vrši štampanje) predstavlja jednu od prvih tehnika debagovanja koju većina programera usvaja. Razlog za to je jednostavnost — tehnika je intuitivna, lako primenljiva i ne zahteva poznavanje dodatnih alata.
 Brian W. Kernighan,
-
-koautor knjige
-Programski jezik C i
-pionir u razvoju
-operativnog sistema
-Unix, čĳi su radovi
-oblikovali savremeno
-sistemsko
-programiranje, tvrdi:
-The most effective
-debugging tool is still
-careful thought, coupled
-with judiciously placed
-print statements.
-
-Ova metoda podrazumeva umetanje naredbe za štam-
-panje u ključne delove programa, kako bi se:
-
-▶prikazale trenutne vrednosti promenljivih,
-▶pratila kontrola toka (npr. ulazak u funkcĳu, izvr-
-šavanje određenih grana uslova, izlazak iz petlji),
-
-▶uočili neočekivani rezultati tokom izvršavanja.
-
-Guido van Rossum, autor
-programskog jezika
-Python, koristi poziv
-funkcĳe print za
-90% svog
-debagovanja.
-
-Na primer, ako program proizvodi netačan rezultat, pro-
-gramer može umetnuti štampanje unutar petlje ili grane
-uslova kako bi ispratio kako se vrednosti promenljivih
-menjaju. Ovo omogućava osnovni uvid u ponašanje
+koautor knjige Programski jezik C i pionir u razvoju operativnog sistema Unix, čĳi su radovi oblikovali savremeno sistemsko programiranje, tvrdi: The most effective debugging tool is still careful thought, coupled with judiciously placed print statements.
+Ova metoda podrazumeva umetanje naredbe za štampanje u ključne delove programa, kako bi se:
+-prikazale trenutne vrednosti promenljivih, -pratila kontrola toka (npr. ulazak u funkcĳu, izvršavanje određenih grana uslova, izlazak iz petlji),
+-uočili neočekivani rezultati tokom izvršavanja.
+Guido van Rossum, autor programskog jezika Python, koristi poziv funkcĳe print za 90% svog debagovanja.
+Na primer, ako program proizvodi netačan rezultat, programer može umetnuti štampanje unutar petlje ili grane uslova kako bi ispratio kako se vrednosti promenljivih menjaju. Ovo omogućava osnovni uvid u ponašanje

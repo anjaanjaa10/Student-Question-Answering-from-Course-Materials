@@ -1,45 +1,12 @@
-pouzdanost, upotrebljivost, bezbednost, sigurnost,
-održivost i prenosivost.
-
+pouzdanost, upotrebljivost, bezbednost, sigurnost, održivost i prenosivost.
 Literatura
-
-[1]
-ISO/IEC. Systems and Software Engineering: Sys-
-tems and Software Quality Requirements and Eva-
-luation (SQuaRE) – System and Software Quality
-Models. ISO/IEC 25010. International Organizati-
-on for Standardization, 2023.
-
-[2]
-Stephen H. Kan. Metrics and Models in Software
-Quality Engineering. 2. izdanje. Addison-Wesley,
-2002. isbn: 9780201729153.
-
-[3]
-Barbara Kitchenham i Shari Lawrence Pfleeger.
-Software Quality: The Elusive Target. U: IEEE Sof-
-tware (1996.). doi: 10.1109/52.476281.
-
-[4]
-Roger S. Pressman i Bruce R. Maxim. Software
-Engineering: A Practitioner’s Approach. 8. izdanje.
-McGraw-Hill, 2014. isbn: 9780078022128.
-
-[5]
-Ian Sommerville. Software Engineering. 10. izdanje.
-Pearson, 2015. isbn: 9780133943030.
-
+[1] ISO/IEC. Systems and Software Engineering: Systems and Software Quality Requirements and Evaluation (SQuaRE) – System and Software Quality Models. ISO/IEC 25010. International Organization for Standardization, 2023.
+[2] Stephen H. Kan. Metrics and Models in Software Quality Engineering. 2. izdanje. Addison-Wesley, 2002. isbn: 9780201729153.
+[3] Barbara Kitchenham i Shari Lawrence Pfleeger. Software Quality: The Elusive Target. U: IEEE Software (1996.). doi: 10.1109/52.476281.
+[4] Roger S. Pressman i Bruce R. Maxim. Software Engineering: A Practitioner’s Approach. 8. izdanje. McGraw-Hill, 2014. isbn: 9780078022128.
+[5] Ian Sommerville. Software Engineering. 10. izdanje. Pearson, 2015. isbn: 9780133943030.
 Ispitna pitanja
-
 1. Značaj kvaliteta softvera. Procesi i standardi.
-
-2. Značaj kvaliteta softvera. Atributi kvaliteta sof-
-tvera: funkcionalna podobnost, performantnost,
-kompatibilnost, pouzdanost. Primeri.
-
-3. Značaj kvaliteta softvera. Atributi kvaliteta softve-
-ra: održivost. Primeri.
-
-4. Značaj kvaliteta softvera. Atributi kvaliteta softve-
-ra: upotrebljivost, sigurnost, bezbednost, prenosi-
-vost. Primeri.
+2. Značaj kvaliteta softvera. Atributi kvaliteta softvera: funkcionalna podobnost, performantnost, kompatibilnost, pouzdanost. Primeri.
+3. Značaj kvaliteta softvera. Atributi kvaliteta softvera: održivost. Primeri.
+4. Značaj kvaliteta softvera. Atributi kvaliteta softvera: upotrebljivost, sigurnost, bezbednost, prenosivost. Primeri.
