@@ -3,6 +3,6 @@
   "retrieval_question_input": "lexical_question",
   "generator_context_input": "processed_text",
   "top_k": 10,
-  "n_chunks": 344,
-  "n_features": 31634
+  "n_chunks": 356,
+  "n_features": 34060
 }
