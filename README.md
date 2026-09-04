@@ -18,7 +18,7 @@ Patrick Lewis, Ethan Perez, Aleksandra Piktus, Fabio Petroni, Vladimir Karpukhin
 
 ## Used materials and data
 
-The system uses Serbian course material for the subject **Verifikacija softvera** (Software Verification). The material is extracted into 188 page records and divided into 344 text chunks for retrieval. The question set contains 143 questions with corresponding answers and source references where available.
+The system uses Serbian course material for the subject **Verifikacija softvera** (Software Verification). The material is extracted into 204 page records and divided into 356 text chunks for retrieval. The question set contains 143 questions with corresponding answers and source references where available.
 
 The data is organized as follows:
 
