@@ -1,0 +1,20 @@
+{
+  "model_name": "Qwen/Qwen3-8B",
+  "runtime": "transformers_colab_4bit",
+  "quantized": true,
+  "context_k": 5,
+  "retrieval_top_k_available": 10,
+  "max_new_tokens": 300,
+  "do_sample": false,
+  "enable_thinking": false,
+  "run_test": false,
+  "quantization_bits": 4,
+  "retrievers_processed": [
+    "tfidf",
+    "bm25",
+    "dense"
+  ],
+  "splits_processed": [
+    "validation"
+  ]
+}
