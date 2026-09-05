@@ -1,0 +1,20 @@
+{
+  "generator": "qwen",
+  "split": "test",
+  "prompt_variant": "original",
+  "retrievers_evaluated": [
+    "tfidf",
+    "bm25",
+    "dense"
+  ],
+  "metrics": [
+    "EM",
+    "F1",
+    "ROUGE_L"
+  ],
+  "n_questions_per_retriever": {
+    "tfidf": 22,
+    "bm25": 22,
+    "dense": 22
+  }
+}
