@@ -1,0 +1,21 @@
+{
+  "generator": "mt0_small_gold_v2",
+  "split": "validation",
+  "rag_top_k": 5,
+  "retrievers_evaluated": [
+    "tfidf",
+    "bm25",
+    "dense"
+  ],
+  "metrics": [
+    "EM",
+    "F1",
+    "ROUGE_L",
+    "Semantic_sim"
+  ],
+  "n_questions_per_retriever": {
+    "tfidf": 21,
+    "bm25": 21,
+    "dense": 21
+  }
+}
