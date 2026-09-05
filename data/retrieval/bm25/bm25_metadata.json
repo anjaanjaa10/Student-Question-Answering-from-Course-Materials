@@ -1,0 +1,9 @@
+{
+  "indexer_input": "processed_text",
+  "retrieval_question_input": "processed_question",
+  "generator_context_input": "processed_text",
+  "top_k": 10,
+  "n_chunks": 356,
+  "bm25_k1": 1.5,
+  "bm25_b": 0.75
+}
