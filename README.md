@@ -1,8 +1,8 @@
 # Student Question Answering from Course Materials
 
-This project builds a retrieval-augmented generation (RAG) system for answering questions from course materials. 
+This project builds a retrieval-augmented generation (RAG) system for answering questions from course materials.
 
-We will compare three retrieval methods (TF-IDF, BM25, and dense retrieval) and two answer generators: the Qwen3-8B large language model and a google/mt5-base sequence-to-sequence model. 
+It compares three retrieval methods (TF-IDF, BM25, and dense retrieval) and several answer generators: Qwen3-8B, `google/mt5-base`, and `bigscience/mt0-small`.
 
 ## Authors
 
@@ -18,7 +18,7 @@ Patrick Lewis, Ethan Perez, Aleksandra Piktus, Fabio Petroni, Vladimir Karpukhin
 
 ## Used materials and data
 
-The system uses Serbian course material for the subject **Verifikacija softvera** (Software Verification). The material is extracted into 204 page records and divided into 356 text chunks for retrieval. The question set contains 143 questions with corresponding answers and source references where available.
+The system uses Serbian course material for the subject **Verifikacija softvera** (Software Verification). The material is extracted into page records and divided into text chunks for retrieval. The question set contains questions with corresponding answers and source references where available.
 
 The data is organized as follows:
 
@@ -28,23 +28,34 @@ The data is organized as follows:
 - `data/processed/chunks_preprocessed.jsonl`: normalized chunks used by retrieval methods.
 - `data/questions/`: questions and annotated answers used to develop and evaluate the system.
 - `data/splits/`: training, validation, and test question splits.
+- `data/retrieval/`: saved top-10 results for TF-IDF, BM25, and dense retrieval.
+- `data/generation/`: generated answers and metadata for the mT5 and Qwen experiments.
+- `data/evaluation/`: aggregate and per-question evaluation metrics.
+- `artifacts/`: trained sequence-to-sequence checkpoints, RAG configurations, and generated predictions.
 
 
 
 ## Project layout
 
 
-Notebooks:
+The notebooks are intended to be run in this order:
+
 - `01_pdfExtraction.ipynb`: extracts source material into pages.
 - `02_chunking.ipynb`: creates chunk records from extracted pages.
 - `03_proccessingSplitting.ipynb`: preprocessing and train/validation/test split creation.
 - `04_tf_idf_retrieval.ipynb`: TF-IDF indexing, retrieval, and evaluation.
 - `05_bm25_retrieval.ipynb`: BM25 indexing, retrieval, and evaluation.
 - `06_dense_retrieval.ipynb`: dense indexing, retrieval, and evaluation.
+- `07a_mt5_gold_rag.ipynb`: fine-tunes and evaluates a `google/mt5-base` RAG generator.
+- `07b_mt0_small_gold_rag.ipynb`: fine-tunes and evaluates a `bigscience/mt0-small` RAG generator.
+- `08_qwen_rag.ipynb`: generates answers with `Qwen/Qwen3-8B` using retrieved context.
+- `09_evaluationQwen.ipynb`: evaluates Qwen validation answers.
+- `09_evaluationQwen_test.ipynb`: evaluates Qwen test answers, including semantic metrics.
+- `10_evaluation_mt5_gold.ipynb`: evaluates the mT5 generated answers.
 
-Planned generation components: llm and a sequence-to-sequence model.
+The retrieval notebooks save reusable indexes and top-10 results under `data/retrieval/`. The generation notebooks use those results and save predictions under `data/generation/` or `artifacts/`. Evaluation notebooks write CSV and JSON metadata under `data/evaluation/`.
 
-Planned evaluation.
+The dense retriever uses `intfloat/multilingual-e5-base`. The generator notebooks download their base models from Hugging Face, so model downloads and sufficient disk space are required.
 
 ## Setup with a virtual environment
 
@@ -58,6 +69,10 @@ python -m pip install -r requirements.txt
 python -m ipykernel install --user --name <name> --display-name "Python (<name>)"
 ```
 
+Select the created `Python (<name>)` kernel in VS Code before running a notebook. The dense retrieval and evaluation notebooks require the `sentence-transformers` and `faiss-cpu` packages. The Qwen notebook is intended for a CUDA-capable environment and uses `bitsandbytes` for quantized loading.
+
+`07a_mt5_gold_rag.ipynb` and `08_qwen_rag.ipynb` contain Google Colab drive integration. When running them outside Colab, remove or replace the `google.colab` drive-mount cells and update the project paths to local paths.
+
 To leave the environment:
 
 ```bash
@@ -66,11 +81,16 @@ deactivate
 
 ## Running the pipeline
 
-Run the notebooks in this order when starting from raw course material:
+When starting from raw course material, run notebooks `01` through `06` in order. Then run the generator notebook for the model you want to evaluate, followed by its evaluation notebook:
 
-1. Run `01_pdfExtraction.ipynb` to create the extracted pages.
-2. Run `02_chunking.ipynb` to create `data/processed/chunks.jsonl`.
-3. Run the preprocessing and split cells in `03_proccessingSplitting.ipynb` to create `chunks_preprocessed.jsonl` and the dataset splits.
+1. `01_pdfExtraction.ipynb` creates the extracted pages.
+2. `02_chunking.ipynb` creates `data/processed/chunks.jsonl`.
+3. `03_proccessingSplitting.ipynb` creates the preprocessed chunks and dataset splits.
+4. `04_tf_idf_retrieval.ipynb`, `05_bm25_retrieval.ipynb`, and `06_dense_retrieval.ipynb` create retrieval indexes and results.
+5. Run `07a` or `07b` for sequence-to-sequence generation, or `08` for Qwen generation.
+6. Run `09_evaluationQwen.ipynb`, `09_evaluationQwen_test.ipynb`, or `10_evaluation_mt5_gold.ipynb` for the corresponding evaluation.
+
+The retrieval and evaluation notebooks can also be run against the existing files under `data/` without repeating extraction and preprocessing.
 
 ## Reproducibility
 
