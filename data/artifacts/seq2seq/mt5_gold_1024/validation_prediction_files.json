@@ -1,0 +1,5 @@
+{
+  "tfidf": "/content/drive/MyDrive/Student-QA/artifacts/seq2seq/mt5_gold_1024/generation/tfidf_validation_top5_predictions.jsonl",
+  "bm25": "/content/drive/MyDrive/Student-QA/artifacts/seq2seq/mt5_gold_1024/generation/bm25_validation_top5_predictions.jsonl",
+  "dense": "/content/drive/MyDrive/Student-QA/artifacts/seq2seq/mt5_gold_1024/generation/dense_validation_top5_predictions.jsonl"
+}

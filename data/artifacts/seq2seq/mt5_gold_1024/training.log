@@ -1,0 +1,56 @@
+2026-09-05 02:02:54,055 | INFO | Notebook started.
+2026-09-05 02:02:54,057 | INFO | Device: cuda
+2026-09-05 02:02:54,058 | INFO | Model: google/mt5-base
+2026-09-05 02:05:10,660 | INFO | train spremni primeri: 100
+2026-09-05 02:05:10,675 | INFO | validation spremni primeri: 21
+2026-09-05 02:07:41,391 | INFO | Chunkovi: 356
+2026-09-05 02:07:41,392 | INFO | Train pitanja: 100
+2026-09-05 02:07:41,393 | INFO | Validation pitanja: 21
+2026-09-05 02:07:41,395 | INFO | Test pitanja: 22
+2026-09-05 02:08:23,515 | INFO | train prepared examples: 100
+2026-09-05 02:08:24,008 | INFO | validation prepared examples: 21
+2026-09-05 02:08:54,040 | INFO | Train inputs over 1024 tokens: 0/100
+2026-09-05 02:08:54,042 | INFO | Validation inputs over 1024 tokens: 0/21
+2026-09-05 02:17:21,572 | INFO | Koraci optimizacije/epoha=13, ukupno=65, warmup=6
+2026-09-05 02:27:14,243 | INFO | Notebook started.
+2026-09-05 02:27:14,502 | INFO | Device: cpu
+2026-09-05 02:27:14,511 | INFO | Model: google/mt5-base
+2026-09-05 02:27:17,415 | INFO | Chunkovi: 356
+2026-09-05 02:27:17,416 | INFO | Train pitanja: 100
+2026-09-05 02:27:17,416 | INFO | Validation pitanja: 21
+2026-09-05 02:27:17,417 | INFO | Test pitanja: 22
+2026-09-05 02:27:35,769 | INFO | train prepared examples: 100
+2026-09-05 02:27:36,089 | INFO | validation prepared examples: 21
+2026-09-05 02:27:40,444 | INFO | Train inputs over 1024 tokens: 0/100
+2026-09-05 02:27:40,445 | INFO | Validation inputs over 1024 tokens: 0/21
+2026-09-05 02:29:23,565 | INFO | Koraci optimizacije/epoha=13, ukupno=65, warmup=6
+2026-09-05 02:36:26,788 | INFO | Notebook started.
+2026-09-05 02:36:27,228 | INFO | Device: cuda
+2026-09-05 02:36:27,300 | INFO | Model: google/mt5-base
+2026-09-05 02:36:27,329 | INFO | Chunkovi: 356
+2026-09-05 02:36:27,332 | INFO | Train pitanja: 100
+2026-09-05 02:36:27,333 | INFO | Validation pitanja: 21
+2026-09-05 02:36:27,334 | INFO | Test pitanja: 22
+2026-09-05 02:36:31,926 | INFO | train prepared examples: 100
+2026-09-05 02:36:32,378 | INFO | validation prepared examples: 21
+2026-09-05 02:36:33,889 | INFO | Train inputs over 1024 tokens: 0/100
+2026-09-05 02:36:33,890 | INFO | Validation inputs over 1024 tokens: 0/21
+2026-09-05 02:36:58,057 | INFO | Koraci optimizacije/epoha=13, ukupno=65, warmup=6
+2026-09-05 02:46:10,597 | INFO | Training finished. Best checkpoint: /content/drive/MyDrive/Student-QA/artifacts/seq2seq/mt5_gold_1024/checkpoints/checkpoint-65
+2026-09-05 02:46:28,174 | INFO | Model, tokenizer, metrike and konfiguracija sacuvani u /content/drive/MyDrive/Student-QA/artifacts/seq2seq/mt5_gold_1024
+2026-09-05 02:50:56,725 | INFO | Generated 21 predictions: /content/Student-Question-Answering-from-Course-Materials/data/generation/mt5_gold/tfidf_validation_top5_predictions.jsonl
+2026-09-05 02:50:56,728 | WARNING | Validation inference skipped for bm25: missing /content/Student-Question-Answering-from-Course-Materials/data/retrieval/bm25_validation_top10.jsonl
+2026-09-05 02:51:24,982 | INFO | Generated 21 predictions: /content/Student-Question-Answering-from-Course-Materials/data/generation/mt5_gold/dense_validation_top5_predictions.jsonl
+2026-09-05 03:00:20,420 | INFO | Generated 21 predictions: /content/Student-Question-Answering-from-Course-Materials/data/generation/mt5_gold/tfidf_validation_top5_predictions.jsonl
+2026-09-05 03:00:20,421 | WARNING | Validation inference skipped for bm25: missing /content/Student-Question-Answering-from-Course-Materials/data/retrieval/bm25_validation_top10.jsonl
+2026-09-05 03:00:40,573 | INFO | Generated 21 predictions: /content/Student-Question-Answering-from-Course-Materials/data/generation/mt5_gold/dense_validation_top5_predictions.jsonl
+2026-09-05 03:01:03,137 | INFO | Notebook started.
+2026-09-05 03:01:03,138 | INFO | Device: cuda
+2026-09-05 03:01:03,140 | INFO | Model: google/mt5-base
+2026-09-05 03:01:09,123 | INFO | Notebook started.
+2026-09-05 03:01:09,124 | INFO | Device: cuda
+2026-09-05 03:01:09,125 | INFO | Model: google/mt5-base
+2026-09-05 15:08:51,194 | INFO | Notebook started.
+2026-09-05 15:09:12,195 | INFO | Notebook started.
+2026-09-05 15:09:47,329 | INFO | Notebook started.
+2026-09-05 15:14:04,137 | INFO | Notebook started.

@@ -1,0 +1,20 @@
+{
+  "max_input_length": 512,
+  "max_target_length": 128,
+  "train": {
+    "n": 100,
+    "input_mean": 1508.84,
+    "input_median": 1660.5,
+    "input_max": 1857,
+    "input_over_limit": 100,
+    "target_max": 138,
+    "target_over_limit": 1
+  },
+  "validation": {
+    "n": 21,
+    "input_mean": 1558.3333333333333,
+    "input_median": 1714.0,
+    "input_max": 1887,
+    "input_over_limit": 21
+  }
+}

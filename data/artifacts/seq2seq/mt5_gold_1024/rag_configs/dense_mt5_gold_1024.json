@@ -1,0 +1,22 @@
+{
+  "rag_name": "dense_mt5_gold_1024",
+  "retriever": "dense",
+  "retrieval_input": {
+    "file": "/content/Student-Question-Answering-from-Course-Materials/data/retrieval/dense_validation_top10.jsonl",
+    "exported_top_k": 10,
+    "rag_top_k": 5
+  },
+  "generator": {
+    "experiment": "mt5_gold_1024",
+    "base_model": "google/mt5-base",
+    "checkpoint": "/content/drive/MyDrive/Student-QA/artifacts/seq2seq/mt5_gold_1024/checkpoints/checkpoint-65",
+    "max_input_length": 1024,
+    "max_target_length": 128,
+    "training_context": "gold_token_budgeted"
+  },
+  "generation": {
+    "num_beams": 4,
+    "max_new_tokens": 128
+  },
+  "validation_output": "/content/drive/MyDrive/Student-QA/artifacts/seq2seq/mt5_gold_1024/generation/dense_validation_top5_predictions.jsonl"
+}

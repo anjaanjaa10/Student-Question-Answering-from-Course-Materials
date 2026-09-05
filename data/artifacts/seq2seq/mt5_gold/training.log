@@ -1,0 +1,15 @@
+2026-09-05 01:09:47,570 | INFO | Notebook started.
+2026-09-05 01:09:47,572 | INFO | Device: cuda
+2026-09-05 01:09:47,573 | INFO | Model: google/mt5-base
+2026-09-05 01:09:47,606 | INFO | Chunkovi: 356
+2026-09-05 01:09:47,609 | INFO | Train pitanja: 100
+2026-09-05 01:09:47,611 | INFO | Validation pitanja: 21
+2026-09-05 01:09:47,613 | INFO | Test pitanja: 22
+2026-09-05 01:09:47,698 | INFO | train spremni primeri: 100
+2026-09-05 01:09:47,707 | INFO | validation spremni primeri: 21
+2026-09-05 01:09:52,040 | INFO | Train ulaz preko 512 tokena: 100/100
+2026-09-05 01:30:51,541 | INFO | Training finished. Best checkpoint: /content/drive/MyDrive/Student-QA/artifacts/seq2seq/mt5_gold/checkpoints/checkpoint-65
+2026-09-05 01:31:47,439 | INFO | Model, tokenizer, metrike and konfiguracija sacuvani u /content/drive/MyDrive/Student-QA/artifacts/seq2seq/mt5_gold
+2026-09-05 01:32:33,903 | INFO | Generated 21 predictions: /content/Student-Question-Answering-from-Course-Materials/data/generation/mt5_gold/tfidf_validation_top5_predictions.jsonl
+2026-09-05 01:32:33,906 | WARNING | Validation inference skipped for bm25: missing /content/Student-Question-Answering-from-Course-Materials/data/retrieval/bm25_validation_top10.jsonl
+2026-09-05 01:32:56,363 | INFO | Generated 21 predictions: /content/Student-Question-Answering-from-Course-Materials/data/generation/mt5_gold/dense_validation_top5_predictions.jsonl
