@@ -1,0 +1,19 @@
+{
+  "generator": "qwen",
+  "split": "validation",
+  "retrievers_evaluated": [
+    "tfidf",
+    "bm25",
+    "dense"
+  ],
+  "metrics": [
+    "EM",
+    "F1",
+    "ROUGE_L"
+  ],
+  "n_questions_per_retriever": {
+    "tfidf": 21,
+    "bm25": 21,
+    "dense": 21
+  }
+}
