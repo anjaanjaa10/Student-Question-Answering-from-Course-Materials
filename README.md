@@ -52,6 +52,8 @@ The notebooks are intended to be run in this order:
 - `09_evaluationQwen.ipynb`: evaluates Qwen validation answers.
 - `09_evaluationQwen_test.ipynb`: evaluates Qwen test answers, including semantic metrics.
 - `10_evaluation_mt5_gold.ipynb`: evaluates the mT5 generated answers.
+- `10_mt0_small_evaluation.ipynb`: evaluates the mT0-small generated answers.
+- `11_final_comparison.ipynb`: combines final test-set metrics.
 
 The retrieval notebooks save reusable indexes and top-10 results under `data/retrieval/`. The generation notebooks use those results and save predictions under `data/generation/` or `artifacts/`. Evaluation notebooks write CSV and JSON metadata under `data/evaluation/`.
 
