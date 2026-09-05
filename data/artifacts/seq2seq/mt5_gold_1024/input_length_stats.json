@@ -1,0 +1,26 @@
+{
+  "max_input_length": 1024,
+  "max_target_length": 128,
+  "train": {
+    "n": 100,
+    "input_mean": 1022.82,
+    "input_median": 1024.0,
+    "input_max": 1024,
+    "input_over_limit": 0,
+    "target_max": 138,
+    "target_over_limit": 1,
+    "contexts_shortened": 95,
+    "mean_context_chunks_used": 3.1
+  },
+  "validation": {
+    "n": 21,
+    "input_mean": 1009.6190476190476,
+    "input_median": 1024.0,
+    "input_max": 1024,
+    "input_over_limit": 0,
+    "target_max": 119,
+    "target_over_limit": 0,
+    "contexts_shortened": 18,
+    "mean_context_chunks_used": 3.0
+  }
+}
