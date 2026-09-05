@@ -1,0 +1,5 @@
+{
+  "tfidf": "/content/drive/MyDrive/Student-QA/artifacts/seq2seq/mt0_small_gold_v2/generation/tfidf_test_top5_predictions.jsonl",
+  "bm25": "/content/drive/MyDrive/Student-QA/artifacts/seq2seq/mt0_small_gold_v2/generation/bm25_test_top5_predictions.jsonl",
+  "dense": "/content/drive/MyDrive/Student-QA/artifacts/seq2seq/mt0_small_gold_v2/generation/dense_test_top5_predictions.jsonl"
+}

@@ -1,0 +1,23 @@
+{
+  "rag_name": "tfidf_mt0_small_gold_v2",
+  "retriever": "tfidf",
+  "retrieval_input": {
+    "file": "/content/Student-Question-Answering-from-Course-Materials/data/retrieval/tfidf_validation_top10.jsonl",
+    "exported_top_k": 10,
+    "rag_top_k": 5
+  },
+  "generator": {
+    "experiment": "mt0_small_gold_v2",
+    "base_model": "bigscience/mt0-small",
+    "saved_model": "/content/drive/MyDrive/Student-QA/artifacts/seq2seq/mt0_small_gold_v2/best_model",
+    "best_checkpoint": "/content/drive/MyDrive/Student-QA/artifacts/seq2seq/mt0_small_gold_v2/checkpoints/checkpoint-175",
+    "max_input_length": 512,
+    "max_target_length": 128,
+    "training_context": "gold_token_budgeted"
+  },
+  "generation": {
+    "num_beams": 4,
+    "max_new_tokens": 128
+  },
+  "validation_output": "/content/drive/MyDrive/Student-QA/artifacts/seq2seq/mt0_small_gold_v2/generation/tfidf_validation_top5_predictions.jsonl"
+}
