@@ -1,0 +1,4 @@
+{
+  "tfidf": "/content/Student-Question-Answering-from-Course-Materials/data/generation/mt5_gold/tfidf_validation_top5_predictions.jsonl",
+  "dense": "/content/Student-Question-Answering-from-Course-Materials/data/generation/mt5_gold/dense_validation_top5_predictions.jsonl"
+}
