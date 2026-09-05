@@ -1,0 +1,19 @@
+{
+  "model_name": "Qwen/Qwen3-8B",
+  "runtime": "transformers_colab_4bit",
+  "quantized": true,
+  "quantization_bits": 4,
+  "split": "test",
+  "prompt_variant": "concise",
+  "system_prompt": "Ti si asistent koji odgovara na pitanja studenata na osnovu datog konteksta iz nastavnog materijala. Odgovaraj isključivo na osnovu konteksta. Ako odgovor nije sadržan u kontekstu, reci da nemaš dovoljno informacija. Odgovaraj sažeto — jednom do dve rečenice, bez uvodnih fraza i bez dodatnih primera osim ako pitanje to eksplicitno traži. Odgovaraj jasno i na srpskom jeziku.",
+  "context_k": 5,
+  "retrieval_top_k_available": 10,
+  "max_new_tokens": 300,
+  "do_sample": false,
+  "enable_thinking": false,
+  "retrievers_processed": [
+    "tfidf",
+    "bm25",
+    "dense"
+  ]
+}
